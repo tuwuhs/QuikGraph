@@ -1,0 +1,699 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FibonacciHeap&lt;TPriority, TValue&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FibonacciHeap&lt;TPriority, TValue&gt;
+   ">
+    <meta name="generator" content="docfx 2.42.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="QuikGraph.Collections.FibonacciHeap`2">
+  
+  
+  <h1 id="QuikGraph_Collections_FibonacciHeap_2" data-uid="QuikGraph.Collections.FibonacciHeap`2" class="text-break">Class FibonacciHeap&lt;TPriority, TValue&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Fibonacci heap.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">FibonacciHeap&lt;TPriority, TValue&gt;</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.Collections.html">QuikGraph.Collections</a></h6>
+  <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
+  <h5 id="QuikGraph_Collections_FibonacciHeap_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FibonacciHeap&lt;TPriority, TValue&gt; : IEnumerable&lt;KeyValuePair&lt;TPriority, TValue&gt;&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPriority</span></td>
+        <td><p>Priority metric type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>Value type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2__ctor.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L31">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2__ctor_" data-uid="QuikGraph.Collections.FibonacciHeap`2.#ctor*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2__ctor" data-uid="QuikGraph.Collections.FibonacciHeap`2.#ctor">FibonacciHeap()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Collections.FibonacciHeap-2.html">FibonacciHeap&lt;TPriority, TValue&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FibonacciHeap()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2__ctor_QuikGraph_Collections_HeapDirection_.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.%23ctor(QuikGraph.Collections.HeapDirection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L40">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2__ctor_" data-uid="QuikGraph.Collections.FibonacciHeap`2.#ctor*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2__ctor_QuikGraph_Collections_HeapDirection_" data-uid="QuikGraph.Collections.FibonacciHeap`2.#ctor(QuikGraph.Collections.HeapDirection)">FibonacciHeap(HeapDirection)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Collections.FibonacciHeap-2.html">FibonacciHeap&lt;TPriority, TValue&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FibonacciHeap(HeapDirection direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Collections.HeapDirection.html">HeapDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Heap direction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2__ctor_QuikGraph_Collections_HeapDirection_Comparison__0__.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.%23ctor(QuikGraph.Collections.HeapDirection%2CComparison%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L50">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2__ctor_" data-uid="QuikGraph.Collections.FibonacciHeap`2.#ctor*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2__ctor_QuikGraph_Collections_HeapDirection_Comparison__0__" data-uid="QuikGraph.Collections.FibonacciHeap`2.#ctor(QuikGraph.Collections.HeapDirection,Comparison{`0})">FibonacciHeap(HeapDirection, Comparison&lt;TPriority&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Collections.FibonacciHeap-2.html">FibonacciHeap&lt;TPriority, TValue&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FibonacciHeap(HeapDirection direction, Comparison&lt;TPriority&gt; priorityComparison)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Collections.HeapDirection.html">HeapDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Heap direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Comparison</span>&lt;TPriority&gt;</td>
+        <td><span class="parametername">priorityComparison</span></td>
+        <td><p>Priority comparer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_Count.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L94">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_Count_" data-uid="QuikGraph.Collections.FibonacciHeap`2.Count*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_Count" data-uid="QuikGraph.Collections.FibonacciHeap`2.Count">Count</h4>
+  <div class="markdown level1 summary"><p>Number of element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_Direction.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.Direction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L78">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_Direction_" data-uid="QuikGraph.Collections.FibonacciHeap`2.Direction*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_Direction" data-uid="QuikGraph.Collections.FibonacciHeap`2.Direction">Direction</h4>
+  <div class="markdown level1 summary"><p>Heap direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HeapDirection Direction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Collections.HeapDirection.html">HeapDirection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_IsEmpty.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.IsEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L86">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_IsEmpty_" data-uid="QuikGraph.Collections.FibonacciHeap`2.IsEmpty*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_IsEmpty" data-uid="QuikGraph.Collections.FibonacciHeap`2.IsEmpty">IsEmpty</h4>
+  <div class="markdown level1 summary"><p>Checks if the heap is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEmpty { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_PriorityComparison.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.PriorityComparison%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L69">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_PriorityComparison_" data-uid="QuikGraph.Collections.FibonacciHeap`2.PriorityComparison*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_PriorityComparison" data-uid="QuikGraph.Collections.FibonacciHeap`2.PriorityComparison">PriorityComparison</h4>
+  <div class="markdown level1 summary"><p>Priority comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Comparison&lt;TPriority&gt; PriorityComparison { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Comparison</span>&lt;TPriority&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_Top.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.Top%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L102">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_Top_" data-uid="QuikGraph.Collections.FibonacciHeap`2.Top*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_Top" data-uid="QuikGraph.Collections.FibonacciHeap`2.Top">Top</h4>
+  <div class="markdown level1 summary"><p>Top element of the heap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FibonacciHeapCell&lt;TPriority, TValue&gt; Top { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Collections.FibonacciHeapCell-2.html">FibonacciHeapCell</a>&lt;TPriority, TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_ChangeKey_QuikGraph_Collections_FibonacciHeapCell__0__1___0_.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.ChangeKey(QuikGraph.Collections.FibonacciHeapCell%7B%600%2C%601%7D%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L156">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_ChangeKey_" data-uid="QuikGraph.Collections.FibonacciHeap`2.ChangeKey*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_ChangeKey_QuikGraph_Collections_FibonacciHeapCell__0__1___0_" data-uid="QuikGraph.Collections.FibonacciHeap`2.ChangeKey(QuikGraph.Collections.FibonacciHeapCell{`0,`1},`0)">ChangeKey(FibonacciHeapCell&lt;TPriority, TValue&gt;, TPriority)</h4>
+  <div class="markdown level1 summary"><p>Changes the priority of the given <code data-dev-comment-type="paramref" class="paramref">cell</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeKey(FibonacciHeapCell&lt;TPriority, TValue&gt; cell, TPriority newPriority)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Collections.FibonacciHeapCell-2.html">FibonacciHeapCell</a>&lt;TPriority, TValue&gt;</td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>Cell to update the priority.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TPriority</span></td>
+        <td><span class="parametername">newPriority</span></td>
+        <td><p>New priority.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_Delete_QuikGraph_Collections_FibonacciHeapCell__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.Delete(QuikGraph.Collections.FibonacciHeapCell%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L141">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_Delete_" data-uid="QuikGraph.Collections.FibonacciHeap`2.Delete*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_Delete_QuikGraph_Collections_FibonacciHeapCell__0__1__" data-uid="QuikGraph.Collections.FibonacciHeap`2.Delete(QuikGraph.Collections.FibonacciHeapCell{`0,`1})">Delete(FibonacciHeapCell&lt;TPriority, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deletes the given <code data-dev-comment-type="paramref" class="paramref">cell</code> from this heap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete(FibonacciHeapCell&lt;TPriority, TValue&gt; cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Collections.FibonacciHeapCell-2.html">FibonacciHeapCell</a>&lt;TPriority, TValue&gt;</td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>Cell to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_Dequeue.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.Dequeue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L316">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_Dequeue_" data-uid="QuikGraph.Collections.FibonacciHeap`2.Dequeue*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_Dequeue" data-uid="QuikGraph.Collections.FibonacciHeap`2.Dequeue">Dequeue()</h4>
+  <div class="markdown level1 summary"><p>Dequeues an element from the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValuePair&lt;TPriority, TValue&gt; Dequeue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;TPriority, TValue&gt;</td>
+        <td><p>Removed element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_DrawHeap.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.DrawHeap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L539">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_DrawHeap_" data-uid="QuikGraph.Collections.FibonacciHeap`2.DrawHeap*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_DrawHeap" data-uid="QuikGraph.Collections.FibonacciHeap`2.DrawHeap">DrawHeap()</h4>
+  <div class="markdown level1 summary"><p>Draws the current heap in a string. Marked cells have an * next to them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DrawHeap()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Heap string representation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_Enqueue__0__1_.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.Enqueue(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L109">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_Enqueue_" data-uid="QuikGraph.Collections.FibonacciHeap`2.Enqueue*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_Enqueue__0__1_" data-uid="QuikGraph.Collections.FibonacciHeap`2.Enqueue(`0,`1)">Enqueue(TPriority, TValue)</h4>
+  <div class="markdown level1 summary"><p>Enqueues an element in the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FibonacciHeapCell&lt;TPriority, TValue&gt; Enqueue(TPriority priority, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>Value priority.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Collections.FibonacciHeapCell-2.html">FibonacciHeapCell</a>&lt;TPriority, TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_GetDestructiveEnumerator.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.GetDestructiveEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L510">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_GetDestructiveEnumerator_" data-uid="QuikGraph.Collections.FibonacciHeap`2.GetDestructiveEnumerator*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_GetDestructiveEnumerator" data-uid="QuikGraph.Collections.FibonacciHeap`2.GetDestructiveEnumerator">GetDestructiveEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Enumerator for this heap that <a class="xref" href="QuikGraph.Collections.FibonacciHeap-2.html#QuikGraph_Collections_FibonacciHeap_2_Dequeue">Dequeue()</a> elements in the same time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;KeyValuePair&lt;TPriority, TValue&gt;&gt; GetDestructiveEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;TPriority, TValue&gt;&gt;</td>
+        <td><p>Heap elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_GetEnumerator.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L484">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_GetEnumerator_" data-uid="QuikGraph.Collections.FibonacciHeap`2.GetEnumerator*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_GetEnumerator" data-uid="QuikGraph.Collections.FibonacciHeap`2.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;TPriority, TValue&gt;&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span>&lt;<span class="xref">KeyValuePair</span>&lt;TPriority, TValue&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2_Merge_QuikGraph_Collections_FibonacciHeap__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602.Merge(QuikGraph.Collections.FibonacciHeap%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L453">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_FibonacciHeap_2_Merge_" data-uid="QuikGraph.Collections.FibonacciHeap`2.Merge*"></a>
+  <h4 id="QuikGraph_Collections_FibonacciHeap_2_Merge_QuikGraph_Collections_FibonacciHeap__0__1__" data-uid="QuikGraph.Collections.FibonacciHeap`2.Merge(QuikGraph.Collections.FibonacciHeap{`0,`1})">Merge(FibonacciHeap&lt;TPriority, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Merges the given <code data-dev-comment-type="paramref" class="paramref">heap</code> into this heap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Merge(FibonacciHeap&lt;TPriority, TValue&gt; heap)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Collections.FibonacciHeap-2.html">FibonacciHeap</a>&lt;TPriority, TValue&gt;</td>
+        <td><span class="parametername">heap</span></td>
+        <td><p>Heap to merge.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_FibonacciHeap_2.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.FibonacciHeap%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/FibonacciHeap.cs/#L18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

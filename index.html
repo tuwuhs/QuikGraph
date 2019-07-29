@@ -1,1 +1,153 @@
-The documentation will be here.
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>QuikGraph documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="QuikGraph documentation ">
+    <meta name="generator" content="docfx 2.42.4.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="quikgraph-documentation">QuikGraph documentation</h1>
+
+<h2 id="badges">Badges</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Build</strong></td>
+<td><a href="https://ci.appveyor.com/project/KeRNeLith/quikgraph"><img src="https://ci.appveyor.com/api/projects/status/github/KeRNeLith/QuikGraph?branch=master&amp;svg=true" alt="AppVeyor Build Status"></a></td>
+</tr>
+<tr>
+<td><strong>Coverage</strong></td>
+<td><sup>Coveralls</sup> <a href="https://coveralls.io/github/KeRNeLith/quikgraph?branch=master"><img src="https://coveralls.io/repos/github/KeRNeLith/QuikGraph/badge.svg?branch=master" alt="Coverage Status"></a> <sup>SonarQube</sup> <a href="https://sonarcloud.io/component_measures/metric/coverage/list?id=quikgraph"><img src="https://sonarcloud.io/api/project_badges/measure?project=quikgraph&amp;metric=coverage" alt="SonarCloud Coverage"></a></td>
+</tr>
+<tr>
+<td><strong>Quality</strong></td>
+<td><a href="https://sonarcloud.io/dashboard?id=quikgraph"><img src="https://sonarcloud.io/api/project_badges/measure?project=quikgraph&amp;metric=alert_status" alt="Quality Gate"></a></td>
+</tr>
+<tr>
+<td><strong>Nuget</strong></td>
+<td><a href="https://www.nuget.org/packages/QuikGraph"><img src="https://img.shields.io/nuget/v/quikgraph.svg" alt="Nuget Status"></a></td>
+</tr>
+<tr>
+<td><strong>License</strong></td>
+<td>MS-PL</td>
+</tr>
+</tbody>
+</table>
+<h2 id="introduction">Introduction</h2>
+<p><strong>QuikGraph</strong> provides generic directed/undirected graph data structures and algorithms for .NET.</p>
+<p>QuikGraph comes with algorithms such as depth first search, breath first search, A* search, shortest path, k-shortest path, maximum flow, minimum spanning tree, etc.</p>
+<p><em>QuikGraph was originally created by Jonathan &quot;Peli&quot; de Halleux in 2003 and named QuickGraph.</em></p>
+<p>It was then updated to become YC.QuickGraph.</p>
+<p>This version of QuickGraph, renamed QuikGraph, is a fork of YC.QuickGraph, and I tried to clean the Core or the library to provide it as a clean NuGet package using modern C# development.</p>
+<p>The plan would be to fully clean the original library and all its non Core parts and unit test it more.</p>
+<p>You can find library sources on <a href="https://github.com/KeRNeLith/QuikGraph">GitHub</a>.</p>
+<h2 id="target">Target</h2>
+<ul>
+<li>.NET Standard 1.3+</li>
+<li>.NET Core 1.0+</li>
+<li>.NET Framework 2.0+</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>QuikGraph is available on <a href="https://www.nuget.org/packages/QuikGraph">NuGet</a></p>
+<pre><code>PM&gt; Install-Package QuikGraph
+</code></pre>
+<img src="images/quikgraph_logo.png" width="128" height="128" style="display: block; margin-left: auto; margin-right: auto">
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
