@@ -1893,7 +1893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateBidirectionalIncidenceGraph-2.html",
-          "hash": "0ZnUaekUAPzLSwIC9lWMgA=="
+          "hash": "ebgGfHXyx5nUY7iUxBQXPQ=="
         }
       },
       "is_incremental": false,
@@ -1905,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateImplicitGraph-2.html",
-          "hash": "tDF4sGD8BV5cFzzLbyzAMQ=="
+          "hash": "mj5iuz9t6d0esEWy5ozjVQ=="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateIncidenceGraph-2.html",
-          "hash": "tCwBy8ifHEv5VuLAAjh/RQ=="
+          "hash": "K1CMLtbuI+8QLmoqu3szcg=="
         }
       },
       "is_incremental": false,
@@ -2109,7 +2109,19 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EquatableTermEdge-1.html",
-          "hash": "Qk/DMSQkfvRqmY6j0vdxdg=="
+          "hash": "W94WpIKEmt+Ps1a/wrYv7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QuikGraph.EquatableUndirectedEdge-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QuikGraph.EquatableUndirectedEdge-1.html",
+          "hash": "Mbp8zFS/Swslne78ACCULw=="
         }
       },
       "is_incremental": false,
@@ -2145,7 +2157,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.GraphExtensions.html",
-          "hash": "Es0FL3E++OB9qmWtWr4dcw=="
+          "hash": "jNizg3D2wRjs7lLY2LNDVA=="
         }
       },
       "is_incremental": false,
@@ -2841,7 +2853,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SEdge-1.html",
-          "hash": "B8kU5pXCrUmjiLqZUS4ouw=="
+          "hash": "X+C3PTuf7MQFqZ+UO3nmxQ=="
         }
       },
       "is_incremental": false,
@@ -2861,18 +2873,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/QuikGraph.SEquatableUndirectedEdge-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/QuikGraph.SEquatableUndirectedEdge-1.html",
-          "hash": "OdYrsgAMZtQRlfTS3rW8Xg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/QuikGraph.SReversedEdge-2.yml",
       "output": {
         ".html": {
@@ -2885,47 +2885,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/QuikGraph.STaggedEdge-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/QuikGraph.STaggedEdge-2.html",
-          "hash": "29FC8oiX0WOUXveYEORUng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/QuikGraph.STaggedEquatableEdge-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/QuikGraph.STaggedEquatableEdge-2.html",
-          "hash": "lOcQf9YVyBQGUiMudrk5tw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/QuikGraph.SUndirectedEdge-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SUndirectedEdge-1.html",
-          "hash": "qdV2fJoIuK2UNvpXO1cxDQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/QuikGraph.SUndirectedTaggedEdge-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/QuikGraph.SUndirectedTaggedEdge-2.html",
-          "hash": "Tjon3iXAXX7qOmkUw3KghQ=="
+          "hash": "xArydq3RD5NOepQJ0DCZQw=="
         }
       },
       "is_incremental": false,
@@ -3369,7 +3333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TaggedEdge-2.html",
-          "hash": "OTZicZf83Bq7pZ1n/3V+DQ=="
+          "hash": "WXJhZCfZDuc5v7KF7hriog=="
         }
       },
       "is_incremental": false,
@@ -3381,7 +3345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TaggedEquatableEdge-2.html",
-          "hash": "g+9TGRI09l5Yz5JEBrYcZQ=="
+          "hash": "ayrVI171Tm5TRy4HFi5bOg=="
         }
       },
       "is_incremental": false,
@@ -3393,7 +3357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TaggedUndirectedEdge-2.html",
-          "hash": "K0REu++NWOa58K5zF5sLug=="
+          "hash": "65ijxR59v0+ambqX8FbdUg=="
         }
       },
       "is_incremental": false,
@@ -3417,7 +3381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TermEdge-1.html",
-          "hash": "Z/oT/QV/98bMuKOm45N8eA=="
+          "hash": "CZsM3N271EtKttzvfX8EOw=="
         }
       },
       "is_incremental": false,
@@ -3489,7 +3453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.UndirectedEdge-1.html",
-          "hash": "8nBW7O+sJwSJfDUFsXoUZw=="
+          "hash": "zuoIcn/eTKn6skpFNJS76Q=="
         }
       },
       "is_incremental": false,
@@ -3609,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.html",
-          "hash": "0LLmyjBOtMPPV09cMX3jnA=="
+          "hash": "xwEvAFTML7Em6Stt3uJYEw=="
         }
       },
       "is_incremental": false,
@@ -3633,7 +3597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "tEX10R9QnjKd1+ra0ni60w=="
+          "hash": "4MVMIjg8FESGP7PZPla5Tw=="
         }
       },
       "is_incremental": false,
@@ -3686,9 +3650,9 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
@@ -3702,12 +3666,12 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 301,
+          "total_file_count": 298,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0

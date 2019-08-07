@@ -1060,7 +1060,7 @@ from these getters of edges.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static DelegateBidirectionalIncidenceGraph&lt;TVertex, TEdge&gt; ToDelegateBidirectionalIncidenceGraph&lt;TVertex, TEdge&gt;(this TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetOutEdges, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetInEdges)
-    where TEdge : IEdge&lt;TVertex&gt;, IEquatable&lt;TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1138,7 +1138,7 @@ from these getters of edges.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static DelegateIncidenceGraph&lt;TVertex, TEdge&gt; ToDelegateIncidenceGraph&lt;TVertex, TEdge&gt;(this Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; getOutEdges)
-    where TEdge : IEdge&lt;TVertex&gt;, IEquatable&lt;TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1210,7 +1210,7 @@ from these getters of edges.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static DelegateIncidenceGraph&lt;TVertex, TEdge&gt; ToDelegateIncidenceGraph&lt;TVertex, TEdge&gt;(this TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetOutEdges)
-    where TEdge : IEdge&lt;TVertex&gt;, IEquatable&lt;TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1283,7 +1283,7 @@ from given vertices and edge getter.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static DelegateUndirectedGraph&lt;TVertex, TEdge&gt; ToDelegateUndirectedGraph&lt;TVertex, TEdge&gt;(this IEnumerable&lt;TVertex&gt; vertices, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; getAdjacentEdges)
-    where TEdge : IEdge&lt;TVertex&gt;, IEquatable&lt;TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1362,7 +1362,7 @@ from given vertices and edge getter.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static DelegateUndirectedGraph&lt;TVertex, TEdge&gt; ToDelegateUndirectedGraph&lt;TVertex, TEdge&gt;(this IEnumerable&lt;TVertex&gt; vertices, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetAdjacentEdges)
-    where TEdge : IEdge&lt;TVertex&gt;, IEquatable&lt;TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
