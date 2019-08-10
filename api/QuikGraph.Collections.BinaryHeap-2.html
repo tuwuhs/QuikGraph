@@ -81,11 +81,40 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">BinaryHeap&lt;TPriority, TValue&gt;</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;TPriority, TValue&gt;&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.Collections.html">QuikGraph.Collections</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_Collections_BinaryHeap_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BinaryHeap&lt;TPriority, TValue&gt; : IEnumerable&lt;KeyValuePair&lt;TPriority, TValue&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class BinaryHeap&lt;TPriority, TValue&gt; : IEnumerable&lt;KeyValuePair&lt;TPriority, TValue&gt;&gt;, IEnumerable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,13 +165,13 @@ right child: 2 * index + 2</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_BinaryHeap_2__ctor_Comparison__0__.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.BinaryHeap%602.%23ctor(Comparison%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_BinaryHeap_2__ctor_System_Comparison__0__.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.BinaryHeap%602.%23ctor(System.Comparison%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/BinaryHeap.cs/#L48">View Source</a>
   </span>
   <a id="QuikGraph_Collections_BinaryHeap_2__ctor_" data-uid="QuikGraph.Collections.BinaryHeap`2.#ctor*"></a>
-  <h4 id="QuikGraph_Collections_BinaryHeap_2__ctor_Comparison__0__" data-uid="QuikGraph.Collections.BinaryHeap`2.#ctor(Comparison{`0})">BinaryHeap(Comparison&lt;TPriority&gt;)</h4>
+  <h4 id="QuikGraph_Collections_BinaryHeap_2__ctor_System_Comparison__0__" data-uid="QuikGraph.Collections.BinaryHeap`2.#ctor(System.Comparison{`0})">BinaryHeap(Comparison&lt;TPriority&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Collections.BinaryHeap-2.html">BinaryHeap&lt;TPriority, TValue&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -161,7 +190,7 @@ right child: 2 * index + 2</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Comparison</span>&lt;TPriority&gt;</td>
+        <td><span class="xref">System.Comparison</span>&lt;TPriority&gt;</td>
         <td><span class="parametername">priorityComparison</span></td>
         <td><p>Priority comparer.</p>
 </td>
@@ -170,13 +199,13 @@ right child: 2 * index + 2</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_BinaryHeap_2__ctor_System_Int32_Comparison__0__.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.BinaryHeap%602.%23ctor(System.Int32%2CComparison%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_BinaryHeap_2__ctor_System_Int32_System_Comparison__0__.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.BinaryHeap%602.%23ctor(System.Int32%2CSystem.Comparison%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/BinaryHeap.cs/#L58">View Source</a>
   </span>
   <a id="QuikGraph_Collections_BinaryHeap_2__ctor_" data-uid="QuikGraph.Collections.BinaryHeap`2.#ctor*"></a>
-  <h4 id="QuikGraph_Collections_BinaryHeap_2__ctor_System_Int32_Comparison__0__" data-uid="QuikGraph.Collections.BinaryHeap`2.#ctor(System.Int32,Comparison{`0})">BinaryHeap(Int32, Comparison&lt;TPriority&gt;)</h4>
+  <h4 id="QuikGraph_Collections_BinaryHeap_2__ctor_System_Int32_System_Comparison__0__" data-uid="QuikGraph.Collections.BinaryHeap`2.#ctor(System.Int32,System.Comparison{`0})">BinaryHeap(Int32, Comparison&lt;TPriority&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Collections.BinaryHeap-2.html">BinaryHeap&lt;TPriority, TValue&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -201,7 +230,7 @@ right child: 2 * index + 2</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Comparison</span>&lt;TPriority&gt;</td>
+        <td><span class="xref">System.Comparison</span>&lt;TPriority&gt;</td>
         <td><span class="parametername">priorityComparison</span></td>
         <td><p>Priority comparer.</p>
 </td>
@@ -298,7 +327,7 @@ right child: 2 * index + 2</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Comparison</span>&lt;TPriority&gt;</td>
+        <td><span class="xref">System.Comparison</span>&lt;TPriority&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -370,7 +399,7 @@ right child: 2 * index + 2</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerator</span>&lt;<span class="xref">KeyValuePair</span>&lt;TPriority, TValue&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;TPriority, TValue&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -483,8 +512,24 @@ right child: 2 * index + 2</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">KeyValuePair</span>&lt;TPriority, TValue&gt;</td>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;TPriority, TValue&gt;</td>
         <td><p>The minimal pair.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>The heap is empty.</p>
 </td>
       </tr>
     </tbody>
@@ -572,8 +617,24 @@ than the current <code data-dev-comment-type="paramref" class="paramref">value</
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">KeyValuePair</span>&lt;TPriority, TValue&gt;</td>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;TPriority, TValue&gt;</td>
         <td><p>The minimal pair.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>The heap is empty.</p>
 </td>
       </tr>
     </tbody>
@@ -604,7 +665,7 @@ than the current <code data-dev-comment-type="paramref" class="paramref">value</
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">KeyValuePair</span>&lt;TPriority, TValue&gt;[]</td>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;TPriority, TValue&gt;[]</td>
         <td><p>Array of heap priorities and values.</p>
 </td>
       </tr>
@@ -746,12 +807,111 @@ than the current <code data-dev-comment-type="paramref" class="paramref">value</
       </tr>
     </tbody>
   </table>
-  <h3 id="extensionmethods">Extension Methods</h3>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_BinaryHeap_2_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.BinaryHeap%602.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/BinaryHeap.cs/#L359">View Source</a>
+  </span>
+  <a id="QuikGraph_Collections_BinaryHeap_2_System_Collections_IEnumerable_GetEnumerator_" data-uid="QuikGraph.Collections.BinaryHeap`2.System#Collections#IEnumerable#GetEnumerator*"></a>
+  <h4 id="QuikGraph_Collections_BinaryHeap_2_System_Collections_IEnumerable_GetEnumerator" data-uid="QuikGraph.Collections.BinaryHeap`2.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_IsPath__2_System_Collections_Generic_IEnumerable___1__">EdgeExtensions.IsPath&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_HasCycles__2_System_Collections_Generic_IEnumerable___1__">EdgeExtensions.HasCycles&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_IsPathWithoutCycles__2_System_Collections_Generic_IEnumerable___1__">EdgeExtensions.IsPathWithoutCycles&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateVertexAndEdgeListGraph__2_System_Collections_Generic_IEnumerable___0__QuikGraph_TryFunc___0_System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateVertexAndEdgeListGraph__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateUndirectedGraph__2_System_Collections_Generic_IEnumerable___0__QuikGraph_TryFunc___0_System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateUndirectedGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateUndirectedGraph__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateUndirectedGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToUndirectedGraph__2_System_Collections_Generic_IEnumerable___1__System_Boolean_">GraphExtensions.ToUndirectedGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToBidirectionalGraph__2_System_Collections_Generic_IEnumerable___1__System_Boolean_">GraphExtensions.ToBidirectionalGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToAdjacencyGraph__2_System_Collections_Generic_IEnumerable___1__System_Boolean_">GraphExtensions.ToAdjacencyGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToAdjacencyGraph__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___System_Boolean_">GraphExtensions.ToAdjacencyGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToBidirectionalGraph__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___System_Boolean_">GraphExtensions.ToBidirectionalGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>

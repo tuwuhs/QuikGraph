@@ -80,7 +80,8 @@
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_GraphColor_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum GraphColor : byte</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public enum GraphColor : byte</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -111,10 +112,34 @@
   </thead></thead></table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, GraphColor&gt;(XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, GraphColor&gt;(String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, GraphColor&gt;(XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, GraphColor&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, GraphColor&gt;(String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, GraphColor&gt;(XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, GraphColor&gt;(XmlWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, GraphColor&gt;(String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, GraphColor&gt;(TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, GraphColor&gt;(XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, GraphColor&gt;(TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, GraphColor&gt;(XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, GraphColor&gt;(XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, GraphColor&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>
@@ -127,7 +152,7 @@
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_GraphColor.md&amp;value=---%0Auid%3A%20QuikGraph.GraphColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/GraphColor.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/GraphColor.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

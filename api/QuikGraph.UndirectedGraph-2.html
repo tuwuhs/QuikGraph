@@ -95,12 +95,38 @@
     <div><a class="xref" href="QuikGraph.IEdgeSet-2.html">IEdgeSet</a>&lt;TVertex, TEdge&gt;</div>
     <div><a class="xref" href="QuikGraph.IVertexSet-1.html">IVertexSet</a>&lt;TVertex&gt;</div>
     <div><a class="xref" href="QuikGraph.IImplicitVertexSet-1.html">IImplicitVertexSet</a>&lt;TVertex&gt;</div>
+    <div><span class="xref">System.ICloneable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.html">QuikGraph</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_UndirectedGraph_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UndirectedGraph&lt;TVertex, TEdge&gt; : object, IMutableUndirectedGraph&lt;TVertex, TEdge&gt;, IUndirectedGraph&lt;TVertex, TEdge&gt;, IImplicitUndirectedGraph&lt;TVertex, TEdge&gt;, IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;, IMutableVertexSet&lt;TVertex&gt;, IMutableEdgeListGraph&lt;TVertex, TEdge&gt;, IMutableGraph&lt;TVertex, TEdge&gt;, IEdgeListGraph&lt;TVertex, TEdge&gt;, IGraph&lt;TVertex, TEdge&gt;, IEdgeSet&lt;TVertex, TEdge&gt;, IVertexSet&lt;TVertex&gt;, IImplicitVertexSet&lt;TVertex&gt; where TEdge : IEdge&lt;TVertex&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class UndirectedGraph&lt;TVertex, TEdge&gt; : IMutableUndirectedGraph&lt;TVertex, TEdge&gt;, IUndirectedGraph&lt;TVertex, TEdge&gt;, IImplicitUndirectedGraph&lt;TVertex, TEdge&gt;, IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;, IMutableVertexSet&lt;TVertex&gt;, IMutableEdgeListGraph&lt;TVertex, TEdge&gt;, IMutableGraph&lt;TVertex, TEdge&gt;, IEdgeListGraph&lt;TVertex, TEdge&gt;, IGraph&lt;TVertex, TEdge&gt;, IEdgeSet&lt;TVertex, TEdge&gt;, IVertexSet&lt;TVertex&gt;, IImplicitVertexSet&lt;TVertex&gt;, ICloneable where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -369,7 +395,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -519,7 +545,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -575,13 +601,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_AddEdgeRange_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.AddEdgeRange(IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_AddEdgeRange_System_Collections_Generic_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.AddEdgeRange(System.Collections.Generic.IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/UndirectedGraph.cs/#L482">View Source</a>
   </span>
   <a id="QuikGraph_UndirectedGraph_2_AddEdgeRange_" data-uid="QuikGraph.UndirectedGraph`2.AddEdgeRange*"></a>
-  <h4 id="QuikGraph_UndirectedGraph_2_AddEdgeRange_IEnumerable__1__" data-uid="QuikGraph.UndirectedGraph`2.AddEdgeRange(IEnumerable{`1})">AddEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
+  <h4 id="QuikGraph_UndirectedGraph_2_AddEdgeRange_System_Collections_Generic_IEnumerable__1__" data-uid="QuikGraph.UndirectedGraph`2.AddEdgeRange(System.Collections.Generic.IEnumerable{`1})">AddEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -599,7 +625,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td></td>
       </tr>
@@ -669,13 +695,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_AddVertexRange_IEnumerable__0__.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.AddVertexRange(IEnumerable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_AddVertexRange_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.AddVertexRange(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/UndirectedGraph.cs/#L291">View Source</a>
   </span>
   <a id="QuikGraph_UndirectedGraph_2_AddVertexRange_" data-uid="QuikGraph.UndirectedGraph`2.AddVertexRange*"></a>
-  <h4 id="QuikGraph_UndirectedGraph_2_AddVertexRange_IEnumerable__0__" data-uid="QuikGraph.UndirectedGraph`2.AddVertexRange(IEnumerable{`0})">AddVertexRange(IEnumerable&lt;TVertex&gt;)</h4>
+  <h4 id="QuikGraph_UndirectedGraph_2_AddVertexRange_System_Collections_Generic_IEnumerable__0__" data-uid="QuikGraph.UndirectedGraph`2.AddVertexRange(System.Collections.Generic.IEnumerable{`0})">AddVertexRange(IEnumerable&lt;TVertex&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -693,7 +719,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
         <td><span class="parametername">vertices</span></td>
         <td></td>
       </tr>
@@ -763,13 +789,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_AddVerticesAndEdgeRange_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.AddVerticesAndEdgeRange(IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_AddVerticesAndEdgeRange_System_Collections_Generic_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.AddVerticesAndEdgeRange(System.Collections.Generic.IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/UndirectedGraph.cs/#L443">View Source</a>
   </span>
   <a id="QuikGraph_UndirectedGraph_2_AddVerticesAndEdgeRange_" data-uid="QuikGraph.UndirectedGraph`2.AddVerticesAndEdgeRange*"></a>
-  <h4 id="QuikGraph_UndirectedGraph_2_AddVerticesAndEdgeRange_IEnumerable__1__" data-uid="QuikGraph.UndirectedGraph`2.AddVerticesAndEdgeRange(IEnumerable{`1})">AddVerticesAndEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
+  <h4 id="QuikGraph_UndirectedGraph_2_AddVerticesAndEdgeRange_System_Collections_Generic_IEnumerable__1__" data-uid="QuikGraph.UndirectedGraph`2.AddVerticesAndEdgeRange(System.Collections.Generic.IEnumerable{`1})">AddVerticesAndEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -787,7 +813,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td></td>
       </tr>
@@ -949,7 +975,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -998,7 +1024,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
         <td><p>Set of adjacent vertices.</p>
 </td>
       </tr>
@@ -1560,13 +1586,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_RemoveEdges_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.RemoveEdges(IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_RemoveEdges_System_Collections_Generic_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.RemoveEdges(System.Collections.Generic.IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/UndirectedGraph.cs/#L564">View Source</a>
   </span>
   <a id="QuikGraph_UndirectedGraph_2_RemoveEdges_" data-uid="QuikGraph.UndirectedGraph`2.RemoveEdges*"></a>
-  <h4 id="QuikGraph_UndirectedGraph_2_RemoveEdges_IEnumerable__1__" data-uid="QuikGraph.UndirectedGraph`2.RemoveEdges(IEnumerable{`1})">RemoveEdges(IEnumerable&lt;TEdge&gt;)</h4>
+  <h4 id="QuikGraph_UndirectedGraph_2_RemoveEdges_System_Collections_Generic_IEnumerable__1__" data-uid="QuikGraph.UndirectedGraph`2.RemoveEdges(System.Collections.Generic.IEnumerable{`1})">RemoveEdges(IEnumerable&lt;TEdge&gt;)</h4>
   <div class="markdown level1 summary"><p>Removes the given set of edges.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1585,7 +1611,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td><p>Edges to remove.</p>
 </td>
@@ -1893,6 +1919,38 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2_System_ICloneable_Clone.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602.System%23ICloneable%23Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/UndirectedGraph.cs/#L615">View Source</a>
+  </span>
+  <a id="QuikGraph_UndirectedGraph_2_System_ICloneable_Clone_" data-uid="QuikGraph.UndirectedGraph`2.System#ICloneable#Clone*"></a>
+  <h4 id="QuikGraph_UndirectedGraph_2_System_ICloneable_Clone" data-uid="QuikGraph.UndirectedGraph`2.System#ICloneable#Clone">ICloneable.Clone()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object ICloneable.Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="QuikGraph.IMutableUndirectedGraph-2.html">IMutableUndirectedGraph&lt;TVertex, TEdge&gt;</a>
@@ -1930,12 +1988,78 @@
   <div>
       <a class="xref" href="QuikGraph.IImplicitVertexSet-1.html">IImplicitVertexSet&lt;TVertex&gt;</a>
   </div>
+  <div>
+      <span class="xref">System.ICloneable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToArrayUndirectedGraph__2_QuikGraph_IUndirectedGraph___0___1__">GraphExtensions.ToArrayUndirectedGraph&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToBidirectionalGraph__2_QuikGraph_UndirectedGraph___0___1__">GraphExtensions.ToBidirectionalGraph&lt;TVertex, TEdge&gt;(UndirectedGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_GetVertexIdentity__1_QuikGraph_IVertexSet___0__">AlgorithmExtensions.GetVertexIdentity&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_GetEdgeIdentity__2_QuikGraph_IEdgeSet___0___1__">AlgorithmExtensions.GetEdgeIdentity&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double____0_">AlgorithmExtensions.ShortestPathsDijkstra&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IUndirectedGraph___0___1__">AlgorithmExtensions.TopologicalSort&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IUndirectedGraph___0___1__System_Collections_Generic_IList___0__">AlgorithmExtensions.TopologicalSort&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, IList&lt;TVertex&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ConnectedComponents__2_QuikGraph_IUndirectedGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__">AlgorithmExtensions.ConnectedComponents&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_IncrementalConnectedComponents__2_QuikGraph_IMutableVertexAndEdgeSet___0___1__">AlgorithmExtensions.IncrementalConnectedComponents&lt;TVertex, TEdge&gt;(IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ComputeDisjointSet__2_QuikGraph_IUndirectedGraph___0___1__">AlgorithmExtensions.ComputeDisjointSet&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreePrim__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double__">AlgorithmExtensions.MinimumSpanningTreePrim&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreeKruskal__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double__">AlgorithmExtensions.MinimumSpanningTreeKruskal&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToBinary__2_QuikGraph_IGraph___0___1__System_IO_Stream_">SerializationExtensions.SerializeToBinary&lt;TVertex, TEdge&gt;(IGraph&lt;TVertex, TEdge&gt;, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>
@@ -1948,7 +2072,7 @@
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_UndirectedGraph_2.md&amp;value=---%0Auid%3A%20QuikGraph.UndirectedGraph%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/UndirectedGraph.cs/#L18" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/UndirectedGraph.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

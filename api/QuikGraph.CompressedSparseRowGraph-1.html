@@ -91,12 +91,38 @@
     <div><a class="xref" href="QuikGraph.IGraph-2.html">IGraph</a>&lt;TVertex, <a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</div>
     <div><a class="xref" href="QuikGraph.IVertexSet-1.html">IVertexSet</a>&lt;TVertex&gt;</div>
     <div><a class="xref" href="QuikGraph.IImplicitVertexSet-1.html">IImplicitVertexSet</a>&lt;TVertex&gt;</div>
+    <div><span class="xref">System.ICloneable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.html">QuikGraph</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_CompressedSparseRowGraph_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class CompressedSparseRowGraph&lt;TVertex&gt; : object, IEdgeSet&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IVertexListGraph&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IIncidenceGraph&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IImplicitGraph&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IGraph&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IVertexSet&lt;TVertex&gt;, IImplicitVertexSet&lt;TVertex&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public sealed class CompressedSparseRowGraph&lt;TVertex&gt; : IEdgeSet&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IVertexListGraph&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IIncidenceGraph&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IImplicitGraph&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IGraph&lt;TVertex, SEquatableEdge&lt;TVertex&gt;&gt;, IVertexSet&lt;TVertex&gt;, IImplicitVertexSet&lt;TVertex&gt;, ICloneable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,7 +227,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -351,7 +377,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -791,7 +817,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -855,13 +881,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_CompressedSparseRowGraph_1_TryGetEdges__0__0_IEnumerable_QuikGraph_SEquatableEdge__0____.md&amp;value=---%0Auid%3A%20QuikGraph.CompressedSparseRowGraph%601.TryGetEdges(%600%2C%600%2CIEnumerable%7BQuikGraph.SEquatableEdge%7B%600%7D%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_CompressedSparseRowGraph_1_TryGetEdges__0__0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge__0____.md&amp;value=---%0Auid%3A%20QuikGraph.CompressedSparseRowGraph%601.TryGetEdges(%600%2C%600%2CSystem.Collections.Generic.IEnumerable%7BQuikGraph.SEquatableEdge%7B%600%7D%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/CompressedSparseRowGraph.cs/#L195">View Source</a>
   </span>
   <a id="QuikGraph_CompressedSparseRowGraph_1_TryGetEdges_" data-uid="QuikGraph.CompressedSparseRowGraph`1.TryGetEdges*"></a>
-  <h4 id="QuikGraph_CompressedSparseRowGraph_1_TryGetEdges__0__0_IEnumerable_QuikGraph_SEquatableEdge__0____" data-uid="QuikGraph.CompressedSparseRowGraph`1.TryGetEdges(`0,`0,IEnumerable{QuikGraph.SEquatableEdge{`0}}@)">TryGetEdges(TVertex, TVertex, out IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt;)</h4>
+  <h4 id="QuikGraph_CompressedSparseRowGraph_1_TryGetEdges__0__0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge__0____" data-uid="QuikGraph.CompressedSparseRowGraph`1.TryGetEdges(`0,`0,System.Collections.Generic.IEnumerable{QuikGraph.SEquatableEdge{`0}}@)">TryGetEdges(TVertex, TVertex, out IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -889,7 +915,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td></td>
       </tr>
@@ -912,13 +938,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_CompressedSparseRowGraph_1_TryGetOutEdges__0_IEnumerable_QuikGraph_SEquatableEdge__0____.md&amp;value=---%0Auid%3A%20QuikGraph.CompressedSparseRowGraph%601.TryGetOutEdges(%600%2CIEnumerable%7BQuikGraph.SEquatableEdge%7B%600%7D%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_CompressedSparseRowGraph_1_TryGetOutEdges__0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge__0____.md&amp;value=---%0Auid%3A%20QuikGraph.CompressedSparseRowGraph%601.TryGetOutEdges(%600%2CSystem.Collections.Generic.IEnumerable%7BQuikGraph.SEquatableEdge%7B%600%7D%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/CompressedSparseRowGraph.cs/#L245">View Source</a>
   </span>
   <a id="QuikGraph_CompressedSparseRowGraph_1_TryGetOutEdges_" data-uid="QuikGraph.CompressedSparseRowGraph`1.TryGetOutEdges*"></a>
-  <h4 id="QuikGraph_CompressedSparseRowGraph_1_TryGetOutEdges__0_IEnumerable_QuikGraph_SEquatableEdge__0____" data-uid="QuikGraph.CompressedSparseRowGraph`1.TryGetOutEdges(`0,IEnumerable{QuikGraph.SEquatableEdge{`0}}@)">TryGetOutEdges(TVertex, out IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt;)</h4>
+  <h4 id="QuikGraph_CompressedSparseRowGraph_1_TryGetOutEdges__0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge__0____" data-uid="QuikGraph.CompressedSparseRowGraph`1.TryGetOutEdges(`0,System.Collections.Generic.IEnumerable{QuikGraph.SEquatableEdge{`0}}@)">TryGetOutEdges(TVertex, out IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -941,7 +967,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge</a>&lt;TVertex&gt;&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td></td>
       </tr>
@@ -958,6 +984,38 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_CompressedSparseRowGraph_1_System_ICloneable_Clone.md&amp;value=---%0Auid%3A%20QuikGraph.CompressedSparseRowGraph%601.System%23ICloneable%23Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/CompressedSparseRowGraph.cs/#L294">View Source</a>
+  </span>
+  <a id="QuikGraph_CompressedSparseRowGraph_1_System_ICloneable_Clone_" data-uid="QuikGraph.CompressedSparseRowGraph`1.System#ICloneable#Clone*"></a>
+  <h4 id="QuikGraph_CompressedSparseRowGraph_1_System_ICloneable_Clone" data-uid="QuikGraph.CompressedSparseRowGraph`1.System#ICloneable#Clone">ICloneable.Clone()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object ICloneable.Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -984,12 +1042,84 @@
   <div>
       <a class="xref" href="QuikGraph.IImplicitVertexSet-1.html">IImplicitVertexSet&lt;TVertex&gt;</a>
   </div>
+  <div>
+      <span class="xref">System.ICloneable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_GetVertexIdentity__1_QuikGraph_IVertexSet___0__">AlgorithmExtensions.GetVertexIdentity&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_GetEdgeIdentity__2_QuikGraph_IEdgeSet___0___1__">AlgorithmExtensions.GetEdgeIdentity&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeBreadthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeBreadthFirstSearch&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeDepthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeDepthFirstSearch&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_QuikGraph_Algorithms_RandomWalks_IMarkovEdgeChain___0___1__">AlgorithmExtensions.TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex, IMarkovEdgeChain&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_Sinks__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.Sinks&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_Roots__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.Roots&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.TopologicalSort&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IList___0__">AlgorithmExtensions.TopologicalSort&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IList&lt;TVertex&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_StronglyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__">AlgorithmExtensions.StronglyConnectedComponents&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_WeaklyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__">AlgorithmExtensions.WeaklyConnectedComponents&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_IsDirectedAcyclicGraph__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.IsDirectedAcyclicGraph&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_OfflineLeastCommonAncestor__2_QuikGraph_IVertexListGraph___0___1____0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge___0___">AlgorithmExtensions.OfflineLeastCommonAncestor&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex, IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToBinary__2_QuikGraph_IGraph___0___1__System_IO_Stream_">SerializationExtensions.SerializeToBinary&lt;TVertex, TEdge&gt;(IGraph&lt;TVertex, TEdge&gt;, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>
@@ -1002,7 +1132,7 @@
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_CompressedSparseRowGraph_1.md&amp;value=---%0Auid%3A%20QuikGraph.CompressedSparseRowGraph%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/CompressedSparseRowGraph.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/CompressedSparseRowGraph.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
