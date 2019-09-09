@@ -76,12 +76,6 @@
   <div class="markdown level0 summary"><p>Represents a distance relaxer.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Collections.Generic.IComparer&lt;System.Double&gt;.Compare(System.Double, System.Double)</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.Algorithms.html">QuikGraph.Algorithms</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_Algorithms_IDistanceRelaxer_syntax">Syntax</h5>
@@ -95,7 +89,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_IDistanceRelaxer_InitialDistance.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.IDistanceRelaxer.InitialDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistanceRelaxer.cs/#L14">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistanceRelaxer.cs/#L17">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_IDistanceRelaxer_InitialDistance_" data-uid="QuikGraph.Algorithms.IDistanceRelaxer.InitialDistance*"></a>
   <h4 id="QuikGraph_Algorithms_IDistanceRelaxer_InitialDistance" data-uid="QuikGraph.Algorithms.IDistanceRelaxer.InitialDistance">InitialDistance</h4>
@@ -128,7 +122,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_IDistanceRelaxer_Combine_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.IDistanceRelaxer.Combine(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistanceRelaxer.cs/#L22">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistanceRelaxer.cs/#L28">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_IDistanceRelaxer_Combine_" data-uid="QuikGraph.Algorithms.IDistanceRelaxer.Combine*"></a>
   <h4 id="QuikGraph_Algorithms_IDistanceRelaxer_Combine_System_Double_System_Double_" data-uid="QuikGraph.Algorithms.IDistanceRelaxer.Combine(System.Double,System.Double)">Combine(Double, Double)</h4>
@@ -181,34 +175,10 @@
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>

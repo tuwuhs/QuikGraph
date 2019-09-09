@@ -101,7 +101,7 @@
       <a class="xref" href="QuikGraph.DelegateIncidenceGraph-2.html#QuikGraph_DelegateIncidenceGraph_2_ContainsEdge__0__0_">DelegateIncidenceGraph&lt;TVertex, TEdge&gt;.ContainsEdge(TVertex, TVertex)</a>
     </div>
     <div>
-      <a class="xref" href="QuikGraph.DelegateIncidenceGraph-2.html#QuikGraph_DelegateIncidenceGraph_2_TryGetEdges__0__0_System_Collections_Generic_IEnumerable__1___">DelegateIncidenceGraph&lt;TVertex, TEdge&gt;.TryGetEdges(TVertex, TVertex, IEnumerable&lt;TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.DelegateIncidenceGraph-2.html#QuikGraph_DelegateIncidenceGraph_2_TryGetEdges__0__0_IEnumerable__1___">DelegateIncidenceGraph&lt;TVertex, TEdge&gt;.TryGetEdges(TVertex, TVertex, IEnumerable&lt;TEdge&gt;)</a>
     </div>
     <div>
       <a class="xref" href="QuikGraph.DelegateIncidenceGraph-2.html#QuikGraph_DelegateIncidenceGraph_2_TryGetEdge__0__0__1__">DelegateIncidenceGraph&lt;TVertex, TEdge&gt;.TryGetEdge(TVertex, TVertex, TEdge)</a>
@@ -122,7 +122,7 @@
       <a class="xref" href="QuikGraph.DelegateImplicitGraph-2.html#QuikGraph_DelegateImplicitGraph_2_OutEdges__0_">DelegateImplicitGraph&lt;TVertex, TEdge&gt;.OutEdges(TVertex)</a>
     </div>
     <div>
-      <a class="xref" href="QuikGraph.DelegateImplicitGraph-2.html#QuikGraph_DelegateImplicitGraph_2_TryGetOutEdges__0_System_Collections_Generic_IEnumerable__1___">DelegateImplicitGraph&lt;TVertex, TEdge&gt;.TryGetOutEdges(TVertex, IEnumerable&lt;TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.DelegateImplicitGraph-2.html#QuikGraph_DelegateImplicitGraph_2_TryGetOutEdges__0_IEnumerable__1___">DelegateImplicitGraph&lt;TVertex, TEdge&gt;.TryGetOutEdges(TVertex, IEnumerable&lt;TEdge&gt;)</a>
     </div>
     <div>
       <a class="xref" href="QuikGraph.DelegateImplicitGraph-2.html#QuikGraph_DelegateImplicitGraph_2_OutEdge__0_System_Int32_">DelegateImplicitGraph&lt;TVertex, TEdge&gt;.OutEdge(TVertex, Int32)</a>
@@ -130,34 +130,12 @@
     <div>
       <a class="xref" href="QuikGraph.DelegateImplicitGraph-2.html#QuikGraph_DelegateImplicitGraph_2_ContainsVertex__0_">DelegateImplicitGraph&lt;TVertex, TEdge&gt;.ContainsVertex(TVertex)</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.html">QuikGraph</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_DelegateVertexAndEdgeListGraph_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateIncidenceGraph&lt;TVertex, TEdge&gt;, IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, IVertexListGraph&lt;TVertex, TEdge&gt;, IIncidenceGraph&lt;TVertex, TEdge&gt;, IImplicitGraph&lt;TVertex, TEdge&gt;, IEdgeListGraph&lt;TVertex, TEdge&gt;, IGraph&lt;TVertex, TEdge&gt;, IEdgeSet&lt;TVertex, TEdge&gt;, IVertexSet&lt;TVertex&gt;, IImplicitVertexSet&lt;TVertex&gt; where TEdge : IEdge&lt;TVertex&gt;, IEquatable&lt;TEdge&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateIncidenceGraph&lt;TVertex, TEdge&gt;, IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, IVertexListGraph&lt;TVertex, TEdge&gt;, IIncidenceGraph&lt;TVertex, TEdge&gt;, IImplicitGraph&lt;TVertex, TEdge&gt;, IEdgeListGraph&lt;TVertex, TEdge&gt;, IGraph&lt;TVertex, TEdge&gt;, IEdgeSet&lt;TVertex, TEdge&gt;, IVertexSet&lt;TVertex&gt;, IImplicitVertexSet&lt;TVertex&gt; where TEdge : IEdge&lt;TVertex&gt;, IEquatable&lt;TEdge&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -184,13 +162,13 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2__ctor_System_Collections_Generic_IEnumerable__0__QuikGraph_TryFunc__0_System_Collections_Generic_IEnumerable__1___.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.%23ctor(System.Collections.Generic.IEnumerable%7B%600%7D%2CQuikGraph.TryFunc%7B%600%2CSystem.Collections.Generic.IEnumerable%7B%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2__ctor_IEnumerable__0__QuikGraph_TryFunc__0_IEnumerable__1___.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.%23ctor(IEnumerable%7B%600%7D%2CQuikGraph.TryFunc%7B%600%2CIEnumerable%7B%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L24">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L27">View Source</a>
   </span>
   <a id="QuikGraph_DelegateVertexAndEdgeListGraph_2__ctor_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.#ctor*"></a>
-  <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2__ctor_System_Collections_Generic_IEnumerable__0__QuikGraph_TryFunc__0_System_Collections_Generic_IEnumerable__1___" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.#ctor(System.Collections.Generic.IEnumerable{`0},QuikGraph.TryFunc{`0,System.Collections.Generic.IEnumerable{`1}})">DelegateVertexAndEdgeListGraph(IEnumerable&lt;TVertex&gt;, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</h4>
+  <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2__ctor_IEnumerable__0__QuikGraph_TryFunc__0_IEnumerable__1___" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.#ctor(IEnumerable{`0},QuikGraph.TryFunc{`0,IEnumerable{`1}})">DelegateVertexAndEdgeListGraph(IEnumerable&lt;TVertex&gt;, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.DelegateVertexAndEdgeListGraph-2.html">DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -209,13 +187,13 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
         <td><span class="parametername">vertices</span></td>
         <td><p>Graph vertices.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="QuikGraph.TryFunc-2.html">TryFunc</a>&lt;TVertex, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;&gt;</td>
+        <td><a class="xref" href="QuikGraph.TryFunc-2.html">TryFunc</a>&lt;TVertex, <span class="xref">IEnumerable</span>&lt;TEdge&gt;&gt;</td>
         <td><span class="parametername">tryGetOutEdges</span></td>
         <td><p>Getter of out-edges.</p>
 </td>
@@ -229,7 +207,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2_EdgeCount.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.EdgeCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L85">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L93">View Source</a>
   </span>
   <a id="QuikGraph_DelegateVertexAndEdgeListGraph_2_EdgeCount_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.EdgeCount*"></a>
   <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2_EdgeCount" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.EdgeCount">EdgeCount</h4>
@@ -259,7 +237,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2_Edges.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.Edges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L96">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L104">View Source</a>
   </span>
   <a id="QuikGraph_DelegateVertexAndEdgeListGraph_2_Edges_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.Edges*"></a>
   <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2_Edges" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.Edges">Edges</h4>
@@ -279,7 +257,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -289,7 +267,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2_IsEdgesEmpty.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.IsEdgesEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L70">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L78">View Source</a>
   </span>
   <a id="QuikGraph_DelegateVertexAndEdgeListGraph_2_IsEdgesEmpty_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.IsEdgesEmpty*"></a>
   <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2_IsEdgesEmpty" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.IsEdgesEmpty">IsEdgesEmpty</h4>
@@ -319,7 +297,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2_IsVerticesEmpty.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.IsVerticesEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L35">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L43">View Source</a>
   </span>
   <a id="QuikGraph_DelegateVertexAndEdgeListGraph_2_IsVerticesEmpty_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.IsVerticesEmpty*"></a>
   <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2_IsVerticesEmpty" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.IsVerticesEmpty">IsVerticesEmpty</h4>
@@ -349,7 +327,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2_VertexCount.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.VertexCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L49">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L57">View Source</a>
   </span>
   <a id="QuikGraph_DelegateVertexAndEdgeListGraph_2_VertexCount_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.VertexCount*"></a>
   <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2_VertexCount" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.VertexCount">VertexCount</h4>
@@ -379,7 +357,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2_Vertices.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.Vertices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L63">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L71">View Source</a>
   </span>
   <a id="QuikGraph_DelegateVertexAndEdgeListGraph_2_Vertices_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.Vertices*"></a>
   <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2_Vertices" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.Vertices">Vertices</h4>
@@ -399,7 +377,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -411,7 +389,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2_ContainsEdge__1_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602.ContainsEdge(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L99">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L107">View Source</a>
   </span>
   <a id="QuikGraph_DelegateVertexAndEdgeListGraph_2_ContainsEdge_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.ContainsEdge*"></a>
   <h4 id="QuikGraph_DelegateVertexAndEdgeListGraph_2_ContainsEdge__1_" data-uid="QuikGraph.DelegateVertexAndEdgeListGraph`2.ContainsEdge(`1)">ContainsEdge(TEdge)</h4>
@@ -483,133 +461,10 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToArrayAdjacencyGraph__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">GraphExtensions.ToArrayAdjacencyGraph&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToBidirectionalGraph__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">GraphExtensions.ToBidirectionalGraph&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToCompressedRowGraph__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">GraphExtensions.ToCompressedRowGraph&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_GetVertexIdentity__1_QuikGraph_IVertexSet___0__">AlgorithmExtensions.GetVertexIdentity&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_GetEdgeIdentity__2_QuikGraph_IEdgeSet___0___1__">AlgorithmExtensions.GetEdgeIdentity&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeBreadthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeBreadthFirstSearch&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeDepthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeDepthFirstSearch&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_QuikGraph_Algorithms_RandomWalks_IMarkovEdgeChain___0___1__">AlgorithmExtensions.TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex, IMarkovEdgeChain&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_">AlgorithmExtensions.ShortestPathsDijkstra&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsAStar__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double__System_Func___0_System_Double____0_">AlgorithmExtensions.ShortestPathsAStar&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, Func&lt;TVertex, Double&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsBellmanFord__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_">AlgorithmExtensions.ShortestPathsBellmanFord&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDag__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_">AlgorithmExtensions.ShortestPathsDag&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_Sinks__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.Sinks&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_Roots__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.Roots&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.TopologicalSort&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IList___0__">AlgorithmExtensions.TopologicalSort&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IList&lt;TVertex&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">AlgorithmExtensions.SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Collections_Generic_IList___0__">AlgorithmExtensions.SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, IList&lt;TVertex&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_StronglyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__">AlgorithmExtensions.StronglyConnectedComponents&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_WeaklyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__">AlgorithmExtensions.WeaklyConnectedComponents&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_CondensateStronglyConnected__3_QuikGraph_IVertexAndEdgeListGraph___0___1__">AlgorithmExtensions.CondensateStronglyConnected&lt;TVertex, TEdge, TGraph&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_CondensateWeaklyConnected__3_QuikGraph_IVertexAndEdgeListGraph___0___1__">AlgorithmExtensions.CondensateWeaklyConnected&lt;TVertex, TEdge, TGraph&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_OddVertices__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">AlgorithmExtensions.OddVertices&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_IsDirectedAcyclicGraph__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.IsDirectedAcyclicGraph&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_OfflineLeastCommonAncestor__2_QuikGraph_IVertexListGraph___0___1____0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge___0___">AlgorithmExtensions.OfflineLeastCommonAncestor&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex, IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_Clone__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___0___0__System_Func___1___0___0___1__QuikGraph_IMutableVertexAndEdgeSet___0___1__">AlgorithmExtensions.Clone&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TVertex, TVertex&gt;, Func&lt;TEdge, TVertex, TVertex, TEdge&gt;, IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">DirectedGraphMLExtensions.ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___0_QuikGraph_GraphColor__">DirectedGraphMLExtensions.ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TVertex, GraphColor&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">DirectedGraphMLExtensions.ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_Action___0_QuikGraph_Serialization_DirectedGraphML_DirectedGraphNode__System_Action___1_QuikGraph_Serialization_DirectedGraphML_DirectedGraphLink__">DirectedGraphMLExtensions.ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, Action&lt;TVertex, DirectedGraphNode&gt;, Action&lt;TEdge, DirectedGraphLink&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_OpenAsDGML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_String_">DirectedGraphMLExtensions.OpenAsDGML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToBinary__2_QuikGraph_IGraph___0___1__System_IO_Stream_">SerializationExtensions.SerializeToBinary&lt;TVertex, TEdge&gt;(IGraph&lt;TVertex, TEdge&gt;, Stream)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>
@@ -622,7 +477,7 @@ public class DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; : DelegateInci
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateVertexAndEdgeListGraph_2.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateVertexAndEdgeListGraph%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateVertexAndEdgeListGraph.cs/#L19" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

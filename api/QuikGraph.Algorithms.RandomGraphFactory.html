@@ -81,47 +81,23 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">RandomGraphFactory</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.Algorithms.html">QuikGraph.Algorithms</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_Algorithms_RandomGraphFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class RandomGraphFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public static class RandomGraphFactory : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableUndirectedGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__System_Random_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.Create%60%602(QuikGraph.IMutableUndirectedGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexFactory%7B%60%600%7D%2CQuikGraph.EdgeFactory%7B%60%600%2C%60%601%7D%2CSystem.Random%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableUndirectedGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__Random_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.Create%60%602(QuikGraph.IMutableUndirectedGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexFactory%7B%60%600%7D%2CQuikGraph.EdgeFactory%7B%60%600%2C%60%601%7D%2CRandom%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L210">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L224">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_Create_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create*"></a>
-  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableUndirectedGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__System_Random_System_Int32_System_Int32_System_Boolean_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create``2(QuikGraph.IMutableUndirectedGraph{``0,``1},QuikGraph.VertexFactory{``0},QuikGraph.EdgeFactory{``0,``1},System.Random,System.Int32,System.Int32,System.Boolean)">Create&lt;TVertex, TEdge&gt;(IMutableUndirectedGraph&lt;TVertex, TEdge&gt;, VertexFactory&lt;TVertex&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, Random, Int32, Int32, Boolean)</h4>
+  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableUndirectedGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__Random_System_Int32_System_Int32_System_Boolean_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create``2(QuikGraph.IMutableUndirectedGraph{``0,``1},QuikGraph.VertexFactory{``0},QuikGraph.EdgeFactory{``0,``1},Random,System.Int32,System.Int32,System.Boolean)">Create&lt;TVertex, TEdge&gt;(IMutableUndirectedGraph&lt;TVertex, TEdge&gt;, VertexFactory&lt;TVertex&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, Random, Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Fills the given <code data-dev-comment-type="paramref" class="paramref">graph</code> with <code data-dev-comment-type="paramref" class="paramref">vertexCount</code> vertices
 and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edges created randomly between vertices (undirected graph).</p>
 </div>
@@ -160,7 +136,7 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Random</span></td>
+        <td><span class="xref">Random</span></td>
         <td><span class="parametername">rng</span></td>
         <td><p>Random number generator.</p>
 </td>
@@ -208,13 +184,13 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableVertexAndEdgeListGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__System_Random_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.Create%60%602(QuikGraph.IMutableVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexFactory%7B%60%600%7D%2CQuikGraph.EdgeFactory%7B%60%600%2C%60%601%7D%2CSystem.Random%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableVertexAndEdgeListGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__Random_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.Create%60%602(QuikGraph.IMutableVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexFactory%7B%60%600%7D%2CQuikGraph.EdgeFactory%7B%60%600%2C%60%601%7D%2CRandom%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L184">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L186">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_Create_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create*"></a>
-  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableVertexAndEdgeListGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__System_Random_System_Int32_System_Int32_System_Boolean_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create``2(QuikGraph.IMutableVertexAndEdgeListGraph{``0,``1},QuikGraph.VertexFactory{``0},QuikGraph.EdgeFactory{``0,``1},System.Random,System.Int32,System.Int32,System.Boolean)">Create&lt;TVertex, TEdge&gt;(IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexFactory&lt;TVertex&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, Random, Int32, Int32, Boolean)</h4>
+  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableVertexAndEdgeListGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__Random_System_Int32_System_Int32_System_Boolean_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create``2(QuikGraph.IMutableVertexAndEdgeListGraph{``0,``1},QuikGraph.VertexFactory{``0},QuikGraph.EdgeFactory{``0,``1},Random,System.Int32,System.Int32,System.Boolean)">Create&lt;TVertex, TEdge&gt;(IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexFactory&lt;TVertex&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, Random, Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Fills the given <code data-dev-comment-type="paramref" class="paramref">graph</code> with <code data-dev-comment-type="paramref" class="paramref">vertexCount</code> vertices
 and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edges created randomly between vertices (directed graph).</p>
 </div>
@@ -253,7 +229,7 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Random</span></td>
+        <td><span class="xref">Random</span></td>
         <td><span class="parametername">rng</span></td>
         <td><p>Random number generator.</p>
 </td>
@@ -301,13 +277,97 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_QuikGraph_IEdgeSet___0___1__System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetEdge%60%602(QuikGraph.IEdgeSet%7B%60%600%2C%60%601%7D%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_IEnumerable___1__System_Int32_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetEdge%60%602(IEnumerable%7B%60%601%7D%2CSystem.Int32%2CRandom)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L74">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L112">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge*"></a>
-  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_QuikGraph_IEdgeSet___0___1__System_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge``2(QuikGraph.IEdgeSet{``0,``1},System.Random)">GetEdge&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt;, Random)</h4>
+  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_IEnumerable___1__System_Int32_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge``2(IEnumerable{``1},System.Int32,Random)">GetEdge&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Int32, Random)</h4>
+  <div class="markdown level1 summary"><p>Gets a random edge within the given set of <code data-dev-comment-type="paramref" class="paramref">edges</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TEdge GetEdge&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt; edges, int count, Random rng)
+    where TEdge : IEdge&lt;TVertex&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="parametername">edges</span></td>
+        <td><p>Set of edges.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of edges in the set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Random</span></td>
+        <td><span class="parametername">rng</span></td>
+        <td><p>Random number generator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEdge</span></td>
+        <td><p>Chosen vertex.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TVertex</span></td>
+        <td><p>Vertex type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEdge</span></td>
+        <td><p>Edge type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_QuikGraph_IEdgeSet___0___1__Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetEdge%60%602(QuikGraph.IEdgeSet%7B%60%600%2C%60%601%7D%2CRandom)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L86">View Source</a>
+  </span>
+  <a id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge*"></a>
+  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_QuikGraph_IEdgeSet___0___1__Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge``2(QuikGraph.IEdgeSet{``0,``1},Random)">GetEdge&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt;, Random)</h4>
   <div class="markdown level1 summary"><p>Gets a random edge within the given <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -333,7 +393,7 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Random</span></td>
+        <td><span class="xref">Random</span></td>
         <td><span class="parametername">rng</span></td>
         <td><p>Random number generator.</p>
 </td>
@@ -379,20 +439,19 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_System_Collections_Generic_IEnumerable___1__System_Int32_System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetEdge%60%602(System.Collections.Generic.IEnumerable%7B%60%601%7D%2CSystem.Int32%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_IEnumerable___0__System_Int32_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetVertex%60%601(IEnumerable%7B%60%600%7D%2CSystem.Int32%2CRandom)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L96">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L49">View Source</a>
   </span>
-  <a id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge*"></a>
-  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_System_Collections_Generic_IEnumerable___1__System_Int32_System_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge``2(System.Collections.Generic.IEnumerable{``1},System.Int32,System.Random)">GetEdge&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Int32, Random)</h4>
-  <div class="markdown level1 summary"><p>Gets a random edge within the given set of <code data-dev-comment-type="paramref" class="paramref">edges</code>.</p>
+  <a id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex*"></a>
+  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_IEnumerable___0__System_Int32_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex``1(IEnumerable{``0},System.Int32,Random)">GetVertex&lt;TVertex&gt;(IEnumerable&lt;TVertex&gt;, Int32, Random)</h4>
+  <div class="markdown level1 summary"><p>Gets a random vertex within the given set of <code data-dev-comment-type="paramref" class="paramref">vertices</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TEdge GetEdge&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt; edges, int count, Random rng)
-    where TEdge : IEdge&lt;TVertex&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public static TVertex GetVertex&lt;TVertex&gt;(IEnumerable&lt;TVertex&gt; vertices, int count, Random rng)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -405,96 +464,19 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
-        <td><span class="parametername">edges</span></td>
-        <td><p>Set of edges.</p>
+        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="parametername">vertices</span></td>
+        <td><p>Set of vertices.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">count</span></td>
-        <td><p>Number of edges in the set.</p>
+        <td><p>Number of vertices in the set.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Random</span></td>
-        <td><span class="parametername">rng</span></td>
-        <td><p>Random number generator.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TEdge</span></td>
-        <td><p>Chosen vertex.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TVertex</span></td>
-        <td><p>Vertex type.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TEdge</span></td>
-        <td><p>Edge type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_QuikGraph_IVertexSet___0__System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetVertex%60%601(QuikGraph.IVertexSet%7B%60%600%7D%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L19">View Source</a>
-  </span>
-  <a id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex*"></a>
-  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_QuikGraph_IVertexSet___0__System_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex``1(QuikGraph.IVertexSet{``0},System.Random)">GetVertex&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt;, Random)</h4>
-  <div class="markdown level1 summary"><p>Gets a random vertex within the given <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TVertex GetVertex&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt; graph, Random rng)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="QuikGraph.IVertexSet-1.html">IVertexSet</a>&lt;TVertex&gt;</td>
-        <td><span class="parametername">graph</span></td>
-        <td><p>The graph.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Random</span></td>
+        <td><span class="xref">Random</span></td>
         <td><span class="parametername">rng</span></td>
         <td><p>Random number generator.</p>
 </td>
@@ -535,19 +517,19 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetVertex%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Int32%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_QuikGraph_IVertexSet___0__Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetVertex%60%601(QuikGraph.IVertexSet%7B%60%600%7D%2CRandom)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L39">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L25">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex*"></a>
-  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)">GetVertex&lt;TVertex&gt;(IEnumerable&lt;TVertex&gt;, Int32, Random)</h4>
-  <div class="markdown level1 summary"><p>Gets a random vertex within the given set of <code data-dev-comment-type="paramref" class="paramref">vertices</code>.</p>
+  <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_QuikGraph_IVertexSet___0__Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex``1(QuikGraph.IVertexSet{``0},Random)">GetVertex&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt;, Random)</h4>
+  <div class="markdown level1 summary"><p>Gets a random vertex within the given <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TVertex GetVertex&lt;TVertex&gt;(IEnumerable&lt;TVertex&gt; vertices, int count, Random rng)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TVertex GetVertex&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt; graph, Random rng)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -560,19 +542,13 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
-        <td><span class="parametername">vertices</span></td>
-        <td><p>Set of vertices.</p>
+        <td><a class="xref" href="QuikGraph.IVertexSet-1.html">IVertexSet</a>&lt;TVertex&gt;</td>
+        <td><span class="parametername">graph</span></td>
+        <td><p>The graph.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">count</span></td>
-        <td><p>Number of vertices in the set.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Random</span></td>
+        <td><span class="xref">Random</span></td>
         <td><span class="parametername">rng</span></td>
         <td><p>Random number generator.</p>
 </td>
@@ -622,7 +598,7 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
