@@ -9524,23 +9524,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).TreeEdge
   nameWithType: ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.TreeEdge
   nameWithType.vb: ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).TreeEdge
-- uid: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm`2.VertexColors
-  name: VertexColors
-  href: api/QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm-2.html#QuikGraph_Algorithms_Search_ImplicitDepthFirstSearchAlgorithm_2_VertexColors
-  commentId: P:QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm`2.VertexColors
-  fullName: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.VertexColors
-  fullName.vb: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).VertexColors
-  nameWithType: ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.VertexColors
-  nameWithType.vb: ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).VertexColors
-- uid: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm`2.VertexColors*
-  name: VertexColors
-  href: api/QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm-2.html#QuikGraph_Algorithms_Search_ImplicitDepthFirstSearchAlgorithm_2_VertexColors_
-  commentId: Overload:QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm`2.VertexColors
+- uid: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm`2.VerticesColors
+  name: VerticesColors
+  href: api/QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm-2.html#QuikGraph_Algorithms_Search_ImplicitDepthFirstSearchAlgorithm_2_VerticesColors
+  commentId: P:QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm`2.VerticesColors
+  fullName: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.VerticesColors
+  fullName.vb: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).VerticesColors
+  nameWithType: ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.VerticesColors
+  nameWithType.vb: ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).VerticesColors
+- uid: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm`2.VerticesColors*
+  name: VerticesColors
+  href: api/QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm-2.html#QuikGraph_Algorithms_Search_ImplicitDepthFirstSearchAlgorithm_2_VerticesColors_
+  commentId: Overload:QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm`2.VerticesColors
   isSpec: "True"
-  fullName: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.VertexColors
-  fullName.vb: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).VertexColors
-  nameWithType: ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.VertexColors
-  nameWithType.vb: ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).VertexColors
+  fullName: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.VerticesColors
+  fullName.vb: QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).VerticesColors
+  nameWithType: ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge>.VerticesColors
+  nameWithType.vb: ImplicitDepthFirstSearchAlgorithm(Of TVertex, TEdge).VerticesColors
 - uid: QuikGraph.Algorithms.Search.ImplicitEdgeDepthFirstSearchAlgorithm`2
   name: ImplicitEdgeDepthFirstSearchAlgorithm<TVertex, TEdge>
   href: api/QuikGraph.Algorithms.Search.ImplicitEdgeDepthFirstSearchAlgorithm-2.html
