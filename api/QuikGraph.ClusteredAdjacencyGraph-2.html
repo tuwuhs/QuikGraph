@@ -73,7 +73,7 @@
   
   <h1 id="QuikGraph_ClusteredAdjacencyGraph_2" data-uid="QuikGraph.ClusteredAdjacencyGraph`2" class="text-break">Class ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Implementation for a clustered adjacency graph.</p>
+  <div class="markdown level0 summary"><p>Mutable clustered adjacency graph data structure.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -95,11 +95,36 @@
     <div><a class="xref" href="QuikGraph.IImplicitVertexSet-1.html">IImplicitVertexSet</a>&lt;TVertex&gt;</div>
     <div><a class="xref" href="QuikGraph.IClusteredGraph.html">IClusteredGraph</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.html">QuikGraph</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_ClusteredAdjacencyGraph_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; : object, IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, IVertexListGraph&lt;TVertex, TEdge&gt;, IEdgeListAndIncidenceGraph&lt;TVertex, TEdge&gt;, IEdgeListGraph&lt;TVertex, TEdge&gt;, IEdgeSet&lt;TVertex, TEdge&gt;, IVertexSet&lt;TVertex&gt;, IIncidenceGraph&lt;TVertex, TEdge&gt;, IImplicitGraph&lt;TVertex, TEdge&gt;, IGraph&lt;TVertex, TEdge&gt;, IImplicitVertexSet&lt;TVertex&gt;, IClusteredGraph where TEdge : IEdge&lt;TVertex&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; : IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, IVertexListGraph&lt;TVertex, TEdge&gt;, IEdgeListAndIncidenceGraph&lt;TVertex, TEdge&gt;, IEdgeListGraph&lt;TVertex, TEdge&gt;, IEdgeSet&lt;TVertex, TEdge&gt;, IVertexSet&lt;TVertex&gt;, IIncidenceGraph&lt;TVertex, TEdge&gt;, IImplicitGraph&lt;TVertex, TEdge&gt;, IGraph&lt;TVertex, TEdge&gt;, IImplicitVertexSet&lt;TVertex&gt;, IClusteredGraph where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,7 +154,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2__ctor_QuikGraph_AdjacencyGraph__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.%23ctor(QuikGraph.AdjacencyGraph%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L32">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L29">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2__ctor_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.#ctor*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2__ctor_QuikGraph_AdjacencyGraph__0__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.#ctor(QuikGraph.AdjacencyGraph{`0,`1})">ClusteredAdjacencyGraph(AdjacencyGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -163,7 +188,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2__ctor_QuikGraph_ClusteredAdjacencyGraph__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.%23ctor(QuikGraph.ClusteredAdjacencyGraph%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L48">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L41">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2__ctor_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.#ctor*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2__ctor_QuikGraph_ClusteredAdjacencyGraph__0__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.#ctor(QuikGraph.ClusteredAdjacencyGraph{`0,`1})">ClusteredAdjacencyGraph(ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -199,7 +224,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AllowParallelEdges.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AllowParallelEdges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L85">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L87">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_AllowParallelEdges_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AllowParallelEdges*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AllowParallelEdges" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AllowParallelEdges">AllowParallelEdges</h4>
@@ -229,7 +254,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_Clusters.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.Clusters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L98">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L100">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_Clusters_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Clusters*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_Clusters" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Clusters">Clusters</h4>
@@ -250,7 +275,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span></td>
+        <td><span class="xref">System.Collections.IEnumerable</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -260,7 +285,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_ClustersCount.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.ClustersCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L101">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L103">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_ClustersCount_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ClustersCount*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_ClustersCount" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ClustersCount">ClustersCount</h4>
@@ -291,7 +316,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_Collapsed.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.Collapsed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L92">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L94">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_Collapsed_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Collapsed*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_Collapsed" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Collapsed">Collapsed</h4>
@@ -322,7 +347,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_EdgeCapacity.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.EdgeCapacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L262">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L63">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_EdgeCapacity_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.EdgeCapacity*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_EdgeCapacity" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.EdgeCapacity">EdgeCapacity</h4>
@@ -353,7 +378,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_EdgeCount.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.EdgeCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L282">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L158">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_EdgeCount_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.EdgeCount*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_EdgeCount" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.EdgeCount">EdgeCount</h4>
@@ -383,7 +408,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_Edges.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.Edges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L285">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L161">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_Edges_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Edges*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_Edges" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Edges">Edges</h4>
@@ -403,7 +428,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -413,16 +438,16 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_EdgeType.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.EdgeType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L274">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L78">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_EdgeType_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.EdgeType*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_EdgeType" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.EdgeType">EdgeType</h4>
-  <div class="markdown level1 summary"><p>Gives the type of edges.</p>
+  <div class="markdown level1 summary"><p>Gets the type of edges.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Type EdgeType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Type EdgeType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -434,7 +459,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -444,7 +469,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_IsDirected.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.IsDirected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L82">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L84">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_IsDirected_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.IsDirected*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_IsDirected" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.IsDirected">IsDirected</h4>
@@ -474,7 +499,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_IsEdgesEmpty.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.IsEdgesEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L279">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L155">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_IsEdgesEmpty_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.IsEdgesEmpty*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_IsEdgesEmpty" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.IsEdgesEmpty">IsEdgesEmpty</h4>
@@ -504,7 +529,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_IsVerticesEmpty.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.IsVerticesEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L135">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L136">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_IsVerticesEmpty_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.IsVerticesEmpty*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_IsVerticesEmpty" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.IsVerticesEmpty">IsVerticesEmpty</h4>
@@ -534,7 +559,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_Parent.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.Parent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L62">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L51">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_Parent_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Parent*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_Parent" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Parent">Parent</h4>
@@ -565,7 +590,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_VertexCount.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.VertexCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L138">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L139">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_VertexCount_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.VertexCount*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_VertexCount" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.VertexCount">VertexCount</h4>
@@ -592,10 +617,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_VertexType.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.VertexType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L72">View Source</a>
+  </span>
+  <a id="QuikGraph_ClusteredAdjacencyGraph_2_VertexType_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.VertexType*"></a>
+  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_VertexType" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.VertexType">VertexType</h4>
+  <div class="markdown level1 summary"><p>Gets the type of vertices.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type VertexType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_Vertices.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.Vertices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L141">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L142">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_Vertices_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Vertices*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_Vertices" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Vertices">Vertices</h4>
@@ -615,7 +671,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -625,7 +681,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_Wrapped.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.Wrapped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L68">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L57">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_Wrapped_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Wrapped*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_Wrapped" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Wrapped">Wrapped</h4>
@@ -658,7 +714,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddCluster.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddCluster%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L107">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L109">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_AddCluster_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddCluster*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddCluster" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddCluster">AddCluster()</h4>
@@ -690,7 +746,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddEdge__1_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddEdge(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L394">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L370">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_AddEdge_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddEdge*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddEdge__1_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddEdge(`1)">AddEdge(TEdge)</h4>
@@ -737,13 +793,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddEdgeRange_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddEdgeRange(IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddEdgeRange_System_Collections_Generic_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddEdgeRange(System.Collections.Generic.IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L411">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L385">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_AddEdgeRange_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddEdgeRange*"></a>
-  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddEdgeRange_IEnumerable__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddEdgeRange(IEnumerable{`1})">AddEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
+  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddEdgeRange_System_Collections_Generic_IEnumerable__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddEdgeRange(System.Collections.Generic.IEnumerable{`1})">AddEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds a set of edges to this graph.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -762,7 +818,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td><p>Edges to add.</p>
 </td>
@@ -790,7 +846,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddVertex__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddVertex(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L156">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L232">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_AddVertex_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVertex*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddVertex__0_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVertex(`0)">AddVertex(TVertex)</h4>
@@ -837,13 +893,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddVertexRange_IEnumerable__0__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddVertexRange(IEnumerable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddVertexRange_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddVertexRange(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L176">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L251">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_AddVertexRange_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVertexRange*"></a>
-  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddVertexRange_IEnumerable__0__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVertexRange(IEnumerable{`0})">AddVertexRange(IEnumerable&lt;TVertex&gt;)</h4>
+  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddVertexRange_System_Collections_Generic_IEnumerable__0__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVertexRange(System.Collections.Generic.IEnumerable{`0})">AddVertexRange(IEnumerable&lt;TVertex&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds given vertices to this graph.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -862,7 +918,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TVertex&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TVertex&gt;</td>
         <td><span class="parametername">vertices</span></td>
         <td><p>Vertices to add.</p>
 </td>
@@ -890,7 +946,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddVerticesAndEdge__1_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddVerticesAndEdge(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L356">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L332">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_AddVerticesAndEdge_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVerticesAndEdge*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddVerticesAndEdge__1_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVerticesAndEdge(`1)">AddVerticesAndEdge(TEdge)</h4>
@@ -937,13 +993,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddVerticesAndEdgeRange_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddVerticesAndEdgeRange(IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_AddVerticesAndEdgeRange_System_Collections_Generic_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.AddVerticesAndEdgeRange(System.Collections.Generic.IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L372">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L347">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_AddVerticesAndEdgeRange_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVerticesAndEdgeRange*"></a>
-  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddVerticesAndEdgeRange_IEnumerable__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVerticesAndEdgeRange(IEnumerable{`1})">AddVerticesAndEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
+  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_AddVerticesAndEdgeRange_System_Collections_Generic_IEnumerable__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.AddVerticesAndEdgeRange(System.Collections.Generic.IEnumerable{`1})">AddVerticesAndEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds a set of edges (and it's vertices if necessary).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -962,7 +1018,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td><p>Edges to add.</p>
 </td>
@@ -990,7 +1046,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_Clear.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L523">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L492">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_Clear_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Clear*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_Clear" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.Clear">Clear()</h4>
@@ -1006,11 +1062,11 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_ClearOutEdges__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.ClearOutEdges(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L511">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L481">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_ClearOutEdges_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ClearOutEdges*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_ClearOutEdges__0_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ClearOutEdges(`0)">ClearOutEdges(TVertex)</h4>
-  <div class="markdown level1 summary"><p>Trims the out-edges of the given <code data-dev-comment-type="paramref" class="paramref">vertex</code></p>
+  <div class="markdown level1 summary"><p>Clears the out-edges of the given <code data-dev-comment-type="paramref" class="paramref">vertex</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1040,7 +1096,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_ContainsEdge__0__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.ContainsEdge(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L298">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L174">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_ContainsEdge_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ContainsEdge*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_ContainsEdge__0__0_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ContainsEdge(`0,`0)">ContainsEdge(TVertex, TVertex)</h4>
@@ -1092,7 +1148,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_ContainsEdge__1_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.ContainsEdge(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L288">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L164">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_ContainsEdge_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ContainsEdge*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_ContainsEdge__1_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ContainsEdge(`1)">ContainsEdge(TEdge)</h4>
@@ -1139,7 +1195,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_ContainsVertex__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.ContainsVertex(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L144">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L145">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_ContainsVertex_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ContainsVertex*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_ContainsVertex__0_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.ContainsVertex(`0)">ContainsVertex(TVertex)</h4>
@@ -1186,7 +1242,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_IsOutEdgesEmpty__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.IsOutEdgesEmpty(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L320">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L196">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_IsOutEdgesEmpty_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.IsOutEdgesEmpty*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_IsOutEdgesEmpty__0_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.IsOutEdgesEmpty(`0)">IsOutEdgesEmpty(TVertex)</h4>
@@ -1233,7 +1289,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_OutDegree__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.OutDegree(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L326">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L202">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_OutDegree_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.OutDegree*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_OutDegree__0_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.OutDegree(`0)">OutDegree(TVertex)</h4>
@@ -1280,7 +1336,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_OutEdge__0_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.OutEdge(%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L344">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L220">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_OutEdge_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.OutEdge*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_OutEdge__0_System_Int32_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.OutEdge(`0,System.Int32)">OutEdge(TVertex, Int32)</h4>
@@ -1332,7 +1388,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_OutEdges__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.OutEdges(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L332">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L208">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_OutEdges_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.OutEdges*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_OutEdges__0_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.OutEdges(`0)">OutEdges(TVertex)</h4>
@@ -1369,7 +1425,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1379,7 +1435,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_RemoveCluster_QuikGraph_IClusteredGraph_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.RemoveCluster(QuikGraph.IClusteredGraph)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L121">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L123">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveCluster_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveCluster*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveCluster_QuikGraph_IClusteredGraph_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveCluster(QuikGraph.IClusteredGraph)">RemoveCluster(IClusteredGraph)</h4>
@@ -1413,7 +1469,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_RemoveEdge__1_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.RemoveEdge(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L450">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L422">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveEdge_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveEdge*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveEdge__1_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveEdge(`1)">RemoveEdge(TEdge)</h4>
@@ -1463,7 +1519,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_RemoveEdgeIf_QuikGraph_EdgePredicate__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.RemoveEdgeIf(QuikGraph.EdgePredicate%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L471">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L442">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveEdgeIf_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveEdgeIf*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveEdgeIf_QuikGraph_EdgePredicate__0__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveEdgeIf(QuikGraph.EdgePredicate{`0,`1})">RemoveEdgeIf(EdgePredicate&lt;TVertex, TEdge&gt;)</h4>
@@ -1513,7 +1569,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_RemoveOutEdgeIf__0_QuikGraph_EdgePredicate__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.RemoveOutEdgeIf(%600%2CQuikGraph.EdgePredicate%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L494">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L464">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveOutEdgeIf_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveOutEdgeIf*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveOutEdgeIf__0_QuikGraph_EdgePredicate__0__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveOutEdgeIf(`0,QuikGraph.EdgePredicate{`0,`1})">RemoveOutEdgeIf(TVertex, EdgePredicate&lt;TVertex, TEdge&gt;)</h4>
@@ -1570,7 +1626,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_RemoveVertex__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.RemoveVertex(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L219">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L292">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveVertex_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveVertex*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveVertex__0_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveVertex(`0)">RemoveVertex(TVertex)</h4>
@@ -1620,7 +1676,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_RemoveVertexIf_QuikGraph_VertexPredicate__0__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.RemoveVertexIf(QuikGraph.VertexPredicate%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L240">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L312">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveVertexIf_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveVertexIf*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_RemoveVertexIf_QuikGraph_VertexPredicate__0__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.RemoveVertexIf(QuikGraph.VertexPredicate{`0})">RemoveVertexIf(VertexPredicate&lt;TVertex&gt;)</h4>
@@ -1670,7 +1726,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_TryGetEdge__0__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.TryGetEdge(%600%2C%600%2C%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L304">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L180">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_TryGetEdge_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.TryGetEdge*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_TryGetEdge__0__0__1__" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.TryGetEdge(`0,`0,`1@)">TryGetEdge(TVertex, TVertex, out TEdge)</h4>
@@ -1724,13 +1780,13 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_TryGetEdges__0__0_IEnumerable__1___.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.TryGetEdges(%600%2C%600%2CIEnumerable%7B%601%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_TryGetEdges__0__0_System_Collections_Generic_IEnumerable__1___.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.TryGetEdges(%600%2C%600%2CSystem.Collections.Generic.IEnumerable%7B%601%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L310">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L186">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_TryGetEdges_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.TryGetEdges*"></a>
-  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_TryGetEdges__0__0_IEnumerable__1___" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.TryGetEdges(`0,`0,IEnumerable{`1}@)">TryGetEdges(TVertex, TVertex, out IEnumerable&lt;TEdge&gt;)</h4>
+  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_TryGetEdges__0__0_System_Collections_Generic_IEnumerable__1___" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.TryGetEdges(`0,`0,System.Collections.Generic.IEnumerable{`1}@)">TryGetEdges(TVertex, TVertex, out IEnumerable&lt;TEdge&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1758,7 +1814,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td></td>
       </tr>
@@ -1781,13 +1837,13 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_TryGetOutEdges__0_IEnumerable__1___.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.TryGetOutEdges(%600%2CIEnumerable%7B%601%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_TryGetOutEdges__0_System_Collections_Generic_IEnumerable__1___.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.TryGetOutEdges(%600%2CSystem.Collections.Generic.IEnumerable%7B%601%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L338">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L214">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_TryGetOutEdges_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.TryGetOutEdges*"></a>
-  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_TryGetOutEdges__0_IEnumerable__1___" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.TryGetOutEdges(`0,IEnumerable{`1}@)">TryGetOutEdges(TVertex, out IEnumerable&lt;TEdge&gt;)</h4>
+  <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_TryGetOutEdges__0_System_Collections_Generic_IEnumerable__1___" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.TryGetOutEdges(`0,System.Collections.Generic.IEnumerable{`1}@)">TryGetOutEdges(TVertex, out IEnumerable&lt;TEdge&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1810,7 +1866,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td></td>
       </tr>
@@ -1838,7 +1894,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2_QuikGraph_IClusteredGraph_AddCluster.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602.QuikGraph%23IClusteredGraph%23AddCluster%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L115">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L117">View Source</a>
   </span>
   <a id="QuikGraph_ClusteredAdjacencyGraph_2_QuikGraph_IClusteredGraph_AddCluster_" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.QuikGraph#IClusteredGraph#AddCluster*"></a>
   <h4 id="QuikGraph_ClusteredAdjacencyGraph_2_QuikGraph_IClusteredGraph_AddCluster" data-uid="QuikGraph.ClusteredAdjacencyGraph`2.QuikGraph#IClusteredGraph#AddCluster">IClusteredGraph.AddCluster()</h4>
@@ -1901,10 +1957,133 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToArrayAdjacencyGraph__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">GraphExtensions.ToArrayAdjacencyGraph&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToBidirectionalGraph__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">GraphExtensions.ToBidirectionalGraph&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToCompressedRowGraph__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">GraphExtensions.ToCompressedRowGraph&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_GetVertexIdentity__1_QuikGraph_IVertexSet___0__">AlgorithmExtensions.GetVertexIdentity&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_GetEdgeIdentity__2_QuikGraph_IEdgeSet___0___1__">AlgorithmExtensions.GetEdgeIdentity&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeBreadthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeBreadthFirstSearch&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeDepthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeDepthFirstSearch&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_">AlgorithmExtensions.TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_QuikGraph_Algorithms_RandomWalks_IMarkovEdgeChain___0___1__">AlgorithmExtensions.TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex, IMarkovEdgeChain&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_">AlgorithmExtensions.ShortestPathsDijkstra&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsAStar__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double__System_Func___0_System_Double____0_">AlgorithmExtensions.ShortestPathsAStar&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, Func&lt;TVertex, Double&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsBellmanFord__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_">AlgorithmExtensions.ShortestPathsBellmanFord&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDag__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_">AlgorithmExtensions.ShortestPathsDag&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_Sinks__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.Sinks&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_Roots__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.Roots&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.TopologicalSort&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IList___0__">AlgorithmExtensions.TopologicalSort&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IList&lt;TVertex&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">AlgorithmExtensions.SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Collections_Generic_IList___0__">AlgorithmExtensions.SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, IList&lt;TVertex&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_StronglyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__">AlgorithmExtensions.StronglyConnectedComponents&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_WeaklyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__">AlgorithmExtensions.WeaklyConnectedComponents&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_CondensateStronglyConnected__3_QuikGraph_IVertexAndEdgeListGraph___0___1__">AlgorithmExtensions.CondensateStronglyConnected&lt;TVertex, TEdge, TGraph&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_CondensateWeaklyConnected__3_QuikGraph_IVertexAndEdgeListGraph___0___1__">AlgorithmExtensions.CondensateWeaklyConnected&lt;TVertex, TEdge, TGraph&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_OddVertices__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">AlgorithmExtensions.OddVertices&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_IsDirectedAcyclicGraph__2_QuikGraph_IVertexListGraph___0___1__">AlgorithmExtensions.IsDirectedAcyclicGraph&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_OfflineLeastCommonAncestor__2_QuikGraph_IVertexListGraph___0___1____0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge___0___">AlgorithmExtensions.OfflineLeastCommonAncestor&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex, IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_Clone__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___0___0__System_Func___1___0___0___1__QuikGraph_IMutableVertexAndEdgeSet___0___1__">AlgorithmExtensions.Clone&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TVertex, TVertex&gt;, Func&lt;TEdge, TVertex, TVertex, TEdge&gt;, IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__">DirectedGraphMLExtensions.ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___0_QuikGraph_GraphColor__">DirectedGraphMLExtensions.ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TVertex, GraphColor&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">DirectedGraphMLExtensions.ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_Action___0_QuikGraph_Serialization_DirectedGraphML_DirectedGraphNode__System_Action___1_QuikGraph_Serialization_DirectedGraphML_DirectedGraphLink__">DirectedGraphMLExtensions.ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, Action&lt;TVertex, DirectedGraphNode&gt;, Action&lt;TEdge, DirectedGraphLink&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLExtensions.html#QuikGraph_Serialization_DirectedGraphMLExtensions_OpenAsDGML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_String_">DirectedGraphMLExtensions.OpenAsDGML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToBinary__2_QuikGraph_IGraph___0___1__System_IO_Stream_">SerializationExtensions.SerializeToBinary&lt;TVertex, TEdge&gt;(IGraph&lt;TVertex, TEdge&gt;, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>
@@ -1917,7 +2096,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ClusteredAdjacencyGraph_2.md&amp;value=---%0Auid%3A%20QuikGraph.ClusteredAdjacencyGraph%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/ClusteredAdjacencyGraph.cs/#L21" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ClusteredAdjacencyGraph.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

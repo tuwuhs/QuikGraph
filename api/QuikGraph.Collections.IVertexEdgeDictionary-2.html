@@ -76,11 +76,65 @@
   <div class="markdown level0 summary"><p>A cloneable dictionary of vertices associated to their edges.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;.Add(TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;.ContainsKey(TVertex)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;.Remove(TVertex)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;.TryGetValue(TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;.Item[TVertex]</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;.Keys</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;.Values</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;.Add(System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;.Clear()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;.Contains(System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;.CopyTo(System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;[], System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;.Remove(System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;.Count</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;.IsReadOnly</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TVertex, QuikGraph.Collections.IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.IEnumerable.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.Collections.html">QuikGraph.Collections</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_Collections_IVertexEdgeDictionary_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IVertexEdgeDictionary&lt;TVertex, TEdge&gt; : IDictionary&lt;TVertex, IEdgeList&lt;TVertex, TEdge&gt;&gt; where TEdge : IEdge&lt;TVertex&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IVertexEdgeDictionary&lt;TVertex, TEdge&gt; : IDictionary&lt;TVertex, IEdgeList&lt;TVertex, TEdge&gt;&gt;, ICollection&lt;KeyValuePair&lt;TVertex, IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;TVertex, IEdgeList&lt;TVertex, TEdge&gt;&gt;&gt;, IEnumerable, ICloneable, ISerializable where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,7 +164,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_IVertexEdgeDictionary_2_Clone.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.IVertexEdgeDictionary%602.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Collections/IVertexEdgeDictionary.cs/#L39">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Collections/IVertexEdgeDictionary.cs/#L30">View Source</a>
   </span>
   <a id="QuikGraph_Collections_IVertexEdgeDictionary_2_Clone_" data-uid="QuikGraph.Collections.IVertexEdgeDictionary`2.Clone*"></a>
   <h4 id="QuikGraph_Collections_IVertexEdgeDictionary_2_Clone" data-uid="QuikGraph.Collections.IVertexEdgeDictionary`2.Clone">Clone()</h4>
@@ -139,10 +193,76 @@
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_IsPath__2_System_Collections_Generic_IEnumerable___1__">EdgeExtensions.IsPath&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_HasCycles__2_System_Collections_Generic_IEnumerable___1__">EdgeExtensions.HasCycles&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_IsPathWithoutCycles__2_System_Collections_Generic_IEnumerable___1__">EdgeExtensions.IsPathWithoutCycles&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateVertexAndEdgeListGraph__3_System_Collections_Generic_IDictionary___0___2__">GraphExtensions.ToDelegateVertexAndEdgeListGraph&lt;TVertex, TEdge, TEdges&gt;(IDictionary&lt;TVertex, TEdges&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateVertexAndEdgeListGraph__3_System_Collections_Generic_IDictionary___0___2__System_Converter_System_Collections_Generic_KeyValuePair___0___2__System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateVertexAndEdgeListGraph&lt;TVertex, TEdge, TValue&gt;(IDictionary&lt;TVertex, TValue&gt;, Converter&lt;KeyValuePair&lt;TVertex, TValue&gt;, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateVertexAndEdgeListGraph__2_System_Collections_Generic_IEnumerable___0__QuikGraph_TryFunc___0_System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateVertexAndEdgeListGraph__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateUndirectedGraph__2_System_Collections_Generic_IEnumerable___0__QuikGraph_TryFunc___0_System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateUndirectedGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToDelegateUndirectedGraph__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___">GraphExtensions.ToDelegateUndirectedGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToAdjacencyGraph__2_System_Collections_Generic_IEnumerable___1__System_Boolean_">GraphExtensions.ToAdjacencyGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToAdjacencyGraph__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___System_Boolean_">GraphExtensions.ToAdjacencyGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToBidirectionalGraph__2_System_Collections_Generic_IEnumerable___1__System_Boolean_">GraphExtensions.ToBidirectionalGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToBidirectionalGraph__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___System_Boolean_">GraphExtensions.ToBidirectionalGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TVertex&gt;, Func&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.GraphExtensions.html#QuikGraph_GraphExtensions_ToUndirectedGraph__2_System_Collections_Generic_IEnumerable___1__System_Boolean_">GraphExtensions.ToUndirectedGraph&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>
@@ -155,7 +275,7 @@
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_IVertexEdgeDictionary_2.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.IVertexEdgeDictionary%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Collections/IVertexEdgeDictionary.cs/#L23" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Collections/IVertexEdgeDictionary.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

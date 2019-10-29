@@ -86,7 +86,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="QuikGraph.ITermEdge-1.html">ITermEdge</a>&lt;TVertex&gt;</div>
     <div><a class="xref" href="QuikGraph.IEdge-1.html">IEdge</a>&lt;TVertex&gt;</div>
-    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="QuikGraph.EquatableTermEdge-1.html">EquatableTermEdge</a>&lt;TVertex&gt;&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="QuikGraph.EquatableTermEdge-1.html">EquatableTermEdge</a>&lt;TVertex&gt;&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,12 +105,25 @@
     <div>
       <a class="xref" href="QuikGraph.TermEdge-1.html#QuikGraph_TermEdge_1_ToString">TermEdge&lt;TVertex&gt;.ToString()</a>
     </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.html">QuikGraph</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_EquatableTermEdge_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EquatableTermEdge&lt;TVertex&gt; : TermEdge&lt;TVertex&gt;, ITermEdge&lt;TVertex&gt;, IEdge&lt;TVertex&gt;, IEquatable&lt;EquatableTermEdge&lt;TVertex&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class EquatableTermEdge&lt;TVertex&gt; : TermEdge&lt;TVertex&gt;, ITermEdge&lt;TVertex&gt;, IEdge&lt;TVertex&gt;, IEquatable&lt;EquatableTermEdge&lt;TVertex&gt;&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,7 +148,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EquatableTermEdge_1__ctor__0__0_.md&amp;value=---%0Auid%3A%20QuikGraph.EquatableTermEdge%601.%23ctor(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Edges/EquatableTermEdge.cs/#L36">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/EquatableTermEdge.cs/#L23">View Source</a>
   </span>
   <a id="QuikGraph_EquatableTermEdge_1__ctor_" data-uid="QuikGraph.EquatableTermEdge`1.#ctor*"></a>
   <h4 id="QuikGraph_EquatableTermEdge_1__ctor__0__0_" data-uid="QuikGraph.EquatableTermEdge`1.#ctor(`0,`0)">EquatableTermEdge(TVertex, TVertex)</h4>
@@ -176,7 +189,7 @@ using source/target vertices and zero terminals.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EquatableTermEdge_1__ctor__0__0_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.EquatableTermEdge%601.%23ctor(%600%2C%600%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Edges/EquatableTermEdge.cs/#L25">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/EquatableTermEdge.cs/#L36">View Source</a>
   </span>
   <a id="QuikGraph_EquatableTermEdge_1__ctor_" data-uid="QuikGraph.EquatableTermEdge`1.#ctor*"></a>
   <h4 id="QuikGraph_EquatableTermEdge_1__ctor__0__0_System_Int32_System_Int32_" data-uid="QuikGraph.EquatableTermEdge`1.#ctor(`0,`0,System.Int32,System.Int32)">EquatableTermEdge(TVertex, TVertex, Int32, Int32)</h4>
@@ -231,7 +244,7 @@ using source/target vertices and source/target terminals.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EquatableTermEdge_1_Equals_QuikGraph_EquatableTermEdge__0__.md&amp;value=---%0Auid%3A%20QuikGraph.EquatableTermEdge%601.Equals(QuikGraph.EquatableTermEdge%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Edges/EquatableTermEdge.cs/#L42">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/EquatableTermEdge.cs/#L42">View Source</a>
   </span>
   <a id="QuikGraph_EquatableTermEdge_1_Equals_" data-uid="QuikGraph.EquatableTermEdge`1.Equals*"></a>
   <h4 id="QuikGraph_EquatableTermEdge_1_Equals_QuikGraph_EquatableTermEdge__0__" data-uid="QuikGraph.EquatableTermEdge`1.Equals(QuikGraph.EquatableTermEdge{`0})">Equals(EquatableTermEdge&lt;TVertex&gt;)</h4>
@@ -278,7 +291,7 @@ using source/target vertices and source/target terminals.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EquatableTermEdge_1_Equals_System_Object_.md&amp;value=---%0Auid%3A%20QuikGraph.EquatableTermEdge%601.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Edges/EquatableTermEdge.cs/#L53">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/EquatableTermEdge.cs/#L53">View Source</a>
   </span>
   <a id="QuikGraph_EquatableTermEdge_1_Equals_" data-uid="QuikGraph.EquatableTermEdge`1.Equals*"></a>
   <h4 id="QuikGraph_EquatableTermEdge_1_Equals_System_Object_" data-uid="QuikGraph.EquatableTermEdge`1.Equals(System.Object)">Equals(Object)</h4>
@@ -320,12 +333,14 @@ using source/target vertices and source/target terminals.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EquatableTermEdge_1_GetHashCode.md&amp;value=---%0Auid%3A%20QuikGraph.EquatableTermEdge%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Edges/EquatableTermEdge.cs/#L59">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/EquatableTermEdge.cs/#L59">View Source</a>
   </span>
   <a id="QuikGraph_EquatableTermEdge_1_GetHashCode_" data-uid="QuikGraph.EquatableTermEdge`1.GetHashCode*"></a>
   <h4 id="QuikGraph_EquatableTermEdge_1_GetHashCode" data-uid="QuikGraph.EquatableTermEdge`1.GetHashCode">GetHashCode()</h4>
@@ -350,6 +365,8 @@ using source/target vertices and source/target terminals.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="QuikGraph.ITermEdge-1.html">ITermEdge&lt;TVertex&gt;</a>
@@ -358,14 +375,56 @@ using source/target vertices and source/target terminals.</p>
       <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a>
   </div>
   <div>
-      <span class="xref">IEquatable&lt;&gt;</span>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_IsSelfEdge__1_QuikGraph_IEdge___0__">EdgeExtensions.IsSelfEdge&lt;TVertex&gt;(IEdge&lt;TVertex&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_GetOtherVertex__1_QuikGraph_IEdge___0____0_">EdgeExtensions.GetOtherVertex&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_IsAdjacent__1_QuikGraph_IEdge___0____0_">EdgeExtensions.IsAdjacent&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_ToVertexPair__1_QuikGraph_IEdge___0__">EdgeExtensions.ToVertexPair&lt;TVertex&gt;(IEdge&lt;TVertex&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_UndirectedVertexEquality__1_QuikGraph_IEdge___0____0___0_">EdgeExtensions.UndirectedVertexEquality&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_SortedVertexEquality__1_QuikGraph_IEdge___0____0___0_">EdgeExtensions.SortedVertexEquality&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex, TVertex)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>
@@ -378,7 +437,7 @@ using source/target vertices and source/target terminals.</p>
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EquatableTermEdge_1.md&amp;value=---%0Auid%3A%20QuikGraph.EquatableTermEdge%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Edges/EquatableTermEdge.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/EquatableTermEdge.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -78,59 +78,52 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="QuikGraph.AdjacencyGraph-2.html">AdjacencyGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for a mutable directed graph data structure efficient for sparse
-graph representation where out-edge need to be enumerated only.</p>
+      <section><p>Mutable directed graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.ArrayAdjacencyGraph-2.html">ArrayAdjacencyGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for an immutable directed graph data structure efficient for large sparse
-graph representation where out-edge need to be enumerated only.</p>
+      <section><p>Immutable directed graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.ArrayBidirectionalGraph-2.html">ArrayBidirectionalGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for an immutable bidirectional directed graph data structure for large sparse
-graph representation where out-edge need to be enumerated only.</p>
+      <section><p>Immutable bidirectional directed graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.ArrayUndirectedGraph-2.html">ArrayUndirectedGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for an immutable undirected graph data structure based on arrays.</p>
+      <section><p>Immutable undirected graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.BidirectionalAdapterGraph-2.html">BidirectionalAdapterGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation that wraps a bidirectional graph.
-Vertex list graph for out-edges only and dictionary cache for in-edges.</p>
+      <section><p>Wrapper of a graph adapting it to become bidirectional.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.BidirectionalGraph-2.html">BidirectionalGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for a mutable directed graph data structure efficient for sparse
-graph representation where out-edge and in-edges need to be enumerated. Requires
-twice as much memory as the adjacency graph.</p>
+      <section><p>Mutable directed graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.BidirectionalMatrixGraph-1.html">BidirectionalMatrixGraph&lt;TEdge&gt;</a></h4>
-      <section><p>Implementation for a bidirectional graph data structure based on a matrix.</p>
+      <section><p>Mutable bidirectional graph data structure based on a matrix.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.ClusteredAdjacencyGraph-2.html">ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for a clustered adjacency graph.</p>
+      <section><p>Mutable clustered adjacency graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.CompressedSparseRowGraph-1.html">CompressedSparseRowGraph&lt;TVertex&gt;</a></h4>
-      <section><p>Directed graph representation using a compressed sparse row representation.
+      <section><p>Directed graph data structure using a compressed sparse row representation.
 (<a href="http://www.cs.utk.edu/%7Edongarra/etemplates/node373.html">http://www.cs.utk.edu/~dongarra/etemplates/node373.html</a>)</p>
 </section>
       <h4><a class="xref" href="QuikGraph.DelegateBidirectionalIncidenceGraph-2.html">DelegateBidirectionalIncidenceGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>A delegate-based bidirectional implicit graph.</p>
+      <section><p>A delegate-based directed bidirectional graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.DelegateImplicitGraph-2.html">DelegateImplicitGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>A delegate-based implicit graph.</p>
+      <section><p>A delegate-based directed implicit graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.DelegateImplicitUndirectedGraph-2.html">DelegateImplicitUndirectedGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>A delegate-based implicit undirected graph.</p>
+      <section><p>A delegate-based undirected implicit graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.DelegateIncidenceGraph-2.html">DelegateIncidenceGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>A delegate-based incidence graph.</p>
+      <section><p>A delegate-based directed incidence graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.DelegateUndirectedGraph-2.html">DelegateUndirectedGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>A delegate-based implicit undirected graph.</p>
+      <section><p>A delegate-based undirected graph data structure.
+This graph is vertex immutable.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.DelegateVertexAndEdgeListGraph-2.html">DelegateVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>A delegate-based incidence graph.</p>
-</section>
-      <h4><a class="xref" href="QuikGraph.DoubleEqualityComparer.html">DoubleEqualityComparer</a></h4>
-      <section><p>IEqualityComparer for doubles with user-specified tolerance.</p>
+      <section><p>A delegate-based directed graph data structure.
+This graph is vertex immutable.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.Edge-1.html">Edge&lt;TVertex&gt;</a></h4>
       <section><p>The default <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> implementation.</p>
@@ -142,19 +135,22 @@ twice as much memory as the adjacency graph.</p>
       <section><p>Extensions related to graph edges.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.EdgeListGraph-2.html">EdgeListGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for a edge list graph.</p>
+      <section><p>Mutable edge list graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.EquatableEdge-1.html">EquatableEdge&lt;TVertex&gt;</a></h4>
       <section><p>An <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> implementation that supports equality.</p>
 </section>
+      <h4><a class="xref" href="QuikGraph.EquatableTaggedEdge-2.html">EquatableTaggedEdge&lt;TVertex, TTag&gt;</a></h4>
+      <section><p>The default implementation of an <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> that supports tagging and is equatable.</p>
+</section>
       <h4><a class="xref" href="QuikGraph.EquatableTermEdge-1.html">EquatableTermEdge&lt;TVertex&gt;</a></h4>
       <section><p>An <a class="xref" href="QuikGraph.ITermEdge-1.html">ITermEdge&lt;TVertex&gt;</a> implementation that supports equality.</p>
 </section>
+      <h4><a class="xref" href="QuikGraph.EquatableUndirectedEdge-1.html">EquatableUndirectedEdge&lt;TVertex&gt;</a></h4>
+      <section><p>The default struct based <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a> implementation.</p>
+</section>
       <h4><a class="xref" href="QuikGraph.EquateGraphs.html">EquateGraphs</a></h4>
       <section><p>Equality helpers for graphs.</p>
-</section>
-      <h4><a class="xref" href="QuikGraph.FloatEqualityComparer.html">FloatEqualityComparer</a></h4>
-      <section><p>IEqualityComparer for floats with user-specified tolerance.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.GraphExtensions.html">GraphExtensions</a></h4>
       <section><p>Extensions for populating graph data structures.</p>
@@ -180,29 +176,20 @@ twice as much memory as the adjacency graph.</p>
       <h4><a class="xref" href="QuikGraph.QuikGraphException.html">QuikGraphException</a></h4>
       <section><p>QuikGraph base exception.</p>
 </section>
-      <h4><a class="xref" href="QuikGraph.ReferenceEqualityComparer-1.html">ReferenceEqualityComparer&lt;T&gt;</a></h4>
-      <section><p>EqualityComparer that uses <see cref="!:object.ReferenceEquals"></see> to compare items.</p>
-</section>
       <h4><a class="xref" href="QuikGraph.ReversedBidirectionalGraph-2.html">ReversedBidirectionalGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for a reversed bidirectional graph.</p>
+      <section><p>Mutable reversed bidirectional graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.TaggedEdge-2.html">TaggedEdge&lt;TVertex, TTag&gt;</a></h4>
       <section><p>The default implementation of an <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> that supports tagging.</p>
 </section>
-      <h4><a class="xref" href="QuikGraph.TaggedEquatableEdge-2.html">TaggedEquatableEdge&lt;TVertex, TTag&gt;</a></h4>
-      <section><p>The default implementation of an <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> that supports tagging and is equatable.</p>
-</section>
       <h4><a class="xref" href="QuikGraph.TaggedUndirectedEdge-2.html">TaggedUndirectedEdge&lt;TVertex, TTag&gt;</a></h4>
       <section><p>The default implementation of an <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a> that supports tagging.</p>
-</section>
-      <h4><a class="xref" href="QuikGraph.TermBidirectionalGraph-2.html">TermBidirectionalGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for a bidirectional terminal graph.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.TermEdge-1.html">TermEdge&lt;TVertex&gt;</a></h4>
       <section><p>The default <a class="xref" href="QuikGraph.ITermEdge-1.html">ITermEdge&lt;TVertex&gt;</a> implementation.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.UndirectedBidirectionalGraph-2.html">UndirectedBidirectionalGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for a bidirectional undirected graph.</p>
+      <section><p>Mutable bidirectional undirected graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.UndirectedEdge-1.html">UndirectedEdge&lt;TVertex&gt;</a></h4>
       <section><p>The default <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a> implementation.</p>
@@ -211,36 +198,27 @@ twice as much memory as the adjacency graph.</p>
       <section><p>Base class for arguments of an event related to an undirected edge.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.UndirectedGraph-2.html">UndirectedGraph&lt;TVertex, TEdge&gt;</a></h4>
-      <section><p>Implementation for an undirected graph.</p>
+      <section><p>Mutable undirected graph data structure.</p>
 </section>
       <h4><a class="xref" href="QuikGraph.VertexEventArgs-1.html">VertexEventArgs&lt;TVertex&gt;</a></h4>
       <section><p>Base class for arguments of an event related to a vertex.</p>
 </section>
+      <h4><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></h4>
+      <section><p>Exception raised when trying to use a vertex that is not inside the manipulated graph.</p>
+</section>
     <h3 id="structs">Structs
   </h3>
       <h4><a class="xref" href="QuikGraph.SEdge-1.html">SEdge&lt;TVertex&gt;</a></h4>
-      <section><p>The default struct based <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> implementation.</p>
+      <section><p>The default struct based <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> implementation (it is by design an equatable edge).</p>
 </section>
       <h4><a class="xref" href="QuikGraph.SEquatableEdge-1.html">SEquatableEdge&lt;TVertex&gt;</a></h4>
       <section><p>A struct based <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> implementation that supports equality.</p>
 </section>
-      <h4><a class="xref" href="QuikGraph.SEquatableUndirectedEdge-1.html">SEquatableUndirectedEdge&lt;TVertex&gt;</a></h4>
-      <section><p>The default struct based <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a> implementation.</p>
-</section>
       <h4><a class="xref" href="QuikGraph.SReversedEdge-2.html">SReversedEdge&lt;TVertex, TEdge&gt;</a></h4>
       <section><p>The default struct based reversed <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> implementation.</p>
 </section>
-      <h4><a class="xref" href="QuikGraph.STaggedEdge-2.html">STaggedEdge&lt;TVertex, TTag&gt;</a></h4>
-      <section><p>A struct based <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> implementation that supports tagging.</p>
-</section>
-      <h4><a class="xref" href="QuikGraph.STaggedEquatableEdge-2.html">STaggedEquatableEdge&lt;TVertex, TTag&gt;</a></h4>
-      <section><p>A struct based <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a> implementation that supports tagging and is equatable.</p>
-</section>
       <h4><a class="xref" href="QuikGraph.SUndirectedEdge-1.html">SUndirectedEdge&lt;TVertex&gt;</a></h4>
-      <section><p>A struct based <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a> implementation.</p>
-</section>
-      <h4><a class="xref" href="QuikGraph.SUndirectedTaggedEdge-2.html">SUndirectedTaggedEdge&lt;TVertex, TTag&gt;</a></h4>
-      <section><p>A struct based <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a> implementation that supports tagging.</p>
+      <section><p>A struct based <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a> implementation (it is by design an equatable edge).</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>

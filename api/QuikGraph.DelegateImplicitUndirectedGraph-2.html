@@ -73,7 +73,7 @@
   
   <h1 id="QuikGraph_DelegateImplicitUndirectedGraph_2" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2" class="text-break">Class DelegateImplicitUndirectedGraph&lt;TVertex, TEdge&gt;
   </h1>
-  <div class="markdown level0 summary"><p>A delegate-based implicit undirected graph.</p>
+  <div class="markdown level0 summary"><p>A delegate-based undirected implicit graph data structure.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -88,11 +88,36 @@
     <div><a class="xref" href="QuikGraph.IImplicitVertexSet-1.html">IImplicitVertexSet</a>&lt;TVertex&gt;</div>
     <div><a class="xref" href="QuikGraph.IGraph-2.html">IGraph</a>&lt;TVertex, TEdge&gt;</div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.html">QuikGraph</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_DelegateImplicitUndirectedGraph_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DelegateImplicitUndirectedGraph&lt;TVertex, TEdge&gt; : object, IImplicitUndirectedGraph&lt;TVertex, TEdge&gt;, IImplicitVertexSet&lt;TVertex&gt;, IGraph&lt;TVertex, TEdge&gt; where TEdge : IEdge&lt;TVertex&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class DelegateImplicitUndirectedGraph&lt;TVertex, TEdge&gt; : IImplicitUndirectedGraph&lt;TVertex, TEdge&gt;, IImplicitVertexSet&lt;TVertex&gt;, IGraph&lt;TVertex, TEdge&gt; where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,19 +144,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2__ctor_QuikGraph_TryFunc__0_IEnumerable__1___System_Boolean_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.%23ctor(QuikGraph.TryFunc%7B%600%2CIEnumerable%7B%601%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2__ctor_QuikGraph_TryFunc__0_System_Collections_Generic_IEnumerable__1___System_Boolean_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.%23ctor(QuikGraph.TryFunc%7B%600%2CSystem.Collections.Generic.IEnumerable%7B%601%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L29">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L28">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2__ctor_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.#ctor*"></a>
-  <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2__ctor_QuikGraph_TryFunc__0_IEnumerable__1___System_Boolean_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.#ctor(QuikGraph.TryFunc{`0,IEnumerable{`1}},System.Boolean)">DelegateImplicitUndirectedGraph(TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;, Boolean)</h4>
+  <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2__ctor_QuikGraph_TryFunc__0_System_Collections_Generic_IEnumerable__1___System_Boolean_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.#ctor(QuikGraph.TryFunc{`0,System.Collections.Generic.IEnumerable{`1}},System.Boolean)">DelegateImplicitUndirectedGraph(TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.DelegateImplicitUndirectedGraph-2.html">DelegateImplicitUndirectedGraph&lt;TVertex, TEdge&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DelegateImplicitUndirectedGraph(TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetAdjacentEdges, bool allowParallelEdges)</code></pre>
+    <pre><code class="lang-csharp hljs">public DelegateImplicitUndirectedGraph(TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetAdjacentEdges, bool allowParallelEdges = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,7 +169,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="QuikGraph.TryFunc-2.html">TryFunc</a>&lt;TVertex, <span class="xref">IEnumerable</span>&lt;TEdge&gt;&gt;</td>
+        <td><a class="xref" href="QuikGraph.TryFunc-2.html">TryFunc</a>&lt;TVertex, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;&gt;</td>
         <td><span class="parametername">tryGetAdjacentEdges</span></td>
         <td><p>Getter of adjacent edges.</p>
 </td>
@@ -152,7 +177,9 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">allowParallelEdges</span></td>
-        <td><p>Indicates if parallel edges are allowed.</p>
+        <td><p>Indicates if parallel edges are allowed.
+Note that get of edges is delegated so you may have bugs related
+to parallel edges due to the delegated implementation.</p>
 </td>
       </tr>
     </tbody>
@@ -164,7 +191,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_AllowParallelEdges.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.AllowParallelEdges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L57">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L52">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_AllowParallelEdges_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.AllowParallelEdges*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_AllowParallelEdges" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.AllowParallelEdges">AllowParallelEdges</h4>
@@ -194,7 +221,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_EdgeEqualityComparer.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.EdgeEqualityComparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L42">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L37">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_EdgeEqualityComparer_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.EdgeEqualityComparer*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_EdgeEqualityComparer" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.EdgeEqualityComparer">EdgeEqualityComparer</h4>
@@ -224,7 +251,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_IsDirected.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.IsDirected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L54">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L49">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_IsDirected_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.IsDirected*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_IsDirected" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.IsDirected">IsDirected</h4>
@@ -256,7 +283,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentDegree__0_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.AdjacentDegree(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L72">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L78">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentDegree_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.AdjacentDegree*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentDegree__0_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.AdjacentDegree(`0)">AdjacentDegree(TVertex)</h4>
@@ -303,7 +330,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentEdge__0_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.AdjacentEdge(%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L84">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L108">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentEdge_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.AdjacentEdge*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentEdge__0_System_Int32_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.AdjacentEdge(`0,System.Int32)">AdjacentEdge(TVertex, Int32)</h4>
@@ -355,7 +382,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentEdges__0_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.AdjacentEdges(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L64">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L102">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentEdges_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.AdjacentEdges*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_AdjacentEdges__0_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.AdjacentEdges(`0)">AdjacentEdges(TVertex)</h4>
@@ -392,7 +419,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -402,7 +429,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_ContainsEdge__0__0_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.ContainsEdge(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L120">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L163">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_ContainsEdge_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.ContainsEdge*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_ContainsEdge__0__0_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.ContainsEdge(`0,`0)">ContainsEdge(TVertex, TVertex)</h4>
@@ -454,7 +481,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_ContainsVertex__0_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.ContainsVertex(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L126">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L68">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_ContainsVertex_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.ContainsVertex*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_ContainsVertex__0_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.ContainsVertex(`0)">ContainsVertex(TVertex)</h4>
@@ -501,7 +528,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_IsAdjacentEdgesEmpty__0_.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.IsAdjacentEdgesEmpty(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L78">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L84">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_IsAdjacentEdgesEmpty_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.IsAdjacentEdgesEmpty*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_IsAdjacentEdgesEmpty__0_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.IsAdjacentEdgesEmpty(`0)">IsAdjacentEdgesEmpty(TVertex)</h4>
@@ -545,13 +572,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_TryGetAdjacentEdges__0_IEnumerable__1___.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.TryGetAdjacentEdges(%600%2CIEnumerable%7B%601%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_TryGetAdjacentEdges__0_System_Collections_Generic_IEnumerable__1___.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.TryGetAdjacentEdges(%600%2CSystem.Collections.Generic.IEnumerable%7B%601%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L114">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L150">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_TryGetAdjacentEdges_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.TryGetAdjacentEdges*"></a>
-  <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_TryGetAdjacentEdges__0_IEnumerable__1___" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.TryGetAdjacentEdges(`0,IEnumerable{`1}@)">TryGetAdjacentEdges(TVertex, out IEnumerable&lt;TEdge&gt;)</h4>
+  <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_TryGetAdjacentEdges__0_System_Collections_Generic_IEnumerable__1___" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.TryGetAdjacentEdges(`0,System.Collections.Generic.IEnumerable{`1}@)">TryGetAdjacentEdges(TVertex, out IEnumerable&lt;TEdge&gt;)</h4>
   <div class="markdown level1 summary"><p>Tries to get adjacent edges of the given <code data-dev-comment-type="paramref" class="paramref">vertex</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -576,7 +603,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;TEdge&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEdge&gt;</td>
         <td><span class="parametername">edges</span></td>
         <td><p>Edges found, otherwise null.</p>
 </td>
@@ -594,7 +621,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if at least one edge was found, false otherwise.</p>
+        <td><p>True if <code data-dev-comment-type="paramref" class="paramref">vertex</code> was found or/and edges were found, false otherwise.</p>
 </td>
       </tr>
     </tbody>
@@ -604,7 +631,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2_TryGetEdge__0__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602.TryGetEdge(%600%2C%600%2C%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L90">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L114">View Source</a>
   </span>
   <a id="QuikGraph_DelegateImplicitUndirectedGraph_2_TryGetEdge_" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.TryGetEdge*"></a>
   <h4 id="QuikGraph_DelegateImplicitUndirectedGraph_2_TryGetEdge__0__0__1__" data-uid="QuikGraph.DelegateImplicitUndirectedGraph`2.TryGetEdge(`0,`0,`1@)">TryGetEdge(TVertex, TVertex, out TEdge)</h4>
@@ -668,10 +695,37 @@
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
   </div>
   <div>
-      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_Action_XmlWriter___2__Action_XmlWriter___0__Action_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_Xml_XmlReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeFromGraphML__3___2_System_String_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_DeserializeAndValidateFromGraphML__3___2_System_IO_TextReader_QuikGraph_IdentifiableVertexFactory___0__QuikGraph_IdentifiableEdgeFactory___0___1__">GraphMLExtensions.DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, TextReader, IdentifiableVertexFactory&lt;TVertex&gt;, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToBinary__2_QuikGraph_IGraph___0___1__System_IO_Stream_">SerializationExtensions.SerializeToBinary&lt;TVertex, TEdge&gt;(IGraph&lt;TVertex, TEdge&gt;, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_SerializeToXml__3___2_System_Xml_XmlWriter_QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_String_System_String_System_String_System_String_System_Action_System_Xml_XmlWriter___2__System_Action_System_Xml_XmlWriter___0__System_Action_System_Xml_XmlWriter___1__">SerializationExtensions.SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(TGraph, XmlWriter, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, String, String, String, String, Action&lt;XmlWriter, TGraph&gt;, Action&lt;XmlWriter, TVertex&gt;, Action&lt;XmlWriter, TEdge&gt;)</a>
   </div>
 </article>
           </div>
@@ -684,7 +738,7 @@
                     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_DelegateImplicitUndirectedGraph_2.md&amp;value=---%0Auid%3A%20QuikGraph.DelegateImplicitUndirectedGraph%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Implementations/Graphs/DelegateImplicitUndirectedGraph.cs/#L21" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/DelegateImplicitUndirectedGraph.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
