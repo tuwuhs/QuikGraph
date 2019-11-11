@@ -245,7 +245,7 @@ public sealed class UndirectedBreadthFirstSearchAlgorithm&lt;TVertex, TEdge&gt; 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UndirectedBreadthFirstSearchAlgorithm(IAlgorithmComponent host, IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, IQueue&lt;TVertex&gt; vertexQueue, IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
+    <pre><code class="lang-csharp hljs">public UndirectedBreadthFirstSearchAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IQueue&lt;TVertex&gt; vertexQueue, [NotNull] IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -297,7 +297,7 @@ public sealed class UndirectedBreadthFirstSearchAlgorithm&lt;TVertex, TEdge&gt; 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UndirectedBreadthFirstSearchAlgorithm(IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public UndirectedBreadthFirstSearchAlgorithm([NotNull] IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -331,7 +331,7 @@ public sealed class UndirectedBreadthFirstSearchAlgorithm&lt;TVertex, TEdge&gt; 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UndirectedBreadthFirstSearchAlgorithm(IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, IQueue&lt;TVertex&gt; vertexQueue, IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
+    <pre><code class="lang-csharp hljs">public UndirectedBreadthFirstSearchAlgorithm([NotNull] IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IQueue&lt;TVertex&gt; vertexQueue, [NotNull] IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -379,7 +379,8 @@ public sealed class UndirectedBreadthFirstSearchAlgorithm&lt;TVertex, TEdge&gt; 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

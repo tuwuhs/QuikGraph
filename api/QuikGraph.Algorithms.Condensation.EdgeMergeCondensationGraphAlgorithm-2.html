@@ -215,7 +215,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdgeMergeCondensationGraphAlgorithm(IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, IMutableBidirectionalGraph&lt;TVertex, MergedEdge&lt;TVertex, TEdge&gt;&gt; condensedGraph, VertexPredicate&lt;TVertex&gt; vertexPredicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public EdgeMergeCondensationGraphAlgorithm([NotNull] IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IMutableBidirectionalGraph&lt;TVertex, MergedEdge&lt;TVertex, TEdge&gt;&gt; condensedGraph, [NotNull] VertexPredicate&lt;TVertex&gt; vertexPredicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -263,7 +263,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IMutableBidirectionalGraph&lt;TVertex, MergedEdge&lt;TVertex, TEdge&gt;&gt; CondensedGraph { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IMutableBidirectionalGraph&lt;TVertex, MergedEdge&lt;TVertex, TEdge&gt;&gt; CondensedGraph { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -294,7 +295,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VertexPredicate&lt;TVertex&gt; VertexPredicate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public VertexPredicate&lt;TVertex&gt; VertexPredicate { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

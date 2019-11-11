@@ -130,7 +130,7 @@ public sealed class HungarianAlgorithm</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HungarianAlgorithm(int[, ] costs)</code></pre>
+    <pre><code class="lang-csharp hljs">public HungarianAlgorithm([NotNull] int[, ] costs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -199,7 +199,8 @@ public sealed class HungarianAlgorithm</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int[] Compute()</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public int[] Compute()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,7 +232,9 @@ public sealed class HungarianAlgorithm</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;HungarianIteration&gt; GetIterations()</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+public IEnumerable&lt;HungarianIteration&gt; GetIterations()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -244,7 +244,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected RootedSearchAlgorithmBase(IAlgorithmComponent host, TGraph visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">protected RootedSearchAlgorithmBase([CanBeNull] IAlgorithmComponent host, [NotNull] TGraph visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -302,7 +302,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Compute(TVertex root, TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Compute([NotNull] TVertex root, [NotNull] TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -358,7 +358,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnTargetVertexChanged(EventArgs args)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnTargetVertexChanged([NotNull] EventArgs args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -392,7 +392,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTargetVertex(TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetTargetVertex([NotNull] TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -426,7 +426,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool TryGetTargetVertex(out TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+public bool TryGetTargetVertex(out TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

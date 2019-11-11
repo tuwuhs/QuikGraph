@@ -98,7 +98,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IAlgorithmServices Services { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+IAlgorithmServices Services { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,7 +132,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T GetService&lt;T&gt;()</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[CanBeNull]
+T GetService&lt;T&gt;()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,7 +182,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TryGetService&lt;T&gt;(out T service)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[ContractAnnotation(&quot;=&gt; true, service:notnull;=&gt; false, service:null&quot;)]
+bool TryGetService&lt;T&gt;(out T service)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

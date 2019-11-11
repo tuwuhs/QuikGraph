@@ -156,7 +156,7 @@ public class DelegateImplicitGraph&lt;TVertex, TEdge&gt; : IImplicitGraph&lt;TVe
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DelegateImplicitGraph(TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetOutEdges, bool allowParallelEdges = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public DelegateImplicitGraph([NotNull] TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetOutEdges, bool allowParallelEdges = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -650,7 +650,9 @@ public class BidirectionalMatrixGraph&lt;TEdge&gt; : IBidirectionalGraph&lt;int,
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BidirectionalMatrixGraph&lt;TEdge&gt; Clone()</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+public BidirectionalMatrixGraph&lt;TEdge&gt; Clone()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1115,7 +1117,7 @@ public class BidirectionalMatrixGraph&lt;TEdge&gt; : IBidirectionalGraph&lt;int,
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnEdgeAdded(TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnEdgeAdded([NotNull] TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1149,7 +1151,7 @@ public class BidirectionalMatrixGraph&lt;TEdge&gt; : IBidirectionalGraph&lt;int,
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnEdgeRemoved(TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnEdgeRemoved([NotNull] TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1441,7 +1443,7 @@ predicate <code data-dev-comment-type="paramref" class="paramref">predicate</cod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RemoveInEdgeIf(int vertex, EdgePredicate&lt;int, TEdge&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public int RemoveInEdgeIf(int vertex, [NotNull, InstantHandle] EdgePredicate&lt;int, TEdge&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1498,7 +1500,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RemoveOutEdgeIf(int vertex, EdgePredicate&lt;int, TEdge&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public int RemoveOutEdgeIf(int vertex, [NotNull, InstantHandle] EdgePredicate&lt;int, TEdge&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

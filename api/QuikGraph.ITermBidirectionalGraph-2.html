@@ -196,7 +196,8 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int InDegreeAt(TVertex vertex, int terminal)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+int InDegreeAt([NotNull] TVertex vertex, int terminal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -252,7 +253,10 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;TEdge&gt; InEdgesAt(TVertex vertex, int terminal)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+[ItemNotNull]
+IEnumerable&lt;TEdge&gt; InEdgesAt([NotNull] TVertex vertex, int terminal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -308,7 +312,8 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int InTerminalCount(TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+int InTerminalCount([NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -358,7 +363,8 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IsInEdgesEmptyAt(TVertex vertex, int terminal)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+bool IsInEdgesEmptyAt([NotNull] TVertex vertex, int terminal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -414,7 +420,8 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IsOutEdgesEmptyAt(TVertex vertex, int terminal)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+bool IsOutEdgesEmptyAt([NotNull] TVertex vertex, int terminal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -470,7 +477,8 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int OutDegreeAt(TVertex vertex, int terminal)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+int OutDegreeAt([NotNull] TVertex vertex, int terminal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -526,7 +534,10 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;TEdge&gt; OutEdgesAt(TVertex vertex, int terminal)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+[ItemNotNull]
+IEnumerable&lt;TEdge&gt; OutEdgesAt([NotNull] TVertex vertex, int terminal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -582,7 +593,8 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int OutTerminalCount(TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+int OutTerminalCount([NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -632,7 +644,9 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TryGetInEdgesAt(TVertex vertex, int terminal, out IEnumerable&lt;TEdge&gt; edges)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[ContractAnnotation(&quot;=&gt; true, edges:notnull;=&gt; false, edges:null&quot;)]
+bool TryGetInEdgesAt([NotNull] TVertex vertex, int terminal, [ItemNotNull] out IEnumerable&lt;TEdge&gt; edges)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -694,7 +708,9 @@ to traverse both in and out edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TryGetOutEdgesAt(TVertex vertex, int terminal, out IEnumerable&lt;TEdge&gt; edges)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[ContractAnnotation(&quot;=&gt; true, edges:notnull;=&gt; false, edges:null&quot;)]
+bool TryGetOutEdgesAt([NotNull] TVertex vertex, int terminal, [ItemNotNull] out IEnumerable&lt;TEdge&gt; edges)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

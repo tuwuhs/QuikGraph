@@ -166,7 +166,7 @@ public abstract class WeightedMarkovEdgeChainBase&lt;TVertex, TEdge&gt; : Markov
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected WeightedMarkovEdgeChainBase(IDictionary&lt;TEdge, double&gt; edgeWeights)</code></pre>
+    <pre><code class="lang-csharp hljs">protected WeightedMarkovEdgeChainBase([NotNull] IDictionary&lt;TEdge, double&gt; edgeWeights)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -202,7 +202,8 @@ public abstract class WeightedMarkovEdgeChainBase&lt;TVertex, TEdge&gt; : Markov
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;TEdge, double&gt; Weights { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDictionary&lt;TEdge, double&gt; Weights { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,7 +236,7 @@ public abstract class WeightedMarkovEdgeChainBase&lt;TVertex, TEdge&gt; : Markov
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected double GetOutWeight(IImplicitGraph&lt;TVertex, TEdge&gt; graph, TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">protected double GetOutWeight([NotNull] IImplicitGraph&lt;TVertex, TEdge&gt; graph, [NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -291,7 +292,7 @@ public abstract class WeightedMarkovEdgeChainBase&lt;TVertex, TEdge&gt; : Markov
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected double GetWeights(IEnumerable&lt;TEdge&gt; edges)</code></pre>
+    <pre><code class="lang-csharp hljs">protected double GetWeights([NotNull, ItemNotNull] IEnumerable&lt;TEdge&gt; edges)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -341,7 +342,7 @@ public abstract class WeightedMarkovEdgeChainBase&lt;TVertex, TEdge&gt; : Markov
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool TryGetSuccessor(IImplicitGraph&lt;TVertex, TEdge&gt; graph, TVertex vertex, double position, out TEdge successor)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool TryGetSuccessor([NotNull] IImplicitGraph&lt;TVertex, TEdge&gt; graph, [NotNull] TVertex vertex, double position, out TEdge successor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -409,7 +410,7 @@ public abstract class WeightedMarkovEdgeChainBase&lt;TVertex, TEdge&gt; : Markov
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool TryGetSuccessor(IEnumerable&lt;TEdge&gt; edges, double position, out TEdge successor)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool TryGetSuccessor([NotNull, ItemNotNull] IEnumerable&lt;TEdge&gt; edges, double position, out TEdge successor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

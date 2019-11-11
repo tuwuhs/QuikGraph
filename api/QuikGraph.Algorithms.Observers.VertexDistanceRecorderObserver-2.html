@@ -153,7 +153,7 @@ public sealed class VertexDistanceRecorderObserver&lt;TVertex, TEdge&gt; : IObse
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VertexDistanceRecorderObserver(Func&lt;TEdge, double&gt; edgeWeights)</code></pre>
+    <pre><code class="lang-csharp hljs">public VertexDistanceRecorderObserver([NotNull] Func&lt;TEdge, double&gt; edgeWeights)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -187,7 +187,7 @@ public sealed class VertexDistanceRecorderObserver&lt;TVertex, TEdge&gt; : IObse
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VertexDistanceRecorderObserver(Func&lt;TEdge, double&gt; edgeWeights, IDistanceRelaxer distanceRelaxer, IDictionary&lt;TVertex, double&gt; distances)</code></pre>
+    <pre><code class="lang-csharp hljs">public VertexDistanceRecorderObserver([NotNull] Func&lt;TEdge, double&gt; edgeWeights, [NotNull] IDistanceRelaxer distanceRelaxer, [NotNull] IDictionary&lt;TVertex, double&gt; distances)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,7 +235,8 @@ public sealed class VertexDistanceRecorderObserver&lt;TVertex, TEdge&gt; : IObse
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDistanceRelaxer DistanceRelaxer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDistanceRelaxer DistanceRelaxer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -266,7 +267,8 @@ public sealed class VertexDistanceRecorderObserver&lt;TVertex, TEdge&gt; : IObse
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;TVertex, double&gt; Distances { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDictionary&lt;TVertex, double&gt; Distances { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -297,7 +299,8 @@ public sealed class VertexDistanceRecorderObserver&lt;TVertex, TEdge&gt; : IObse
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Func&lt;TEdge, double&gt; EdgeWeights { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public Func&lt;TEdge, double&gt; EdgeWeights { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

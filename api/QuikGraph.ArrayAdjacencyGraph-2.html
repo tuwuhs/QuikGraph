@@ -166,7 +166,7 @@ where out-edge need to be enumerated only.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ArrayAdjacencyGraph(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public ArrayAdjacencyGraph([NotNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -444,7 +444,9 @@ where out-edge need to be enumerated only.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ArrayAdjacencyGraph&lt;TVertex, TEdge&gt; Clone()</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+public ArrayAdjacencyGraph&lt;TVertex, TEdge&gt; Clone()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

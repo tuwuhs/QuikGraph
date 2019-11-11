@@ -151,7 +151,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;TEdge&gt; Edges { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+[ItemNotNull]
+IEnumerable&lt;TEdge&gt; Edges { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,7 +218,8 @@ It is true if this edge set is empty, otherwise false.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ContainsEdge(TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+bool ContainsEdge([NotNull] TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

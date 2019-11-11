@@ -367,7 +367,7 @@ public sealed class VertexList&lt;TVertex&gt; : List&lt;TVertex&gt;, IList&lt;TV
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VertexList(VertexList&lt;TVertex&gt; other)</code></pre>
+    <pre><code class="lang-csharp hljs">public VertexList([NotNull] VertexList&lt;TVertex&gt; other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -436,7 +436,8 @@ public sealed class VertexList&lt;TVertex&gt; : List&lt;TVertex&gt;, IList&lt;TV
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VertexList&lt;TVertex&gt; Clone()</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public VertexList&lt;TVertex&gt; Clone()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

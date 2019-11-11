@@ -160,7 +160,7 @@ e.g. <a class="xref" href="QuikGraph.SEdge-1.html">SEdge&lt;TVertex&gt;</a>.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReversedEdgeAugmentorAlgorithm(IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)</code></pre>
+    <pre><code class="lang-csharp hljs">public ReversedEdgeAugmentorAlgorithm([NotNull] IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -233,7 +233,9 @@ e.g. <a class="xref" href="QuikGraph.SEdge-1.html">SEdge&lt;TVertex&gt;</a>.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TEdge&gt; AugmentedEdges { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+[ItemNotNull]
+public IEnumerable&lt;TEdge&gt; AugmentedEdges { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -264,7 +266,8 @@ e.g. <a class="xref" href="QuikGraph.SEdge-1.html">SEdge&lt;TVertex&gt;</a>.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -295,7 +298,8 @@ e.g. <a class="xref" href="QuikGraph.SEdge-1.html">SEdge&lt;TVertex&gt;</a>.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;TEdge, TEdge&gt; ReversedEdges { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public Dictionary&lt;TEdge, TEdge&gt; ReversedEdges { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,7 +330,8 @@ e.g. <a class="xref" href="QuikGraph.SEdge-1.html">SEdge&lt;TVertex&gt;</a>.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

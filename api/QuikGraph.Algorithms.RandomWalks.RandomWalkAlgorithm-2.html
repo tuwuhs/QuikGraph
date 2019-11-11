@@ -242,7 +242,7 @@ public sealed class RandomWalkAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorithmB
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RandomWalkAlgorithm(IImplicitGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public RandomWalkAlgorithm([NotNull] IImplicitGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,7 +276,7 @@ public sealed class RandomWalkAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorithmB
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RandomWalkAlgorithm(IImplicitGraph&lt;TVertex, TEdge&gt; visitedGraph, IEdgeChain&lt;TVertex, TEdge&gt; edgeChain)</code></pre>
+    <pre><code class="lang-csharp hljs">public RandomWalkAlgorithm([NotNull] IImplicitGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IEdgeChain&lt;TVertex, TEdge&gt; edgeChain)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -318,7 +318,8 @@ public sealed class RandomWalkAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorithmB
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEdgeChain&lt;TVertex, TEdge&gt; EdgeChain { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IEdgeChain&lt;TVertex, TEdge&gt; EdgeChain { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -349,7 +350,8 @@ public sealed class RandomWalkAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorithmB
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdgePredicate&lt;TVertex, TEdge&gt; EndPredicate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[CanBeNull]
+public EdgePredicate&lt;TVertex, TEdge&gt; EndPredicate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -382,7 +384,7 @@ public sealed class RandomWalkAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorithmB
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Generate(TVertex root)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Generate([NotNull] TVertex root)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -416,7 +418,7 @@ public sealed class RandomWalkAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorithmB
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Generate(TVertex root, int walkCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Generate([NotNull] TVertex root, int walkCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -130,7 +130,7 @@ If array is a string array with only one element &quot;null&quot;, then it write
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteArray&lt;T&gt;(XmlWriter xmlWriter, IList&lt;T&gt; value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteArray&lt;T&gt;([NotNull] XmlWriter xmlWriter, [CanBeNull, ItemNotNull] IList&lt;T&gt; value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,7 +186,7 @@ If array is a string array with only one element &quot;null&quot;, then it write
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteBooleanArray(XmlWriter xmlWriter, IList&lt;bool&gt; value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteBooleanArray([NotNull] XmlWriter xmlWriter, [CanBeNull] IList&lt;bool&gt; value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,7 +226,7 @@ If array is a string array with only one element &quot;null&quot;, then it write
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteDoubleArray(XmlWriter xmlWriter, IList&lt;double&gt; value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteDoubleArray([NotNull] XmlWriter xmlWriter, [CanBeNull] IList&lt;double&gt; value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -266,7 +266,7 @@ If array is a string array with only one element &quot;null&quot;, then it write
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteInt32Array(XmlWriter xmlWriter, IList&lt;int&gt; value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteInt32Array([NotNull] XmlWriter xmlWriter, [CanBeNull] IList&lt;int&gt; value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,7 +306,7 @@ If array is a string array with only one element &quot;null&quot;, then it write
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteInt64Array(XmlWriter xmlWriter, IList&lt;long&gt; value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteInt64Array([NotNull] XmlWriter xmlWriter, [CanBeNull] IList&lt;long&gt; value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -346,7 +346,7 @@ If array is a string array with only one element &quot;null&quot;, then it write
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteSingleArray(XmlWriter xmlWriter, IList&lt;float&gt; value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteSingleArray([NotNull] XmlWriter xmlWriter, [CanBeNull] IList&lt;float&gt; value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -386,7 +386,7 @@ If array is a string array with only one element &quot;null&quot;, then it write
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteStringArray(XmlWriter xmlWriter, IList&lt;string&gt; value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteStringArray([NotNull] XmlWriter xmlWriter, [CanBeNull, ItemNotNull] IList&lt;string&gt; value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

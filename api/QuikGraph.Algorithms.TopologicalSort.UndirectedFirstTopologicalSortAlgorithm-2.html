@@ -216,7 +216,7 @@ public sealed class UndirectedFirstTopologicalSortAlgorithm&lt;TVertex, TEdge&gt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public UndirectedFirstTopologicalSortAlgorithm([NotNull] IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,7 +283,8 @@ public sealed class UndirectedFirstTopologicalSortAlgorithm&lt;TVertex, TEdge&gt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;TVertex, int&gt; Degrees { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDictionary&lt;TVertex, int&gt; Degrees { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -314,7 +315,9 @@ public sealed class UndirectedFirstTopologicalSortAlgorithm&lt;TVertex, TEdge&gt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICollection&lt;TVertex&gt; SortedVertices { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+[ItemNotNull]
+public ICollection&lt;TVertex&gt; SortedVertices { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -347,7 +350,7 @@ public sealed class UndirectedFirstTopologicalSortAlgorithm&lt;TVertex, TEdge&gt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Compute(IList&lt;TVertex&gt; vertices)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Compute([NotNull, ItemNotNull] IList&lt;TVertex&gt; vertices)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

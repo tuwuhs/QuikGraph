@@ -149,7 +149,7 @@ public sealed class InDictionaryVertexPredicate&lt;TVertex, TValue&gt;</code></p
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InDictionaryVertexPredicate(IDictionary&lt;TVertex, TValue&gt; vertexMap)</code></pre>
+    <pre><code class="lang-csharp hljs">public InDictionaryVertexPredicate([NotNull] IDictionary&lt;TVertex, TValue&gt; vertexMap)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -185,7 +185,8 @@ public sealed class InDictionaryVertexPredicate&lt;TVertex, TValue&gt;</code></p
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Test(TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+public bool Test([NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

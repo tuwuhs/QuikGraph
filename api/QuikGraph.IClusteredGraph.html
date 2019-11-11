@@ -98,7 +98,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable Clusters { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+[ItemNotNull]
+IEnumerable Clusters { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -193,7 +195,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IClusteredGraph AddCluster()</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+IClusteredGraph AddCluster()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,7 +228,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RemoveCluster(IClusteredGraph graph)</code></pre>
+    <pre><code class="lang-csharp hljs">void RemoveCluster([NotNull] IClusteredGraph graph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

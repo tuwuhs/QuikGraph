@@ -246,7 +246,7 @@ public sealed class UndirectedDepthFirstSearchAlgorithm&lt;TVertex, TEdge&gt; : 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UndirectedDepthFirstSearchAlgorithm(IAlgorithmComponent host, IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
+    <pre><code class="lang-csharp hljs">public UndirectedDepthFirstSearchAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,7 +292,7 @@ public sealed class UndirectedDepthFirstSearchAlgorithm&lt;TVertex, TEdge&gt; : 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UndirectedDepthFirstSearchAlgorithm(IAlgorithmComponent host, IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, IDictionary&lt;TVertex, GraphColor&gt; verticesColors, Func&lt;IEnumerable&lt;TEdge&gt;, IEnumerable&lt;TEdge&gt;&gt; adjacentEdgesFilter)</code></pre>
+    <pre><code class="lang-csharp hljs">public UndirectedDepthFirstSearchAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IDictionary&lt;TVertex, GraphColor&gt; verticesColors, [NotNull] Func&lt;IEnumerable&lt;TEdge&gt;, IEnumerable&lt;TEdge&gt;&gt; adjacentEdgesFilter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -345,7 +345,7 @@ them. All vertices passed to the method should be enumerated once and only once.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UndirectedDepthFirstSearchAlgorithm(IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public UndirectedDepthFirstSearchAlgorithm([NotNull] IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -379,7 +379,7 @@ them. All vertices passed to the method should be enumerated once and only once.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UndirectedDepthFirstSearchAlgorithm(IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
+    <pre><code class="lang-csharp hljs">public UndirectedDepthFirstSearchAlgorithm([NotNull] IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -421,7 +421,8 @@ them. All vertices passed to the method should be enumerated once and only once.
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Func&lt;IEnumerable&lt;TEdge&gt;, IEnumerable&lt;TEdge&gt;&gt; AdjacentEdgesFilter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public Func&lt;IEnumerable&lt;TEdge&gt;, IEnumerable&lt;TEdge&gt;&gt; AdjacentEdgesFilter { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -519,7 +520,8 @@ walk through graph parts of other components than the root component.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

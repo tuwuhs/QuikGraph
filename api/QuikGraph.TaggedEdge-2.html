@@ -158,7 +158,7 @@ public class TaggedEdge&lt;TVertex, TTag&gt; : Edge&lt;TVertex&gt;, IEdge&lt;TVe
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TaggedEdge(TVertex source, TVertex target, TTag tag)</code></pre>
+    <pre><code class="lang-csharp hljs">public TaggedEdge([NotNull] TVertex source, [NotNull] TVertex target, [CanBeNull] TTag tag)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,7 +238,7 @@ public class TaggedEdge&lt;TVertex, TTag&gt; : Edge&lt;TVertex&gt;, IEdge&lt;TVe
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnTagChanged(EventArgs args)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnTagChanged([NotNull] EventArgs args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

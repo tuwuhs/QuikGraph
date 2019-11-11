@@ -132,7 +132,8 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">EdgeEqualityComparer&lt;TVertex&gt; EdgeEqualityComparer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+EdgeEqualityComparer&lt;TVertex&gt; EdgeEqualityComparer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,7 +166,8 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int AdjacentDegree(TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+int AdjacentDegree([NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -215,7 +217,9 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TEdge AdjacentEdge(TVertex vertex, int index)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+TEdge AdjacentEdge([NotNull] TVertex vertex, int index)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -271,7 +275,10 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;TEdge&gt; AdjacentEdges(TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+[ItemNotNull]
+IEnumerable&lt;TEdge&gt; AdjacentEdges([NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -322,7 +329,8 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ContainsEdge(TVertex source, TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+bool ContainsEdge([NotNull] TVertex source, [NotNull] TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -378,7 +386,8 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IsAdjacentEdgesEmpty(TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+bool IsAdjacentEdgesEmpty([NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -429,7 +438,9 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TryGetEdge(TVertex source, TVertex target, out TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[ContractAnnotation(&quot;=&gt; true, edge:notnull;=&gt; false, edge:null&quot;)]
+bool TryGetEdge([NotNull] TVertex source, [NotNull] TVertex target, out TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

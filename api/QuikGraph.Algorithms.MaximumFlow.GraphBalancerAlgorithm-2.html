@@ -151,7 +151,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GraphBalancerAlgorithm(IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, TVertex source, TVertex sink, VertexFactory&lt;TVertex&gt; vertexFactory, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)</code></pre>
+    <pre><code class="lang-csharp hljs">public GraphBalancerAlgorithm([NotNull] IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] TVertex source, [NotNull] TVertex sink, [NotNull] VertexFactory&lt;TVertex&gt; vertexFactory, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,7 +209,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GraphBalancerAlgorithm(IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, VertexFactory&lt;TVertex&gt; vertexFactory, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, TVertex source, TVertex sink, IDictionary&lt;TEdge, double&gt; capacities)</code></pre>
+    <pre><code class="lang-csharp hljs">public GraphBalancerAlgorithm([NotNull] IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] VertexFactory&lt;TVertex&gt; vertexFactory, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, [NotNull] TVertex source, [NotNull] TVertex sink, [NotNull] IDictionary&lt;TEdge, double&gt; capacities)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -442,7 +442,8 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;TEdge, double&gt; Capacities { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDictionary&lt;TEdge, double&gt; Capacities { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -473,7 +474,9 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TEdge&gt; DeficientEdges { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+[ItemNotNull]
+public IEnumerable&lt;TEdge&gt; DeficientEdges { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -504,7 +507,9 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TVertex&gt; DeficientVertices { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+[ItemNotNull]
+public IEnumerable&lt;TVertex&gt; DeficientVertices { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -535,7 +540,8 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -566,7 +572,8 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TVertex Sink { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public TVertex Sink { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -597,7 +604,8 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TVertex Source { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public TVertex Source { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -628,7 +636,9 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TEdge&gt; SurplusEdges { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+[ItemNotNull]
+public IEnumerable&lt;TEdge&gt; SurplusEdges { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -659,7 +669,9 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TVertex&gt; SurplusVertices { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+[ItemNotNull]
+public IEnumerable&lt;TVertex&gt; SurplusVertices { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -690,7 +702,8 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VertexFactory&lt;TVertex&gt; VertexFactory { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public VertexFactory&lt;TVertex&gt; VertexFactory { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -721,7 +734,8 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -786,7 +800,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetBalancingIndex(TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetBalancingIndex([NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

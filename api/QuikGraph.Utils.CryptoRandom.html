@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TaggedUndirectedEdge&lt;TVertex, TTag&gt;
+    <title>Class CryptoRandom
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TaggedUndirectedEdge&lt;TVertex, TTag&gt;
+    <meta name="title" content="Class CryptoRandom
    ">
     <meta name="generator" content="docfx 2.42.4.0">
     
@@ -68,33 +68,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="QuikGraph.TaggedUndirectedEdge`2">
+            <article class="content wrap" id="_content" data-uid="QuikGraph.Utils.CryptoRandom">
   
   
-  <h1 id="QuikGraph_TaggedUndirectedEdge_2" data-uid="QuikGraph.TaggedUndirectedEdge`2" class="text-break">Class TaggedUndirectedEdge&lt;TVertex, TTag&gt;
+  <h1 id="QuikGraph_Utils_CryptoRandom" data-uid="QuikGraph.Utils.CryptoRandom" class="text-break">Class CryptoRandom
   </h1>
-  <div class="markdown level0 summary"><p>The default implementation of an <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a> that supports tagging.</p>
+  <div class="markdown level0 summary"><p>Secure random number generator.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="QuikGraph.UndirectedEdge-1.html">UndirectedEdge</a>&lt;TVertex&gt;</div>
-    <div class="level2"><span class="xref">TaggedUndirectedEdge&lt;TVertex, TTag&gt;</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge</a>&lt;TVertex&gt;</div>
-    <div><a class="xref" href="QuikGraph.IEdge-1.html">IEdge</a>&lt;TVertex&gt;</div>
-    <div><a class="xref" href="QuikGraph.ITagged-1.html">ITagged</a>&lt;TTag&gt;</div>
+    <div class="level1"><span class="xref">System.Random</span></div>
+    <div class="level2"><span class="xref">CryptoRandom</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="QuikGraph.UndirectedEdge-1.html#QuikGraph_UndirectedEdge_1_Source">UndirectedEdge&lt;TVertex&gt;.Source</a>
-    </div>
-    <div>
-      <a class="xref" href="QuikGraph.UndirectedEdge-1.html#QuikGraph_UndirectedEdge_1_Target">UndirectedEdge&lt;TVertex&gt;.Target</a>
+      <span class="xref">System.Random.Sample()</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -114,52 +105,53 @@
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.html">QuikGraph</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="QuikGraph.Utils.html">QuikGraph.Utils</a></h6>
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
-  <h5 id="QuikGraph_TaggedUndirectedEdge_2_syntax">Syntax</h5>
+  <h5 id="QuikGraph_Utils_CryptoRandom_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class TaggedUndirectedEdge&lt;TVertex, TTag&gt; : UndirectedEdge&lt;TVertex&gt;, IUndirectedEdge&lt;TVertex&gt;, IEdge&lt;TVertex&gt;, ITagged&lt;TTag&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class CryptoRandom : Random</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TVertex</span></td>
-        <td><p>Vertex type.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TTag</span></td>
-        <td><p>Tag type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 id="QuikGraph_Utils_CryptoRandom_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Note that because of security issue the seed is unused in this random number generator.
+Note also that it is slower than classic <span class="xref">System.Random</span> but on purpose.</p>
+</div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TaggedUndirectedEdge_2__ctor__0__0__1_.md&amp;value=---%0Auid%3A%20QuikGraph.TaggedUndirectedEdge%602.%23ctor(%600%2C%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Utils_CryptoRandom__ctor.md&amp;value=---%0Auid%3A%20QuikGraph.Utils.CryptoRandom.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TaggedUndirectedEdge.cs/#L25">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/CryptoRandom.cs/#L26">View Source</a>
   </span>
-  <a id="QuikGraph_TaggedUndirectedEdge_2__ctor_" data-uid="QuikGraph.TaggedUndirectedEdge`2.#ctor*"></a>
-  <h4 id="QuikGraph_TaggedUndirectedEdge_2__ctor__0__0__1_" data-uid="QuikGraph.TaggedUndirectedEdge`2.#ctor(`0,`0,`1)">TaggedUndirectedEdge(TVertex, TVertex, TTag)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.TaggedUndirectedEdge-2.html">TaggedUndirectedEdge&lt;TVertex, TTag&gt;</a> class.</p>
+  <a id="QuikGraph_Utils_CryptoRandom__ctor_" data-uid="QuikGraph.Utils.CryptoRandom.#ctor*"></a>
+  <h4 id="QuikGraph_Utils_CryptoRandom__ctor" data-uid="QuikGraph.Utils.CryptoRandom.#ctor">CryptoRandom()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Utils.CryptoRandom.html">CryptoRandom</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TaggedUndirectedEdge([NotNull] TVertex source, [NotNull] TVertex target, [CanBeNull] TTag tag)</code></pre>
+    <pre><code class="lang-csharp hljs">public CryptoRandom()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Utils_CryptoRandom__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.Utils.CryptoRandom.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/CryptoRandom.cs/#L35">View Source</a>
+  </span>
+  <a id="QuikGraph_Utils_CryptoRandom__ctor_" data-uid="QuikGraph.Utils.CryptoRandom.#ctor*"></a>
+  <h4 id="QuikGraph_Utils_CryptoRandom__ctor_System_Int32_" data-uid="QuikGraph.Utils.CryptoRandom.#ctor(System.Int32)">CryptoRandom(Int32)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Utils.CryptoRandom.html">CryptoRandom</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CryptoRandom(int ignoredSeed)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,54 +164,10 @@ public class TaggedUndirectedEdge&lt;TVertex, TTag&gt; : UndirectedEdge&lt;TVert
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TVertex</span></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>The source vertex.</p>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">ignoredSeed</span></td>
+        <td><p>Seed is ignored, just to keep same API as <span class="xref">System.Random</span>.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">TVertex</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p>The target vertex.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TTag</span></td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>Edge tag.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TaggedUndirectedEdge_2_Tag.md&amp;value=---%0Auid%3A%20QuikGraph.TaggedUndirectedEdge%602.Tag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TaggedUndirectedEdge.cs/#L48">View Source</a>
-  </span>
-  <a id="QuikGraph_TaggedUndirectedEdge_2_Tag_" data-uid="QuikGraph.TaggedUndirectedEdge`2.Tag*"></a>
-  <h4 id="QuikGraph_TaggedUndirectedEdge_2_Tag" data-uid="QuikGraph.TaggedUndirectedEdge`2.Tag">Tag</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TTag Tag { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TTag</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -227,52 +175,18 @@ public class TaggedUndirectedEdge&lt;TVertex, TTag&gt; : UndirectedEdge&lt;TVert
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TaggedUndirectedEdge_2_OnTagChanged_System_EventArgs_.md&amp;value=---%0Auid%3A%20QuikGraph.TaggedUndirectedEdge%602.OnTagChanged(System.EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Utils_CryptoRandom_Next.md&amp;value=---%0Auid%3A%20QuikGraph.Utils.CryptoRandom.Next%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TaggedUndirectedEdge.cs/#L38">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/CryptoRandom.cs/#L40">View Source</a>
   </span>
-  <a id="QuikGraph_TaggedUndirectedEdge_2_OnTagChanged_" data-uid="QuikGraph.TaggedUndirectedEdge`2.OnTagChanged*"></a>
-  <h4 id="QuikGraph_TaggedUndirectedEdge_2_OnTagChanged_System_EventArgs_" data-uid="QuikGraph.TaggedUndirectedEdge`2.OnTagChanged(System.EventArgs)">OnTagChanged(EventArgs)</h4>
-  <div class="markdown level1 summary"><p>Event invoker for <a class="xref" href="QuikGraph.TaggedUndirectedEdge-2.html#QuikGraph_TaggedUndirectedEdge_2_TagChanged">TagChanged</a> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnTagChanged([NotNull] EventArgs args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.EventArgs</span></td>
-        <td><span class="parametername">args</span></td>
-        <td><p>Event arguments.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TaggedUndirectedEdge_2_ToString.md&amp;value=---%0Auid%3A%20QuikGraph.TaggedUndirectedEdge%602.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TaggedUndirectedEdge.cs/#L62">View Source</a>
-  </span>
-  <a id="QuikGraph_TaggedUndirectedEdge_2_ToString_" data-uid="QuikGraph.TaggedUndirectedEdge`2.ToString*"></a>
-  <h4 id="QuikGraph_TaggedUndirectedEdge_2_ToString" data-uid="QuikGraph.TaggedUndirectedEdge`2.ToString">ToString()</h4>
+  <a id="QuikGraph_Utils_CryptoRandom_Next_" data-uid="QuikGraph.Utils.CryptoRandom.Next*"></a>
+  <h4 id="QuikGraph_Utils_CryptoRandom_Next" data-uid="QuikGraph.Utils.CryptoRandom.Next">Next()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    <pre><code class="lang-csharp hljs">public override int Next()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -284,30 +198,46 @@ public class TaggedUndirectedEdge&lt;TVertex, TTag&gt; : UndirectedEdge&lt;TVert
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">QuikGraph.UndirectedEdge&lt;TVertex&gt;.ToString()</span></div>
-  <h3 id="events">Events
-  </h3>
+  <div><span class="xref">System.Random.Next()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TaggedUndirectedEdge_2_TagChanged.md&amp;value=---%0Auid%3A%20QuikGraph.TaggedUndirectedEdge%602.TagChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Utils_CryptoRandom_Next_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.Utils.CryptoRandom.Next(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TaggedUndirectedEdge.cs/#L32">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/CryptoRandom.cs/#L47">View Source</a>
   </span>
-  <h4 id="QuikGraph_TaggedUndirectedEdge_2_TagChanged" data-uid="QuikGraph.TaggedUndirectedEdge`2.TagChanged">TagChanged</h4>
+  <a id="QuikGraph_Utils_CryptoRandom_Next_" data-uid="QuikGraph.Utils.CryptoRandom.Next*"></a>
+  <h4 id="QuikGraph_Utils_CryptoRandom_Next_System_Int32_" data-uid="QuikGraph.Utils.CryptoRandom.Next(System.Int32)">Next(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler TagChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public override int Next(int maxValue)</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -317,40 +247,134 @@ public class TaggedUndirectedEdge&lt;TVertex, TTag&gt; : UndirectedEdge&lt;TVert
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.EventHandler</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="QuikGraph.IUndirectedEdge-1.html">IUndirectedEdge&lt;TVertex&gt;</a>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Random.Next(System.Int32)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Utils_CryptoRandom_Next_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.Utils.CryptoRandom.Next(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/CryptoRandom.cs/#L55">View Source</a>
+  </span>
+  <a id="QuikGraph_Utils_CryptoRandom_Next_" data-uid="QuikGraph.Utils.CryptoRandom.Next*"></a>
+  <h4 id="QuikGraph_Utils_CryptoRandom_Next_System_Int32_System_Int32_" data-uid="QuikGraph.Utils.CryptoRandom.Next(System.Int32,System.Int32)">Next(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Next(int minValue, int maxValue)</code></pre>
   </div>
-  <div>
-      <a class="xref" href="QuikGraph.IEdge-1.html">IEdge&lt;TVertex&gt;</a>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">minValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Random.Next(System.Int32, System.Int32)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Utils_CryptoRandom_NextBytes_System_Byte___.md&amp;value=---%0Auid%3A%20QuikGraph.Utils.CryptoRandom.NextBytes(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/CryptoRandom.cs/#L84">View Source</a>
+  </span>
+  <a id="QuikGraph_Utils_CryptoRandom_NextBytes_" data-uid="QuikGraph.Utils.CryptoRandom.NextBytes*"></a>
+  <h4 id="QuikGraph_Utils_CryptoRandom_NextBytes_System_Byte___" data-uid="QuikGraph.Utils.CryptoRandom.NextBytes(System.Byte[])">NextBytes(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void NextBytes(byte[] buffer)</code></pre>
   </div>
-  <div>
-      <a class="xref" href="QuikGraph.ITagged-1.html">ITagged&lt;TTag&gt;</a>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Random.NextBytes(System.Byte[])</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Utils_CryptoRandom_NextDouble.md&amp;value=---%0Auid%3A%20QuikGraph.Utils.CryptoRandom.NextDouble%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/CryptoRandom.cs/#L76">View Source</a>
+  </span>
+  <a id="QuikGraph_Utils_CryptoRandom_NextDouble_" data-uid="QuikGraph.Utils.CryptoRandom.NextDouble*"></a>
+  <h4 id="QuikGraph_Utils_CryptoRandom_NextDouble" data-uid="QuikGraph.Utils.CryptoRandom.NextDouble">NextDouble()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override double NextDouble()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Random.NextDouble()</span></div>
   <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_IsSelfEdge__1_QuikGraph_IEdge___0__">EdgeExtensions.IsSelfEdge&lt;TVertex&gt;(IEdge&lt;TVertex&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_GetOtherVertex__1_QuikGraph_IEdge___0____0_">EdgeExtensions.GetOtherVertex&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_IsAdjacent__1_QuikGraph_IEdge___0____0_">EdgeExtensions.IsAdjacent&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_ToVertexPair__1_QuikGraph_IEdge___0__">EdgeExtensions.ToVertexPair&lt;TVertex&gt;(IEdge&lt;TVertex&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_UndirectedVertexEquality__1_QuikGraph_IEdge___0____0___0_">EdgeExtensions.UndirectedVertexEquality&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex, TVertex)</a>
-  </div>
-  <div>
-      <a class="xref" href="QuikGraph.EdgeExtensions.html#QuikGraph_EdgeExtensions_SortedVertexEquality__1_QuikGraph_IEdge___0____0___0_">EdgeExtensions.SortedVertexEquality&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex, TVertex)</a>
-  </div>
   <div>
       <a class="xref" href="QuikGraph.Serialization.GraphMLExtensions.html#QuikGraph_Serialization_GraphMLExtensions_SerializeToGraphML__3___2_System_String_">GraphMLExtensions.SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(TGraph, String)</a>
   </div>
@@ -389,10 +413,10 @@ public class TaggedUndirectedEdge&lt;TVertex, TTag&gt; : UndirectedEdge&lt;TVert
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TaggedUndirectedEdge_2.md&amp;value=---%0Auid%3A%20QuikGraph.TaggedUndirectedEdge%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Utils_CryptoRandom.md&amp;value=---%0Auid%3A%20QuikGraph.Utils.CryptoRandom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TaggedUndirectedEdge.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/CryptoRandom.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

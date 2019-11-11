@@ -80,7 +80,7 @@
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_EdgeEqualityComparer_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate bool EdgeEqualityComparer&lt;in TVertex&gt;(IEdge&lt;TVertex&gt; edge, TVertex source, TVertex target);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate bool EdgeEqualityComparer&lt;in TVertex&gt;([NotNull] IEdge&lt;TVertex&gt; edge, [NotNull] TVertex source, [NotNull] TVertex target);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

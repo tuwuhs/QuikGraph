@@ -249,7 +249,7 @@ where the search is performed both in depth and height.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BidirectionalDepthFirstSearchAlgorithm(IAlgorithmComponent host, IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
+    <pre><code class="lang-csharp hljs">public BidirectionalDepthFirstSearchAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -295,7 +295,7 @@ where the search is performed both in depth and height.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BidirectionalDepthFirstSearchAlgorithm(IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public BidirectionalDepthFirstSearchAlgorithm([NotNull] IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -329,7 +329,7 @@ where the search is performed both in depth and height.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BidirectionalDepthFirstSearchAlgorithm(IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
+    <pre><code class="lang-csharp hljs">public BidirectionalDepthFirstSearchAlgorithm([NotNull] IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] IDictionary&lt;TVertex, GraphColor&gt; verticesColors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -438,7 +438,8 @@ walk through graph parts of other components than the root component.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

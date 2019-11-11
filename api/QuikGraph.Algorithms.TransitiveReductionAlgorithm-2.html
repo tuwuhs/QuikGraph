@@ -216,7 +216,7 @@ with the same vertices and as few edges as possible.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TransitiveReductionAlgorithm(BidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public TransitiveReductionAlgorithm([NotNull] BidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -252,7 +252,8 @@ with the same vertices and as few edges as possible.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BidirectionalGraph&lt;TVertex, TEdge&gt; TransitiveReduction { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public BidirectionalGraph&lt;TVertex, TEdge&gt; TransitiveReduction { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

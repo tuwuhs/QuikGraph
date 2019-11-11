@@ -127,7 +127,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T[] ReadElementContentAsArray&lt;T&gt;(XmlReader xmlReader, string localName, string namespaceURI, Func&lt;string, T&gt; stringToT)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[CanBeNull]
+public static T[] ReadElementContentAsArray&lt;T&gt;([NotNull] XmlReader xmlReader, [NotNull] string localName, [NotNull] string namespaceURI, [NotNull, InstantHandle] Func&lt;string, T&gt; stringToT)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,7 +213,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool[] ReadElementContentAsBooleanArray(XmlReader xmlReader, string localName, string namespaceURI)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[CanBeNull]
+public static bool[] ReadElementContentAsBooleanArray([NotNull] XmlReader xmlReader, [NotNull] string localName, [NotNull] string namespaceURI)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -273,7 +277,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double[] ReadElementContentAsDoubleArray(XmlReader xmlReader, string localName, string namespaceURI)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[CanBeNull]
+public static double[] ReadElementContentAsDoubleArray([NotNull] XmlReader xmlReader, [NotNull] string localName, [NotNull] string namespaceURI)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -335,7 +341,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int[] ReadElementContentAsInt32Array(XmlReader xmlReader, string localName, string namespaceURI)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[CanBeNull]
+public static int[] ReadElementContentAsInt32Array([NotNull] XmlReader xmlReader, [NotNull] string localName, [NotNull] string namespaceURI)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -397,7 +405,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static long[] ReadElementContentAsInt64Array(XmlReader xmlReader, string localName, string namespaceURI)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[CanBeNull]
+public static long[] ReadElementContentAsInt64Array([NotNull] XmlReader xmlReader, [NotNull] string localName, [NotNull] string namespaceURI)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -459,7 +469,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float[] ReadElementContentAsSingleArray(XmlReader xmlReader, string localName, string namespaceURI)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[CanBeNull]
+public static float[] ReadElementContentAsSingleArray([NotNull] XmlReader xmlReader, [NotNull] string localName, [NotNull] string namespaceURI)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -521,7 +533,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string[] ReadElementContentAsStringArray(XmlReader xmlReader, string localName, string namespaceURI)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[CanBeNull]
+public static string[] ReadElementContentAsStringArray([NotNull] XmlReader xmlReader, [NotNull] string localName, [NotNull] string namespaceURI)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

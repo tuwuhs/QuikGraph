@@ -178,7 +178,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool AreInSameSet(T left, T right)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+bool AreInSameSet([NotNull] T left, [NotNull] T right)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,7 +235,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool Contains(T value)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+bool Contains([NotNull] T value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -284,7 +286,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T FindSet(T value)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+T FindSet([NotNull] T value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -334,7 +338,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MakeSet(T value)</code></pre>
+    <pre><code class="lang-csharp hljs">void MakeSet([NotNull] T value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -368,7 +372,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool Union(T left, T right)</code></pre>
+    <pre><code class="lang-csharp hljs">bool Union([NotNull] T left, [NotNull] T right)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

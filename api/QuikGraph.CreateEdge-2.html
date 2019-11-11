@@ -81,7 +81,8 @@
   <h5 id="QuikGraph_CreateEdge_2_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public delegate TEdge CreateEdge&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt; graph, TVertex source, TVertex target)
+[NotNull]
+public delegate TEdge CreateEdge&lt;TVertex, TEdge&gt;([NotNull] IVertexListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] TVertex source, [NotNull] TVertex target)
     where TEdge : IEdge&lt;TVertex&gt;;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

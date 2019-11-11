@@ -169,7 +169,7 @@ public sealed class EdgePredecessorRecorderObserver&lt;TVertex, TEdge&gt; : IObs
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdgePredecessorRecorderObserver(IDictionary&lt;TEdge, TEdge&gt; edgesPredecessors)</code></pre>
+    <pre><code class="lang-csharp hljs">public EdgePredecessorRecorderObserver([NotNull] IDictionary&lt;TEdge, TEdge&gt; edgesPredecessors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,7 +205,8 @@ public sealed class EdgePredecessorRecorderObserver&lt;TVertex, TEdge&gt; : IObs
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;TEdge, TEdge&gt; EdgesPredecessors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public IDictionary&lt;TEdge, TEdge&gt; EdgesPredecessors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -236,7 +237,8 @@ public sealed class EdgePredecessorRecorderObserver&lt;TVertex, TEdge&gt; : IObs
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICollection&lt;TEdge&gt; EndPathEdges { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public ICollection&lt;TEdge&gt; EndPathEdges { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,7 +271,10 @@ public sealed class EdgePredecessorRecorderObserver&lt;TVertex, TEdge&gt; : IObs
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ICollection&lt;TEdge&gt;&gt; AllMergedPaths()</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+[ItemNotNull]
+public IEnumerable&lt;ICollection&lt;TEdge&gt;&gt; AllMergedPaths()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,7 +306,10 @@ public sealed class EdgePredecessorRecorderObserver&lt;TVertex, TEdge&gt; : IObs
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ICollection&lt;TEdge&gt;&gt; AllPaths()</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+[ItemNotNull]
+public IEnumerable&lt;ICollection&lt;TEdge&gt;&gt; AllPaths()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -380,7 +388,10 @@ public sealed class EdgePredecessorRecorderObserver&lt;TVertex, TEdge&gt; : IObs
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICollection&lt;TEdge&gt; MergedPath(TEdge startingEdge, IDictionary&lt;TEdge, GraphColor&gt; colors)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+[ItemNotNull]
+public ICollection&lt;TEdge&gt; MergedPath([NotNull] TEdge startingEdge, [NotNull] IDictionary&lt;TEdge, GraphColor&gt; colors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -436,7 +447,10 @@ public sealed class EdgePredecessorRecorderObserver&lt;TVertex, TEdge&gt; : IObs
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICollection&lt;TEdge&gt; Path(TEdge startingEdge)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+[NotNull]
+[ItemNotNull]
+public ICollection&lt;TEdge&gt; Path([NotNull] TEdge startingEdge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
