@@ -126,6 +126,12 @@
       <a class="xref" href="QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_OnRootVertexChanged_System_EventArgs_">RootedAlgorithmBase&lt;TVertex, IBidirectionalGraph&lt;TVertex, TEdge&gt;&gt;.OnRootVertexChanged(EventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_GetAndAssertRootInGraph">RootedAlgorithmBase&lt;TVertex, IBidirectionalGraph&lt;TVertex, TEdge&gt;&gt;.GetAndAssertRootInGraph()</a>
+    </div>
+    <div>
+      <a class="xref" href="QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_AssertRootInGraph__0_">RootedAlgorithmBase&lt;TVertex, IBidirectionalGraph&lt;TVertex, TEdge&gt;&gt;.AssertRootInGraph(TVertex)</a>
+    </div>
+    <div>
       <a class="xref" href="QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_Compute__0_">RootedAlgorithmBase&lt;TVertex, IBidirectionalGraph&lt;TVertex, TEdge&gt;&gt;.Compute(TVertex)</a>
     </div>
     <div>
@@ -249,7 +255,7 @@ J. ACM 6, 4 (Oct. 1959), 506-514. DOI= <a href="http://doi.acm.org/10.1145/32099
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2__ctor_QuikGraph_Algorithms_Services_IAlgorithmComponent_QuikGraph_IBidirectionalGraph__0__1__System_Func__1_System_Double__QuikGraph_Algorithms_IDistanceRelaxer_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm%602.%23ctor(QuikGraph.Algorithms.Services.IAlgorithmComponent%2CQuikGraph.IBidirectionalGraph%7B%600%2C%601%7D%2CSystem.Func%7B%601%2CSystem.Double%7D%2CQuikGraph.Algorithms.IDistanceRelaxer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L52">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L66">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2__ctor_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.#ctor*"></a>
   <h4 id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2__ctor_QuikGraph_Algorithms_Services_IAlgorithmComponent_QuikGraph_IBidirectionalGraph__0__1__System_Func__1_System_Double__QuikGraph_Algorithms_IDistanceRelaxer_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.#ctor(QuikGraph.Algorithms.Services.IAlgorithmComponent,QuikGraph.IBidirectionalGraph{`0,`1},System.Func{`1,System.Double},QuikGraph.Algorithms.IDistanceRelaxer)">HoffmanPavleyRankedShortestPathAlgorithm(IAlgorithmComponent, IBidirectionalGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, IDistanceRelaxer)</h4>
@@ -336,6 +342,52 @@ J. ACM 6, 4 (Oct. 1959), 506-514. DOI= <a href="http://doi.acm.org/10.1145/32099
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2__ctor_QuikGraph_IBidirectionalGraph__0__1__System_Func__1_System_Double__QuikGraph_Algorithms_IDistanceRelaxer_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm%602.%23ctor(QuikGraph.IBidirectionalGraph%7B%600%2C%601%7D%2CSystem.Func%7B%601%2CSystem.Double%7D%2CQuikGraph.Algorithms.IDistanceRelaxer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L51">View Source</a>
+  </span>
+  <a id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2__ctor_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.#ctor*"></a>
+  <h4 id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2__ctor_QuikGraph_IBidirectionalGraph__0__1__System_Func__1_System_Double__QuikGraph_Algorithms_IDistanceRelaxer_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},System.Func{`1,System.Double},QuikGraph.Algorithms.IDistanceRelaxer)">HoffmanPavleyRankedShortestPathAlgorithm(IBidirectionalGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, IDistanceRelaxer)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm-2.html">HoffmanPavleyRankedShortestPathAlgorithm&lt;TVertex, TEdge&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HoffmanPavleyRankedShortestPathAlgorithm(IBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TEdge, double&gt; edgeWeights, IDistanceRelaxer distanceRelaxer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.IBidirectionalGraph-2.html">IBidirectionalGraph</a>&lt;TVertex, TEdge&gt;</td>
+        <td><span class="parametername">visitedGraph</span></td>
+        <td><p>Graph to visit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TEdge, <span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">edgeWeights</span></td>
+        <td><p>Function that for a given edge provide its weight.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.Algorithms.IDistanceRelaxer.html">IDistanceRelaxer</a></td>
+        <td><span class="parametername">distanceRelaxer</span></td>
+        <td><p>Distance relaxer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -343,7 +395,7 @@ J. ACM 6, 4 (Oct. 1959), 506-514. DOI= <a href="http://doi.acm.org/10.1145/32099
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_Compute__0__0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm%602.Compute(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L98">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L112">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_Compute_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.Compute*"></a>
   <h4 id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_Compute__0__0_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.Compute(`0,`0)">Compute(TVertex, TVertex)</h4>
@@ -383,7 +435,7 @@ J. ACM 6, 4 (Oct. 1959), 506-514. DOI= <a href="http://doi.acm.org/10.1145/32099
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_InternalCompute.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm%602.InternalCompute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L112">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L125">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_InternalCompute_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.InternalCompute*"></a>
   <h4 id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_InternalCompute" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.InternalCompute">InternalCompute()</h4>
@@ -400,7 +452,7 @@ J. ACM 6, 4 (Oct. 1959), 506-514. DOI= <a href="http://doi.acm.org/10.1145/32099
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_SetTargetVertex__0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm%602.SetTargetVertex(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L66">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L80">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_SetTargetVertex_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.SetTargetVertex*"></a>
   <h4 id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_SetTargetVertex__0_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.SetTargetVertex(`0)">SetTargetVertex(TVertex)</h4>
@@ -434,7 +486,7 @@ J. ACM 6, 4 (Oct. 1959), 506-514. DOI= <a href="http://doi.acm.org/10.1145/32099
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_TryGetTargetVertex__0__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm%602.TryGetTargetVertex(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L80">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RankedShortestPath/HoffmanPavleyRankedShortestPathAlgorithm.cs/#L94">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_TryGetTargetVertex_" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.TryGetTargetVertex*"></a>
   <h4 id="QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2_TryGetTargetVertex__0__" data-uid="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.TryGetTargetVertex(`0@)">TryGetTargetVertex(out TVertex)</h4>

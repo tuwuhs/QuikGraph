@@ -7803,6 +7803,15 @@ references:
   fullName.vb: QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm(Of TVertex, TEdge).HoffmanPavleyRankedShortestPathAlgorithm(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge), System.Func(Of TEdge, System.Double))
   nameWithType: HoffmanPavleyRankedShortestPathAlgorithm<TVertex, TEdge>.HoffmanPavleyRankedShortestPathAlgorithm(IBidirectionalGraph<TVertex, TEdge>, Func<TEdge, Double>)
   nameWithType.vb: HoffmanPavleyRankedShortestPathAlgorithm(Of TVertex, TEdge).HoffmanPavleyRankedShortestPathAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), Func(Of TEdge, Double))
+- uid: QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},System.Func{`1,System.Double},QuikGraph.Algorithms.IDistanceRelaxer)
+  name: HoffmanPavleyRankedShortestPathAlgorithm(IBidirectionalGraph<TVertex, TEdge>, Func<TEdge, Double>, IDistanceRelaxer)
+  href: api/QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm-2.html#QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2__ctor_QuikGraph_IBidirectionalGraph__0__1__System_Func__1_System_Double__QuikGraph_Algorithms_IDistanceRelaxer_
+  commentId: M:QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},System.Func{`1,System.Double},QuikGraph.Algorithms.IDistanceRelaxer)
+  name.vb: HoffmanPavleyRankedShortestPathAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), Func(Of TEdge, Double), IDistanceRelaxer)
+  fullName: QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm<TVertex, TEdge>.HoffmanPavleyRankedShortestPathAlgorithm(QuikGraph.IBidirectionalGraph<TVertex, TEdge>, System.Func<TEdge, System.Double>, QuikGraph.Algorithms.IDistanceRelaxer)
+  fullName.vb: QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm(Of TVertex, TEdge).HoffmanPavleyRankedShortestPathAlgorithm(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge), System.Func(Of TEdge, System.Double), QuikGraph.Algorithms.IDistanceRelaxer)
+  nameWithType: HoffmanPavleyRankedShortestPathAlgorithm<TVertex, TEdge>.HoffmanPavleyRankedShortestPathAlgorithm(IBidirectionalGraph<TVertex, TEdge>, Func<TEdge, Double>, IDistanceRelaxer)
+  nameWithType.vb: HoffmanPavleyRankedShortestPathAlgorithm(Of TVertex, TEdge).HoffmanPavleyRankedShortestPathAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), Func(Of TEdge, Double), IDistanceRelaxer)
 - uid: QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm`2.#ctor*
   name: HoffmanPavleyRankedShortestPathAlgorithm
   href: api/QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm-2.html#QuikGraph_Algorithms_RankedShortestPath_HoffmanPavleyRankedShortestPathAlgorithm_2__ctor_
@@ -8205,6 +8214,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.RootedAlgorithmBase(Of TVertex, TGraph).RootedAlgorithmBase
   nameWithType: RootedAlgorithmBase<TVertex, TGraph>.RootedAlgorithmBase
   nameWithType.vb: RootedAlgorithmBase(Of TVertex, TGraph).RootedAlgorithmBase
+- uid: QuikGraph.Algorithms.RootedAlgorithmBase`2.AssertRootInGraph(`0)
+  name: AssertRootInGraph(TVertex)
+  href: api/QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_AssertRootInGraph__0_
+  commentId: M:QuikGraph.Algorithms.RootedAlgorithmBase`2.AssertRootInGraph(`0)
+  fullName: QuikGraph.Algorithms.RootedAlgorithmBase<TVertex, TGraph>.AssertRootInGraph(TVertex)
+  fullName.vb: QuikGraph.Algorithms.RootedAlgorithmBase(Of TVertex, TGraph).AssertRootInGraph(TVertex)
+  nameWithType: RootedAlgorithmBase<TVertex, TGraph>.AssertRootInGraph(TVertex)
+  nameWithType.vb: RootedAlgorithmBase(Of TVertex, TGraph).AssertRootInGraph(TVertex)
+- uid: QuikGraph.Algorithms.RootedAlgorithmBase`2.AssertRootInGraph*
+  name: AssertRootInGraph
+  href: api/QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_AssertRootInGraph_
+  commentId: Overload:QuikGraph.Algorithms.RootedAlgorithmBase`2.AssertRootInGraph
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.RootedAlgorithmBase<TVertex, TGraph>.AssertRootInGraph
+  fullName.vb: QuikGraph.Algorithms.RootedAlgorithmBase(Of TVertex, TGraph).AssertRootInGraph
+  nameWithType: RootedAlgorithmBase<TVertex, TGraph>.AssertRootInGraph
+  nameWithType.vb: RootedAlgorithmBase(Of TVertex, TGraph).AssertRootInGraph
 - uid: QuikGraph.Algorithms.RootedAlgorithmBase`2.ClearRootVertex
   name: ClearRootVertex()
   href: api/QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_ClearRootVertex
@@ -8239,6 +8265,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.RootedAlgorithmBase(Of TVertex, TGraph).Compute
   nameWithType: RootedAlgorithmBase<TVertex, TGraph>.Compute
   nameWithType.vb: RootedAlgorithmBase(Of TVertex, TGraph).Compute
+- uid: QuikGraph.Algorithms.RootedAlgorithmBase`2.GetAndAssertRootInGraph
+  name: GetAndAssertRootInGraph()
+  href: api/QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_GetAndAssertRootInGraph
+  commentId: M:QuikGraph.Algorithms.RootedAlgorithmBase`2.GetAndAssertRootInGraph
+  fullName: QuikGraph.Algorithms.RootedAlgorithmBase<TVertex, TGraph>.GetAndAssertRootInGraph()
+  fullName.vb: QuikGraph.Algorithms.RootedAlgorithmBase(Of TVertex, TGraph).GetAndAssertRootInGraph()
+  nameWithType: RootedAlgorithmBase<TVertex, TGraph>.GetAndAssertRootInGraph()
+  nameWithType.vb: RootedAlgorithmBase(Of TVertex, TGraph).GetAndAssertRootInGraph()
+- uid: QuikGraph.Algorithms.RootedAlgorithmBase`2.GetAndAssertRootInGraph*
+  name: GetAndAssertRootInGraph
+  href: api/QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_GetAndAssertRootInGraph_
+  commentId: Overload:QuikGraph.Algorithms.RootedAlgorithmBase`2.GetAndAssertRootInGraph
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.RootedAlgorithmBase<TVertex, TGraph>.GetAndAssertRootInGraph
+  fullName.vb: QuikGraph.Algorithms.RootedAlgorithmBase(Of TVertex, TGraph).GetAndAssertRootInGraph
+  nameWithType: RootedAlgorithmBase<TVertex, TGraph>.GetAndAssertRootInGraph
+  nameWithType.vb: RootedAlgorithmBase(Of TVertex, TGraph).GetAndAssertRootInGraph
 - uid: QuikGraph.Algorithms.RootedAlgorithmBase`2.OnRootVertexChanged(System.EventArgs)
   name: OnRootVertexChanged(EventArgs)
   href: api/QuikGraph.Algorithms.RootedAlgorithmBase-2.html#QuikGraph_Algorithms_RootedAlgorithmBase_2_OnRootVertexChanged_System_EventArgs_
@@ -10475,6 +10518,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm(Of TVertex, TEdge).BellmanFordShortestPathAlgorithm
   nameWithType: BellmanFordShortestPathAlgorithm<TVertex, TEdge>.BellmanFordShortestPathAlgorithm
   nameWithType.vb: BellmanFordShortestPathAlgorithm(Of TVertex, TEdge).BellmanFordShortestPathAlgorithm
+- uid: QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm`2.Clean
+  name: Clean()
+  href: api/QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm-2.html#QuikGraph_Algorithms_ShortestPath_BellmanFordShortestPathAlgorithm_2_Clean
+  commentId: M:QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm`2.Clean
+  fullName: QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm<TVertex, TEdge>.Clean()
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm(Of TVertex, TEdge).Clean()
+  nameWithType: BellmanFordShortestPathAlgorithm<TVertex, TEdge>.Clean()
+  nameWithType.vb: BellmanFordShortestPathAlgorithm(Of TVertex, TEdge).Clean()
+- uid: QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm`2.Clean*
+  name: Clean
+  href: api/QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm-2.html#QuikGraph_Algorithms_ShortestPath_BellmanFordShortestPathAlgorithm_2_Clean_
+  commentId: Overload:QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm`2.Clean
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm<TVertex, TEdge>.Clean
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm(Of TVertex, TEdge).Clean
+  nameWithType: BellmanFordShortestPathAlgorithm<TVertex, TEdge>.Clean
+  nameWithType.vb: BellmanFordShortestPathAlgorithm(Of TVertex, TEdge).Clean
 - uid: QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm`2.EdgeMinimized
   name: EdgeMinimized
   href: api/QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm-2.html#QuikGraph_Algorithms_ShortestPath_BellmanFordShortestPathAlgorithm_2_EdgeMinimized
