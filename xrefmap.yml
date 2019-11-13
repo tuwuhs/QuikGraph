@@ -1542,15 +1542,15 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord
   nameWithType: AlgorithmExtensions.ShortestPathsBellmanFord
-- uid: QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},``0)
-  name: ShortestPathsBellmanFord<TVertex, TEdge>(IVertexAndEdgeListGraph<TVertex, TEdge>, Func<TEdge, Double>, TVertex)
-  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsBellmanFord__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_
-  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},``0)
-  name.vb: ShortestPathsBellmanFord(Of TVertex, TEdge)(IVertexAndEdgeListGraph(Of TVertex, TEdge), Func(Of TEdge, Double), TVertex)
-  fullName: QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord<TVertex, TEdge>(QuikGraph.IVertexAndEdgeListGraph<TVertex, TEdge>, System.Func<TEdge, System.Double>, TVertex)
-  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord(Of TVertex, TEdge)(QuikGraph.IVertexAndEdgeListGraph(Of TVertex, TEdge), System.Func(Of TEdge, System.Double), TVertex)
-  nameWithType: AlgorithmExtensions.ShortestPathsBellmanFord<TVertex, TEdge>(IVertexAndEdgeListGraph<TVertex, TEdge>, Func<TEdge, Double>, TVertex)
-  nameWithType.vb: AlgorithmExtensions.ShortestPathsBellmanFord(Of TVertex, TEdge)(IVertexAndEdgeListGraph(Of TVertex, TEdge), Func(Of TEdge, Double), TVertex)
+- uid: QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},``0,System.Boolean@)
+  name: ShortestPathsBellmanFord<TVertex, TEdge>(IVertexAndEdgeListGraph<TVertex, TEdge>, Func<TEdge, Double>, TVertex, out Boolean)
+  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsBellmanFord__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_System_Boolean__
+  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},``0,System.Boolean@)
+  name.vb: ShortestPathsBellmanFord(Of TVertex, TEdge)(IVertexAndEdgeListGraph(Of TVertex, TEdge), Func(Of TEdge, Double), TVertex, ByRef Boolean)
+  fullName: QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord<TVertex, TEdge>(QuikGraph.IVertexAndEdgeListGraph<TVertex, TEdge>, System.Func<TEdge, System.Double>, TVertex, out System.Boolean)
+  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord(Of TVertex, TEdge)(QuikGraph.IVertexAndEdgeListGraph(Of TVertex, TEdge), System.Func(Of TEdge, System.Double), TVertex, ByRef System.Boolean)
+  nameWithType: AlgorithmExtensions.ShortestPathsBellmanFord<TVertex, TEdge>(IVertexAndEdgeListGraph<TVertex, TEdge>, Func<TEdge, Double>, TVertex, out Boolean)
+  nameWithType.vb: AlgorithmExtensions.ShortestPathsBellmanFord(Of TVertex, TEdge)(IVertexAndEdgeListGraph(Of TVertex, TEdge), Func(Of TEdge, Double), TVertex, ByRef Boolean)
 - uid: QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDag*
   name: ShortestPathsDag
   href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDag_
