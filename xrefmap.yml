@@ -1633,24 +1633,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort(Of TVertex, TEdge)(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge), QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
   nameWithType: AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort<TVertex, TEdge>(IBidirectionalGraph<TVertex, TEdge>, TopologicalSortDirection)
   nameWithType.vb: AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort(Of TVertex, TEdge)(IBidirectionalGraph(Of TVertex, TEdge), TopologicalSortDirection)
-- uid: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort``2(QuikGraph.IBidirectionalGraph{``0,``1},System.Collections.Generic.IList{``0})
-  name: SourceFirstBidirectionalTopologicalSort<TVertex, TEdge>(IBidirectionalGraph<TVertex, TEdge>, IList<TVertex>)
-  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstBidirectionalTopologicalSort__2_QuikGraph_IBidirectionalGraph___0___1__System_Collections_Generic_IList___0__
-  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort``2(QuikGraph.IBidirectionalGraph{``0,``1},System.Collections.Generic.IList{``0})
-  name.vb: SourceFirstBidirectionalTopologicalSort(Of TVertex, TEdge)(IBidirectionalGraph(Of TVertex, TEdge), IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort<TVertex, TEdge>(QuikGraph.IBidirectionalGraph<TVertex, TEdge>, System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort(Of TVertex, TEdge)(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge), System.Collections.Generic.IList(Of TVertex))
-  nameWithType: AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort<TVertex, TEdge>(IBidirectionalGraph<TVertex, TEdge>, IList<TVertex>)
-  nameWithType.vb: AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort(Of TVertex, TEdge)(IBidirectionalGraph(Of TVertex, TEdge), IList(Of TVertex))
-- uid: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort``2(QuikGraph.IBidirectionalGraph{``0,``1},System.Collections.Generic.IList{``0},QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
-  name: SourceFirstBidirectionalTopologicalSort<TVertex, TEdge>(IBidirectionalGraph<TVertex, TEdge>, IList<TVertex>, TopologicalSortDirection)
-  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstBidirectionalTopologicalSort__2_QuikGraph_IBidirectionalGraph___0___1__System_Collections_Generic_IList___0__QuikGraph_Algorithms_TopologicalSort_TopologicalSortDirection_
-  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort``2(QuikGraph.IBidirectionalGraph{``0,``1},System.Collections.Generic.IList{``0},QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
-  name.vb: SourceFirstBidirectionalTopologicalSort(Of TVertex, TEdge)(IBidirectionalGraph(Of TVertex, TEdge), IList(Of TVertex), TopologicalSortDirection)
-  fullName: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort<TVertex, TEdge>(QuikGraph.IBidirectionalGraph<TVertex, TEdge>, System.Collections.Generic.IList<TVertex>, QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
-  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort(Of TVertex, TEdge)(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge), System.Collections.Generic.IList(Of TVertex), QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
-  nameWithType: AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort<TVertex, TEdge>(IBidirectionalGraph<TVertex, TEdge>, IList<TVertex>, TopologicalSortDirection)
-  nameWithType.vb: AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort(Of TVertex, TEdge)(IBidirectionalGraph(Of TVertex, TEdge), IList(Of TVertex), TopologicalSortDirection)
 - uid: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort*
   name: SourceFirstTopologicalSort
   href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort_
@@ -1658,6 +1640,15 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort
   nameWithType: AlgorithmExtensions.SourceFirstTopologicalSort
+- uid: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort``2(QuikGraph.IUndirectedGraph{``0,``1})
+  name: SourceFirstTopologicalSort<TVertex, TEdge>(IUndirectedGraph<TVertex, TEdge>)
+  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IUndirectedGraph___0___1__
+  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort``2(QuikGraph.IUndirectedGraph{``0,``1})
+  name.vb: SourceFirstTopologicalSort(Of TVertex, TEdge)(IUndirectedGraph(Of TVertex, TEdge))
+  fullName: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort<TVertex, TEdge>(QuikGraph.IUndirectedGraph<TVertex, TEdge>)
+  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort(Of TVertex, TEdge)(QuikGraph.IUndirectedGraph(Of TVertex, TEdge))
+  nameWithType: AlgorithmExtensions.SourceFirstTopologicalSort<TVertex, TEdge>(IUndirectedGraph<TVertex, TEdge>)
+  nameWithType.vb: AlgorithmExtensions.SourceFirstTopologicalSort(Of TVertex, TEdge)(IUndirectedGraph(Of TVertex, TEdge))
 - uid: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1})
   name: SourceFirstTopologicalSort<TVertex, TEdge>(IVertexAndEdgeListGraph<TVertex, TEdge>)
   href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IVertexAndEdgeListGraph___0___1__
@@ -1667,15 +1658,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort(Of TVertex, TEdge)(QuikGraph.IVertexAndEdgeListGraph(Of TVertex, TEdge))
   nameWithType: AlgorithmExtensions.SourceFirstTopologicalSort<TVertex, TEdge>(IVertexAndEdgeListGraph<TVertex, TEdge>)
   nameWithType.vb: AlgorithmExtensions.SourceFirstTopologicalSort(Of TVertex, TEdge)(IVertexAndEdgeListGraph(Of TVertex, TEdge))
-- uid: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Collections.Generic.IList{``0})
-  name: SourceFirstTopologicalSort<TVertex, TEdge>(IVertexAndEdgeListGraph<TVertex, TEdge>, IList<TVertex>)
-  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Collections_Generic_IList___0__
-  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Collections.Generic.IList{``0})
-  name.vb: SourceFirstTopologicalSort(Of TVertex, TEdge)(IVertexAndEdgeListGraph(Of TVertex, TEdge), IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort<TVertex, TEdge>(QuikGraph.IVertexAndEdgeListGraph<TVertex, TEdge>, System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort(Of TVertex, TEdge)(QuikGraph.IVertexAndEdgeListGraph(Of TVertex, TEdge), System.Collections.Generic.IList(Of TVertex))
-  nameWithType: AlgorithmExtensions.SourceFirstTopologicalSort<TVertex, TEdge>(IVertexAndEdgeListGraph<TVertex, TEdge>, IList<TVertex>)
-  nameWithType.vb: AlgorithmExtensions.SourceFirstTopologicalSort(Of TVertex, TEdge)(IVertexAndEdgeListGraph(Of TVertex, TEdge), IList(Of TVertex))
 - uid: QuikGraph.Algorithms.AlgorithmExtensions.StronglyConnectedComponents*
   name: StronglyConnectedComponents
   href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_StronglyConnectedComponents_
@@ -1708,15 +1690,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort(Of TVertex, TEdge)(QuikGraph.IUndirectedGraph(Of TVertex, TEdge))
   nameWithType: AlgorithmExtensions.TopologicalSort<TVertex, TEdge>(IUndirectedGraph<TVertex, TEdge>)
   nameWithType.vb: AlgorithmExtensions.TopologicalSort(Of TVertex, TEdge)(IUndirectedGraph(Of TVertex, TEdge))
-- uid: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort``2(QuikGraph.IUndirectedGraph{``0,``1},System.Collections.Generic.IList{``0})
-  name: TopologicalSort<TVertex, TEdge>(IUndirectedGraph<TVertex, TEdge>, IList<TVertex>)
-  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IUndirectedGraph___0___1__System_Collections_Generic_IList___0__
-  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort``2(QuikGraph.IUndirectedGraph{``0,``1},System.Collections.Generic.IList{``0})
-  name.vb: TopologicalSort(Of TVertex, TEdge)(IUndirectedGraph(Of TVertex, TEdge), IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort<TVertex, TEdge>(QuikGraph.IUndirectedGraph<TVertex, TEdge>, System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort(Of TVertex, TEdge)(QuikGraph.IUndirectedGraph(Of TVertex, TEdge), System.Collections.Generic.IList(Of TVertex))
-  nameWithType: AlgorithmExtensions.TopologicalSort<TVertex, TEdge>(IUndirectedGraph<TVertex, TEdge>, IList<TVertex>)
-  nameWithType.vb: AlgorithmExtensions.TopologicalSort(Of TVertex, TEdge)(IUndirectedGraph(Of TVertex, TEdge), IList(Of TVertex))
 - uid: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort``2(QuikGraph.IVertexListGraph{``0,``1})
   name: TopologicalSort<TVertex, TEdge>(IVertexListGraph<TVertex, TEdge>)
   href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__
@@ -1726,15 +1699,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort(Of TVertex, TEdge)(QuikGraph.IVertexListGraph(Of TVertex, TEdge))
   nameWithType: AlgorithmExtensions.TopologicalSort<TVertex, TEdge>(IVertexListGraph<TVertex, TEdge>)
   nameWithType.vb: AlgorithmExtensions.TopologicalSort(Of TVertex, TEdge)(IVertexListGraph(Of TVertex, TEdge))
-- uid: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort``2(QuikGraph.IVertexListGraph{``0,``1},System.Collections.Generic.IList{``0})
-  name: TopologicalSort<TVertex, TEdge>(IVertexListGraph<TVertex, TEdge>, IList<TVertex>)
-  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IList___0__
-  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort``2(QuikGraph.IVertexListGraph{``0,``1},System.Collections.Generic.IList{``0})
-  name.vb: TopologicalSort(Of TVertex, TEdge)(IVertexListGraph(Of TVertex, TEdge), IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort<TVertex, TEdge>(QuikGraph.IVertexListGraph<TVertex, TEdge>, System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort(Of TVertex, TEdge)(QuikGraph.IVertexListGraph(Of TVertex, TEdge), System.Collections.Generic.IList(Of TVertex))
-  nameWithType: AlgorithmExtensions.TopologicalSort<TVertex, TEdge>(IVertexListGraph<TVertex, TEdge>, IList<TVertex>)
-  nameWithType.vb: AlgorithmExtensions.TopologicalSort(Of TVertex, TEdge)(IVertexListGraph(Of TVertex, TEdge), IList(Of TVertex))
 - uid: QuikGraph.Algorithms.AlgorithmExtensions.TreeBreadthFirstSearch*
   name: TreeBreadthFirstSearch
   href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_TreeBreadthFirstSearch_
@@ -11873,24 +11837,24 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge)
   nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>
   nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge)
-- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1})
-  name: SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph<TVertex, TEdge>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2__ctor_QuikGraph_IBidirectionalGraph__0__1__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1})
-  name.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph(Of TVertex, TEdge))
-  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm(QuikGraph.IBidirectionalGraph<TVertex, TEdge>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge))
-  nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph<TVertex, TEdge>)
-  nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph(Of TVertex, TEdge))
-- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
-  name: SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph<TVertex, TEdge>, TopologicalSortDirection)
-  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2__ctor_QuikGraph_IBidirectionalGraph__0__1__QuikGraph_Algorithms_TopologicalSort_TopologicalSortDirection_
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
-  name.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), TopologicalSortDirection)
-  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm(QuikGraph.IBidirectionalGraph<TVertex, TEdge>, QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge), QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)
-  nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph<TVertex, TEdge>, TopologicalSortDirection)
-  nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), TopologicalSortDirection)
+- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection,System.Int32)
+  name: SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph<TVertex, TEdge>, TopologicalSortDirection, Int32)
+  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2__ctor_QuikGraph_IBidirectionalGraph__0__1__QuikGraph_Algorithms_TopologicalSort_TopologicalSortDirection_System_Int32_
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection,System.Int32)
+  name.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), TopologicalSortDirection, Int32)
+  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm(QuikGraph.IBidirectionalGraph<TVertex, TEdge>, QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection, System.Int32)
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge), QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection, System.Int32)
+  nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph<TVertex, TEdge>, TopologicalSortDirection, Int32)
+  nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), TopologicalSortDirection, Int32)
+- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},System.Int32)
+  name: SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph<TVertex, TEdge>, Int32)
+  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2__ctor_QuikGraph_IBidirectionalGraph__0__1__System_Int32_
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor(QuikGraph.IBidirectionalGraph{`0,`1},System.Int32)
+  name.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), Int32)
+  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm(QuikGraph.IBidirectionalGraph<TVertex, TEdge>, System.Int32)
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm(QuikGraph.IBidirectionalGraph(Of TVertex, TEdge), System.Int32)
+  nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph<TVertex, TEdge>, Int32)
+  nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm(IBidirectionalGraph(Of TVertex, TEdge), Int32)
 - uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.#ctor*
   name: SourceFirstBidirectionalTopologicalSortAlgorithm
   href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2__ctor_
@@ -11900,24 +11864,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm
   nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstBidirectionalTopologicalSortAlgorithm
   nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstBidirectionalTopologicalSortAlgorithm
-- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name: Compute(IList<TVertex>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2_Compute_System_Collections_Generic_IList__0__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name.vb: Compute(IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.Compute(System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).Compute(System.Collections.Generic.IList(Of TVertex))
-  nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.Compute(IList<TVertex>)
-  nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).Compute(IList(Of TVertex))
-- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.Compute*
-  name: Compute
-  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2_Compute_
-  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.Compute
-  isSpec: "True"
-  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).Compute
-  nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).Compute
 - uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.InDegrees
   name: InDegrees
   href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2_InDegrees
@@ -11935,6 +11881,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).InDegrees
   nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.InDegrees
   nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).InDegrees
+- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: SourceFirstBidirectionalTopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: SourceFirstBidirectionalTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstBidirectionalTopologicalSortAlgorithm_2_InternalCompute
@@ -11986,15 +11949,15 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge)
   nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>
   nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge)
-- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexAndEdgeListGraph{`0,`1})
-  name: SourceFirstTopologicalSortAlgorithm(IVertexAndEdgeListGraph<TVertex, TEdge>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2__ctor_QuikGraph_IVertexAndEdgeListGraph__0__1__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexAndEdgeListGraph{`0,`1})
-  name.vb: SourceFirstTopologicalSortAlgorithm(IVertexAndEdgeListGraph(Of TVertex, TEdge))
-  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstTopologicalSortAlgorithm(QuikGraph.IVertexAndEdgeListGraph<TVertex, TEdge>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstTopologicalSortAlgorithm(QuikGraph.IVertexAndEdgeListGraph(Of TVertex, TEdge))
-  nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstTopologicalSortAlgorithm(IVertexAndEdgeListGraph<TVertex, TEdge>)
-  nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstTopologicalSortAlgorithm(IVertexAndEdgeListGraph(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexAndEdgeListGraph{`0,`1},System.Int32)
+  name: SourceFirstTopologicalSortAlgorithm(IVertexAndEdgeListGraph<TVertex, TEdge>, Int32)
+  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2__ctor_QuikGraph_IVertexAndEdgeListGraph__0__1__System_Int32_
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexAndEdgeListGraph{`0,`1},System.Int32)
+  name.vb: SourceFirstTopologicalSortAlgorithm(IVertexAndEdgeListGraph(Of TVertex, TEdge), Int32)
+  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstTopologicalSortAlgorithm(QuikGraph.IVertexAndEdgeListGraph<TVertex, TEdge>, System.Int32)
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstTopologicalSortAlgorithm(QuikGraph.IVertexAndEdgeListGraph(Of TVertex, TEdge), System.Int32)
+  nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstTopologicalSortAlgorithm(IVertexAndEdgeListGraph<TVertex, TEdge>, Int32)
+  nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstTopologicalSortAlgorithm(IVertexAndEdgeListGraph(Of TVertex, TEdge), Int32)
 - uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.#ctor*
   name: SourceFirstTopologicalSortAlgorithm
   href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2__ctor_
@@ -12004,24 +11967,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstTopologicalSortAlgorithm
   nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.SourceFirstTopologicalSortAlgorithm
   nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).SourceFirstTopologicalSortAlgorithm
-- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name: Compute(IList<TVertex>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2_Compute_System_Collections_Generic_IList__0__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name.vb: Compute(IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.Compute(System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Compute(System.Collections.Generic.IList(Of TVertex))
-  nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.Compute(IList<TVertex>)
-  nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Compute(IList(Of TVertex))
-- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.Compute*
-  name: Compute
-  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2_Compute_
-  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.Compute
-  isSpec: "True"
-  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Compute
-  nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Compute
 - uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.InDegrees
   name: InDegrees
   href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2_InDegrees
@@ -12039,6 +11984,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).InDegrees
   nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.InDegrees
   nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).InDegrees
+- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: SourceFirstTopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: SourceFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_SourceFirstTopologicalSortAlgorithm_2_InternalCompute
@@ -12090,24 +12052,15 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge)
   nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>
   nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge)
-- uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexListGraph{`0,`1})
-  name: TopologicalSortAlgorithm(IVertexListGraph<TVertex, TEdge>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2__ctor_QuikGraph_IVertexListGraph__0__1__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexListGraph{`0,`1})
-  name.vb: TopologicalSortAlgorithm(IVertexListGraph(Of TVertex, TEdge))
-  fullName: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm<TVertex, TEdge>.TopologicalSortAlgorithm(QuikGraph.IVertexListGraph<TVertex, TEdge>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).TopologicalSortAlgorithm(QuikGraph.IVertexListGraph(Of TVertex, TEdge))
-  nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.TopologicalSortAlgorithm(IVertexListGraph<TVertex, TEdge>)
-  nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).TopologicalSortAlgorithm(IVertexListGraph(Of TVertex, TEdge))
-- uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexListGraph{`0,`1},System.Collections.Generic.IList{`0})
-  name: TopologicalSortAlgorithm(IVertexListGraph<TVertex, TEdge>, IList<TVertex>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2__ctor_QuikGraph_IVertexListGraph__0__1__System_Collections_Generic_IList__0__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexListGraph{`0,`1},System.Collections.Generic.IList{`0})
-  name.vb: TopologicalSortAlgorithm(IVertexListGraph(Of TVertex, TEdge), IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm<TVertex, TEdge>.TopologicalSortAlgorithm(QuikGraph.IVertexListGraph<TVertex, TEdge>, System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).TopologicalSortAlgorithm(QuikGraph.IVertexListGraph(Of TVertex, TEdge), System.Collections.Generic.IList(Of TVertex))
-  nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.TopologicalSortAlgorithm(IVertexListGraph<TVertex, TEdge>, IList<TVertex>)
-  nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).TopologicalSortAlgorithm(IVertexListGraph(Of TVertex, TEdge), IList(Of TVertex))
+- uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexListGraph{`0,`1},System.Int32)
+  name: TopologicalSortAlgorithm(IVertexListGraph<TVertex, TEdge>, Int32)
+  href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2__ctor_QuikGraph_IVertexListGraph__0__1__System_Int32_
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.#ctor(QuikGraph.IVertexListGraph{`0,`1},System.Int32)
+  name.vb: TopologicalSortAlgorithm(IVertexListGraph(Of TVertex, TEdge), Int32)
+  fullName: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm<TVertex, TEdge>.TopologicalSortAlgorithm(QuikGraph.IVertexListGraph<TVertex, TEdge>, System.Int32)
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).TopologicalSortAlgorithm(QuikGraph.IVertexListGraph(Of TVertex, TEdge), System.Int32)
+  nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.TopologicalSortAlgorithm(IVertexListGraph<TVertex, TEdge>, Int32)
+  nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).TopologicalSortAlgorithm(IVertexListGraph(Of TVertex, TEdge), Int32)
 - uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.#ctor*
   name: TopologicalSortAlgorithm
   href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2__ctor_
@@ -12117,24 +12070,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).TopologicalSortAlgorithm
   nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.TopologicalSortAlgorithm
   nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).TopologicalSortAlgorithm
-- uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name: Compute(IList<TVertex>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2_Compute_System_Collections_Generic_IList__0__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name.vb: Compute(IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm<TVertex, TEdge>.Compute(System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).Compute(System.Collections.Generic.IList(Of TVertex))
-  nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.Compute(IList<TVertex>)
-  nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).Compute(IList(Of TVertex))
-- uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.Compute*
-  name: Compute
-  href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2_Compute_
-  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.Compute
-  isSpec: "True"
-  fullName: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).Compute
-  nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).Compute
 - uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.DiscoverVertex
   name: DiscoverVertex
   href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2_DiscoverVertex
@@ -12151,6 +12086,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).FinishVertex
   nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.FinishVertex
   nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).FinishVertex
+- uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: TopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: TopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_TopologicalSortAlgorithm_2_InternalCompute
@@ -12212,15 +12164,15 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge)
   nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>
   nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge)
-- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1})
-  name: UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1})
-  name.vb: UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge))
-  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedFirstTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph<TVertex, TEdge>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedFirstTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph(Of TVertex, TEdge))
-  nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>)
-  nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1},System.Int32)
+  name: UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>, Int32)
+  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__System_Int32_
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1},System.Int32)
+  name.vb: UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge), Int32)
+  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedFirstTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph<TVertex, TEdge>, System.Int32)
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedFirstTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph(Of TVertex, TEdge), System.Int32)
+  nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>, Int32)
+  nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedFirstTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge), Int32)
 - uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.#ctor*
   name: UndirectedFirstTopologicalSortAlgorithm
   href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2__ctor_
@@ -12247,24 +12199,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).AllowCyclicGraph
   nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.AllowCyclicGraph
   nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).AllowCyclicGraph
-- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name: Compute(IList<TVertex>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2_Compute_System_Collections_Generic_IList__0__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name.vb: Compute(IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Compute(System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Compute(System.Collections.Generic.IList(Of TVertex))
-  nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Compute(IList<TVertex>)
-  nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Compute(IList(Of TVertex))
-- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Compute*
-  name: Compute
-  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2_Compute_
-  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Compute
-  isSpec: "True"
-  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Compute
-  nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Compute
 - uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Degrees
   name: Degrees
   href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2_Degrees
@@ -12282,6 +12216,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Degrees
   nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Degrees
   nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Degrees
+- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: UndirectedFirstTopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: UndirectedFirstTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedFirstTopologicalSortAlgorithm_2_InternalCompute
@@ -12333,24 +12284,15 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge)
   nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>
   nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge)
-- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1})
-  name: UndirectedTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1})
-  name.vb: UndirectedTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge))
-  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph<TVertex, TEdge>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph(Of TVertex, TEdge))
-  nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>)
-  nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge))
-- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1},System.Collections.Generic.IList{`0})
-  name: UndirectedTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>, IList<TVertex>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__System_Collections_Generic_IList__0__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1},System.Collections.Generic.IList{`0})
-  name.vb: UndirectedTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge), IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph<TVertex, TEdge>, System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph(Of TVertex, TEdge), System.Collections.Generic.IList(Of TVertex))
-  nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>, IList<TVertex>)
-  nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge), IList(Of TVertex))
+- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1},System.Int32)
+  name: UndirectedTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>, Int32)
+  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__System_Int32_
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1},System.Int32)
+  name.vb: UndirectedTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge), Int32)
+  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph<TVertex, TEdge>, System.Int32)
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedTopologicalSortAlgorithm(QuikGraph.IUndirectedGraph(Of TVertex, TEdge), System.Int32)
+  nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.UndirectedTopologicalSortAlgorithm(IUndirectedGraph<TVertex, TEdge>, Int32)
+  nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).UndirectedTopologicalSortAlgorithm(IUndirectedGraph(Of TVertex, TEdge), Int32)
 - uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.#ctor*
   name: UndirectedTopologicalSortAlgorithm
   href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2__ctor_
@@ -12377,24 +12319,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).AllowCyclicGraph
   nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.AllowCyclicGraph
   nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).AllowCyclicGraph
-- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name: Compute(IList<TVertex>)
-  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2_Compute_System_Collections_Generic_IList__0__
-  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.Compute(System.Collections.Generic.IList{`0})
-  name.vb: Compute(IList(Of TVertex))
-  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.Compute(System.Collections.Generic.IList<TVertex>)
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).Compute(System.Collections.Generic.IList(Of TVertex))
-  nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.Compute(IList<TVertex>)
-  nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).Compute(IList(Of TVertex))
-- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.Compute*
-  name: Compute
-  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2_Compute_
-  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.Compute
+- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.Initialize
   isSpec: "True"
-  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).Compute
-  nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.Compute
-  nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).Compute
+  fullName: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: UndirectedTopologicalSortAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: UndirectedTopologicalSortAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html#QuikGraph_Algorithms_TopologicalSort_UndirectedTopologicalSortAlgorithm_2_InternalCompute
