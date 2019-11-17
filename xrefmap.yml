@@ -1357,15 +1357,15 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents
   nameWithType: AlgorithmExtensions.IncrementalConnectedComponents
-- uid: QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents``2(QuikGraph.IMutableVertexAndEdgeSet{``0,``1})
-  name: IncrementalConnectedComponents<TVertex, TEdge>(IMutableVertexAndEdgeSet<TVertex, TEdge>)
-  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_IncrementalConnectedComponents__2_QuikGraph_IMutableVertexAndEdgeSet___0___1__
-  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents``2(QuikGraph.IMutableVertexAndEdgeSet{``0,``1})
-  name.vb: IncrementalConnectedComponents(Of TVertex, TEdge)(IMutableVertexAndEdgeSet(Of TVertex, TEdge))
-  fullName: QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents<TVertex, TEdge>(QuikGraph.IMutableVertexAndEdgeSet<TVertex, TEdge>)
-  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents(Of TVertex, TEdge)(QuikGraph.IMutableVertexAndEdgeSet(Of TVertex, TEdge))
-  nameWithType: AlgorithmExtensions.IncrementalConnectedComponents<TVertex, TEdge>(IMutableVertexAndEdgeSet<TVertex, TEdge>)
-  nameWithType.vb: AlgorithmExtensions.IncrementalConnectedComponents(Of TVertex, TEdge)(IMutableVertexAndEdgeSet(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents``2(QuikGraph.IMutableVertexAndEdgeSet{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{System.Int32,System.Collections.Generic.IDictionary{``0,System.Int32}}}@)
+  name: IncrementalConnectedComponents<TVertex, TEdge>(IMutableVertexAndEdgeSet<TVertex, TEdge>, out Func<KeyValuePair<Int32, IDictionary<TVertex, Int32>>>)
+  href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_IncrementalConnectedComponents__2_QuikGraph_IMutableVertexAndEdgeSet___0___1__System_Func_System_Collections_Generic_KeyValuePair_System_Int32_System_Collections_Generic_IDictionary___0_System_Int32_____
+  commentId: M:QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents``2(QuikGraph.IMutableVertexAndEdgeSet{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{System.Int32,System.Collections.Generic.IDictionary{``0,System.Int32}}}@)
+  name.vb: IncrementalConnectedComponents(Of TVertex, TEdge)(IMutableVertexAndEdgeSet(Of TVertex, TEdge), ByRef Func(Of KeyValuePair(Of Int32, IDictionary(Of TVertex, Int32))))
+  fullName: QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents<TVertex, TEdge>(QuikGraph.IMutableVertexAndEdgeSet<TVertex, TEdge>, out System.Func<System.Collections.Generic.KeyValuePair<System.Int32, System.Collections.Generic.IDictionary<TVertex, System.Int32>>>)
+  fullName.vb: QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents(Of TVertex, TEdge)(QuikGraph.IMutableVertexAndEdgeSet(Of TVertex, TEdge), ByRef System.Func(Of System.Collections.Generic.KeyValuePair(Of System.Int32, System.Collections.Generic.IDictionary(Of TVertex, System.Int32))))
+  nameWithType: AlgorithmExtensions.IncrementalConnectedComponents<TVertex, TEdge>(IMutableVertexAndEdgeSet<TVertex, TEdge>, out Func<KeyValuePair<Int32, IDictionary<TVertex, Int32>>>)
+  nameWithType.vb: AlgorithmExtensions.IncrementalConnectedComponents(Of TVertex, TEdge)(IMutableVertexAndEdgeSet(Of TVertex, TEdge), ByRef Func(Of KeyValuePair(Of Int32, IDictionary(Of TVertex, Int32))))
 - uid: QuikGraph.Algorithms.AlgorithmExtensions.IsDirectedAcyclicGraph*
   name: IsDirectedAcyclicGraph
   href: api/QuikGraph.Algorithms.AlgorithmExtensions.html#QuikGraph_Algorithms_AlgorithmExtensions_IsDirectedAcyclicGraph_
@@ -2534,6 +2534,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm(Of TVertex, TEdge).Components
   nameWithType: ConnectedComponentsAlgorithm<TVertex, TEdge>.Components
   nameWithType.vb: ConnectedComponentsAlgorithm(Of TVertex, TEdge).Components
+- uid: QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_ConnectedComponentsAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: ConnectedComponentsAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: ConnectedComponentsAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_ConnectedComponentsAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm`2.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: ConnectedComponentsAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: ConnectedComponentsAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_ConnectedComponentsAlgorithm_2_InternalCompute
@@ -2785,6 +2802,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm(Of TVertex, TEdge).Graphs
   nameWithType: StronglyConnectedComponentsAlgorithm<TVertex, TEdge>.Graphs
   nameWithType.vb: StronglyConnectedComponentsAlgorithm(Of TVertex, TEdge).Graphs
+- uid: QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_StronglyConnectedComponentsAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: StronglyConnectedComponentsAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: StronglyConnectedComponentsAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_StronglyConnectedComponentsAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm`2.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: StronglyConnectedComponentsAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: StronglyConnectedComponentsAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_StronglyConnectedComponentsAlgorithm_2_InternalCompute
@@ -2898,6 +2932,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm(Of TVertex, TEdge).WeaklyConnectedComponentsAlgorithm
   nameWithType: WeaklyConnectedComponentsAlgorithm<TVertex, TEdge>.WeaklyConnectedComponentsAlgorithm
   nameWithType.vb: WeaklyConnectedComponentsAlgorithm(Of TVertex, TEdge).WeaklyConnectedComponentsAlgorithm
+- uid: QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm`2.Clean
+  name: Clean()
+  href: api/QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_WeaklyConnectedComponentsAlgorithm_2_Clean
+  commentId: M:QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm`2.Clean
+  fullName: QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm<TVertex, TEdge>.Clean()
+  fullName.vb: QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm(Of TVertex, TEdge).Clean()
+  nameWithType: WeaklyConnectedComponentsAlgorithm<TVertex, TEdge>.Clean()
+  nameWithType.vb: WeaklyConnectedComponentsAlgorithm(Of TVertex, TEdge).Clean()
+- uid: QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm`2.Clean*
+  name: Clean
+  href: api/QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_WeaklyConnectedComponentsAlgorithm_2_Clean_
+  commentId: Overload:QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm`2.Clean
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm<TVertex, TEdge>.Clean
+  fullName.vb: QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm(Of TVertex, TEdge).Clean
+  nameWithType: WeaklyConnectedComponentsAlgorithm<TVertex, TEdge>.Clean
+  nameWithType.vb: WeaklyConnectedComponentsAlgorithm(Of TVertex, TEdge).Clean
 - uid: QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm`2.ComponentCount
   name: ComponentCount
   href: api/QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm-2.html#QuikGraph_Algorithms_ConnectedComponents_WeaklyConnectedComponentsAlgorithm_2_ComponentCount
