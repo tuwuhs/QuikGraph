@@ -12615,6 +12615,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.TSP.TSP(Of TVertex, TEdge, TGraph).BestCost
   nameWithType: TSP<TVertex, TEdge, TGraph>.BestCost
   nameWithType.vb: TSP(Of TVertex, TEdge, TGraph).BestCost
+- uid: QuikGraph.Algorithms.TSP.TSP`3.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.TSP.TSP-3.html#QuikGraph_Algorithms_TSP_TSP_3_Initialize
+  commentId: M:QuikGraph.Algorithms.TSP.TSP`3.Initialize
+  fullName: QuikGraph.Algorithms.TSP.TSP<TVertex, TEdge, TGraph>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.TSP.TSP(Of TVertex, TEdge, TGraph).Initialize()
+  nameWithType: TSP<TVertex, TEdge, TGraph>.Initialize()
+  nameWithType.vb: TSP(Of TVertex, TEdge, TGraph).Initialize()
+- uid: QuikGraph.Algorithms.TSP.TSP`3.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.TSP.TSP-3.html#QuikGraph_Algorithms_TSP_TSP_3_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.TSP.TSP`3.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.TSP.TSP<TVertex, TEdge, TGraph>.Initialize
+  fullName.vb: QuikGraph.Algorithms.TSP.TSP(Of TVertex, TEdge, TGraph).Initialize
+  nameWithType: TSP<TVertex, TEdge, TGraph>.Initialize
+  nameWithType.vb: TSP(Of TVertex, TEdge, TGraph).Initialize
 - uid: QuikGraph.Algorithms.TSP.TSP`3.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.TSP.TSP-3.html#QuikGraph_Algorithms_TSP_TSP_3_InternalCompute
