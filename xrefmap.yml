@@ -2388,6 +2388,28 @@ references:
   fullName.vb: QuikGraph.Algorithms.Condensation.EdgeMergeCondensationGraphAlgorithm(Of TVertex, TEdge).VertexPredicate
   nameWithType: EdgeMergeCondensationGraphAlgorithm<TVertex, TEdge>.VertexPredicate
   nameWithType.vb: EdgeMergeCondensationGraphAlgorithm(Of TVertex, TEdge).VertexPredicate
+- uid: QuikGraph.Algorithms.Condensation.MergedEdge
+  name: MergedEdge
+  href: api/QuikGraph.Algorithms.Condensation.MergedEdge.html
+  commentId: T:QuikGraph.Algorithms.Condensation.MergedEdge
+  fullName: QuikGraph.Algorithms.Condensation.MergedEdge
+  nameWithType: MergedEdge
+- uid: QuikGraph.Algorithms.Condensation.MergedEdge.Merge*
+  name: Merge
+  href: api/QuikGraph.Algorithms.Condensation.MergedEdge.html#QuikGraph_Algorithms_Condensation_MergedEdge_Merge_
+  commentId: Overload:QuikGraph.Algorithms.Condensation.MergedEdge.Merge
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Condensation.MergedEdge.Merge
+  nameWithType: MergedEdge.Merge
+- uid: QuikGraph.Algorithms.Condensation.MergedEdge.Merge``2(QuikGraph.Algorithms.Condensation.MergedEdge{``0,``1},QuikGraph.Algorithms.Condensation.MergedEdge{``0,``1})
+  name: Merge<TVertex, TEdge>(MergedEdge<TVertex, TEdge>, MergedEdge<TVertex, TEdge>)
+  href: api/QuikGraph.Algorithms.Condensation.MergedEdge.html#QuikGraph_Algorithms_Condensation_MergedEdge_Merge__2_QuikGraph_Algorithms_Condensation_MergedEdge___0___1__QuikGraph_Algorithms_Condensation_MergedEdge___0___1__
+  commentId: M:QuikGraph.Algorithms.Condensation.MergedEdge.Merge``2(QuikGraph.Algorithms.Condensation.MergedEdge{``0,``1},QuikGraph.Algorithms.Condensation.MergedEdge{``0,``1})
+  name.vb: Merge(Of TVertex, TEdge)(MergedEdge(Of TVertex, TEdge), MergedEdge(Of TVertex, TEdge))
+  fullName: QuikGraph.Algorithms.Condensation.MergedEdge.Merge<TVertex, TEdge>(QuikGraph.Algorithms.Condensation.MergedEdge<TVertex, TEdge>, QuikGraph.Algorithms.Condensation.MergedEdge<TVertex, TEdge>)
+  fullName.vb: QuikGraph.Algorithms.Condensation.MergedEdge.Merge(Of TVertex, TEdge)(QuikGraph.Algorithms.Condensation.MergedEdge(Of TVertex, TEdge), QuikGraph.Algorithms.Condensation.MergedEdge(Of TVertex, TEdge))
+  nameWithType: MergedEdge.Merge<TVertex, TEdge>(MergedEdge<TVertex, TEdge>, MergedEdge<TVertex, TEdge>)
+  nameWithType.vb: MergedEdge.Merge(Of TVertex, TEdge)(MergedEdge(Of TVertex, TEdge), MergedEdge(Of TVertex, TEdge))
 - uid: QuikGraph.Algorithms.Condensation.MergedEdge`2
   name: MergedEdge<TVertex, TEdge>
   href: api/QuikGraph.Algorithms.Condensation.MergedEdge-2.html
