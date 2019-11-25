@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.AlgorithmBase-1.html",
-          "hash": "qKy+CAwdndcktZ4RlKEZBQ=="
+          "hash": "z3OK93KJR6TkaUR6PuNWAQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.AlgorithmExtensions.html",
-          "hash": "jKS8khEusIsc65g+up/B2g=="
+          "hash": "3Y/hDUD8OUpsRzbbQBx+ew=="
         }
       },
       "is_incremental": false,
@@ -660,7 +660,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm-2.html",
-          "hash": "rVMDrtaNTdkHlAluNIw85g=="
+          "hash": "Q7V1ujNKl/W4YNt+UmBPQA=="
         }
       },
       "is_incremental": false,
@@ -672,7 +672,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.GraphAugmentorAlgorithmBase-3.html",
-          "hash": "/vF2idvF6IlfB5KtZKwvBA=="
+          "hash": "uxoFCIWrwPHgrKTOgR7weQ=="
         }
       },
       "is_incremental": false,
@@ -687,7 +687,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html",
-          "hash": "AM8QuuR2VpwyjD8cwL8z3w=="
+          "hash": "YRiANNEwZ0StRNHn05K91g=="
         }
       },
       "is_incremental": false,
@@ -699,7 +699,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.MaximumFlowAlgorithm-2.html",
-          "hash": "sn3zG3EOuFbY3LWsfZ74qw=="
+          "hash": "cQF8kXroYLBlSGnhQI6jSQ=="
         }
       },
       "is_incremental": false,
@@ -726,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.ReversedEdgeAugmentorAlgorithm-2.html",
-          "hash": "oA7fXuU3P2ytSagfkfsHcw=="
+          "hash": "V1LWXWbaZoyIxJhhJw7iRg=="
         }
       },
       "is_incremental": false,
@@ -1539,7 +1539,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html",
-          "hash": "PFKN1cz5zhI75zmQbp7KaA=="
+          "hash": "3Z/LQ04ZdZYRjnz43xlRjQ=="
         }
       },
       "is_incremental": false,
@@ -2747,6 +2747,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QuikGraph.NegativeCapacityException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QuikGraph.NegativeCapacityException.html",
+          "hash": "RI0nc8V53EypAKqkVIuu1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QuikGraph.NegativeCycleGraphException.yml",
       "output": {
         ".html": {
@@ -2763,7 +2775,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.NegativeWeightException.html",
-          "hash": "N2JfA46OU7ooVBng+zHwbg=="
+          "hash": "NlpafPXMxYeDI5TzXA+U7A=="
         }
       },
       "is_incremental": false,
@@ -3003,7 +3015,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.QuikGraphException.html",
-          "hash": "MgRJtLOQmFNGrE8fuzy2wQ=="
+          "hash": "9bkciqOBeuOCSYeAp4I3Xw=="
         }
       },
       "is_incremental": false,
@@ -3831,7 +3843,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.html",
-          "hash": "RiY0iSf3NE87SMlGTq7rwA=="
+          "hash": "ps9W2yeT/owX0vfEnkL48g=="
         }
       },
       "is_incremental": false,
@@ -3855,7 +3867,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "dkqLwaFQ3jukjrDJeOOKNQ=="
+          "hash": "x7eLx95sgFv0ykX7OftkPw=="
         }
       },
       "is_incremental": false,
@@ -3924,7 +3936,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 315,
+          "total_file_count": 316,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -4757,6 +4757,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm(Of TVertex, TEdge).EdmondsKarpMaximumFlowAlgorithm
   nameWithType: EdmondsKarpMaximumFlowAlgorithm<TVertex, TEdge>.EdmondsKarpMaximumFlowAlgorithm
   nameWithType.vb: EdmondsKarpMaximumFlowAlgorithm(Of TVertex, TEdge).EdmondsKarpMaximumFlowAlgorithm
+- uid: QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_EdmondsKarpMaximumFlowAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: EdmondsKarpMaximumFlowAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: EdmondsKarpMaximumFlowAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_EdmondsKarpMaximumFlowAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm`2.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: EdmondsKarpMaximumFlowAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: EdmondsKarpMaximumFlowAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_EdmondsKarpMaximumFlowAlgorithm_2_InternalCompute
@@ -5038,15 +5055,15 @@ references:
   fullName.vb: QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm(Of TVertex, TEdge).GraphBalancerAlgorithm(QuikGraph.IMutableBidirectionalGraph(Of TVertex, TEdge), TVertex, TVertex, QuikGraph.VertexFactory(Of TVertex), QuikGraph.EdgeFactory(Of TVertex, TEdge))
   nameWithType: GraphBalancerAlgorithm<TVertex, TEdge>.GraphBalancerAlgorithm(IMutableBidirectionalGraph<TVertex, TEdge>, TVertex, TVertex, VertexFactory<TVertex>, EdgeFactory<TVertex, TEdge>)
   nameWithType.vb: GraphBalancerAlgorithm(Of TVertex, TEdge).GraphBalancerAlgorithm(IMutableBidirectionalGraph(Of TVertex, TEdge), TVertex, TVertex, VertexFactory(Of TVertex), EdgeFactory(Of TVertex, TEdge))
-- uid: QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.#ctor(QuikGraph.IMutableBidirectionalGraph{`0,`1},QuikGraph.VertexFactory{`0},QuikGraph.EdgeFactory{`0,`1},`0,`0,System.Collections.Generic.IDictionary{`1,System.Double})
-  name: GraphBalancerAlgorithm(IMutableBidirectionalGraph<TVertex, TEdge>, VertexFactory<TVertex>, EdgeFactory<TVertex, TEdge>, TVertex, TVertex, IDictionary<TEdge, Double>)
-  href: api/QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2__ctor_QuikGraph_IMutableBidirectionalGraph__0__1__QuikGraph_VertexFactory__0__QuikGraph_EdgeFactory__0__1___0__0_System_Collections_Generic_IDictionary__1_System_Double__
-  commentId: M:QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.#ctor(QuikGraph.IMutableBidirectionalGraph{`0,`1},QuikGraph.VertexFactory{`0},QuikGraph.EdgeFactory{`0,`1},`0,`0,System.Collections.Generic.IDictionary{`1,System.Double})
-  name.vb: GraphBalancerAlgorithm(IMutableBidirectionalGraph(Of TVertex, TEdge), VertexFactory(Of TVertex), EdgeFactory(Of TVertex, TEdge), TVertex, TVertex, IDictionary(Of TEdge, Double))
-  fullName: QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm<TVertex, TEdge>.GraphBalancerAlgorithm(QuikGraph.IMutableBidirectionalGraph<TVertex, TEdge>, QuikGraph.VertexFactory<TVertex>, QuikGraph.EdgeFactory<TVertex, TEdge>, TVertex, TVertex, System.Collections.Generic.IDictionary<TEdge, System.Double>)
-  fullName.vb: QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm(Of TVertex, TEdge).GraphBalancerAlgorithm(QuikGraph.IMutableBidirectionalGraph(Of TVertex, TEdge), QuikGraph.VertexFactory(Of TVertex), QuikGraph.EdgeFactory(Of TVertex, TEdge), TVertex, TVertex, System.Collections.Generic.IDictionary(Of TEdge, System.Double))
-  nameWithType: GraphBalancerAlgorithm<TVertex, TEdge>.GraphBalancerAlgorithm(IMutableBidirectionalGraph<TVertex, TEdge>, VertexFactory<TVertex>, EdgeFactory<TVertex, TEdge>, TVertex, TVertex, IDictionary<TEdge, Double>)
-  nameWithType.vb: GraphBalancerAlgorithm(Of TVertex, TEdge).GraphBalancerAlgorithm(IMutableBidirectionalGraph(Of TVertex, TEdge), VertexFactory(Of TVertex), EdgeFactory(Of TVertex, TEdge), TVertex, TVertex, IDictionary(Of TEdge, Double))
+- uid: QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.#ctor(QuikGraph.IMutableBidirectionalGraph{`0,`1},`0,`0,QuikGraph.VertexFactory{`0},QuikGraph.EdgeFactory{`0,`1},System.Collections.Generic.IDictionary{`1,System.Double})
+  name: GraphBalancerAlgorithm(IMutableBidirectionalGraph<TVertex, TEdge>, TVertex, TVertex, VertexFactory<TVertex>, EdgeFactory<TVertex, TEdge>, IDictionary<TEdge, Double>)
+  href: api/QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2__ctor_QuikGraph_IMutableBidirectionalGraph__0__1___0__0_QuikGraph_VertexFactory__0__QuikGraph_EdgeFactory__0__1__System_Collections_Generic_IDictionary__1_System_Double__
+  commentId: M:QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.#ctor(QuikGraph.IMutableBidirectionalGraph{`0,`1},`0,`0,QuikGraph.VertexFactory{`0},QuikGraph.EdgeFactory{`0,`1},System.Collections.Generic.IDictionary{`1,System.Double})
+  name.vb: GraphBalancerAlgorithm(IMutableBidirectionalGraph(Of TVertex, TEdge), TVertex, TVertex, VertexFactory(Of TVertex), EdgeFactory(Of TVertex, TEdge), IDictionary(Of TEdge, Double))
+  fullName: QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm<TVertex, TEdge>.GraphBalancerAlgorithm(QuikGraph.IMutableBidirectionalGraph<TVertex, TEdge>, TVertex, TVertex, QuikGraph.VertexFactory<TVertex>, QuikGraph.EdgeFactory<TVertex, TEdge>, System.Collections.Generic.IDictionary<TEdge, System.Double>)
+  fullName.vb: QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm(Of TVertex, TEdge).GraphBalancerAlgorithm(QuikGraph.IMutableBidirectionalGraph(Of TVertex, TEdge), TVertex, TVertex, QuikGraph.VertexFactory(Of TVertex), QuikGraph.EdgeFactory(Of TVertex, TEdge), System.Collections.Generic.IDictionary(Of TEdge, System.Double))
+  nameWithType: GraphBalancerAlgorithm<TVertex, TEdge>.GraphBalancerAlgorithm(IMutableBidirectionalGraph<TVertex, TEdge>, TVertex, TVertex, VertexFactory<TVertex>, EdgeFactory<TVertex, TEdge>, IDictionary<TEdge, Double>)
+  nameWithType.vb: GraphBalancerAlgorithm(Of TVertex, TEdge).GraphBalancerAlgorithm(IMutableBidirectionalGraph(Of TVertex, TEdge), TVertex, TVertex, VertexFactory(Of TVertex), EdgeFactory(Of TVertex, TEdge), IDictionary(Of TEdge, Double))
 - uid: QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.#ctor*
   name: GraphBalancerAlgorithm
   href: api/QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2__ctor_
@@ -23554,6 +23571,31 @@ references:
   fullName.vb: QuikGraph.IVertexSet(Of TVertex).Vertices
   nameWithType: IVertexSet<TVertex>.Vertices
   nameWithType.vb: IVertexSet(Of TVertex).Vertices
+- uid: QuikGraph.NegativeCapacityException
+  name: NegativeCapacityException
+  href: api/QuikGraph.NegativeCapacityException.html
+  commentId: T:QuikGraph.NegativeCapacityException
+  fullName: QuikGraph.NegativeCapacityException
+  nameWithType: NegativeCapacityException
+- uid: QuikGraph.NegativeCapacityException.#ctor
+  name: NegativeCapacityException()
+  href: api/QuikGraph.NegativeCapacityException.html#QuikGraph_NegativeCapacityException__ctor
+  commentId: M:QuikGraph.NegativeCapacityException.#ctor
+  fullName: QuikGraph.NegativeCapacityException.NegativeCapacityException()
+  nameWithType: NegativeCapacityException.NegativeCapacityException()
+- uid: QuikGraph.NegativeCapacityException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: NegativeCapacityException(SerializationInfo, StreamingContext)
+  href: api/QuikGraph.NegativeCapacityException.html#QuikGraph_NegativeCapacityException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:QuikGraph.NegativeCapacityException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: QuikGraph.NegativeCapacityException.NegativeCapacityException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: NegativeCapacityException.NegativeCapacityException(SerializationInfo, StreamingContext)
+- uid: QuikGraph.NegativeCapacityException.#ctor*
+  name: NegativeCapacityException
+  href: api/QuikGraph.NegativeCapacityException.html#QuikGraph_NegativeCapacityException__ctor_
+  commentId: Overload:QuikGraph.NegativeCapacityException.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.NegativeCapacityException.NegativeCapacityException
+  nameWithType: NegativeCapacityException.NegativeCapacityException
 - uid: QuikGraph.NegativeCycleGraphException
   name: NegativeCycleGraphException
   href: api/QuikGraph.NegativeCycleGraphException.html

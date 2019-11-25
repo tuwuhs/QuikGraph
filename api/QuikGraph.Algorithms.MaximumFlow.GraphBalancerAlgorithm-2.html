@@ -197,19 +197,19 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2__ctor_QuikGraph_IMutableBidirectionalGraph__0__1__QuikGraph_VertexFactory__0__QuikGraph_EdgeFactory__0__1___0__0_System_Collections_Generic_IDictionary__1_System_Double__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.%23ctor(QuikGraph.IMutableBidirectionalGraph%7B%600%2C%601%7D%2CQuikGraph.VertexFactory%7B%600%7D%2CQuikGraph.EdgeFactory%7B%600%2C%601%7D%2C%600%2C%600%2CSystem.Collections.Generic.IDictionary%7B%601%2CSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2__ctor_QuikGraph_IMutableBidirectionalGraph__0__1___0__0_QuikGraph_VertexFactory__0__QuikGraph_EdgeFactory__0__1__System_Collections_Generic_IDictionary__1_System_Double__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.%23ctor(QuikGraph.IMutableBidirectionalGraph%7B%600%2C%601%7D%2C%600%2C%600%2CQuikGraph.VertexFactory%7B%600%7D%2CQuikGraph.EdgeFactory%7B%600%2C%601%7D%2CSystem.Collections.Generic.IDictionary%7B%601%2CSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L74">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2__ctor_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.#ctor*"></a>
-  <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2__ctor_QuikGraph_IMutableBidirectionalGraph__0__1__QuikGraph_VertexFactory__0__QuikGraph_EdgeFactory__0__1___0__0_System_Collections_Generic_IDictionary__1_System_Double__" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.#ctor(QuikGraph.IMutableBidirectionalGraph{`0,`1},QuikGraph.VertexFactory{`0},QuikGraph.EdgeFactory{`0,`1},`0,`0,System.Collections.Generic.IDictionary{`1,System.Double})">GraphBalancerAlgorithm(IMutableBidirectionalGraph&lt;TVertex, TEdge&gt;, VertexFactory&lt;TVertex&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, TVertex, TVertex, IDictionary&lt;TEdge, Double&gt;)</h4>
+  <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2__ctor_QuikGraph_IMutableBidirectionalGraph__0__1___0__0_QuikGraph_VertexFactory__0__QuikGraph_EdgeFactory__0__1__System_Collections_Generic_IDictionary__1_System_Double__" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.#ctor(QuikGraph.IMutableBidirectionalGraph{`0,`1},`0,`0,QuikGraph.VertexFactory{`0},QuikGraph.EdgeFactory{`0,`1},System.Collections.Generic.IDictionary{`1,System.Double})">GraphBalancerAlgorithm(IMutableBidirectionalGraph&lt;TVertex, TEdge&gt;, TVertex, TVertex, VertexFactory&lt;TVertex&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, IDictionary&lt;TEdge, Double&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html">GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GraphBalancerAlgorithm([NotNull] IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] VertexFactory&lt;TVertex&gt; vertexFactory, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, [NotNull] TVertex source, [NotNull] TVertex sink, [NotNull] IDictionary&lt;TEdge, double&gt; capacities)</code></pre>
+    <pre><code class="lang-csharp hljs">public GraphBalancerAlgorithm([NotNull] IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] TVertex source, [NotNull] TVertex sink, [NotNull] VertexFactory&lt;TVertex&gt; vertexFactory, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, [NotNull] IDictionary&lt;TEdge, double&gt; capacities)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,18 +228,6 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="QuikGraph.VertexFactory-1.html">VertexFactory</a>&lt;TVertex&gt;</td>
-        <td><span class="parametername">vertexFactory</span></td>
-        <td><p>Vertex factory method.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="QuikGraph.EdgeFactory-2.html">EdgeFactory</a>&lt;TVertex, TEdge&gt;</td>
-        <td><span class="parametername">edgeFactory</span></td>
-        <td><p>Edge factory method.</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="xref">TVertex</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>Flow source vertex.</p>
@@ -249,6 +237,18 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
         <td><span class="xref">TVertex</span></td>
         <td><span class="parametername">sink</span></td>
         <td><p>Flow sink vertex.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexFactory-1.html">VertexFactory</a>&lt;TVertex&gt;</td>
+        <td><span class="parametername">vertexFactory</span></td>
+        <td><p>Vertex factory method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.EdgeFactory-2.html">EdgeFactory</a>&lt;TVertex, TEdge&gt;</td>
+        <td><span class="parametername">edgeFactory</span></td>
+        <td><p>Edge factory method.</p>
 </td>
       </tr>
       <tr>
@@ -266,7 +266,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Balanced.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.Balanced%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L126">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L125">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Balanced_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.Balanced*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Balanced" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.Balanced">Balanced</h4>
@@ -297,7 +297,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSink.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.BalancingSink%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L156">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L155">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSink_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSink*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSink" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSink">BalancingSink</h4>
@@ -331,7 +331,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSinkEdge.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.BalancingSinkEdge%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L162">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L161">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSinkEdge_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSinkEdge*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSinkEdge" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSinkEdge">BalancingSinkEdge</h4>
@@ -365,7 +365,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSource.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.BalancingSource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L144">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L143">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSource_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSource*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSource" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSource">BalancingSource</h4>
@@ -399,7 +399,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSourceEdge.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.BalancingSourceEdge%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L150">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L149">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSourceEdge_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSourceEdge*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSourceEdge" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSourceEdge">BalancingSourceEdge</h4>
@@ -433,7 +433,7 @@ public sealed class GraphBalancerAlgorithm&lt;TVertex, TEdge&gt;
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Capacities.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.Capacities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L203">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L202">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Capacities_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.Capacities*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Capacities" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.Capacities">Capacities</h4>
@@ -465,7 +465,7 @@ public IDictionary&lt;TEdge, double&gt; Capacities { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientEdges.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.DeficientEdges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L197">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L196">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientEdges_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.DeficientEdges*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientEdges" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.DeficientEdges">DeficientEdges</h4>
@@ -498,7 +498,7 @@ public IEnumerable&lt;TEdge&gt; DeficientEdges { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientVertices.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.DeficientVertices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L188">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L187">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientVertices_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.DeficientVertices*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientVertices" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.DeficientVertices">DeficientVertices</h4>
@@ -531,7 +531,7 @@ public IEnumerable&lt;TVertex&gt; DeficientVertices { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_EdgeFactory.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.EdgeFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L120">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L119">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_EdgeFactory_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.EdgeFactory*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_EdgeFactory" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.EdgeFactory">EdgeFactory</h4>
@@ -563,7 +563,7 @@ public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Sink.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.Sink%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L137">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L136">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Sink_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.Sink*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Sink" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.Sink">Sink</h4>
@@ -595,7 +595,7 @@ public TVertex Sink { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Source.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.Source%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L131">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L130">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Source_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.Source*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_Source" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.Source">Source</h4>
@@ -627,7 +627,7 @@ public TVertex Source { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusEdges.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.SurplusEdges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L179">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L178">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusEdges_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.SurplusEdges*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusEdges" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.SurplusEdges">SurplusEdges</h4>
@@ -660,7 +660,7 @@ public IEnumerable&lt;TEdge&gt; SurplusEdges { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusVertices.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.SurplusVertices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L170">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L169">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusVertices_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.SurplusVertices*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusVertices" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.SurplusVertices">SurplusVertices</h4>
@@ -693,7 +693,7 @@ public IEnumerable&lt;TVertex&gt; SurplusVertices { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_VertexFactory.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.VertexFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L114">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L113">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_VertexFactory_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.VertexFactory*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_VertexFactory" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.VertexFactory">VertexFactory</h4>
@@ -725,7 +725,7 @@ public VertexFactory&lt;TVertex&gt; VertexFactory { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_VisitedGraph.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.VisitedGraph%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L108">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L107">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_VisitedGraph_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.VisitedGraph*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_VisitedGraph" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.VisitedGraph">VisitedGraph</h4>
@@ -791,7 +791,7 @@ public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</c
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_GetBalancingIndex__0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.GetBalancingIndex(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L267">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L266">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_GetBalancingIndex_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.GetBalancingIndex*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_GetBalancingIndex__0_" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.GetBalancingIndex(`0)">GetBalancingIndex(TVertex)</h4>
@@ -800,7 +800,8 @@ public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</c
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetBalancingIndex([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">[Pure]
+public int GetBalancingIndex([NotNull] TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -875,7 +876,7 @@ public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</c
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSinkAdded.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.BalancingSinkAdded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L219">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L218">View Source</a>
   </span>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSinkAdded" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSinkAdded">BalancingSinkAdded</h4>
   <div class="markdown level1 summary"><p>Fired when the <a class="xref" href="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSink">BalancingSink</a> is added to the graph.</p>
@@ -905,7 +906,7 @@ public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</c
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSourceAdded.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.BalancingSourceAdded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L209">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L208">View Source</a>
   </span>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSourceAdded" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.BalancingSourceAdded">BalancingSourceAdded</h4>
   <div class="markdown level1 summary"><p>Fired when the <a class="xref" href="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_BalancingSource">BalancingSource</a> is added to the graph.</p>
@@ -935,7 +936,7 @@ public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</c
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientVertexAdded.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.DeficientVertexAdded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L253">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L252">View Source</a>
   </span>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientVertexAdded" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.DeficientVertexAdded">DeficientVertexAdded</h4>
   <div class="markdown level1 summary"><p>Fired when a vertex adding a deficit to the balance is found and added to <a class="xref" href="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_DeficientVertices">DeficientVertices</a>.</p>
@@ -965,7 +966,7 @@ public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</c
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_EdgeAdded.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.EdgeAdded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L229">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L228">View Source</a>
   </span>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_EdgeAdded" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.EdgeAdded">EdgeAdded</h4>
   <div class="markdown level1 summary"><p>Fired when an edge is added to the graph.</p>
@@ -995,7 +996,7 @@ public IMutableBidirectionalGraph&lt;TVertex, TEdge&gt; VisitedGraph { get; }</c
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusVertexAdded.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm%602.SurplusVertexAdded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L241">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumFlow/GraphBalancingAlgorithm.cs/#L240">View Source</a>
   </span>
   <h4 id="QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusVertexAdded" data-uid="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm`2.SurplusVertexAdded">SurplusVertexAdded</h4>
   <div class="markdown level1 summary"><p>Fired when a vertex adding surplus to the balance is found and added to <a class="xref" href="QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html#QuikGraph_Algorithms_MaximumFlow_GraphBalancerAlgorithm_2_SurplusVertices">SurplusVertices</a>.</p>
