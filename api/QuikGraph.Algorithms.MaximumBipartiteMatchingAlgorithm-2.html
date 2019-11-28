@@ -267,7 +267,7 @@ the maximum number of edges not sharing any vertex.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_EdgeFactory.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm%602.EdgeFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L67">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L61">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_EdgeFactory_" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.EdgeFactory*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_EdgeFactory" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.EdgeFactory">EdgeFactory</h4>
@@ -299,7 +299,7 @@ public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_MatchedEdges.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm%602.MatchedEdges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L73">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L71">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_MatchedEdges_" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.MatchedEdges*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_MatchedEdges" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.MatchedEdges">MatchedEdges</h4>
@@ -309,7 +309,8 @@ public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NotNull]
-public ICollection&lt;TEdge&gt; MatchedEdges { get; }</code></pre>
+[ItemNotNull]
+public TEdge[] MatchedEdges { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -321,7 +322,7 @@ public ICollection&lt;TEdge&gt; MatchedEdges { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;TEdge&gt;</td>
+        <td>TEdge[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -331,7 +332,7 @@ public ICollection&lt;TEdge&gt; MatchedEdges { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_SourceToVertices.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm%602.SourceToVertices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L49">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L43">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_SourceToVertices_" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.SourceToVertices*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_SourceToVertices" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.SourceToVertices">SourceToVertices</h4>
@@ -364,7 +365,7 @@ public IEnumerable&lt;TVertex&gt; SourceToVertices { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_VertexFactory.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm%602.VertexFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L61">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L55">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_VertexFactory_" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.VertexFactory*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_VertexFactory" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.VertexFactory">VertexFactory</h4>
@@ -396,7 +397,7 @@ public VertexFactory&lt;TVertex&gt; VertexFactory { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_VerticesToSink.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm%602.VerticesToSink%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L55">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L49">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_VerticesToSink_" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.VerticesToSink*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_VerticesToSink" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.VerticesToSink">VerticesToSink</h4>
@@ -428,10 +429,27 @@ public IEnumerable&lt;TVertex&gt; VerticesToSink { get; }</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_Initialize.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm%602.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L77">View Source</a>
+  </span>
+  <a id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_Initialize_" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.Initialize*"></a>
+  <h4 id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_Initialize" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">QuikGraph.Algorithms.AlgorithmBase&lt;QuikGraph.IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;&gt;.Initialize()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_InternalCompute.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm%602.InternalCompute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L79">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/MaximumBipartiteMatchingAlgorithm.cs/#L85">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_InternalCompute_" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.InternalCompute*"></a>
   <h4 id="QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_InternalCompute" data-uid="QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.InternalCompute">InternalCompute()</h4>

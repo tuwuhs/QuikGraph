@@ -243,11 +243,11 @@ public sealed class PageRankAlgorithm&lt;TVertex, TEdge&gt; : AlgorithmBase&lt;I
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Damping.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Ranking.PageRankAlgorithm%602.Damping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L39">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L42">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Damping_" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Damping*"></a>
   <h4 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Damping" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Damping">Damping</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the damping rate.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the damping rate [0-1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -269,12 +269,15 @@ public sealed class PageRankAlgorithm&lt;TVertex, TEdge&gt; : AlgorithmBase&lt;I
       </tr>
     </tbody>
   </table>
+  <h5 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Damping_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>By default it uses 0.85 which is the value generally used.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_MaxIterations.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Ranking.PageRankAlgorithm%602.MaxIterations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L49">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L74">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_MaxIterations_" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.MaxIterations*"></a>
   <h4 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_MaxIterations" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.MaxIterations">MaxIterations</h4>
@@ -337,7 +340,7 @@ public IDictionary&lt;TVertex, double&gt; Ranks { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Tolerance.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Ranking.PageRankAlgorithm%602.Tolerance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L44">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L58">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Tolerance_" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Tolerance*"></a>
   <h4 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Tolerance" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Tolerance">Tolerance</h4>
@@ -370,7 +373,7 @@ public IDictionary&lt;TVertex, double&gt; Ranks { get; }</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_GetRanksMean.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Ranking.PageRankAlgorithm%602.GetRanksMean%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L130">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L177">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_GetRanksMean_" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.GetRanksMean*"></a>
   <h4 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_GetRanksMean" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.GetRanksMean">GetRanksMean()</h4>
@@ -403,7 +406,7 @@ public double GetRanksMean()</code></pre>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_GetRanksSum.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Ranking.PageRankAlgorithm%602.GetRanksSum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L120">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L167">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_GetRanksSum_" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.GetRanksSum*"></a>
   <h4 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_GetRanksSum" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.GetRanksSum">GetRanksSum()</h4>
@@ -433,26 +436,27 @@ public double GetRanksSum()</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InitializeRanks.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Ranking.PageRankAlgorithm%602.InitializeRanks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Initialize.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Ranking.PageRankAlgorithm%602.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L54">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L101">View Source</a>
   </span>
-  <a id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InitializeRanks_" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InitializeRanks*"></a>
-  <h4 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InitializeRanks" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InitializeRanks">InitializeRanks()</h4>
-  <div class="markdown level1 summary"><p>Initializes all vertices ranks to 0.</p>
-</div>
+  <a id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Initialize_" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Initialize*"></a>
+  <h4 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Initialize" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void InitializeRanks()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Initialize()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">QuikGraph.Algorithms.AlgorithmBase&lt;QuikGraph.IBidirectionalGraph&lt;TVertex, TEdge&gt;&gt;.Initialize()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InternalCompute.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Ranking.PageRankAlgorithm%602.InternalCompute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L64">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/PageRankAlgorithm.cs/#L109">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InternalCompute_" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InternalCompute*"></a>
   <h4 id="QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InternalCompute" data-uid="QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InternalCompute">InternalCompute()</h4>

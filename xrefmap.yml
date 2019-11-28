@@ -4577,6 +4577,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm(Of TVertex, TEdge).EdgeFactory
   nameWithType: MaximumBipartiteMatchingAlgorithm<TVertex, TEdge>.EdgeFactory
   nameWithType.vb: MaximumBipartiteMatchingAlgorithm(Of TVertex, TEdge).EdgeFactory
+- uid: QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm-2.html#QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: MaximumBipartiteMatchingAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: MaximumBipartiteMatchingAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm-2.html#QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: MaximumBipartiteMatchingAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: MaximumBipartiteMatchingAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm-2.html#QuikGraph_Algorithms_MaximumBipartiteMatchingAlgorithm_2_InternalCompute
@@ -8157,23 +8174,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.Ranking.PageRankAlgorithm(Of TVertex, TEdge).GetRanksSum
   nameWithType: PageRankAlgorithm<TVertex, TEdge>.GetRanksSum
   nameWithType.vb: PageRankAlgorithm(Of TVertex, TEdge).GetRanksSum
-- uid: QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InitializeRanks
-  name: InitializeRanks()
-  href: api/QuikGraph.Algorithms.Ranking.PageRankAlgorithm-2.html#QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InitializeRanks
-  commentId: M:QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InitializeRanks
-  fullName: QuikGraph.Algorithms.Ranking.PageRankAlgorithm<TVertex, TEdge>.InitializeRanks()
-  fullName.vb: QuikGraph.Algorithms.Ranking.PageRankAlgorithm(Of TVertex, TEdge).InitializeRanks()
-  nameWithType: PageRankAlgorithm<TVertex, TEdge>.InitializeRanks()
-  nameWithType.vb: PageRankAlgorithm(Of TVertex, TEdge).InitializeRanks()
-- uid: QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InitializeRanks*
-  name: InitializeRanks
-  href: api/QuikGraph.Algorithms.Ranking.PageRankAlgorithm-2.html#QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InitializeRanks_
-  commentId: Overload:QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InitializeRanks
+- uid: QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Algorithms.Ranking.PageRankAlgorithm-2.html#QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Initialize
+  commentId: M:QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Initialize
+  fullName: QuikGraph.Algorithms.Ranking.PageRankAlgorithm<TVertex, TEdge>.Initialize()
+  fullName.vb: QuikGraph.Algorithms.Ranking.PageRankAlgorithm(Of TVertex, TEdge).Initialize()
+  nameWithType: PageRankAlgorithm<TVertex, TEdge>.Initialize()
+  nameWithType.vb: PageRankAlgorithm(Of TVertex, TEdge).Initialize()
+- uid: QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Algorithms.Ranking.PageRankAlgorithm-2.html#QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_Initialize_
+  commentId: Overload:QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.Initialize
   isSpec: "True"
-  fullName: QuikGraph.Algorithms.Ranking.PageRankAlgorithm<TVertex, TEdge>.InitializeRanks
-  fullName.vb: QuikGraph.Algorithms.Ranking.PageRankAlgorithm(Of TVertex, TEdge).InitializeRanks
-  nameWithType: PageRankAlgorithm<TVertex, TEdge>.InitializeRanks
-  nameWithType.vb: PageRankAlgorithm(Of TVertex, TEdge).InitializeRanks
+  fullName: QuikGraph.Algorithms.Ranking.PageRankAlgorithm<TVertex, TEdge>.Initialize
+  fullName.vb: QuikGraph.Algorithms.Ranking.PageRankAlgorithm(Of TVertex, TEdge).Initialize
+  nameWithType: PageRankAlgorithm<TVertex, TEdge>.Initialize
+  nameWithType.vb: PageRankAlgorithm(Of TVertex, TEdge).Initialize
 - uid: QuikGraph.Algorithms.Ranking.PageRankAlgorithm`2.InternalCompute
   name: InternalCompute()
   href: api/QuikGraph.Algorithms.Ranking.PageRankAlgorithm-2.html#QuikGraph_Algorithms_Ranking_PageRankAlgorithm_2_InternalCompute
