@@ -3311,6 +3311,42 @@ references:
   fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddEdgePredicate
   nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddEdgePredicate
   nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddEdgePredicate
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddTransitionFactories(System.Collections.Generic.IEnumerable{QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1}})
+  name: AddTransitionFactories(IEnumerable<ITransitionFactory<TVertex, TEdge>>)
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_AddTransitionFactories_System_Collections_Generic_IEnumerable_QuikGraph_Algorithms_Exploration_ITransitionFactory__0__1___
+  commentId: M:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddTransitionFactories(System.Collections.Generic.IEnumerable{QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1}})
+  name.vb: AddTransitionFactories(IEnumerable(Of ITransitionFactory(Of TVertex, TEdge)))
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddTransitionFactories(System.Collections.Generic.IEnumerable<QuikGraph.Algorithms.Exploration.ITransitionFactory<TVertex, TEdge>>)
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddTransitionFactories(System.Collections.Generic.IEnumerable(Of QuikGraph.Algorithms.Exploration.ITransitionFactory(Of TVertex, TEdge)))
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddTransitionFactories(IEnumerable<ITransitionFactory<TVertex, TEdge>>)
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddTransitionFactories(IEnumerable(Of ITransitionFactory(Of TVertex, TEdge)))
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddTransitionFactories*
+  name: AddTransitionFactories
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_AddTransitionFactories_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddTransitionFactories
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddTransitionFactories
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddTransitionFactories
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddTransitionFactories
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddTransitionFactories
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name: AddTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_AddTransitionFactory_QuikGraph_Algorithms_Exploration_ITransitionFactory__0__1__
+  commentId: M:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name.vb: AddTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory<TVertex, TEdge>)
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory(Of TVertex, TEdge))
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddTransitionFactory*
+  name: AddTransitionFactory
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_AddTransitionFactory_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddTransitionFactory
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddTransitionFactory
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddTransitionFactory
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.AddTransitionFactory
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).AddTransitionFactory
 - uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.AddVertexPredicate
   name: AddVertexPredicate
   href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_AddVertexPredicate
@@ -3336,6 +3372,58 @@ references:
   fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).BackEdge
   nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.BackEdge
   nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).BackEdge
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.ClearTransitionFactories
+  name: ClearTransitionFactories()
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_ClearTransitionFactories
+  commentId: M:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.ClearTransitionFactories
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.ClearTransitionFactories()
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).ClearTransitionFactories()
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.ClearTransitionFactories()
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).ClearTransitionFactories()
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.ClearTransitionFactories*
+  name: ClearTransitionFactories
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_ClearTransitionFactories_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.ClearTransitionFactories
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.ClearTransitionFactories
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).ClearTransitionFactories
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.ClearTransitionFactories
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).ClearTransitionFactories
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.Compute(`0)
+  name: Compute(TVertex)
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_Compute__0_
+  commentId: M:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.Compute(`0)
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.Compute(TVertex)
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).Compute(TVertex)
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.Compute(TVertex)
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).Compute(TVertex)
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.Compute*
+  name: Compute
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_Compute_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.Compute
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.Compute
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).Compute
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.Compute
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).Compute
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.ContainsTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name: ContainsTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_ContainsTransitionFactory_QuikGraph_Algorithms_Exploration_ITransitionFactory__0__1__
+  commentId: M:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.ContainsTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name.vb: ContainsTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.ContainsTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory<TVertex, TEdge>)
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).ContainsTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory(Of TVertex, TEdge))
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.ContainsTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).ContainsTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.ContainsTransitionFactory*
+  name: ContainsTransitionFactory
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_ContainsTransitionFactory_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.ContainsTransitionFactory
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.ContainsTransitionFactory
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).ContainsTransitionFactory
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.ContainsTransitionFactory
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).ContainsTransitionFactory
 - uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.DefaultFinishedPredicate
   name: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.DefaultFinishedPredicate
   href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.DefaultFinishedPredicate.html
@@ -3506,23 +3594,24 @@ references:
   fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).InternalCompute
   nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.InternalCompute
   nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).InternalCompute
-- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.TransitionFactories
-  name: TransitionFactories
-  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_TransitionFactories
-  commentId: P:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.TransitionFactories
-  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.TransitionFactories
-  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).TransitionFactories
-  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.TransitionFactories
-  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).TransitionFactories
-- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.TransitionFactories*
-  name: TransitionFactories
-  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_TransitionFactories_
-  commentId: Overload:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.TransitionFactories
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.RemoveTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name: RemoveTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_RemoveTransitionFactory_QuikGraph_Algorithms_Exploration_ITransitionFactory__0__1__
+  commentId: M:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.RemoveTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name.vb: RemoveTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.RemoveTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory<TVertex, TEdge>)
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).RemoveTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory(Of TVertex, TEdge))
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.RemoveTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).RemoveTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.RemoveTransitionFactory*
+  name: RemoveTransitionFactory
+  href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_RemoveTransitionFactory_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.RemoveTransitionFactory
   isSpec: "True"
-  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.TransitionFactories
-  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).TransitionFactories
-  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.TransitionFactories
-  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).TransitionFactories
+  fullName: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.RemoveTransitionFactory
+  fullName.vb: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).RemoveTransitionFactory
+  nameWithType: CloneableVertexGraphExplorerAlgorithm<TVertex, TEdge>.RemoveTransitionFactory
+  nameWithType.vb: CloneableVertexGraphExplorerAlgorithm(Of TVertex, TEdge).RemoveTransitionFactory
 - uid: QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm`2.TreeEdge
   name: TreeEdge
   href: api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html#QuikGraph_Algorithms_Exploration_CloneableVertexGraphExplorerAlgorithm_2_TreeEdge
@@ -3600,6 +3689,42 @@ references:
   fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge)
   nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>
   nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge)
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AddTransitionFactories(System.Collections.Generic.IEnumerable{QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1}})
+  name: AddTransitionFactories(IEnumerable<ITransitionFactory<TVertex, TEdge>>)
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_AddTransitionFactories_System_Collections_Generic_IEnumerable_QuikGraph_Algorithms_Exploration_ITransitionFactory__0__1___
+  commentId: M:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AddTransitionFactories(System.Collections.Generic.IEnumerable{QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1}})
+  name.vb: AddTransitionFactories(IEnumerable(Of ITransitionFactory(Of TVertex, TEdge)))
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.AddTransitionFactories(System.Collections.Generic.IEnumerable<QuikGraph.Algorithms.Exploration.ITransitionFactory<TVertex, TEdge>>)
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).AddTransitionFactories(System.Collections.Generic.IEnumerable(Of QuikGraph.Algorithms.Exploration.ITransitionFactory(Of TVertex, TEdge)))
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.AddTransitionFactories(IEnumerable<ITransitionFactory<TVertex, TEdge>>)
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).AddTransitionFactories(IEnumerable(Of ITransitionFactory(Of TVertex, TEdge)))
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AddTransitionFactories*
+  name: AddTransitionFactories
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_AddTransitionFactories_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AddTransitionFactories
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.AddTransitionFactories
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).AddTransitionFactories
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.AddTransitionFactories
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).AddTransitionFactories
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AddTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name: AddTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_AddTransitionFactory_QuikGraph_Algorithms_Exploration_ITransitionFactory__0__1__
+  commentId: M:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AddTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name.vb: AddTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.AddTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory<TVertex, TEdge>)
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).AddTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory(Of TVertex, TEdge))
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.AddTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).AddTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AddTransitionFactory*
+  name: AddTransitionFactory
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_AddTransitionFactory_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AddTransitionFactory
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.AddTransitionFactory
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).AddTransitionFactory
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.AddTransitionFactory
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).AddTransitionFactory
 - uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.AllowParallelEdges
   name: AllowParallelEdges
   href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_AllowParallelEdges
@@ -3617,6 +3742,41 @@ references:
   fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).AllowParallelEdges
   nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.AllowParallelEdges
   nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).AllowParallelEdges
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ClearTransitionFactories
+  name: ClearTransitionFactories()
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_ClearTransitionFactories
+  commentId: M:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ClearTransitionFactories
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.ClearTransitionFactories()
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).ClearTransitionFactories()
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.ClearTransitionFactories()
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).ClearTransitionFactories()
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ClearTransitionFactories*
+  name: ClearTransitionFactories
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_ClearTransitionFactories_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ClearTransitionFactories
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.ClearTransitionFactories
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).ClearTransitionFactories
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.ClearTransitionFactories
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).ClearTransitionFactories
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ContainsTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name: ContainsTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_ContainsTransitionFactory_QuikGraph_Algorithms_Exploration_ITransitionFactory__0__1__
+  commentId: M:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ContainsTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name.vb: ContainsTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.ContainsTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory<TVertex, TEdge>)
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).ContainsTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory(Of TVertex, TEdge))
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.ContainsTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).ContainsTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ContainsTransitionFactory*
+  name: ContainsTransitionFactory
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_ContainsTransitionFactory_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ContainsTransitionFactory
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.ContainsTransitionFactory
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).ContainsTransitionFactory
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.ContainsTransitionFactory
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).ContainsTransitionFactory
 - uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.ContainsVertex(`0)
   name: ContainsVertex(TVertex)
   href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_ContainsVertex__0_
@@ -3719,6 +3879,24 @@ references:
   fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).OutEdges
   nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.OutEdges
   nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).OutEdges
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.RemoveTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name: RemoveTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_RemoveTransitionFactory_QuikGraph_Algorithms_Exploration_ITransitionFactory__0__1__
+  commentId: M:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.RemoveTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory{`0,`1})
+  name.vb: RemoveTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.RemoveTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory<TVertex, TEdge>)
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).RemoveTransitionFactory(QuikGraph.Algorithms.Exploration.ITransitionFactory(Of TVertex, TEdge))
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.RemoveTransitionFactory(ITransitionFactory<TVertex, TEdge>)
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).RemoveTransitionFactory(ITransitionFactory(Of TVertex, TEdge))
+- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.RemoveTransitionFactory*
+  name: RemoveTransitionFactory
+  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_RemoveTransitionFactory_
+  commentId: Overload:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.RemoveTransitionFactory
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.RemoveTransitionFactory
+  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).RemoveTransitionFactory
+  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.RemoveTransitionFactory
+  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).RemoveTransitionFactory
 - uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.SuccessorEdgePredicate
   name: SuccessorEdgePredicate
   href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_SuccessorEdgePredicate
@@ -3753,23 +3931,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).SuccessorVertexPredicate
   nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.SuccessorVertexPredicate
   nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).SuccessorVertexPredicate
-- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.TransitionFactories
-  name: TransitionFactories
-  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_TransitionFactories
-  commentId: P:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.TransitionFactories
-  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.TransitionFactories
-  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).TransitionFactories
-  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.TransitionFactories
-  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).TransitionFactories
-- uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.TransitionFactories*
-  name: TransitionFactories
-  href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_TransitionFactories_
-  commentId: Overload:QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.TransitionFactories
-  isSpec: "True"
-  fullName: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph<TVertex, TEdge>.TransitionFactories
-  fullName.vb: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph(Of TVertex, TEdge).TransitionFactories
-  nameWithType: TransitionFactoryImplicitGraph<TVertex, TEdge>.TransitionFactories
-  nameWithType.vb: TransitionFactoryImplicitGraph(Of TVertex, TEdge).TransitionFactories
 - uid: QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph`2.TryGetOutEdges(`0,System.Collections.Generic.IEnumerable{`1}@)
   name: TryGetOutEdges(TVertex, out IEnumerable<TEdge>)
   href: api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html#QuikGraph_Algorithms_Exploration_TransitionFactoryImplicitGraph_2_TryGetOutEdges__0_System_Collections_Generic_IEnumerable__1___
