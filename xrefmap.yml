@@ -11869,23 +11869,6 @@ references:
   fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).Execute
   nameWithType: YenShortestPathsAlgorithm<TVertex>.Execute
   nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).Execute
-- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.RemovedEdges
-  name: RemovedEdges()
-  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_RemovedEdges
-  commentId: M:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.RemovedEdges
-  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.RemovedEdges()
-  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).RemovedEdges()
-  nameWithType: YenShortestPathsAlgorithm<TVertex>.RemovedEdges()
-  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).RemovedEdges()
-- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.RemovedEdges*
-  name: RemovedEdges
-  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_RemovedEdges_
-  commentId: Overload:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.RemovedEdges
-  isSpec: "True"
-  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.RemovedEdges
-  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).RemovedEdges
-  nameWithType: YenShortestPathsAlgorithm<TVertex>.RemovedEdges
-  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).RemovedEdges
 - uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath
   name: YenShortestPathsAlgorithm<TVertex>.SortedPath
   href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html
@@ -11913,6 +11896,49 @@ references:
   fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.SortedPath
   nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.SortedPath
   nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.SortedPath
+- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Count
+  name: Count
+  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_Count
+  commentId: P:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Count
+  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.SortedPath.Count
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.Count
+  nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.Count
+  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.Count
+- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Count*
+  name: Count
+  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_Count_
+  commentId: Overload:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Count
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.SortedPath.Count
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.Count
+  nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.Count
+  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.Count
+- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Equals(QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm{`0}.SortedPath)
+  name: Equals(YenShortestPathsAlgorithm<TVertex>.SortedPath)
+  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_Equals_QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm__0__SortedPath_
+  commentId: M:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Equals(QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm{`0}.SortedPath)
+  name.vb: Equals(YenShortestPathsAlgorithm(Of TVertex).SortedPath)
+  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.SortedPath.Equals(QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.SortedPath)
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.Equals(QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath)
+  nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.Equals(YenShortestPathsAlgorithm<TVertex>.SortedPath)
+  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.Equals(YenShortestPathsAlgorithm(Of TVertex).SortedPath)
+- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Equals(System.Object)
+  name: Equals(Object)
+  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_Equals_System_Object_
+  commentId: M:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Equals(System.Object)
+  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.SortedPath.Equals(System.Object)
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.Equals(System.Object)
+  nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.Equals(Object)
+  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.Equals(Object)
+- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Equals*
+  name: Equals
+  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_Equals_
+  commentId: Overload:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.Equals
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.SortedPath.Equals
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.Equals
+  nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.Equals
+  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.Equals
 - uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.GetEnumerator
   name: GetEnumerator()
   href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_GetEnumerator
@@ -11930,6 +11956,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.GetEnumerator
   nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.GetEnumerator
   nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.GetEnumerator
+- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.GetHashCode
+  name: GetHashCode()
+  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_GetHashCode
+  commentId: M:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.GetHashCode
+  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.SortedPath.GetHashCode()
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.GetHashCode()
+  nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.GetHashCode()
+  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.GetHashCode()
+- uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.GetHashCode*
+  name: GetHashCode
+  href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_GetHashCode_
+  commentId: Overload:QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.GetHashCode
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm<TVertex>.SortedPath.GetHashCode
+  fullName.vb: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm(Of TVertex).SortedPath.GetHashCode
+  nameWithType: YenShortestPathsAlgorithm<TVertex>.SortedPath.GetHashCode
+  nameWithType.vb: YenShortestPathsAlgorithm(Of TVertex).SortedPath.GetHashCode
 - uid: QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.SortedPath.System#Collections#IEnumerable#GetEnumerator
   name: IEnumerable.GetEnumerator()
   href: api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html#QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_SortedPath_System_Collections_IEnumerable_GetEnumerator
