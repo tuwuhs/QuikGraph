@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.AlgorithmBase-1.html",
-          "hash": "z3OK93KJR6TkaUR6PuNWAQ=="
+          "hash": "en0Ue8panv21h+CAWN5T+g=="
         }
       },
       "is_incremental": false,
@@ -94,18 +94,6 @@
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Assignment.html",
           "hash": "CH7m1/23OAJUP2RrYflAzw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/QuikGraph.Algorithms.CentralityApproximationAlgorithm-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/QuikGraph.Algorithms.CentralityApproximationAlgorithm-2.html",
-          "hash": "8BLGyk2ysD1lC6Pb7XqY9g=="
         }
       },
       "is_incremental": false,
@@ -360,7 +348,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html",
-          "hash": "qaBHofVvcQYPCv6wMmXH+A=="
+          "hash": "nypM+YvPTZbLTCL3XnGS5Q=="
         }
       },
       "is_incremental": false,
@@ -1455,7 +1443,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.html",
-          "hash": "5JnNRXR/IPtNae8OGknkiA=="
+          "hash": "XlyVgMTlE0xzrAZBkLwdww=="
         }
       },
       "is_incremental": false,
@@ -1671,7 +1659,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.html",
-          "hash": "ZjpbdbVQ5USujf1OUyokxA=="
+          "hash": "lMyewPTwobaSkDAjIpDB4A=="
         }
       },
       "is_incremental": false,
@@ -3867,7 +3855,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "x7eLx95sgFv0ykX7OftkPw=="
+          "hash": "iZe5rZzFoBFCqwTaVNGf8A=="
         }
       },
       "is_incremental": false,
@@ -3920,9 +3908,9 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
@@ -3936,12 +3924,12 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 316,
+          "total_file_count": 315,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
