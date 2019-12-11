@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Library history </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Library history ">
+    <meta name="generator" content="docfx 2.42.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="library-history">Library history</h1>
+
+<p>Below is some summarized information about the history of this library in order to have a better idea of where it comes from.</p>
+<h2 id="quickgraph">QuickGraph</h2>
+<h3 id="general-information">General information</h3>
+<p>This is the original library supporting .NET Framework 4.0, Silverlight 4.0, Windows Phone 7, Windows 8 Metro Apps, XBox 360.</p>
+<p>QuikGraph was originally created by Jonathan &quot;Peli&quot; de Halleux in 2003.</p>
+<p>Intially the library was providing generic directed/undirected graph datastructures and algorithms for .NET.
+QuickGraph was coming with algorithms such as depth first seach, breath first search, A* search, shortest path, k-shortest path, maximum flow, minimum spanning tree, least common ancestors, etc...
+QuickGraph was supporting <a href="https://www.microsoft.com/en-us/research/project/microsoft-automatic-graph-layout">MSAGL</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_Automatic_Graph_Layout">GLEE</a>, and <a href="https://www.graphviz.org">Graphviz</a> to render the graphs, serialization to <a href="http://graphml.graphdrawing.org">GraphML</a>, etc...</p>
+<p>The library was also using <a href="https://www.microsoft.com/en-us/research/project/code-contracts/?from=http%3A%2F%2Fresearch.microsoft.com%2Fcontracts">Code Contracts</a>.</p>
+<p>Note that the library was widely used such as in those projects:</p>
+<ul>
+<li><a href="https://archive.codeplex.com/?p=reflectoraddins">Reflector.Graph Addin</a></li>
+<li><a href="https://archive.codeplex.com/?p=graphsharp">Graph#, layout algorithms</a></li>
+<li><a href="https://archive.codeplex.com/?p=jolt">Jolt.Net, a backing store for a generic finite state machine implementation</a></li>
+<li><a href="https://archive.codeplex.com/?p=jslstylecop">JSL StyleCop, Custom rules for Microsoft's StyleCop utility</a></li>
+<li><a href="https://www.ndepend.com">NDepend, codebase macro analysis</a></li>
+<li><a href="https://archive.codeplex.com/?p=dependencyvisualizer">Dependency Viewer</a></li>
+</ul>
+<h3 id="versions">Versions</h3>
+<ul>
+<li>QuickGraph 3.6. Portable Class Library support.</li>
+<li>QuickGraph 3.3.51106.0 available on nuget, no more support for .NET 2.0.</li>
+<li>QuickGraph 3.3 (updated) added Code Contracts reference assemblies</li>
+<li>QuickGraph 3.3 adds new graph data structures based on delegates</li>
+<li>QuickGraph 3.2 (bis) supporting Silveright</li>
+<li>QuickGraph 3.2 started using Code Contracts.</li>
+<li>QuickGraph 3.1 brings a Fibonacci Heap and support for 2.0 is back.</li>
+<li>QuickGraph 3.0 takes advantage of extension methods to simplify tasks.</li>
+<li>QuickGraph 2.0 introduced support for generic graph data structures</li>
+<li>The original QuickGraph for .net 1.0 was posted on CodeProject in 8 Dec 2003. It was time to do a refresh and make the graph generic.</li>
+</ul>
+<p>The design of QuickGraph is inspired from the <a href="https://www.boost.org/doc/libs/1_68_0/libs/graph/doc/index.html">Boost Graph Library</a>.</p>
+<h2 id="ycquickgraph">YC.QuickGraph</h2>
+<h3 id="general-information-1">General information</h3>
+<p>The YC.QuickGraph is a library that took sources of the original QuickGraph and put them on NuGet as package.</p>
+<p>The goal was to continue the development (as described <a href="https://github.com/YaccConstructor/QuickGraph/issues/173">there</a>).</p>
+<p>It kept the majority of legacy code from QuickGraph and was applied some fixes.</p>
+<h3 id="versions-1">Versions</h3>
+<ul>
+<li>YC.QuickGraph 3.7.5-deta Fixes, clean, no more DotParser.</li>
+<li>YC.QuickGraph 3.7.4 Some new algorithms, fixes and clean.</li>
+<li>YC.QuickGraph 3.7.3 Fixes.</li>
+<li>YC.QuickGraph 3.7.2 N/A.</li>
+<li>YC.QuickGraph 3.7.1 Some new algorithms, add DotParser and remove portable class library support.</li>
+</ul>
+<h2 id="quikgraph">QuikGraph</h2>
+<h3 id="general-information-2">General information</h3>
+<p>QuikGraph library was built based on YC.QuickGraph (fork) that is itself based on the original QuickGraph.</p>
+<p>The goal of this library was to clean and provide a more stable version of QuickGraph, which also follows new C# development standards.</p>
+<p>As a consequence a massive clean and unit testing was added to the library.</p>
+<p>Note that for now the cleaned library only concern the QuickGraph <strong>core</strong>, not its legacy adapters. This in order to better split features provided by NuGet packages.</p>
+<p>This version of QuickGraph also get rid of:</p>
+<ul>
+<li>Code Contracts in favor of JetBrains contract annotations and standard asserts.</li>
+<li>PEX in favor of NUnit3 for unit testing.</li>
+</ul>
+<h3 id="versions-2">Versions</h3>
+<ul>
+<li>QuikGraph 1.0.0 See <a href="https://www.nuget.org/packages/QuikGraph/1.0.0">release notes</a>.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/docs/documentation/history.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
