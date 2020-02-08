@@ -384,7 +384,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.GraphPartition.KernighanLinAlgorithm-2.html",
-          "hash": "NTKil6KdI1iYTCXz7F1RlA=="
+          "hash": "tQxV66l6dtB3ALDAWHjpfg=="
         }
       },
       "is_incremental": false,
@@ -3051,7 +3051,19 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SEquatableEdge-1.html",
-          "hash": "6tZS636XxgEC3cJcEFSDCg=="
+          "hash": "dz/dttUsrozLZbLZYOUL7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QuikGraph.SEquatableTaggedEdge-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QuikGraph.SEquatableTaggedEdge-2.html",
+          "hash": "qm/BubCQdpRzVWaYMPBOFQ=="
         }
       },
       "is_incremental": false,
@@ -3063,7 +3075,31 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SReversedEdge-2.html",
-          "hash": "acksK3VBg9wbNIehwHX9Ew=="
+          "hash": "MEdq0UGqhfLA+c4OnhW+kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QuikGraph.STaggedEdge-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QuikGraph.STaggedEdge-2.html",
+          "hash": "waqwZCUi7G84dP+55hU//g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QuikGraph.STaggedUndirectedEdge-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QuikGraph.STaggedUndirectedEdge-2.html",
+          "hash": "XtKVEau44UHdIYxznz74oA=="
         }
       },
       "is_incremental": false,
@@ -3843,7 +3879,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.html",
-          "hash": "ps9W2yeT/owX0vfEnkL48g=="
+          "hash": "Y7yKxHLnqBP5EVQcplGXQg=="
         }
       },
       "is_incremental": false,
@@ -3867,7 +3903,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iZe5rZzFoBFCqwTaVNGf8A=="
+          "hash": "a2jnvFgc1dileHmVrBpsDA=="
         }
       },
       "is_incremental": false,
@@ -3953,7 +3989,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 315,
+          "total_file_count": 318,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

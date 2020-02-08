@@ -25942,6 +25942,151 @@ references:
   fullName.vb: QuikGraph.SEquatableEdge(Of TVertex).ToString
   nameWithType: SEquatableEdge<TVertex>.ToString
   nameWithType.vb: SEquatableEdge(Of TVertex).ToString
+- uid: QuikGraph.SEquatableTaggedEdge`2
+  name: SEquatableTaggedEdge<TVertex, TTag>
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html
+  commentId: T:QuikGraph.SEquatableTaggedEdge`2
+  name.vb: SEquatableTaggedEdge(Of TVertex, TTag)
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag)
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag)
+- uid: QuikGraph.SEquatableTaggedEdge`2.#ctor(`0,`0,`1)
+  name: SEquatableTaggedEdge(TVertex, TVertex, TTag)
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2__ctor__0__0__1_
+  commentId: M:QuikGraph.SEquatableTaggedEdge`2.#ctor(`0,`0,`1)
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.SEquatableTaggedEdge(TVertex, TVertex, TTag)
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).SEquatableTaggedEdge(TVertex, TVertex, TTag)
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.SEquatableTaggedEdge(TVertex, TVertex, TTag)
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).SEquatableTaggedEdge(TVertex, TVertex, TTag)
+- uid: QuikGraph.SEquatableTaggedEdge`2.#ctor*
+  name: SEquatableTaggedEdge
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2__ctor_
+  commentId: Overload:QuikGraph.SEquatableTaggedEdge`2.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.SEquatableTaggedEdge
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).SEquatableTaggedEdge
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.SEquatableTaggedEdge
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).SEquatableTaggedEdge
+- uid: QuikGraph.SEquatableTaggedEdge`2.Equals(QuikGraph.SEquatableTaggedEdge{`0,`1})
+  name: Equals(SEquatableTaggedEdge<TVertex, TTag>)
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Equals_QuikGraph_SEquatableTaggedEdge__0__1__
+  commentId: M:QuikGraph.SEquatableTaggedEdge`2.Equals(QuikGraph.SEquatableTaggedEdge{`0,`1})
+  name.vb: Equals(SEquatableTaggedEdge(Of TVertex, TTag))
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Equals(QuikGraph.SEquatableTaggedEdge<TVertex, TTag>)
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Equals(QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag))
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Equals(SEquatableTaggedEdge<TVertex, TTag>)
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Equals(SEquatableTaggedEdge(Of TVertex, TTag))
+- uid: QuikGraph.SEquatableTaggedEdge`2.Equals(System.Object)
+  name: Equals(Object)
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Equals_System_Object_
+  commentId: M:QuikGraph.SEquatableTaggedEdge`2.Equals(System.Object)
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Equals(System.Object)
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Equals(System.Object)
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Equals(Object)
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Equals(Object)
+- uid: QuikGraph.SEquatableTaggedEdge`2.Equals*
+  name: Equals
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Equals_
+  commentId: Overload:QuikGraph.SEquatableTaggedEdge`2.Equals
+  isSpec: "True"
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Equals
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Equals
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Equals
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Equals
+- uid: QuikGraph.SEquatableTaggedEdge`2.GetHashCode
+  name: GetHashCode()
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_GetHashCode
+  commentId: M:QuikGraph.SEquatableTaggedEdge`2.GetHashCode
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.GetHashCode()
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).GetHashCode()
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.GetHashCode()
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).GetHashCode()
+- uid: QuikGraph.SEquatableTaggedEdge`2.GetHashCode*
+  name: GetHashCode
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_GetHashCode_
+  commentId: Overload:QuikGraph.SEquatableTaggedEdge`2.GetHashCode
+  isSpec: "True"
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.GetHashCode
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).GetHashCode
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.GetHashCode
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).GetHashCode
+- uid: QuikGraph.SEquatableTaggedEdge`2.Source
+  name: Source
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Source
+  commentId: P:QuikGraph.SEquatableTaggedEdge`2.Source
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Source
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Source
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Source
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Source
+- uid: QuikGraph.SEquatableTaggedEdge`2.Source*
+  name: Source
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Source_
+  commentId: Overload:QuikGraph.SEquatableTaggedEdge`2.Source
+  isSpec: "True"
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Source
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Source
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Source
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Source
+- uid: QuikGraph.SEquatableTaggedEdge`2.Tag
+  name: Tag
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Tag
+  commentId: P:QuikGraph.SEquatableTaggedEdge`2.Tag
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Tag
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Tag
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Tag
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Tag
+- uid: QuikGraph.SEquatableTaggedEdge`2.Tag*
+  name: Tag
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Tag_
+  commentId: Overload:QuikGraph.SEquatableTaggedEdge`2.Tag
+  isSpec: "True"
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Tag
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Tag
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Tag
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Tag
+- uid: QuikGraph.SEquatableTaggedEdge`2.TagChanged
+  name: TagChanged
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_TagChanged
+  commentId: E:QuikGraph.SEquatableTaggedEdge`2.TagChanged
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.TagChanged
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).TagChanged
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.TagChanged
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).TagChanged
+- uid: QuikGraph.SEquatableTaggedEdge`2.Target
+  name: Target
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Target
+  commentId: P:QuikGraph.SEquatableTaggedEdge`2.Target
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Target
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Target
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Target
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Target
+- uid: QuikGraph.SEquatableTaggedEdge`2.Target*
+  name: Target
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_Target_
+  commentId: Overload:QuikGraph.SEquatableTaggedEdge`2.Target
+  isSpec: "True"
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.Target
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).Target
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.Target
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).Target
+- uid: QuikGraph.SEquatableTaggedEdge`2.ToString
+  name: ToString()
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_ToString
+  commentId: M:QuikGraph.SEquatableTaggedEdge`2.ToString
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.ToString()
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).ToString()
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.ToString()
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).ToString()
+- uid: QuikGraph.SEquatableTaggedEdge`2.ToString*
+  name: ToString
+  href: api/QuikGraph.SEquatableTaggedEdge-2.html#QuikGraph_SEquatableTaggedEdge_2_ToString_
+  commentId: Overload:QuikGraph.SEquatableTaggedEdge`2.ToString
+  isSpec: "True"
+  fullName: QuikGraph.SEquatableTaggedEdge<TVertex, TTag>.ToString
+  fullName.vb: QuikGraph.SEquatableTaggedEdge(Of TVertex, TTag).ToString
+  nameWithType: SEquatableTaggedEdge<TVertex, TTag>.ToString
+  nameWithType.vb: SEquatableTaggedEdge(Of TVertex, TTag).ToString
 - uid: QuikGraph.Serialization
   name: QuikGraph.Serialization
   href: api/QuikGraph.Serialization.html
@@ -30916,6 +31061,210 @@ references:
   fullName.vb: QuikGraph.SReversedEdge(Of TVertex, TEdge).ToString
   nameWithType: SReversedEdge<TVertex, TEdge>.ToString
   nameWithType.vb: SReversedEdge(Of TVertex, TEdge).ToString
+- uid: QuikGraph.STaggedEdge`2
+  name: STaggedEdge<TVertex, TTag>
+  href: api/QuikGraph.STaggedEdge-2.html
+  commentId: T:QuikGraph.STaggedEdge`2
+  name.vb: STaggedEdge(Of TVertex, TTag)
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag)
+  nameWithType: STaggedEdge<TVertex, TTag>
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag)
+- uid: QuikGraph.STaggedEdge`2.#ctor(`0,`0,`1)
+  name: STaggedEdge(TVertex, TVertex, TTag)
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2__ctor__0__0__1_
+  commentId: M:QuikGraph.STaggedEdge`2.#ctor(`0,`0,`1)
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.STaggedEdge(TVertex, TVertex, TTag)
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).STaggedEdge(TVertex, TVertex, TTag)
+  nameWithType: STaggedEdge<TVertex, TTag>.STaggedEdge(TVertex, TVertex, TTag)
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).STaggedEdge(TVertex, TVertex, TTag)
+- uid: QuikGraph.STaggedEdge`2.#ctor*
+  name: STaggedEdge
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2__ctor_
+  commentId: Overload:QuikGraph.STaggedEdge`2.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.STaggedEdge
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).STaggedEdge
+  nameWithType: STaggedEdge<TVertex, TTag>.STaggedEdge
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).STaggedEdge
+- uid: QuikGraph.STaggedEdge`2.Source
+  name: Source
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_Source
+  commentId: P:QuikGraph.STaggedEdge`2.Source
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.Source
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).Source
+  nameWithType: STaggedEdge<TVertex, TTag>.Source
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).Source
+- uid: QuikGraph.STaggedEdge`2.Source*
+  name: Source
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_Source_
+  commentId: Overload:QuikGraph.STaggedEdge`2.Source
+  isSpec: "True"
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.Source
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).Source
+  nameWithType: STaggedEdge<TVertex, TTag>.Source
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).Source
+- uid: QuikGraph.STaggedEdge`2.Tag
+  name: Tag
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_Tag
+  commentId: P:QuikGraph.STaggedEdge`2.Tag
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.Tag
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).Tag
+  nameWithType: STaggedEdge<TVertex, TTag>.Tag
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).Tag
+- uid: QuikGraph.STaggedEdge`2.Tag*
+  name: Tag
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_Tag_
+  commentId: Overload:QuikGraph.STaggedEdge`2.Tag
+  isSpec: "True"
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.Tag
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).Tag
+  nameWithType: STaggedEdge<TVertex, TTag>.Tag
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).Tag
+- uid: QuikGraph.STaggedEdge`2.TagChanged
+  name: TagChanged
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_TagChanged
+  commentId: E:QuikGraph.STaggedEdge`2.TagChanged
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.TagChanged
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).TagChanged
+  nameWithType: STaggedEdge<TVertex, TTag>.TagChanged
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).TagChanged
+- uid: QuikGraph.STaggedEdge`2.Target
+  name: Target
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_Target
+  commentId: P:QuikGraph.STaggedEdge`2.Target
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.Target
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).Target
+  nameWithType: STaggedEdge<TVertex, TTag>.Target
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).Target
+- uid: QuikGraph.STaggedEdge`2.Target*
+  name: Target
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_Target_
+  commentId: Overload:QuikGraph.STaggedEdge`2.Target
+  isSpec: "True"
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.Target
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).Target
+  nameWithType: STaggedEdge<TVertex, TTag>.Target
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).Target
+- uid: QuikGraph.STaggedEdge`2.ToString
+  name: ToString()
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_ToString
+  commentId: M:QuikGraph.STaggedEdge`2.ToString
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.ToString()
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).ToString()
+  nameWithType: STaggedEdge<TVertex, TTag>.ToString()
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).ToString()
+- uid: QuikGraph.STaggedEdge`2.ToString*
+  name: ToString
+  href: api/QuikGraph.STaggedEdge-2.html#QuikGraph_STaggedEdge_2_ToString_
+  commentId: Overload:QuikGraph.STaggedEdge`2.ToString
+  isSpec: "True"
+  fullName: QuikGraph.STaggedEdge<TVertex, TTag>.ToString
+  fullName.vb: QuikGraph.STaggedEdge(Of TVertex, TTag).ToString
+  nameWithType: STaggedEdge<TVertex, TTag>.ToString
+  nameWithType.vb: STaggedEdge(Of TVertex, TTag).ToString
+- uid: QuikGraph.STaggedUndirectedEdge`2
+  name: STaggedUndirectedEdge<TVertex, TTag>
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html
+  commentId: T:QuikGraph.STaggedUndirectedEdge`2
+  name.vb: STaggedUndirectedEdge(Of TVertex, TTag)
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag)
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag)
+- uid: QuikGraph.STaggedUndirectedEdge`2.#ctor(`0,`0,`1)
+  name: STaggedUndirectedEdge(TVertex, TVertex, TTag)
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2__ctor__0__0__1_
+  commentId: M:QuikGraph.STaggedUndirectedEdge`2.#ctor(`0,`0,`1)
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.STaggedUndirectedEdge(TVertex, TVertex, TTag)
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).STaggedUndirectedEdge(TVertex, TVertex, TTag)
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.STaggedUndirectedEdge(TVertex, TVertex, TTag)
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).STaggedUndirectedEdge(TVertex, TVertex, TTag)
+- uid: QuikGraph.STaggedUndirectedEdge`2.#ctor*
+  name: STaggedUndirectedEdge
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2__ctor_
+  commentId: Overload:QuikGraph.STaggedUndirectedEdge`2.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.STaggedUndirectedEdge
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).STaggedUndirectedEdge
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.STaggedUndirectedEdge
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).STaggedUndirectedEdge
+- uid: QuikGraph.STaggedUndirectedEdge`2.Source
+  name: Source
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_Source
+  commentId: P:QuikGraph.STaggedUndirectedEdge`2.Source
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.Source
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).Source
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.Source
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).Source
+- uid: QuikGraph.STaggedUndirectedEdge`2.Source*
+  name: Source
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_Source_
+  commentId: Overload:QuikGraph.STaggedUndirectedEdge`2.Source
+  isSpec: "True"
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.Source
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).Source
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.Source
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).Source
+- uid: QuikGraph.STaggedUndirectedEdge`2.Tag
+  name: Tag
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_Tag
+  commentId: P:QuikGraph.STaggedUndirectedEdge`2.Tag
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.Tag
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).Tag
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.Tag
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).Tag
+- uid: QuikGraph.STaggedUndirectedEdge`2.Tag*
+  name: Tag
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_Tag_
+  commentId: Overload:QuikGraph.STaggedUndirectedEdge`2.Tag
+  isSpec: "True"
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.Tag
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).Tag
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.Tag
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).Tag
+- uid: QuikGraph.STaggedUndirectedEdge`2.TagChanged
+  name: TagChanged
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_TagChanged
+  commentId: E:QuikGraph.STaggedUndirectedEdge`2.TagChanged
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.TagChanged
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).TagChanged
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.TagChanged
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).TagChanged
+- uid: QuikGraph.STaggedUndirectedEdge`2.Target
+  name: Target
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_Target
+  commentId: P:QuikGraph.STaggedUndirectedEdge`2.Target
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.Target
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).Target
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.Target
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).Target
+- uid: QuikGraph.STaggedUndirectedEdge`2.Target*
+  name: Target
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_Target_
+  commentId: Overload:QuikGraph.STaggedUndirectedEdge`2.Target
+  isSpec: "True"
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.Target
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).Target
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.Target
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).Target
+- uid: QuikGraph.STaggedUndirectedEdge`2.ToString
+  name: ToString()
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_ToString
+  commentId: M:QuikGraph.STaggedUndirectedEdge`2.ToString
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.ToString()
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).ToString()
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.ToString()
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).ToString()
+- uid: QuikGraph.STaggedUndirectedEdge`2.ToString*
+  name: ToString
+  href: api/QuikGraph.STaggedUndirectedEdge-2.html#QuikGraph_STaggedUndirectedEdge_2_ToString_
+  commentId: Overload:QuikGraph.STaggedUndirectedEdge`2.ToString
+  isSpec: "True"
+  fullName: QuikGraph.STaggedUndirectedEdge<TVertex, TTag>.ToString
+  fullName.vb: QuikGraph.STaggedUndirectedEdge(Of TVertex, TTag).ToString
+  nameWithType: STaggedUndirectedEdge<TVertex, TTag>.ToString
+  nameWithType.vb: STaggedUndirectedEdge(Of TVertex, TTag).ToString
 - uid: QuikGraph.SUndirectedEdge`1
   name: SUndirectedEdge<TVertex>
   href: api/QuikGraph.SUndirectedEdge-1.html
