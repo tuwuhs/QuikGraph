@@ -127,8 +127,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static TGraph DeserializeFromBinary&lt;TVertex, TEdge, TGraph&gt;([NotNull] this Stream stream)
+    <pre><code class="lang-csharp hljs">public static TGraph DeserializeFromBinary&lt;TVertex, TEdge, TGraph&gt;(this Stream stream)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -205,8 +204,7 @@ public static TGraph DeserializeFromBinary&lt;TVertex, TEdge, TGraph&gt;([NotNul
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static TGraph DeserializeFromXml&lt;TVertex, TEdge, TGraph&gt;([NotNull] this XmlReader reader, [NotNull, InstantHandle] Predicate&lt;XmlReader&gt; graphPredicate, [NotNull, InstantHandle] Predicate&lt;XmlReader&gt; vertexPredicate, [NotNull, InstantHandle] Predicate&lt;XmlReader&gt; edgePredicate, [NotNull, InstantHandle] Func&lt;XmlReader, TGraph&gt; graphFactory, [NotNull, InstantHandle] Func&lt;XmlReader, TVertex&gt; vertexFactory, [NotNull, InstantHandle] Func&lt;XmlReader, TEdge&gt; edgeFactory)
+    <pre><code class="lang-csharp hljs">public static TGraph DeserializeFromXml&lt;TVertex, TEdge, TGraph&gt;(this XmlReader reader, Predicate&lt;XmlReader&gt; graphPredicate, Predicate&lt;XmlReader&gt; vertexPredicate, Predicate&lt;XmlReader&gt; edgePredicate, Func&lt;XmlReader, TGraph&gt; graphFactory, Func&lt;XmlReader, TVertex&gt; vertexFactory, Func&lt;XmlReader, TEdge&gt; edgeFactory)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : class, IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -335,8 +333,7 @@ public static TGraph DeserializeFromXml&lt;TVertex, TEdge, TGraph&gt;([NotNull] 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static TGraph DeserializeFromXml&lt;TVertex, TEdge, TGraph&gt;([NotNull] this XmlReader reader, [NotNull] string graphElementName, [NotNull] string vertexElementName, [NotNull] string edgeElementName, [NotNull] string namespaceUri, [NotNull, InstantHandle] Func&lt;XmlReader, TGraph&gt; graphFactory, [NotNull, InstantHandle] Func&lt;XmlReader, TVertex&gt; vertexFactory, [NotNull, InstantHandle] Func&lt;XmlReader, TEdge&gt; edgeFactory)
+    <pre><code class="lang-csharp hljs">public static TGraph DeserializeFromXml&lt;TVertex, TEdge, TGraph&gt;(this XmlReader reader, string graphElementName, string vertexElementName, string edgeElementName, string namespaceUri, Func&lt;XmlReader, TGraph&gt; graphFactory, Func&lt;XmlReader, TVertex&gt; vertexFactory, Func&lt;XmlReader, TEdge&gt; edgeFactory)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : class, IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -471,8 +468,7 @@ public static TGraph DeserializeFromXml&lt;TVertex, TEdge, TGraph&gt;([NotNull] 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static TGraph DeserializeFromXml&lt;TVertex, TEdge, TGraph&gt;([NotNull] this IXPathNavigable document, [NotNull] string graphXPath, [NotNull] string vertexXPath, [NotNull] string edgeXPath, [NotNull, InstantHandle] Func&lt;XPathNavigator, TGraph&gt; graphFactory, [NotNull, InstantHandle] Func&lt;XPathNavigator, TVertex&gt; vertexFactory, [NotNull, InstantHandle] Func&lt;XPathNavigator, TEdge&gt; edgeFactory)
+    <pre><code class="lang-csharp hljs">public static TGraph DeserializeFromXml&lt;TVertex, TEdge, TGraph&gt;(this IXPathNavigable document, string graphXPath, string vertexXPath, string edgeXPath, Func&lt;XPathNavigator, TGraph&gt; graphFactory, Func&lt;XPathNavigator, TVertex&gt; vertexFactory, Func&lt;XPathNavigator, TEdge&gt; edgeFactory)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -602,7 +598,7 @@ or if the <code data-dev-comment-type="paramref" class="paramref">graphXPath</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeToBinary&lt;TVertex, TEdge&gt;([NotNull] this IGraph&lt;TVertex, TEdge&gt; graph, [NotNull] Stream stream)
+    <pre><code class="lang-csharp hljs">public static void SerializeToBinary&lt;TVertex, TEdge&gt;(this IGraph&lt;TVertex, TEdge&gt; graph, Stream stream)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -664,7 +660,7 @@ or if the <code data-dev-comment-type="paramref" class="paramref">graphXPath</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeToXml&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] XmlWriter writer, [NotNull, InstantHandle] VertexIdentity&lt;TVertex&gt; vertexIdentity, [NotNull, InstantHandle] EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity, [NotNull] string graphElementName, [NotNull] string vertexElementName, [NotNull] string edgeElementName, [NotNull] string namespaceUri)
+    <pre><code class="lang-csharp hljs">public static void SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, XmlWriter writer, VertexIdentity&lt;TVertex&gt; vertexIdentity, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity, string graphElementName, string vertexElementName, string edgeElementName, string namespaceUri)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -767,7 +763,7 @@ or if the <code data-dev-comment-type="paramref" class="paramref">graphXPath</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeToXml&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] XmlWriter writer, [NotNull, InstantHandle] VertexIdentity&lt;TVertex&gt; vertexIdentity, [NotNull, InstantHandle] EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity, [NotNull] string graphElementName, [NotNull] string vertexElementName, [NotNull] string edgeElementName, [NotNull] string namespaceUri, [CanBeNull, InstantHandle] Action&lt;XmlWriter, TGraph&gt; writeGraphAttributes, [CanBeNull, InstantHandle] Action&lt;XmlWriter, TVertex&gt; writeVertexAttributes, [CanBeNull, InstantHandle] Action&lt;XmlWriter, TEdge&gt; writeEdgeAttributes)
+    <pre><code class="lang-csharp hljs">public static void SerializeToXml&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, XmlWriter writer, VertexIdentity&lt;TVertex&gt; vertexIdentity, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity, string graphElementName, string vertexElementName, string edgeElementName, string namespaceUri, Action&lt;XmlWriter, TGraph&gt; writeGraphAttributes, Action&lt;XmlWriter, TVertex&gt; writeVertexAttributes, Action&lt;XmlWriter, TEdge&gt; writeEdgeAttributes)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

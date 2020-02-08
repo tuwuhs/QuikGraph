@@ -178,7 +178,7 @@ right child: 2 * index + 2</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BinaryHeap([NotNull] Comparison&lt;TPriority&gt; priorityComparison)</code></pre>
+    <pre><code class="lang-csharp hljs">public BinaryHeap(Comparison&lt;TPriority&gt; priorityComparison)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -246,7 +246,7 @@ right child: 2 * index + 2</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BinaryHeap(int capacity, [NotNull] Comparison&lt;TPriority&gt; priorityComparison)</code></pre>
+    <pre><code class="lang-csharp hljs">public BinaryHeap(int capacity, Comparison&lt;TPriority&gt; priorityComparison)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -350,8 +350,7 @@ right child: 2 * index + 2</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public Comparison&lt;TPriority&gt; PriorityComparison { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Comparison&lt;TPriority&gt; PriorityComparison { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -384,7 +383,7 @@ public Comparison&lt;TPriority&gt; PriorityComparison { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Add([NotNull] TPriority priority, [CanBeNull] TValue value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Add(TPriority priority, TValue value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -454,8 +453,7 @@ public Comparison&lt;TPriority&gt; PriorityComparison { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public int IndexOf([CanBeNull] TValue value)</code></pre>
+    <pre><code class="lang-csharp hljs">public int IndexOf(TValue value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -554,7 +552,7 @@ than the current <code data-dev-comment-type="paramref" class="paramref">value</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool MinimumUpdate([NotNull] TPriority priority, [NotNull] TValue value)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool MinimumUpdate(TPriority priority, TValue value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -658,9 +656,7 @@ than the current <code data-dev-comment-type="paramref" class="paramref">value</
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public TValue[] ToArray()</code></pre>
+    <pre><code class="lang-csharp hljs">public TValue[] ToArray()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -692,9 +688,7 @@ public TValue[] ToArray()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public KeyValuePair&lt;TPriority, TValue&gt;[] ToPairsArray()</code></pre>
+    <pre><code class="lang-csharp hljs">public KeyValuePair&lt;TPriority, TValue&gt;[] ToPairsArray()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -726,9 +720,7 @@ public KeyValuePair&lt;TPriority, TValue&gt;[] ToPairsArray()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public string ToString2()</code></pre>
+    <pre><code class="lang-csharp hljs">public string ToString2()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -760,9 +752,7 @@ public string ToString2()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public string ToStringTree()</code></pre>
+    <pre><code class="lang-csharp hljs">public string ToStringTree()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -794,7 +784,7 @@ public string ToStringTree()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Update([NotNull] TPriority priority, [NotNull] TValue value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Update(TPriority priority, TValue value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

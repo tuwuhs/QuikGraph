@@ -128,7 +128,7 @@ and checks if content is valid.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] TextReader reader, [NotNull] IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, [NotNull] IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
+    <pre><code class="lang-csharp hljs">public static void DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, TextReader reader, IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -207,7 +207,7 @@ and checks if content is valid.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] TextReader reader, [NotNull] IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, [NotNull] IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
+    <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, TextReader reader, IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -286,7 +286,7 @@ and checks if content is valid.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] string filePath, [NotNull] IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, [NotNull] IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
+    <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, string filePath, IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -365,7 +365,7 @@ and checks if content is valid.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] XmlReader reader, [NotNull] IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, [NotNull] IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
+    <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, XmlReader reader, IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -444,7 +444,7 @@ and checks if content is valid.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] string filePath)
+    <pre><code class="lang-csharp hljs">public static void SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, string filePath)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -511,7 +511,7 @@ and checks if content is valid.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] string filePath, [NotNull] VertexIdentity&lt;TVertex&gt; vertexIdentities, [NotNull] EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities)
+    <pre><code class="lang-csharp hljs">public static void SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, string filePath, VertexIdentity&lt;TVertex&gt; vertexIdentities, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -590,7 +590,7 @@ and checks if content is valid.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] XmlWriter writer)
+    <pre><code class="lang-csharp hljs">public static void SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, XmlWriter writer)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -657,7 +657,7 @@ and checks if content is valid.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;([NotNull] this TGraph graph, [NotNull] XmlWriter writer, [NotNull] VertexIdentity&lt;TVertex&gt; vertexIdentities, [NotNull] EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities)
+    <pre><code class="lang-csharp hljs">public static void SerializeToGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, XmlWriter writer, VertexIdentity&lt;TVertex&gt; vertexIdentities, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

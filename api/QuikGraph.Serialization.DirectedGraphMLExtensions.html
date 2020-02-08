@@ -127,8 +127,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public static XmlSerializer DirectedGraphSerializer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static XmlSerializer DirectedGraphSerializer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,7 +160,7 @@ public static XmlSerializer DirectedGraphSerializer { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void OpenAsDGML&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, [CanBeNull] string filePath)
+    <pre><code class="lang-csharp hljs">public static void OpenAsDGML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, string filePath)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -223,9 +222,7 @@ public static XmlSerializer DirectedGraphSerializer { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)
+    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -297,9 +294,7 @@ public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] VertexIdentity&lt;TVertex&gt; vertexIdentities, [NotNull] EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities)
+    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, VertexIdentity&lt;TVertex&gt; vertexIdentities, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -383,9 +378,7 @@ public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] VertexIdentity&lt;TVertex&gt; vertexIdentities, [NotNull] EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities, [CanBeNull] Action&lt;TVertex, DirectedGraphNode&gt; formatNode, [CanBeNull] Action&lt;TEdge, DirectedGraphLink&gt; formatEdge)
+    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, VertexIdentity&lt;TVertex&gt; vertexIdentities, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities, Action&lt;TVertex, DirectedGraphNode&gt; formatNode, Action&lt;TEdge, DirectedGraphLink&gt; formatEdge)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -481,9 +474,7 @@ public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] Func&lt;TVertex, GraphColor&gt; vertexColors)
+    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TVertex, GraphColor&gt; vertexColors)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -561,7 +552,7 @@ public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteXml([NotNull] this DirectedGraph graph, [NotNull] Stream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteXml(this DirectedGraph graph, Stream stream)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -601,7 +592,7 @@ public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteXml([NotNull] this DirectedGraph graph, [NotNull] TextWriter writer)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteXml(this DirectedGraph graph, TextWriter writer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -641,7 +632,7 @@ public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteXml([NotNull] this DirectedGraph graph, [NotNull] string filePath)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteXml(this DirectedGraph graph, string filePath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -681,7 +672,7 @@ public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;([NotNull] th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WriteXml([NotNull] this DirectedGraph graph, [NotNull] XmlWriter writer)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WriteXml(this DirectedGraph graph, XmlWriter writer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

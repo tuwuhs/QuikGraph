@@ -127,9 +127,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TVertex GetOtherVertex&lt;TVertex&gt;([NotNull] this IEdge&lt;TVertex&gt; edge, [NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TVertex GetOtherVertex&lt;TVertex&gt;(this IEdge&lt;TVertex&gt; edge, TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,9 +202,7 @@ have to be compared.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static EdgeEqualityComparer&lt;TVertex&gt; GetUndirectedVertexEquality&lt;TVertex, TEdge&gt;()</code></pre>
+    <pre><code class="lang-csharp hljs">public static EdgeEqualityComparer&lt;TVertex&gt; GetUndirectedVertexEquality&lt;TVertex, TEdge&gt;()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -259,8 +255,7 @@ public static EdgeEqualityComparer&lt;TVertex&gt; GetUndirectedVertexEquality&lt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool HasCycles&lt;TVertex, TEdge&gt;([NotNull, ItemNotNull] this IEnumerable&lt;TEdge&gt; path)
+    <pre><code class="lang-csharp hljs">public static bool HasCycles&lt;TVertex, TEdge&gt;(this IEnumerable&lt;TEdge&gt; path)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -336,8 +331,7 @@ public static bool HasCycles&lt;TVertex, TEdge&gt;([NotNull, ItemNotNull] this I
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool IsAdjacent&lt;TVertex&gt;([NotNull] this IEdge&lt;TVertex&gt; edge, [NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsAdjacent&lt;TVertex&gt;(this IEdge&lt;TVertex&gt; edge, TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -409,8 +403,7 @@ public static bool IsAdjacent&lt;TVertex&gt;([NotNull] this IEdge&lt;TVertex&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool IsPath&lt;TVertex, TEdge&gt;([NotNull, ItemNotNull] this IEnumerable&lt;TEdge&gt; path)
+    <pre><code class="lang-csharp hljs">public static bool IsPath&lt;TVertex, TEdge&gt;(this IEnumerable&lt;TEdge&gt; path)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -482,8 +475,7 @@ public static bool IsPath&lt;TVertex, TEdge&gt;([NotNull, ItemNotNull] this IEnu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool IsPathWithoutCycles&lt;TVertex, TEdge&gt;([NotNull, ItemNotNull] this IEnumerable&lt;TEdge&gt; path)
+    <pre><code class="lang-csharp hljs">public static bool IsPathWithoutCycles&lt;TVertex, TEdge&gt;(this IEnumerable&lt;TEdge&gt; path)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -555,8 +547,7 @@ public static bool IsPathWithoutCycles&lt;TVertex, TEdge&gt;([NotNull, ItemNotNu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool IsPredecessor&lt;TVertex, TEdge&gt;([NotNull] this IDictionary&lt;TVertex, TEdge&gt; predecessors, [NotNull] TVertex root, [NotNull] TVertex vertex)
+    <pre><code class="lang-csharp hljs">public static bool IsPredecessor&lt;TVertex, TEdge&gt;(this IDictionary&lt;TVertex, TEdge&gt; predecessors, TVertex root, TVertex vertex)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -640,8 +631,7 @@ public static bool IsPredecessor&lt;TVertex, TEdge&gt;([NotNull] this IDictionar
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool IsSelfEdge&lt;TVertex&gt;([NotNull] this IEdge&lt;TVertex&gt; edge)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsSelfEdge&lt;TVertex&gt;(this IEdge&lt;TVertex&gt; edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -707,9 +697,7 @@ public static bool IsSelfEdge&lt;TVertex&gt;([NotNull] this IEdge&lt;TVertex&gt;
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static IEnumerable&lt;SReversedEdge&lt;TVertex, TEdge&gt;&gt; ReverseEdges&lt;TVertex, TEdge&gt;([NotNull, ItemNotNull] IEnumerable&lt;TEdge&gt; edges)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;SReversedEdge&lt;TVertex, TEdge&gt;&gt; ReverseEdges&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt; edges)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -782,8 +770,7 @@ public static IEnumerable&lt;SReversedEdge&lt;TVertex, TEdge&gt;&gt; ReverseEdge
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool SortedVertexEquality&lt;TVertex&gt;([NotNull] this IEdge&lt;TVertex&gt; edge, [NotNull] TVertex source, [NotNull] TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool SortedVertexEquality&lt;TVertex&gt;(this IEdge&lt;TVertex&gt; edge, TVertex source, TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -862,8 +849,7 @@ public static bool SortedVertexEquality&lt;TVertex&gt;([NotNull] this IEdge&lt;T
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static SEquatableEdge&lt;TVertex&gt; ToVertexPair&lt;TVertex&gt;([NotNull] this IEdge&lt;TVertex&gt; edge)</code></pre>
+    <pre><code class="lang-csharp hljs">public static SEquatableEdge&lt;TVertex&gt; ToVertexPair&lt;TVertex&gt;(this IEdge&lt;TVertex&gt; edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -929,9 +915,7 @@ public static SEquatableEdge&lt;TVertex&gt; ToVertexPair&lt;TVertex&gt;([NotNull
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[ContractAnnotation(&quot;=&gt; true, path:notnull;=&gt; false, path:null&quot;)]
-public static bool TryGetPath&lt;TVertex, TEdge&gt;([NotNull] this IDictionary&lt;TVertex, TEdge&gt; predecessors, [NotNull] TVertex vertex, [ItemNotNull] out IEnumerable&lt;TEdge&gt; path)
+    <pre><code class="lang-csharp hljs">public static bool TryGetPath&lt;TVertex, TEdge&gt;(this IDictionary&lt;TVertex, TEdge&gt; predecessors, TVertex vertex, out IEnumerable&lt;TEdge&gt; path)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1017,8 +1001,7 @@ or <code data-dev-comment-type="paramref" class="paramref">target</code> and <co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool UndirectedVertexEquality&lt;TVertex&gt;([NotNull] this IEdge&lt;TVertex&gt; edge, [NotNull] TVertex source, [NotNull] TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool UndirectedVertexEquality&lt;TVertex&gt;(this IEdge&lt;TVertex&gt; edge, TVertex source, TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

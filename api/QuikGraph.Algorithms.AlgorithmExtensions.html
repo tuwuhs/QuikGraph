@@ -127,7 +127,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Clone&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TVertex, TVertex&gt; vertexCloner, [NotNull, InstantHandle] Func&lt;TEdge, TVertex, TVertex, TEdge&gt; edgeCloner, [NotNull] IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt; clone)
+    <pre><code class="lang-csharp hljs">public static void Clone&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TVertex, TVertex&gt; vertexCloner, Func&lt;TEdge, TVertex, TVertex, TEdge&gt; edgeCloner, IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt; clone)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -201,9 +201,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static IDisjointSet&lt;TVertex&gt; ComputeDisjointSet&lt;TVertex, TEdge&gt;([NotNull] this IUndirectedGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IDisjointSet&lt;TVertex&gt; ComputeDisjointSet&lt;TVertex, TEdge&gt;(this IUndirectedGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -275,8 +273,7 @@ public static IDisjointSet&lt;TVertex&gt; ComputeDisjointSet&lt;TVertex, TEdge&g
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static double ComputePredecessorCost&lt;TVertex, TEdge&gt;([NotNull] IDictionary&lt;TVertex, TEdge&gt; predecessors, [NotNull] IDictionary&lt;TEdge, double&gt; edgeCosts, [NotNull] TVertex target)
+    <pre><code class="lang-csharp hljs">public static double ComputePredecessorCost&lt;TVertex, TEdge&gt;(IDictionary&lt;TVertex, TEdge&gt; predecessors, IDictionary&lt;TEdge, double&gt; edgeCosts, TVertex target)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -360,9 +357,7 @@ public static double ComputePredecessorCost&lt;TVertex, TEdge&gt;([NotNull] IDic
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static BidirectionalGraph&lt;TVertex, TEdge&gt; ComputeTransitiveClosure&lt;TVertex, TEdge&gt;([NotNull] this BidirectionalGraph&lt;TVertex, TEdge&gt; graph, [NotNull] Func&lt;TVertex, TVertex, TEdge&gt; createEdge)
+    <pre><code class="lang-csharp hljs">public static BidirectionalGraph&lt;TVertex, TEdge&gt; ComputeTransitiveClosure&lt;TVertex, TEdge&gt;(this BidirectionalGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TVertex, TVertex, TEdge&gt; createEdge)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -440,9 +435,7 @@ public static BidirectionalGraph&lt;TVertex, TEdge&gt; ComputeTransitiveClosure&
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static BidirectionalGraph&lt;TVertex, TEdge&gt; ComputeTransitiveReduction&lt;TVertex, TEdge&gt;([NotNull] this BidirectionalGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static BidirectionalGraph&lt;TVertex, TEdge&gt; ComputeTransitiveReduction&lt;TVertex, TEdge&gt;(this BidirectionalGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -514,9 +507,7 @@ public static BidirectionalGraph&lt;TVertex, TEdge&gt; ComputeTransitiveReductio
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static IMutableBidirectionalGraph&lt;TVertex, MergedEdge&lt;TVertex, TEdge&gt;&gt; CondensateEdges&lt;TVertex, TEdge&gt;([NotNull] this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph, [NotNull] VertexPredicate&lt;TVertex&gt; vertexPredicate)
+    <pre><code class="lang-csharp hljs">public static IMutableBidirectionalGraph&lt;TVertex, MergedEdge&lt;TVertex, TEdge&gt;&gt; CondensateEdges&lt;TVertex, TEdge&gt;(this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph, VertexPredicate&lt;TVertex&gt; vertexPredicate)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -594,9 +585,7 @@ public static IMutableBidirectionalGraph&lt;TVertex, MergedEdge&lt;TVertex, TEdg
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static IMutableBidirectionalGraph&lt;TGraph, CondensedEdge&lt;TVertex, TEdge, TGraph&gt;&gt; CondensateStronglyConnected&lt;TVertex, TEdge, TGraph&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IMutableBidirectionalGraph&lt;TGraph, CondensedEdge&lt;TVertex, TEdge, TGraph&gt;&gt; CondensateStronglyConnected&lt;TVertex, TEdge, TGraph&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -673,9 +662,7 @@ public static IMutableBidirectionalGraph&lt;TGraph, CondensedEdge&lt;TVertex, TE
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static IMutableBidirectionalGraph&lt;TGraph, CondensedEdge&lt;TVertex, TEdge, TGraph&gt;&gt; CondensateWeaklyConnected&lt;TVertex, TEdge, TGraph&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IMutableBidirectionalGraph&lt;TGraph, CondensedEdge&lt;TVertex, TEdge, TGraph&gt;&gt; CondensateWeaklyConnected&lt;TVertex, TEdge, TGraph&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -752,8 +739,7 @@ public static IMutableBidirectionalGraph&lt;TGraph, CondensedEdge&lt;TVertex, TE
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static int ConnectedComponents&lt;TVertex, TEdge&gt;([NotNull] this IUndirectedGraph&lt;TVertex, TEdge&gt; graph, [NotNull] IDictionary&lt;TVertex, int&gt; components)
+    <pre><code class="lang-csharp hljs">public static int ConnectedComponents&lt;TVertex, TEdge&gt;(this IUndirectedGraph&lt;TVertex, TEdge&gt; graph, IDictionary&lt;TVertex, int&gt; components)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -831,9 +817,7 @@ public static int ConnectedComponents&lt;TVertex, TEdge&gt;([NotNull] this IUndi
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static EdgeIdentity&lt;TVertex, TEdge&gt; GetEdgeIdentity&lt;TVertex, TEdge&gt;([NotNull] this IEdgeSet&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static EdgeIdentity&lt;TVertex, TEdge&gt; GetEdgeIdentity&lt;TVertex, TEdge&gt;(this IEdgeSet&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -905,9 +889,7 @@ public static EdgeIdentity&lt;TVertex, TEdge&gt; GetEdgeIdentity&lt;TVertex, TEd
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static Func&lt;TKey, TValue&gt; GetIndexer&lt;TKey, TValue&gt;([NotNull] IDictionary&lt;TKey, TValue&gt; dictionary)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Func&lt;TKey, TValue&gt; GetIndexer&lt;TKey, TValue&gt;(IDictionary&lt;TKey, TValue&gt; dictionary)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -978,9 +960,7 @@ public static Func&lt;TKey, TValue&gt; GetIndexer&lt;TKey, TValue&gt;([NotNull] 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static VertexIdentity&lt;TVertex&gt; GetVertexIdentity&lt;TVertex&gt;([NotNull] this IVertexSet&lt;TVertex&gt; graph)</code></pre>
+    <pre><code class="lang-csharp hljs">public static VertexIdentity&lt;TVertex&gt; GetVertexIdentity&lt;TVertex&gt;(this IVertexSet&lt;TVertex&gt; graph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1052,8 +1032,7 @@ is shared across multiple calls of the method.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public static IDisposable IncrementalConnectedComponents&lt;TVertex, TEdge&gt;([NotNull] this IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt; graph, [NotNull] out Func&lt;KeyValuePair&lt;int, IDictionary&lt;TVertex, int&gt;&gt;&gt; getComponents)
+    <pre><code class="lang-csharp hljs">public static IDisposable IncrementalConnectedComponents&lt;TVertex, TEdge&gt;(this IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt; graph, out Func&lt;KeyValuePair&lt;int, IDictionary&lt;TVertex, int&gt;&gt;&gt; getComponents)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1131,8 +1110,7 @@ public static IDisposable IncrementalConnectedComponents&lt;TVertex, TEdge&gt;([
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool IsDirectedAcyclicGraph&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static bool IsDirectedAcyclicGraph&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1207,10 +1185,7 @@ public static bool IsDirectedAcyclicGraph&lt;TVertex, TEdge&gt;([NotNull] this I
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; IsolatedVertices&lt;TVertex, TEdge&gt;([NotNull] this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; IsolatedVertices&lt;TVertex, TEdge&gt;(this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1283,7 +1258,7 @@ using Edmonds-Karp algorithm.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double MaximumFlow&lt;TVertex, TEdge&gt;([NotNull] this IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] Func&lt;TEdge, double&gt; edgeCapacities, [NotNull] TVertex source, [NotNull] TVertex sink, [NotNull] out TryFunc&lt;TVertex, TEdge&gt; flowPredecessors, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, [NotNull] ReversedEdgeAugmentorAlgorithm&lt;TVertex, TEdge&gt; reversedEdgeAugmentorAlgorithm)
+    <pre><code class="lang-csharp hljs">public static double MaximumFlow&lt;TVertex, TEdge&gt;(this IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeCapacities, TVertex source, TVertex sink, out TryFunc&lt;TVertex, TEdge&gt; flowPredecessors, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, ReversedEdgeAugmentorAlgorithm&lt;TVertex, TEdge&gt; reversedEdgeAugmentorAlgorithm)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1391,10 +1366,7 @@ using Edmonds-Karp algorithm.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TEdge&gt; MinimumSpanningTreeKruskal&lt;TVertex, TEdge&gt;([NotNull] this IUndirectedGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TEdge, double&gt; edgeWeights)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TEdge&gt; MinimumSpanningTreeKruskal&lt;TVertex, TEdge&gt;(this IUndirectedGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeWeights)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1472,10 +1444,7 @@ public static IEnumerable&lt;TEdge&gt; MinimumSpanningTreeKruskal&lt;TVertex, TE
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TEdge&gt; MinimumSpanningTreePrim&lt;TVertex, TEdge&gt;([NotNull] this IUndirectedGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TEdge, double&gt; edgeWeights)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TEdge&gt; MinimumSpanningTreePrim&lt;TVertex, TEdge&gt;(this IUndirectedGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeWeights)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1556,10 +1525,7 @@ public static IEnumerable&lt;TEdge&gt; MinimumSpanningTreePrim&lt;TVertex, TEdge
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; OddVertices&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; OddVertices&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1630,9 +1596,7 @@ rooted tree using Tarjan algorithm.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;SEquatableEdge&lt;TVertex&gt;, TVertex&gt; OfflineLeastCommonAncestor&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] TVertex root, [NotNull] IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt; pairs)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;SEquatableEdge&lt;TVertex&gt;, TVertex&gt; OfflineLeastCommonAncestor&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph, TVertex root, IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt; pairs)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1722,10 +1686,7 @@ DOI= <a href="http://doi.acm.org/10.1145/800061.808753">http://doi.acm.org/10.11
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;IEnumerable&lt;TEdge&gt;&gt; RankedShortestPathHoffmanPavley&lt;TVertex, TEdge&gt;([NotNull] this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TEdge, double&gt; edgeWeights, [NotNull] TVertex root, [NotNull] TVertex target, int maxCount = 3)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IEnumerable&lt;TEdge&gt;&gt; RankedShortestPathHoffmanPavley&lt;TVertex, TEdge&gt;(this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeWeights, TVertex root, TVertex target, int maxCount = 3)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1824,10 +1785,7 @@ public static IEnumerable&lt;IEnumerable&lt;TEdge&gt;&gt; RankedShortestPathHoff
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; Roots&lt;TVertex, TEdge&gt;([NotNull] this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; Roots&lt;TVertex, TEdge&gt;(this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1899,10 +1857,7 @@ public static IEnumerable&lt;TVertex&gt; Roots&lt;TVertex, TEdge&gt;([NotNull] t
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; Roots&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; Roots&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1975,9 +1930,7 @@ to get paths in a directed graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsAStar&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TEdge, double&gt; edgeWeights, [NotNull, InstantHandle] Func&lt;TVertex, double&gt; costHeuristic, [NotNull] TVertex root)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsAStar&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeWeights, Func&lt;TVertex, double&gt; costHeuristic, TVertex root)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2071,9 +2024,7 @@ to get paths in a directed graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsBellmanFord&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TEdge, double&gt; edgeWeights, [NotNull] TVertex root, out bool hasNegativeCycle)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsBellmanFord&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeWeights, TVertex root, out bool hasNegativeCycle)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2167,9 +2118,7 @@ that allows to get paths.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsDag&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TEdge, double&gt; edgeWeights, [NotNull] TVertex root)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsDag&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeWeights, TVertex root)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2257,9 +2206,7 @@ to get paths in an undirected graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsDijkstra&lt;TVertex, TEdge&gt;([NotNull] this IUndirectedGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TEdge, double&gt; edgeWeights, [NotNull] TVertex root)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsDijkstra&lt;TVertex, TEdge&gt;(this IUndirectedGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeWeights, TVertex root)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2347,9 +2294,7 @@ to get paths in a directed graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsDijkstra&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] Func&lt;TEdge, double&gt; edgeWeights, [NotNull] TVertex root)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsDijkstra&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TEdge, double&gt; edgeWeights, TVertex root)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2436,10 +2381,7 @@ public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; ShortestPathsDijk
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; Sinks&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; Sinks&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2512,8 +2454,7 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static IEnumerable&lt;TVertex&gt; SourceFirstBidirectionalTopologicalSort&lt;TVertex, TEdge&gt;([NotNull] this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; SourceFirstBidirectionalTopologicalSort&lt;TVertex, TEdge&gt;(this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2601,10 +2542,7 @@ public static IEnumerable&lt;TVertex&gt; SourceFirstBidirectionalTopologicalSort
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; SourceFirstBidirectionalTopologicalSort&lt;TVertex, TEdge&gt;([NotNull] this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph, TopologicalSortDirection direction)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; SourceFirstBidirectionalTopologicalSort&lt;TVertex, TEdge&gt;(this IBidirectionalGraph&lt;TVertex, TEdge&gt; graph, TopologicalSortDirection direction)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2698,10 +2636,7 @@ public static IEnumerable&lt;TVertex&gt; SourceFirstBidirectionalTopologicalSort
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;([NotNull] this IUndirectedGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;(this IUndirectedGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2789,10 +2724,7 @@ public static IEnumerable&lt;TVertex&gt; SourceFirstTopologicalSort&lt;TVertex, 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;([NotNull] this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2880,8 +2812,7 @@ public static IEnumerable&lt;TVertex&gt; SourceFirstTopologicalSort&lt;TVertex, 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static int StronglyConnectedComponents&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] IDictionary&lt;TVertex, int&gt; components)
+    <pre><code class="lang-csharp hljs">public static int StronglyConnectedComponents&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph, IDictionary&lt;TVertex, int&gt; components)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2959,10 +2890,7 @@ public static int StronglyConnectedComponents&lt;TVertex, TEdge&gt;([NotNull] th
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; TopologicalSort&lt;TVertex, TEdge&gt;([NotNull] this IUndirectedGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; TopologicalSort&lt;TVertex, TEdge&gt;(this IUndirectedGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3050,10 +2978,7 @@ public static IEnumerable&lt;TVertex&gt; TopologicalSort&lt;TVertex, TEdge&gt;([
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public static IEnumerable&lt;TVertex&gt; TopologicalSort&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TVertex&gt; TopologicalSort&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3142,9 +3067,7 @@ connected to a vertex in a directed graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeBreadthFirstSearch&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] TVertex root)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeBreadthFirstSearch&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph, TVertex root)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3226,9 +3149,7 @@ connected to a vertex in a directed graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] TVertex root)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph, TVertex root)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3311,9 +3232,7 @@ connected to a vertex in a directed graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] TVertex root, [NotNull] IMarkovEdgeChain&lt;TVertex, TEdge&gt; edgeChain)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph, TVertex root, IMarkovEdgeChain&lt;TVertex, TEdge&gt; edgeChain)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3401,9 +3320,7 @@ connected to a vertex in a directed graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeDepthFirstSearch&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] TVertex root)
+    <pre><code class="lang-csharp hljs">public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeDepthFirstSearch&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph, TVertex root)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3484,8 +3401,7 @@ public static TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; TreeDepthFirstSea
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static int WeaklyConnectedComponents&lt;TVertex, TEdge&gt;([NotNull] this IVertexListGraph&lt;TVertex, TEdge&gt; graph, [NotNull] IDictionary&lt;TVertex, int&gt; components)
+    <pre><code class="lang-csharp hljs">public static int WeaklyConnectedComponents&lt;TVertex, TEdge&gt;(this IVertexListGraph&lt;TVertex, TEdge&gt; graph, IDictionary&lt;TVertex, int&gt; components)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

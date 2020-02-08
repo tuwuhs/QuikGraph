@@ -169,7 +169,7 @@ public sealed class VertexPredecessorPathRecorderObserver&lt;TVertex, TEdge&gt; 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VertexPredecessorPathRecorderObserver([NotNull] IDictionary&lt;TVertex, TEdge&gt; verticesPredecessors)</code></pre>
+    <pre><code class="lang-csharp hljs">public VertexPredecessorPathRecorderObserver(IDictionary&lt;TVertex, TEdge&gt; verticesPredecessors)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,9 +205,7 @@ public sealed class VertexPredecessorPathRecorderObserver&lt;TVertex, TEdge&gt; 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-[ItemNotNull]
-public ICollection&lt;TVertex&gt; EndPathVertices { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ICollection&lt;TVertex&gt; EndPathVertices { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,8 +236,7 @@ public ICollection&lt;TVertex&gt; EndPathVertices { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public IDictionary&lt;TVertex, TEdge&gt; VerticesPredecessors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IDictionary&lt;TVertex, TEdge&gt; VerticesPredecessors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -272,10 +269,7 @@ public IDictionary&lt;TVertex, TEdge&gt; VerticesPredecessors { get; }</code></p
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-public IEnumerable&lt;IEnumerable&lt;TEdge&gt;&gt; AllPaths()</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEnumerable&lt;TEdge&gt;&gt; AllPaths()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

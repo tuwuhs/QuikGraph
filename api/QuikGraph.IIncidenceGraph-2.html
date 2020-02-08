@@ -148,8 +148,7 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-bool ContainsEdge([NotNull] TVertex source, [NotNull] TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">bool ContainsEdge(TVertex source, TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,9 +205,7 @@ bool ContainsEdge([NotNull] TVertex source, [NotNull] TVertex target)</code></pr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[ContractAnnotation(&quot;=&gt; true, edge:notnull;=&gt; false, edge:null&quot;)]
-bool TryGetEdge([NotNull] TVertex source, [NotNull] TVertex target, out TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">bool TryGetEdge(TVertex source, TVertex target, out TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -271,9 +268,7 @@ bool TryGetEdge([NotNull] TVertex source, [NotNull] TVertex target, out TEdge ed
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[ContractAnnotation(&quot;=&gt; true, edges:notnull;=&gt; false, edges:null&quot;)]
-bool TryGetEdges([NotNull] TVertex source, [NotNull] TVertex target, [ItemNotNull] out IEnumerable&lt;TEdge&gt; edges)</code></pre>
+    <pre><code class="lang-csharp hljs">bool TryGetEdges(TVertex source, TVertex target, out IEnumerable&lt;TEdge&gt; edges)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

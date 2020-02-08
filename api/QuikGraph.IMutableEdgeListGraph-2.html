@@ -156,7 +156,7 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool AddEdge([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">bool AddEdge(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,7 +206,7 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int AddEdgeRange([NotNull, ItemNotNull] IEnumerable&lt;TEdge&gt; edges)</code></pre>
+    <pre><code class="lang-csharp hljs">int AddEdgeRange(IEnumerable&lt;TEdge&gt; edges)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,7 +256,7 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RemoveEdge([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">bool RemoveEdge(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,7 +306,7 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int RemoveEdgeIf([NotNull, InstantHandle] EdgePredicate&lt;TVertex, TEdge&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">int RemoveEdgeIf(EdgePredicate&lt;TVertex, TEdge&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

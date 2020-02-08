@@ -132,8 +132,7 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-bool IsOutEdgesEmpty([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">bool IsOutEdgesEmpty(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,8 +182,7 @@ bool IsOutEdgesEmpty([NotNull] TVertex vertex)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-int OutDegree([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">int OutDegree(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,9 +232,7 @@ int OutDegree([NotNull] TVertex vertex)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-TEdge OutEdge([NotNull] TVertex vertex, int index)</code></pre>
+    <pre><code class="lang-csharp hljs">TEdge OutEdge(TVertex vertex, int index)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,10 +288,7 @@ TEdge OutEdge([NotNull] TVertex vertex, int index)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-IEnumerable&lt;TEdge&gt; OutEdges([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TEdge&gt; OutEdges(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -345,9 +338,7 @@ IEnumerable&lt;TEdge&gt; OutEdges([NotNull] TVertex vertex)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[ContractAnnotation(&quot;=&gt; true, edges:notnull;=&gt; false, edges:null&quot;)]
-bool TryGetOutEdges([NotNull] TVertex vertex, [ItemNotNull] out IEnumerable&lt;TEdge&gt; edges)</code></pre>
+    <pre><code class="lang-csharp hljs">bool TryGetOutEdges(TVertex vertex, out IEnumerable&lt;TEdge&gt; edges)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

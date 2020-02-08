@@ -154,7 +154,7 @@ public sealed class FibonacciQueue&lt;TVertex, TDistance&gt; : IPriorityQueue&lt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FibonacciQueue([NotNull] Dictionary&lt;TVertex, TDistance&gt; values)</code></pre>
+    <pre><code class="lang-csharp hljs">public FibonacciQueue(Dictionary&lt;TVertex, TDistance&gt; values)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -188,7 +188,7 @@ public sealed class FibonacciQueue&lt;TVertex, TDistance&gt; : IPriorityQueue&lt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FibonacciQueue([NotNull] Dictionary&lt;TVertex, TDistance&gt; values, [NotNull] Comparison&lt;TDistance&gt; distanceComparison)</code></pre>
+    <pre><code class="lang-csharp hljs">public FibonacciQueue(Dictionary&lt;TVertex, TDistance&gt; values, Comparison&lt;TDistance&gt; distanceComparison)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,7 +228,7 @@ public sealed class FibonacciQueue&lt;TVertex, TDistance&gt; : IPriorityQueue&lt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FibonacciQueue([NotNull] Func&lt;TVertex, TDistance&gt; distanceFunc)</code></pre>
+    <pre><code class="lang-csharp hljs">public FibonacciQueue(Func&lt;TVertex, TDistance&gt; distanceFunc)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -262,7 +262,7 @@ public sealed class FibonacciQueue&lt;TVertex, TDistance&gt; : IPriorityQueue&lt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FibonacciQueue(int capacity, [CanBeNull, ItemNotNull] IEnumerable&lt;TVertex&gt; values, [NotNull] Func&lt;TVertex, TDistance&gt; distanceFunc)</code></pre>
+    <pre><code class="lang-csharp hljs">public FibonacciQueue(int capacity, IEnumerable&lt;TVertex&gt; values, Func&lt;TVertex, TDistance&gt; distanceFunc)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -308,7 +308,7 @@ public sealed class FibonacciQueue&lt;TVertex, TDistance&gt; : IPriorityQueue&lt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FibonacciQueue(int capacity, [CanBeNull, ItemNotNull] IEnumerable&lt;TVertex&gt; values, [NotNull] Func&lt;TVertex, TDistance&gt; distanceFunc, [NotNull] Comparison&lt;TDistance&gt; distanceComparison)</code></pre>
+    <pre><code class="lang-csharp hljs">public FibonacciQueue(int capacity, IEnumerable&lt;TVertex&gt; values, Func&lt;TVertex, TDistance&gt; distanceFunc, Comparison&lt;TDistance&gt; distanceComparison)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -440,8 +440,7 @@ public sealed class FibonacciQueue&lt;TVertex, TDistance&gt; : IPriorityQueue&lt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public TVertex Dequeue()</code></pre>
+    <pre><code class="lang-csharp hljs">public TVertex Dequeue()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -471,7 +470,7 @@ public TVertex Dequeue()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Enqueue([NotNull] TVertex value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Enqueue(TVertex value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -563,7 +562,7 @@ public TVertex Dequeue()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Update([NotNull] TVertex value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Update(TVertex value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -80,7 +80,7 @@
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_EdgeEventHandler_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void EdgeEventHandler&lt;TVertex, TEdge&gt;([NotNull] object sender, [NotNull] EdgeEventArgs&lt;TVertex, TEdge&gt; args)
+    <pre><code class="lang-csharp hljs">public delegate void EdgeEventHandler&lt;TVertex, TEdge&gt;(object sender, EdgeEventArgs&lt;TVertex, TEdge&gt; args)
     where TEdge : IEdge&lt;TVertex&gt;;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

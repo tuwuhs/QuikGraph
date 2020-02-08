@@ -194,7 +194,7 @@ public class DelegateUndirectedGraph&lt;TVertex, TEdge&gt; : DelegateImplicitUnd
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DelegateUndirectedGraph([NotNull, ItemNotNull] IEnumerable&lt;TVertex&gt; vertices, [NotNull] TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetAdjacentEdges, bool allowParallelEdges = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public DelegateUndirectedGraph(IEnumerable&lt;TVertex&gt; vertices, TryFunc&lt;TVertex, IEnumerable&lt;TEdge&gt;&gt; tryGetAdjacentEdges, bool allowParallelEdges = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

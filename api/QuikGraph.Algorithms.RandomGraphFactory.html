@@ -128,7 +128,7 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Create&lt;TVertex, TEdge&gt;([NotNull] IMutableUndirectedGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] VertexFactory&lt;TVertex&gt; vertexFactory, [NotNull, InstantHandle] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, [NotNull] Random rng, int vertexCount, int edgeCount, bool selfEdges)
+    <pre><code class="lang-csharp hljs">public static void Create&lt;TVertex, TEdge&gt;(IMutableUndirectedGraph&lt;TVertex, TEdge&gt; graph, VertexFactory&lt;TVertex&gt; vertexFactory, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, Random rng, int vertexCount, int edgeCount, bool selfEdges)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -221,7 +221,7 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Create&lt;TVertex, TEdge&gt;([NotNull] IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, [NotNull, InstantHandle] VertexFactory&lt;TVertex&gt; vertexFactory, [NotNull, InstantHandle] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, [NotNull] Random rng, int vertexCount, int edgeCount, bool selfEdges)
+    <pre><code class="lang-csharp hljs">public static void Create&lt;TVertex, TEdge&gt;(IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, VertexFactory&lt;TVertex&gt; vertexFactory, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, Random rng, int vertexCount, int edgeCount, bool selfEdges)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -313,9 +313,7 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TEdge GetEdge&lt;TVertex, TEdge&gt;([NotNull] IEdgeSet&lt;TVertex, TEdge&gt; graph, [NotNull] Random rng)
+    <pre><code class="lang-csharp hljs">public static TEdge GetEdge&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt; graph, Random rng)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -393,9 +391,7 @@ public static TEdge GetEdge&lt;TVertex, TEdge&gt;([NotNull] IEdgeSet&lt;TVertex,
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TEdge GetEdge&lt;TVertex, TEdge&gt;([NotNull, ItemNotNull] IEnumerable&lt;TEdge&gt; edges, int count, [NotNull] Random rng)
+    <pre><code class="lang-csharp hljs">public static TEdge GetEdge&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt; edges, int count, Random rng)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -479,9 +475,7 @@ public static TEdge GetEdge&lt;TVertex, TEdge&gt;([NotNull, ItemNotNull] IEnumer
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TVertex GetVertex&lt;TVertex&gt;([NotNull] IVertexSet&lt;TVertex&gt; graph, [NotNull] Random rng)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TVertex GetVertex&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt; graph, Random rng)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -553,9 +547,7 @@ public static TVertex GetVertex&lt;TVertex&gt;([NotNull] IVertexSet&lt;TVertex&g
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public static TVertex GetVertex&lt;TVertex&gt;([NotNull, ItemNotNull] IEnumerable&lt;TVertex&gt; vertices, int count, [NotNull] Random rng)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TVertex GetVertex&lt;TVertex&gt;(IEnumerable&lt;TVertex&gt; vertices, int count, Random rng)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -128,8 +128,7 @@ Use the default comparer for vertices and edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool Equate&lt;TVertex, TEdge&gt;([CanBeNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; g, [CanBeNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; h)
+    <pre><code class="lang-csharp hljs">public static bool Equate&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; g, IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; h)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -209,8 +208,7 @@ comparer to respectively compare vertices and edges.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public static bool Equate&lt;TVertex, TEdge&gt;([CanBeNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; g, [CanBeNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; h, [NotNull] IEqualityComparer&lt;TVertex&gt; vertexEquality, [NotNull] IEqualityComparer&lt;TEdge&gt; edgeEquality)
+    <pre><code class="lang-csharp hljs">public static bool Equate&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; g, IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; h, IEqualityComparer&lt;TVertex&gt; vertexEquality, IEqualityComparer&lt;TEdge&gt; edgeEquality)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

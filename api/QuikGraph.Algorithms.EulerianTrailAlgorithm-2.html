@@ -242,7 +242,7 @@ public sealed class EulerianTrailAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorit
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EulerianTrailAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public EulerianTrailAlgorithm(IAlgorithmComponent host, IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -282,7 +282,7 @@ public sealed class EulerianTrailAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorit
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EulerianTrailAlgorithm([NotNull] IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public EulerianTrailAlgorithm(IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -318,9 +318,7 @@ public sealed class EulerianTrailAlgorithm&lt;TVertex, TEdge&gt; : RootedAlgorit
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-[ItemNotNull]
-public TEdge[] Circuit { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TEdge[] Circuit { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -353,9 +351,7 @@ public TEdge[] Circuit { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-[ItemNotNull]
-public TEdge[] AddTemporaryEdges([NotNull, InstantHandle] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)</code></pre>
+    <pre><code class="lang-csharp hljs">public TEdge[] AddTemporaryEdges(EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -405,7 +401,7 @@ public TEdge[] AddTemporaryEdges([NotNull, InstantHandle] EdgeFactory&lt;TVertex
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int ComputeEulerianPathCount([NotNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int ComputeEulerianPathCount(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -488,9 +484,7 @@ public TEdge[] AddTemporaryEdges([NotNull, InstantHandle] EdgeFactory&lt;TVertex
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-[ItemNotNull]
-public IEnumerable&lt;ICollection&lt;TEdge&gt;&gt; Trails()</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ICollection&lt;TEdge&gt;&gt; Trails()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -527,9 +521,7 @@ that spans the entire graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-[ItemNotNull]
-public IEnumerable&lt;ICollection&lt;TEdge&gt;&gt; Trails([NotNull] TVertex startingVertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ICollection&lt;TEdge&gt;&gt; Trails(TVertex startingVertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

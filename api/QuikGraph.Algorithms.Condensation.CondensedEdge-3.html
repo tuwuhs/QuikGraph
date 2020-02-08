@@ -165,7 +165,7 @@ public sealed class CondensedEdge&lt;TVertex, TEdge, TGraph&gt; : Edge&lt;TGraph
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CondensedEdge([NotNull] TGraph source, [NotNull] TGraph target)</code></pre>
+    <pre><code class="lang-csharp hljs">public CondensedEdge(TGraph source, TGraph target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -207,9 +207,7 @@ public sealed class CondensedEdge&lt;TVertex, TEdge, TGraph&gt; : Edge&lt;TGraph
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-[ItemNotNull]
-public IList&lt;TEdge&gt; Edges { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IList&lt;TEdge&gt; Edges { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

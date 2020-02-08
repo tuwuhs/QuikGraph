@@ -217,7 +217,7 @@ public sealed class TopologicalSortAlgorithm&lt;TVertex, TEdge&gt; : AlgorithmBa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TopologicalSortAlgorithm([NotNull] IVertexListGraph&lt;TVertex, TEdge&gt; visitedGraph, int capacity = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public TopologicalSortAlgorithm(IVertexListGraph&lt;TVertex, TEdge&gt; visitedGraph, int capacity = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -259,8 +259,7 @@ public sealed class TopologicalSortAlgorithm&lt;TVertex, TEdge&gt; : AlgorithmBa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ItemNotNull]
-public TVertex[] SortedVertices { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TVertex[] SortedVertices { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

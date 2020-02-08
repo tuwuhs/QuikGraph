@@ -80,8 +80,7 @@
   <h6><strong>Assembly</strong>: QuikGraph.dll</h6>
   <h5 id="QuikGraph_EdgeFactory_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public delegate TEdge EdgeFactory&lt;in TVertex, out TEdge&gt;([NotNull] TVertex source, [NotNull] TVertex target)
+    <pre><code class="lang-csharp hljs">public delegate TEdge EdgeFactory&lt;in TVertex, out TEdge&gt;(TVertex source, TVertex target)
     where TEdge : IEdge&lt;TVertex&gt;;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

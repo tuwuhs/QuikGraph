@@ -433,8 +433,7 @@ where out-edge need to be enumerated only.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public Type EdgeType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Type EdgeType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -585,8 +584,7 @@ public Type EdgeType { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public Type VertexType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Type VertexType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -949,7 +947,7 @@ public Type VertexType { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ClearEdges([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ClearEdges(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1015,9 +1013,7 @@ public Type VertexType { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public AdjacencyGraph&lt;TVertex, TEdge&gt; Clone()</code></pre>
+    <pre><code class="lang-csharp hljs">public AdjacencyGraph&lt;TVertex, TEdge&gt; Clone()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1242,7 +1238,7 @@ public AdjacencyGraph&lt;TVertex, TEdge&gt; Clone()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnEdgeAdded([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnEdgeAdded(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1276,7 +1272,7 @@ public AdjacencyGraph&lt;TVertex, TEdge&gt; Clone()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnEdgeRemoved([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnEdgeRemoved(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1310,7 +1306,7 @@ public AdjacencyGraph&lt;TVertex, TEdge&gt; Clone()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnVertexAdded([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnVertexAdded(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1344,7 +1340,7 @@ public AdjacencyGraph&lt;TVertex, TEdge&gt; Clone()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnVertexRemoved([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnVertexRemoved(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

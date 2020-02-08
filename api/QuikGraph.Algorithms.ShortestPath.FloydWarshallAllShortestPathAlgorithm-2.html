@@ -215,7 +215,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FloydWarshallAllShortestPathAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] Func&lt;TEdge, double&gt; edgeWeights, [NotNull] IDistanceRelaxer distanceRelaxer)</code></pre>
+    <pre><code class="lang-csharp hljs">public FloydWarshallAllShortestPathAlgorithm(IAlgorithmComponent host, IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TEdge, double&gt; edgeWeights, IDistanceRelaxer distanceRelaxer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -267,7 +267,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FloydWarshallAllShortestPathAlgorithm([NotNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] Func&lt;TEdge, double&gt; edgeWeights)</code></pre>
+    <pre><code class="lang-csharp hljs">public FloydWarshallAllShortestPathAlgorithm(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TEdge, double&gt; edgeWeights)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -307,7 +307,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FloydWarshallAllShortestPathAlgorithm([NotNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] Func&lt;TEdge, double&gt; edgeWeights, [NotNull] IDistanceRelaxer distanceRelaxer)</code></pre>
+    <pre><code class="lang-csharp hljs">public FloydWarshallAllShortestPathAlgorithm(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TEdge, double&gt; edgeWeights, IDistanceRelaxer distanceRelaxer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -356,7 +356,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Conditional(&quot;DEBUG&quot;)]
-public void Dump([NotNull] TextWriter writer)</code></pre>
+public void Dump(TextWriter writer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -424,7 +424,7 @@ public void Dump([NotNull] TextWriter writer)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool TryGetDistance([NotNull] TVertex source, [NotNull] TVertex target, out double distance)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TryGetDistance(TVertex source, TVertex target, out double distance)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -487,7 +487,7 @@ and <code data-dev-comment-type="paramref" class="paramref">target</code> vertic
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool TryGetPath([NotNull] TVertex source, [NotNull] TVertex target, out IEnumerable&lt;TEdge&gt; path)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TryGetPath(TVertex source, TVertex target, out IEnumerable&lt;TEdge&gt; path)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

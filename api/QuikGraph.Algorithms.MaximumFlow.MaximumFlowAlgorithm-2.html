@@ -218,7 +218,7 @@ public abstract class MaximumFlowAlgorithm&lt;TVertex, TEdge&gt; : AlgorithmBase
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected MaximumFlowAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] Func&lt;TEdge, double&gt; capacities, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)</code></pre>
+    <pre><code class="lang-csharp hljs">protected MaximumFlowAlgorithm(IAlgorithmComponent host, IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TEdge, double&gt; capacities, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -272,8 +272,7 @@ public abstract class MaximumFlowAlgorithm&lt;TVertex, TEdge&gt; : AlgorithmBase
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public Func&lt;TEdge, double&gt; Capacities { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Func&lt;TEdge, double&gt; Capacities { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -304,8 +303,7 @@ public Func&lt;TEdge, double&gt; Capacities { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -367,8 +365,7 @@ public EdgeFactory&lt;TVertex, TEdge&gt; EdgeFactory { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public Dictionary&lt;TVertex, TEdge&gt; Predecessors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;TVertex, TEdge&gt; Predecessors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -399,8 +396,7 @@ public Dictionary&lt;TVertex, TEdge&gt; Predecessors { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public Dictionary&lt;TEdge, double&gt; ResidualCapacities { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;TEdge, double&gt; ResidualCapacities { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -533,8 +529,7 @@ public Dictionary&lt;TEdge, double&gt; ResidualCapacities { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -567,7 +562,7 @@ public IDictionary&lt;TVertex, GraphColor&gt; VerticesColors { get; }</code></pr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Compute([NotNull] TVertex source, [NotNull] TVertex sink)</code></pre>
+    <pre><code class="lang-csharp hljs">public double Compute(TVertex source, TVertex sink)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

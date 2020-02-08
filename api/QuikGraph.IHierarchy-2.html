@@ -230,8 +230,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-TVertex Root { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">TVertex Root { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -264,10 +263,7 @@ TVertex Root { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-IEnumerable&lt;TEdge&gt; ChildrenEdges([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TEdge&gt; ChildrenEdges(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -317,10 +313,7 @@ IEnumerable&lt;TEdge&gt; ChildrenEdges([NotNull] TVertex vertex)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-[ItemNotNull]
-IEnumerable&lt;TVertex&gt; ChildrenVertices([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TVertex&gt; ChildrenVertices(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -370,9 +363,7 @@ IEnumerable&lt;TVertex&gt; ChildrenVertices([NotNull] TVertex vertex)</code></pr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[CanBeNull]
-TVertex GetParent([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">TVertex GetParent(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -438,9 +429,7 @@ TVertex GetParent([NotNull] TVertex vertex)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[CanBeNull]
-TEdge GetParentEdge([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">TEdge GetParentEdge(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -506,8 +495,7 @@ TEdge GetParentEdge([NotNull] TVertex vertex)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-int InducedEdgeCount([NotNull] TVertex source, [NotNull] TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">int InducedEdgeCount(TVertex source, TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -580,8 +568,7 @@ int InducedEdgeCount([NotNull] TVertex source, [NotNull] TVertex target)</code><
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-bool IsCrossEdge([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">bool IsCrossEdge(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -631,8 +618,7 @@ bool IsCrossEdge([NotNull] TEdge edge)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-bool IsInnerNode([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">bool IsInnerNode(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -683,8 +669,7 @@ is a predecessor of <code data-dev-comment-type="paramref" class="paramref">targ
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-bool IsPredecessorOf([NotNull] TVertex source, [NotNull] TVertex target)</code></pre>
+    <pre><code class="lang-csharp hljs">bool IsPredecessorOf(TVertex source, TVertex target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -741,8 +726,7 @@ exists really or is just an induced edge.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-bool IsRealEdge([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">bool IsRealEdge(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -144,7 +144,7 @@ with non negative edge cost.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public YenShortestPathsAlgorithm([NotNull] AdjacencyGraph&lt;TVertex, EquatableTaggedEdge&lt;TVertex, double&gt;&gt; graph, [NotNull] TVertex source, [NotNull] TVertex target, int k, [CanBeNull] Func&lt;EquatableTaggedEdge&lt;TVertex, double&gt;, double&gt; edgeWeights = null, [CanBeNull] Func&lt;IEnumerable&lt;YenShortestPathsAlgorithm&lt;TVertex&gt;.SortedPath&gt;, IEnumerable&lt;YenShortestPathsAlgorithm&lt;TVertex&gt;.SortedPath&gt;&gt; filter = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public YenShortestPathsAlgorithm(AdjacencyGraph&lt;TVertex, EquatableTaggedEdge&lt;TVertex, double&gt;&gt; graph, TVertex source, TVertex target, int k, Func&lt;EquatableTaggedEdge&lt;TVertex, double&gt;, double&gt; edgeWeights = null, Func&lt;IEnumerable&lt;YenShortestPathsAlgorithm&lt;TVertex&gt;.SortedPath&gt;, IEnumerable&lt;YenShortestPathsAlgorithm&lt;TVertex&gt;.SortedPath&gt;&gt; filter = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,9 +213,7 @@ with non negative edge cost.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public IEnumerable&lt;YenShortestPathsAlgorithm&lt;TVertex&gt;.SortedPath&gt; Execute()</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;YenShortestPathsAlgorithm&lt;TVertex&gt;.SortedPath&gt; Execute()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

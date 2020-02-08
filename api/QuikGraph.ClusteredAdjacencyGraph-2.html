@@ -163,7 +163,7 @@ public class ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; : IVertexAndEdgeListG
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ClusteredAdjacencyGraph([NotNull] AdjacencyGraph&lt;TVertex, TEdge&gt; wrappedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public ClusteredAdjacencyGraph(AdjacencyGraph&lt;TVertex, TEdge&gt; wrappedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -197,7 +197,7 @@ public class ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; : IVertexAndEdgeListG
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ClusteredAdjacencyGraph([NotNull] ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; parentGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public ClusteredAdjacencyGraph(ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; parentGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -447,8 +447,7 @@ public class ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; : IVertexAndEdgeListG
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public Type EdgeType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Type EdgeType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -569,8 +568,7 @@ public Type EdgeType { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; Parent { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; Parent { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -631,8 +629,7 @@ public ClusteredAdjacencyGraph&lt;TVertex, TEdge&gt; Parent { get; }</code></pre
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public Type VertexType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Type VertexType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -693,8 +690,7 @@ public Type VertexType { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -759,7 +755,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool AddEdge([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool AddEdge(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -809,7 +805,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int AddEdgeRange([NotNull, ItemNotNull] IEnumerable&lt;TEdge&gt; edges)</code></pre>
+    <pre><code class="lang-csharp hljs">public int AddEdgeRange(IEnumerable&lt;TEdge&gt; edges)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -859,7 +855,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool AddVertex([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool AddVertex(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -909,7 +905,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual int AddVertexRange([NotNull, ItemNotNull] IEnumerable&lt;TVertex&gt; vertices)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual int AddVertexRange(IEnumerable&lt;TVertex&gt; vertices)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -959,7 +955,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool AddVerticesAndEdge([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool AddVerticesAndEdge(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1009,7 +1005,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int AddVerticesAndEdgeRange([NotNull, ItemNotNull] IEnumerable&lt;TEdge&gt; edges)</code></pre>
+    <pre><code class="lang-csharp hljs">public int AddVerticesAndEdgeRange(IEnumerable&lt;TEdge&gt; edges)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1075,7 +1071,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ClearOutEdges([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ClearOutEdges(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1482,7 +1478,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool RemoveEdge([NotNull] TEdge edge)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool RemoveEdge(TEdge edge)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1532,7 +1528,7 @@ protected AdjacencyGraph&lt;TVertex, TEdge&gt; Wrapped { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RemoveEdgeIf([NotNull, InstantHandle] EdgePredicate&lt;TVertex, TEdge&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public int RemoveEdgeIf(EdgePredicate&lt;TVertex, TEdge&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1583,7 +1579,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RemoveOutEdgeIf([NotNull] TVertex vertex, [NotNull, InstantHandle] EdgePredicate&lt;TVertex, TEdge&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public int RemoveOutEdgeIf(TVertex vertex, EdgePredicate&lt;TVertex, TEdge&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1639,7 +1635,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool RemoveVertex([NotNull] TVertex vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool RemoveVertex(TVertex vertex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1689,7 +1685,7 @@ where the <code data-dev-comment-type="paramref" class="paramref">predicate</cod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RemoveVertexIf([NotNull, InstantHandle] VertexPredicate&lt;TVertex&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public int RemoveVertexIf(VertexPredicate&lt;TVertex&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

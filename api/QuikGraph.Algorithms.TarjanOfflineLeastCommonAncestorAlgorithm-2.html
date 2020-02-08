@@ -247,7 +247,7 @@ DOI= <a href="http://doi.acm.org/10.1145/800061.808753">http://doi.acm.org/10.11
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TarjanOfflineLeastCommonAncestorAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IVertexListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public TarjanOfflineLeastCommonAncestorAlgorithm(IAlgorithmComponent host, IVertexListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -287,7 +287,7 @@ DOI= <a href="http://doi.acm.org/10.1145/800061.808753">http://doi.acm.org/10.11
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TarjanOfflineLeastCommonAncestorAlgorithm([NotNull] IVertexListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public TarjanOfflineLeastCommonAncestorAlgorithm(IVertexListGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -323,8 +323,7 @@ DOI= <a href="http://doi.acm.org/10.1145/800061.808753">http://doi.acm.org/10.11
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public IDictionary&lt;SEquatableEdge&lt;TVertex&gt;, TVertex&gt; Ancestors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IDictionary&lt;SEquatableEdge&lt;TVertex&gt;, TVertex&gt; Ancestors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -357,7 +356,7 @@ public IDictionary&lt;SEquatableEdge&lt;TVertex&gt;, TVertex&gt; Ancestors { get
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Compute([NotNull] TVertex root, [NotNull] IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt; pairs)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Compute(TVertex root, IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt; pairs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -431,7 +430,7 @@ public IDictionary&lt;SEquatableEdge&lt;TVertex&gt;, TVertex&gt; Ancestors { get
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetVertexPairs([NotNull] IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt; pairs)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetVertexPairs(IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt; pairs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -465,8 +464,7 @@ public IDictionary&lt;SEquatableEdge&lt;TVertex&gt;, TVertex&gt; Ancestors { get
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-public bool TryGetVertexPairs(out IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt; pairs)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TryGetVertexPairs(out IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt; pairs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

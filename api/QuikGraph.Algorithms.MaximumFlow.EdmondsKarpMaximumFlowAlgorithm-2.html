@@ -251,7 +251,7 @@ public sealed class EdmondsKarpMaximumFlowAlgorithm&lt;TVertex, TEdge&gt; : Maxi
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdmondsKarpMaximumFlowAlgorithm([CanBeNull] IAlgorithmComponent host, [NotNull] IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] Func&lt;TEdge, double&gt; capacities, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, [NotNull] ReversedEdgeAugmentorAlgorithm&lt;TVertex, TEdge&gt; reverseEdgesAugmentorAlgorithm)</code></pre>
+    <pre><code class="lang-csharp hljs">public EdmondsKarpMaximumFlowAlgorithm(IAlgorithmComponent host, IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TEdge, double&gt; capacities, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, ReversedEdgeAugmentorAlgorithm&lt;TVertex, TEdge&gt; reverseEdgesAugmentorAlgorithm)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -309,7 +309,7 @@ public sealed class EdmondsKarpMaximumFlowAlgorithm&lt;TVertex, TEdge&gt; : Maxi
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdmondsKarpMaximumFlowAlgorithm([NotNull] IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, [NotNull] Func&lt;TEdge, double&gt; capacities, [NotNull] EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, [NotNull] ReversedEdgeAugmentorAlgorithm&lt;TVertex, TEdge&gt; reverseEdgesAugmentorAlgorithm)</code></pre>
+    <pre><code class="lang-csharp hljs">public EdmondsKarpMaximumFlowAlgorithm(IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TEdge, double&gt; capacities, EdgeFactory&lt;TVertex, TEdge&gt; edgeFactory, ReversedEdgeAugmentorAlgorithm&lt;TVertex, TEdge&gt; reverseEdgesAugmentorAlgorithm)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

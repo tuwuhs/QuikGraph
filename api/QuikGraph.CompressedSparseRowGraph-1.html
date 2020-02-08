@@ -398,9 +398,7 @@ public sealed class CompressedSparseRowGraph&lt;TVertex&gt; : IEdgeSet&lt;TVerte
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Pure]
-[NotNull]
-public CompressedSparseRowGraph&lt;TVertex&gt; Clone()</code></pre>
+    <pre><code class="lang-csharp hljs">public CompressedSparseRowGraph&lt;TVertex&gt; Clone()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -578,8 +576,7 @@ public CompressedSparseRowGraph&lt;TVertex&gt; Clone()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public static CompressedSparseRowGraph&lt;TVertex&gt; FromGraph&lt;TEdge&gt;([NotNull] IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)
+    <pre><code class="lang-csharp hljs">public static CompressedSparseRowGraph&lt;TVertex&gt; FromGraph&lt;TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
