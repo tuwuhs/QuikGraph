@@ -69,12 +69,31 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="release-notes">Release notes</h1>
 
+<h2 id="whats-new-in-200-february-16-2020">What's new in 2.0.0 February 16 2020</h2>
+<h3 id="quikgraph">QuikGraph</h3>
+<p>Split QuikGraph package into 2 packages to extract serialization features:</p>
+<ul>
+<li>QuikGraph</li>
+<li>QuikGraph.Serialization</li>
+</ul>
+<h4 id="new">New:</h4>
+<ul>
+<li>Add struct based edge implementations that were in original QuickGraph (STaggedEdge, STaggedUndirectedEdge and SEquatableTaggedEdge).</li>
+</ul>
+<h4 id="misc">Misc:</h4>
+<ul>
+<li>Package no more reference JetBrains.Annotations package, it rather uses some as internal implementation (same development experience for package consumer).</li>
+</ul>
+<h3 id="quikgraphserialization">QuikGraph.Serialization</h3>
+<p>Serialization features extracted from core package.</p>
+<hr>
 <h2 id="whats-new-in-101-january-20-2020">What's new in 1.0.1 January 20 2020</h2>
 <h3 id="fixes">Fixes:</h3>
 <ul>
 <li>Properly deal with isolated vertices for transitive reduction algorithm.</li>
 <li>Properly deal with isolated vertices for transitive closure algorithm.</li>
 </ul>
+<hr>
 <h2 id="whats-new-in-100-december-10-2019">What's new in 1.0.0 December 10 2019</h2>
 <p>This release is based on YC.QuikGraph 3.7.5-deta with a lot of updates.</p>
 <h3 id="general">General:</h3>
@@ -92,7 +111,7 @@
 <li>Some edges structures are removed, the classes implementations are preferred due to C# limitations.</li>
 <li>Some algorithms are not usable for now (wrong implementations) and are removed from public API.</li>
 </ul>
-<h3 id="misc">Misc:</h3>
+<h3 id="misc-1">Misc:</h3>
 <ul>
 <li>Generate a documentation for the library via DocFX.</li>
 <li>Use JetBrains annotations all over the library as much as possible.</li>
