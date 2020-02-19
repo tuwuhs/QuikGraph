@@ -2,6 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net35;net40;netstandard1.3;netstandard2.0</TargetFrameworks>
+    <Configurations>Debug;Release;Tests</Configurations>
 
     <GeneratePackageOnBuild>$(Generate_QuikGraph_Serialization)</GeneratePackageOnBuild>
 
@@ -69,7 +70,16 @@ Extracts serialization features from QuikGraph package.</PackageReleaseNotes>
     <PackageReference Include="System.Reflection.Emit.Lightweight" Version="$(SystemReflectionEmitLightweightVersion)" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\QuikGraph\QuikGraph.csproj" />
-  </ItemGroup>
+  <Choose>
+    <When Condition="'$(Configuration)' == 'Tests'">
+      <ItemGroup>
+        <ProjectReference Include="..\QuikGraph\QuikGraph.csproj" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <PackageReference Include="QuikGraph" Version="2.0.0"/>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
 </Project>
