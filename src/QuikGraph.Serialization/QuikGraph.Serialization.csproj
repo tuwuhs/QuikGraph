@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net35;net40;netstandard1.3;netstandard2.0</TargetFrameworks>
@@ -70,6 +70,6 @@ Extracts serialization features from QuikGraph package.</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QuikGraph\QuikGraph.csproj" />
+    <PackageReference Include="QuikGraph" Version="2.0.0" />
   </ItemGroup>
 </Project>
