@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.AlgorithmBase-1.html",
-          "hash": "AbDVZ/hquR0kyFqJoVoHow=="
+          "hash": "9ty8WiU22GS+RjlBVQePZA=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Cliques.MaximumCliqueAlgorithmBase-2.html",
-          "hash": "rQHICW1UQ4iulTIzuHNyCQ=="
+          "hash": "6WLjZJsvRzdYvPhzAAyfQA=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Condensation.CondensationGraphAlgorithm-3.html",
-          "hash": "LHkiHCSvD4ltb2OMVfHHZw=="
+          "hash": "4r/zgVCJ/cHAS6jigLzYZw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Condensation.EdgeMergeCondensationGraphAlgorithm-2.html",
-          "hash": "DuzadGtlkUcJ/OWSMcVQQw=="
+          "hash": "EXPOUqjakAUiYkkose2+FA=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm-2.html",
-          "hash": "TybIqehyLEP04P259NIHEg=="
+          "hash": "fn+1vyzGq32+72xhJNNK0g=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.IncrementalConnectedComponentsAlgorithm-2.html",
-          "hash": "2L/xgolkAARUBsfOSj3l7g=="
+          "hash": "YVXIuyAvps3Xma9vA3CwmA=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm-2.html",
-          "hash": "rYnnxSpr8/yt6HAvgA1Mjw=="
+          "hash": "9v1CJP/B8coRO/u88ia8yw=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm-2.html",
-          "hash": "tbnhW/RTKRgkslFSU34X9g=="
+          "hash": "Obsi/7LvFL9WwxtE4D0+0g=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.EulerianTrailAlgorithm-2.html",
-          "hash": "k6EEkmYSZ+/6cVcd788UPA=="
+          "hash": "7/xwSNnjShZOR5dkUwdtIg=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html",
-          "hash": "o12/bUdGW2JLpKNnfsvJIg=="
+          "hash": "2dXl7b1YnxinxiMe73+TPw=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.GraphPartition.KernighanLinAlgorithm-2.html",
-          "hash": "NdqMx0KU/bM+ThjxN6B4kQ=="
+          "hash": "2E8gWqSHOYoeER+NS4Zw4A=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm-2.html",
-          "hash": "8hGXfFa0GW2eCKXsGdTLeg=="
+          "hash": "9gA3VVHSEXzW/WZw66tQVw=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.AllVerticesGraphAugmentorAlgorithm-2.html",
-          "hash": "ZmdByFHc8nVrIa57VJMyew=="
+          "hash": "XhvkwT8hjvj8BLaQlNg9pQ=="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm-2.html",
-          "hash": "oU5xQ44AjTrFxcge1aA3zA=="
+          "hash": "bn3870Hc3B3AebbuBpZvlQ=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.GraphAugmentorAlgorithmBase-3.html",
-          "hash": "i9TBpQdYVQJogr+ErNj9BQ=="
+          "hash": "UNup5FefvRToDv9vESAP2g=="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.MaximumFlowAlgorithm-2.html",
-          "hash": "kkNGx40fk13l0u6GS3gZNw=="
+          "hash": "xiqQNbpNerJ4shsL0ksmaA=="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.MultiSourceSinkGraphAugmentorAlgorithm-2.html",
-          "hash": "+q/qPLRXAWvUQ+HBa0BPRg=="
+          "hash": "dBQJDrnsLot7KOStAzZ7Cg=="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MinimumSpanningTree.KruskalMinimumSpanningTreeAlgorithm-2.html",
-          "hash": "1jC/PFP0CjrQ0TSs+dzSBQ=="
+          "hash": "90LLylbIuu2i5yvEGVPWow=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MinimumSpanningTree.PrimMinimumSpanningTreeAlgorithm-2.html",
-          "hash": "lon7470wRNwm87esOD9gXg=="
+          "hash": "a78vuE8e5FaPWGNeun3FFw=="
         }
       },
       "is_incremental": false,
@@ -933,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.CyclePoppingRandomTreeAlgorithm-2.html",
-          "hash": "/CH2OEsMvsOcv0Jm7f798A=="
+          "hash": "Csnr79Hiz76p2jQNGVARyQ=="
         }
       },
       "is_incremental": false,
@@ -993,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.RandomWalkAlgorithm-2.html",
-          "hash": "WwgSzVyawhDG1f38N9vq0A=="
+          "hash": "5/WGWKyKslla8GZ4sSGYvg=="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm-2.html",
-          "hash": "zUWgENqELI4BRu035q+D9w=="
+          "hash": "d7jg31noNP8fo5e7QN6tYg=="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RankedShortestPath.RankedShortestPathAlgorithmBase-3.html",
-          "hash": "Qw9eJJbJRFaJLdLJJ6OpTg=="
+          "hash": "3r9RhJbcWuKvm9SmAw5t4A=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Ranking.PageRankAlgorithm-2.html",
-          "hash": "QLAtTmShSJXX3f3RLkRMeQ=="
+          "hash": "XrQOYlu7Rgl1WzjMN9Ah/A=="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RootedAlgorithmBase-2.html",
-          "hash": "5GXjy1WCSZzhs+cYWa8CpA=="
+          "hash": "PbNoBbO45GpLJTxJLoFexg=="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RootedSearchAlgorithmBase-2.html",
-          "hash": "6scbjQBCnx2jOTU9s5crXQ=="
+          "hash": "dwgtKPXNUfL5PmLV1m93vg=="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.BestFirstFrontierSearchAlgorithm-2.html",
-          "hash": "0VFUvn+PMU1CyaVgN2qM3A=="
+          "hash": "CQg81lKgfSIFhUUY26C3RA=="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.BidirectionalDepthFirstSearchAlgorithm-2.html",
-          "hash": "1nt29RReoc9vdLU+qDHhrQ=="
+          "hash": "oJeUGSVI9Suw0LrJWCdegg=="
         }
       },
       "is_incremental": false,
@@ -1173,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.BreadthFirstSearchAlgorithm-2.html",
-          "hash": "IPicc/4Ti0f34YwSrxmcRg=="
+          "hash": "XWefvtpUgAhlv2PJ1ed5ng=="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.DepthFirstSearchAlgorithm-2.html",
-          "hash": "S3EJ2jINoBZE+VRLp1E9RA=="
+          "hash": "m6j7cv87IuTsZVRX0xLwSw=="
         }
       },
       "is_incremental": false,
@@ -1197,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.EdgeDepthFirstSearchAlgorithm-2.html",
-          "hash": "V11aBnHVs53dQ6xr6jaHuA=="
+          "hash": "IPyUXVT3Av9/HNxLevnSRg=="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm-2.html",
-          "hash": "K/uqS0X+KY2bl1rLrfxgYw=="
+          "hash": "motBifzTq+WsvKc+4Ga5JA=="
         }
       },
       "is_incremental": false,
@@ -1221,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.ImplicitEdgeDepthFirstSearchAlgorithm-2.html",
-          "hash": "DELZLnxMUE+ZfnIO3hMpqw=="
+          "hash": "JaKfex+slCt0d5vXw5iO4A=="
         }
       },
       "is_incremental": false,
@@ -1233,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.UndirectedBreadthFirstSearchAlgorithm-2.html",
-          "hash": "fR4X8HsUOa9+mn7oSMZ+Vg=="
+          "hash": "5EMYj7g6S5pr4xQ+GURWjQ=="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.UndirectedDepthFirstSearchAlgorithm-2.html",
-          "hash": "Pq3sHOpYKdob/12R1t3FTg=="
+          "hash": "klqlCXHYDWTOh95hkdigXA=="
         }
       },
       "is_incremental": false,
@@ -1293,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Services.ICancelManager.html",
-          "hash": "izl7epX/ooW+w81Q0VjOBQ=="
+          "hash": "a2jnPvXUpR5EU+cvekUp1g=="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.AStarShortestPathAlgorithm-2.html",
-          "hash": "EehOlXRYjtb7Z2s8UsFauw=="
+          "hash": "U9GqUx/YaJy2B+fL8JP9KQ=="
         }
       },
       "is_incremental": false,
@@ -1329,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm-2.html",
-          "hash": "Ivb5jDLccRK6VwIwgmYsxA=="
+          "hash": "gxBfgks9aFoPT/y5lkrIng=="
         }
       },
       "is_incremental": false,
@@ -1341,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.DagShortestPathAlgorithm-2.html",
-          "hash": "kpvMHm37vtw0VAdlrozbKA=="
+          "hash": "QJz7TWfeJOEUFwFZZlY8/g=="
         }
       },
       "is_incremental": false,
@@ -1353,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.DijkstraShortestPathAlgorithm-2.html",
-          "hash": "LQiMPZ/GXZylNzZFcVUICA=="
+          "hash": "yiTcPqbfmqGkD6b+Jpn8qg=="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.FloydWarshallAllShortestPathAlgorithm-2.html",
-          "hash": "s6mS3YFWberos18g+Mkfvw=="
+          "hash": "JEES7EkTRsHOkfzLpQCmdA=="
         }
       },
       "is_incremental": false,
@@ -1377,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.ShortestPathAlgorithmBase-3.html",
-          "hash": "egk423VHfbV/riez+HFCcg=="
+          "hash": "ftJdGtYGzUnfxBlWWLn6/w=="
         }
       },
       "is_incremental": false,
@@ -1389,7 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.UndirectedDijkstraShortestPathAlgorithm-2.html",
-          "hash": "Ks4bmCuqE9jTAwIJtpjbtg=="
+          "hash": "n+GePupAUfPhWZIOODgQKQ=="
         }
       },
       "is_incremental": false,
@@ -1401,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.UndirectedShortestPathAlgorithmBase-2.html",
-          "hash": "NGqHZbzVJ1GeMMWf7aAI4g=="
+          "hash": "guETWZ455XNytMVDjLPEsg=="
         }
       },
       "is_incremental": false,
@@ -1449,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TSP.TSP-3.html",
-          "hash": "3aauwaZKoFmOdbCpOtpIdQ=="
+          "hash": "+H06O+AMZmOQsJXABcDVJA=="
         }
       },
       "is_incremental": false,
@@ -1473,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TarjanOfflineLeastCommonAncestorAlgorithm-2.html",
-          "hash": "DAWEGH98RnaPsF2NSOkd/g=="
+          "hash": "zfrYxn/QX+0Jhofgp8GAhw=="
         }
       },
       "is_incremental": false,
@@ -1485,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html",
-          "hash": "j7+01SVHUyHfRJ5iMeToDQ=="
+          "hash": "1lSzUCgabK6jjuGqVaqt8A=="
         }
       },
       "is_incremental": false,
@@ -1497,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html",
-          "hash": "sfc5nm8d3d21Qe4MacjutQ=="
+          "hash": "vVcSoxSfPYeuYmbn/0xVkg=="
         }
       },
       "is_incremental": false,
@@ -1509,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html",
-          "hash": "3qaA3HJ0R/Cq72320qXKlQ=="
+          "hash": "w9lFoRwaXwppp6D1ArIytA=="
         }
       },
       "is_incremental": false,
@@ -1533,7 +1533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html",
-          "hash": "Y46OTeUidie1WE5VfI4Szg=="
+          "hash": "vKWDCP0j4zefO+AkrGR16A=="
         }
       },
       "is_incremental": false,
@@ -1545,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html",
-          "hash": "z05+y/CskEfZ1/toCkdBvw=="
+          "hash": "HLrzELliwMRNpWeSqL44fg=="
         }
       },
       "is_incremental": false,
@@ -1569,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TransitiveClosureAlgorithm-2.html",
-          "hash": "4qmUvoQAuWhrfdsPJcF7UA=="
+          "hash": "LUyhU5vTICKUUUXGTU110A=="
         }
       },
       "is_incremental": false,
@@ -1581,7 +1581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TransitiveReductionAlgorithm-2.html",
-          "hash": "lZQ5+WpTjiJkinJ6L0CpXg=="
+          "hash": "l7fK5AKFFJM+7OzI6BXxeQ=="
         }
       },
       "is_incremental": false,
@@ -1593,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.VertexColoring.VertexColoringAlgorithm-2.html",
-          "hash": "3Uu47BS7h+RMt2M1BMByew=="
+          "hash": "MjmYQu+4u/uBCTZw7tZOTw=="
         }
       },
       "is_incremental": false,
@@ -1617,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm-2.html",
-          "hash": "P7Z1zO/aXM4kjw9BfWZwrg=="
+          "hash": "C+2/zOMFmb6bnj6h0uYEPA=="
         }
       },
       "is_incremental": false,
@@ -3393,7 +3393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphMLAlgorithm-2.html",
-          "hash": "4fpl5kUV/COBmm59J6i7QA=="
+          "hash": "TbN0TMnzdIB/Vbts3GT2Gg=="
         }
       },
       "is_incremental": false,
@@ -3896,7 +3896,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "edQ5Wb7oXvTHxvVNViJygA=="
+          "hash": "JcEg6SYSpPIK8DwRnv3iQQ=="
         }
       },
       "is_incremental": false,

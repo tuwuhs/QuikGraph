@@ -1099,6 +1099,23 @@ references:
   fullName.vb: QuikGraph.Algorithms.AlgorithmBase(Of TGraph).SyncRoot
   nameWithType: AlgorithmBase<TGraph>.SyncRoot
   nameWithType.vb: AlgorithmBase(Of TGraph).SyncRoot
+- uid: QuikGraph.Algorithms.AlgorithmBase`1.ThrowIfCancellationRequested
+  name: ThrowIfCancellationRequested()
+  href: api/QuikGraph.Algorithms.AlgorithmBase-1.html#QuikGraph_Algorithms_AlgorithmBase_1_ThrowIfCancellationRequested
+  commentId: M:QuikGraph.Algorithms.AlgorithmBase`1.ThrowIfCancellationRequested
+  fullName: QuikGraph.Algorithms.AlgorithmBase<TGraph>.ThrowIfCancellationRequested()
+  fullName.vb: QuikGraph.Algorithms.AlgorithmBase(Of TGraph).ThrowIfCancellationRequested()
+  nameWithType: AlgorithmBase<TGraph>.ThrowIfCancellationRequested()
+  nameWithType.vb: AlgorithmBase(Of TGraph).ThrowIfCancellationRequested()
+- uid: QuikGraph.Algorithms.AlgorithmBase`1.ThrowIfCancellationRequested*
+  name: ThrowIfCancellationRequested
+  href: api/QuikGraph.Algorithms.AlgorithmBase-1.html#QuikGraph_Algorithms_AlgorithmBase_1_ThrowIfCancellationRequested_
+  commentId: Overload:QuikGraph.Algorithms.AlgorithmBase`1.ThrowIfCancellationRequested
+  isSpec: "True"
+  fullName: QuikGraph.Algorithms.AlgorithmBase<TGraph>.ThrowIfCancellationRequested
+  fullName.vb: QuikGraph.Algorithms.AlgorithmBase(Of TGraph).ThrowIfCancellationRequested
+  nameWithType: AlgorithmBase<TGraph>.ThrowIfCancellationRequested
+  nameWithType.vb: AlgorithmBase(Of TGraph).ThrowIfCancellationRequested
 - uid: QuikGraph.Algorithms.AlgorithmBase`1.TryGetService(System.Type,System.Object@)
   name: TryGetService(Type, out Object)
   href: api/QuikGraph.Algorithms.AlgorithmBase-1.html#QuikGraph_Algorithms_AlgorithmBase_1_TryGetService_System_Type_System_Object__
