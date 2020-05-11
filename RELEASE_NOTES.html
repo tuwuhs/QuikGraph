@@ -69,8 +69,24 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="release-notes">Release notes</h1>
 
-<h2 id="whats-new-in-200-february-16-2020">What's new in 2.0.0 February 16 2020</h2>
+<h2 id="whats-new-in-210-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-2020">What's new in 2.1.0 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 2020</h2>
 <h3 id="quikgraph">QuikGraph</h3>
+<h4 id="optims">Optims:</h4>
+<ul>
+<li>Use EqualityComparer&lt;T&gt; instead of non-generic object.Equals.</li>
+</ul>
+<h4 id="updates">Updates:</h4>
+<ul>
+<li>Cancellation of algorithm internally use exception to abort algorithm run.</li>
+</ul>
+<h3 id="quikgraphserialization">QuikGraph.Serialization</h3>
+<h4 id="fixes">Fixes:</h4>
+<ul>
+<li>Fix a security vulnerability regarding XML serialization on target .NET Framework 3.5.</li>
+</ul>
+<hr>
+<h2 id="whats-new-in-200-february-16-2020">What's new in 2.0.0 February 16 2020</h2>
+<h3 id="quikgraph-1">QuikGraph</h3>
 <p>Split QuikGraph package into 2 packages to extract serialization features:</p>
 <ul>
 <li>QuikGraph</li>
@@ -84,11 +100,11 @@
 <ul>
 <li>Package no more reference JetBrains.Annotations package, it rather uses some as internal implementation (same development experience for package consumer).</li>
 </ul>
-<h3 id="quikgraphserialization">QuikGraph.Serialization</h3>
+<h3 id="quikgraphserialization-1">QuikGraph.Serialization</h3>
 <p>Serialization features extracted from core package.</p>
 <hr>
 <h2 id="whats-new-in-101-january-20-2020">What's new in 1.0.1 January 20 2020</h2>
-<h3 id="fixes">Fixes:</h3>
+<h3 id="fixes-1">Fixes:</h3>
 <ul>
 <li>Properly deal with isolated vertices for transitive reduction algorithm.</li>
 <li>Properly deal with isolated vertices for transitive closure algorithm.</li>
