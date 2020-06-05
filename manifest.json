@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "RELEASE_NOTES.html",
-          "hash": "QlqJ4ugTdP87uxvSDJLCmw=="
+          "hash": "QfDqWi5BikoD6tjlH2I0WA=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.AdjacencyGraph-2.html",
-          "hash": "H3gJZhylhONAXSKjWkJEhw=="
+          "hash": "KcwQc5wMTdHzkqkdj1nZCg=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html",
-          "hash": "MJ+JJTtM3c21kPgxDSsCGg=="
+          "hash": "ZhPx1OZ2K5bzVtl0wFQdaw=="
         }
       },
       "is_incremental": false,
@@ -1653,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ArrayAdjacencyGraph-2.html",
-          "hash": "TWF4Y44q4Oe3sVIHUhDxuA=="
+          "hash": "npBvUbc7s7UKKlwGmlpW4A=="
         }
       },
       "is_incremental": false,
@@ -1665,7 +1665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ArrayBidirectionalGraph-2.html",
-          "hash": "b95WjbIYCK7snqvHlpX/Yg=="
+          "hash": "85PeqP+nFv50CT3sHM5rgw=="
         }
       },
       "is_incremental": false,
@@ -1677,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ArrayUndirectedGraph-2.html",
-          "hash": "A3+f6ikw+f0gooMitT2HQA=="
+          "hash": "EWpHEzTY+0xe5GDWiA/pPw=="
         }
       },
       "is_incremental": false,
@@ -1689,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.BidirectionalAdapterGraph-2.html",
-          "hash": "p108htnPqRBYd1usYd060g=="
+          "hash": "9MlxYg39WjzgTDyiKD26kQ=="
         }
       },
       "is_incremental": false,
@@ -1701,7 +1701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.BidirectionalGraph-2.html",
-          "hash": "v6AsW2jjGmJyX689MI4pHA=="
+          "hash": "ansyUwrv0PP5Imgp0X5PPg=="
         }
       },
       "is_incremental": false,
@@ -1713,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.BidirectionalMatrixGraph-1.html",
-          "hash": "c4hbDEY1+BjY1JeBzWZCEg=="
+          "hash": "pe8TlpeIpz/eQHmmmSg4WQ=="
         }
       },
       "is_incremental": false,
@@ -1725,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ClusteredAdjacencyGraph-2.html",
-          "hash": "d0NZ+va8mAB5Kb/7hssmfA=="
+          "hash": "qKfRHTY0GX4TlWsgehYmzA=="
         }
       },
       "is_incremental": false,
@@ -1977,7 +1977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.CompressedSparseRowGraph-1.html",
-          "hash": "e8tbtgLEumBU7B5WPxUtIw=="
+          "hash": "PMhXd99E2c9JQiOk7L/GeA=="
         }
       },
       "is_incremental": false,
@@ -2013,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateBidirectionalIncidenceGraph-2.html",
-          "hash": "dj9eU2bLK/W6j7eDKp3nUw=="
+          "hash": "HfkAHyQWUAdISmKBQwBDMA=="
         }
       },
       "is_incremental": false,
@@ -2025,7 +2025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateImplicitGraph-2.html",
-          "hash": "ghdyw4OHbhDnQ+ha+aH+Mg=="
+          "hash": "3jAD4QmPk0qHC3tqBm5IzQ=="
         }
       },
       "is_incremental": false,
@@ -2037,7 +2037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateImplicitUndirectedGraph-2.html",
-          "hash": "Q8srL5vJHfdQuMD7lHdh2A=="
+          "hash": "DIsRiiOAZUEKwUtXc1pEUQ=="
         }
       },
       "is_incremental": false,
@@ -2049,7 +2049,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateIncidenceGraph-2.html",
-          "hash": "rh6aqcGUjTRKPSVtLTsXow=="
+          "hash": "P0uH7v9QJzeWLKuscnyiMA=="
         }
       },
       "is_incremental": false,
@@ -2061,7 +2061,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateUndirectedGraph-2.html",
-          "hash": "bkx1Py5/h2UmUoDHhW9IBA=="
+          "hash": "hxdSmFiC2bI+bTaRMeOz3Q=="
         }
       },
       "is_incremental": false,
@@ -2073,7 +2073,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateVertexAndEdgeListGraph-2.html",
-          "hash": "CNvwLS55+2xYDD0P87EoYw=="
+          "hash": "jn63ikT3JqbcaZyYY/fC4Q=="
         }
       },
       "is_incremental": false,
@@ -2193,7 +2193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeListGraph-2.html",
-          "hash": "4f7gsWa+vGPx5g5hNPZNmw=="
+          "hash": "C6pfKGgojN+UzWCBIxtuuw=="
         }
       },
       "is_incremental": false,
@@ -2385,7 +2385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizEdge.html",
-          "hash": "N+Uru8tARPsIunTddyCILw=="
+          "hash": "jjV0N22IDyj0xmcm6hSTjg=="
         }
       },
       "is_incremental": false,
@@ -2457,7 +2457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizGraph.html",
-          "hash": "Uu9MudOYnjQlR5GfUu21+A=="
+          "hash": "Mg169CS/KDPId+TkN3sQwA=="
         }
       },
       "is_incremental": false,
@@ -2645,11 +2645,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizSplineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html",
+          "hash": "E6PZ+3TDZWxP/0MdOWUFCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizVertex.yml",
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizVertex.html",
-          "hash": "yBFtiL06bgP7MFCO+22DkQ=="
+          "hash": "ukFgMrTBVwRIcy5AljZZJw=="
         }
       },
       "is_incremental": false,
@@ -2685,7 +2697,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.html",
-          "hash": "+6jwaENq0D0mUW4mR5lECg=="
+          "hash": "deai0Lc96PdNbPHqabBQ4A=="
         }
       },
       "is_incremental": false,
@@ -2877,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IBidirectionalGraph-2.html",
-          "hash": "M24xj0ZM+lyVUCzE0V+3ZA=="
+          "hash": "27CreOF2vg6Zbpn69cIzKg=="
         }
       },
       "is_incremental": false,
@@ -2889,7 +2901,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IBidirectionalIncidenceGraph-2.html",
-          "hash": "7iTsTaSdCcdXEhTzl3I+ow=="
+          "hash": "DOs+lVL5YR/kAf9qEF30vw=="
         }
       },
       "is_incremental": false,
@@ -2937,7 +2949,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IEdgeListAndIncidenceGraph-2.html",
-          "hash": "jiUlMiZh0sy4ClAzxdR4xQ=="
+          "hash": "xUJRBK2zLAE47kTgVfMPhQ=="
         }
       },
       "is_incremental": false,
@@ -2949,7 +2961,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IEdgeListGraph-2.html",
-          "hash": "7tT18ZAUFS7T1onyEUGd5g=="
+          "hash": "UkxOAoHk0b9mFOa2gZ5C9w=="
         }
       },
       "is_incremental": false,
@@ -2973,7 +2985,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IGraph-2.html",
-          "hash": "/PNo8yzyfrF8ISMTCOcRtw=="
+          "hash": "6OR7TisJdpqZocEhSNq7Lg=="
         }
       },
       "is_incremental": false,
@@ -2985,7 +2997,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IHierarchy-2.html",
-          "hash": "n/OjpXMmf1cUldwOSOVKwA=="
+          "hash": "ogyDpy3WmI2Wq+A4EwLdtA=="
         }
       },
       "is_incremental": false,
@@ -2997,7 +3009,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IImplicitGraph-2.html",
-          "hash": "3QamB3nJWe32QKq3htbLZg=="
+          "hash": "h1qtE+qhklZElZUBlsGigA=="
         }
       },
       "is_incremental": false,
@@ -3009,7 +3021,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IImplicitUndirectedGraph-2.html",
-          "hash": "STm4pkMqa8VaE9tQQlVelA=="
+          "hash": "/4IF4beVYAQHuI4eED7Cgw=="
         }
       },
       "is_incremental": false,
@@ -3033,7 +3045,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IIncidenceGraph-2.html",
-          "hash": "BoDvGDrGwiRJ+9/2KGMC6g=="
+          "hash": "zRVTlWibsjoS2lhCNfoD9A=="
         }
       },
       "is_incremental": false,
@@ -3045,7 +3057,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableBidirectionalGraph-2.html",
-          "hash": "PjCm0lzxmqypW4r1pS+f3A=="
+          "hash": "7wMziLCykipC7oi3WBjluQ=="
         }
       },
       "is_incremental": false,
@@ -3057,7 +3069,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableEdgeListGraph-2.html",
-          "hash": "HsQc6wmmrhVscrzv3M80RQ=="
+          "hash": "4BKZtEBKjCJlTgvvErxfGw=="
         }
       },
       "is_incremental": false,
@@ -3069,7 +3081,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableGraph-2.html",
-          "hash": "ZGaWnfb2OaRzR0tH4cXnhg=="
+          "hash": "SVFoo80inp2C+NTsSoSOwQ=="
         }
       },
       "is_incremental": false,
@@ -3081,7 +3093,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableIncidenceGraph-2.html",
-          "hash": "b+3oYLX9sI2jkUH01W9cFA=="
+          "hash": "hcrk/0bSOvyrpsuq243tBg=="
         }
       },
       "is_incremental": false,
@@ -3093,7 +3105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableTermBidirectionalGraph-2.html",
-          "hash": "aBU8uNrLMR2uM1vrK+so6w=="
+          "hash": "UCBvCDFuja5n+tXrAXZEYA=="
         }
       },
       "is_incremental": false,
@@ -3105,7 +3117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableUndirectedGraph-2.html",
-          "hash": "NIw4TeKkDeWVZb46256ePA=="
+          "hash": "NfsmVQxxuMzrBQiQFy929w=="
         }
       },
       "is_incremental": false,
@@ -3117,7 +3129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableVertexAndEdgeListGraph-2.html",
-          "hash": "3bMy048nrr1DPH1HWlC8wQ=="
+          "hash": "rRJcK/m7QAuF4m4TaNRP2w=="
         }
       },
       "is_incremental": false,
@@ -3129,7 +3141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableVertexAndEdgeSet-2.html",
-          "hash": "a1tFLGFTMEOHdnvpWhDP1g=="
+          "hash": "a/mRlSolmWnO2xl11s3nsQ=="
         }
       },
       "is_incremental": false,
@@ -3141,7 +3153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableVertexListGraph-2.html",
-          "hash": "E6h05Uji2SIF3BMaTxf4WQ=="
+          "hash": "05qhDGcUIyOp/dcR/zBzoQ=="
         }
       },
       "is_incremental": false,
@@ -3177,7 +3189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ITermBidirectionalGraph-2.html",
-          "hash": "+uQ0Adw9j9z3vERF8DZVtA=="
+          "hash": "UWMbrwgk2P8AudheUe6zwQ=="
         }
       },
       "is_incremental": false,
@@ -3213,7 +3225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IUndirectedGraph-2.html",
-          "hash": "SyD+VclqhZw3xmRMnjsufA=="
+          "hash": "8h+kJBf5mD8t4kpffKC5iA=="
         }
       },
       "is_incremental": false,
@@ -3225,7 +3237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IVertexAndEdgeListGraph-2.html",
-          "hash": "73Ls9pQgqmgZXOGuJiNDHg=="
+          "hash": "A9NZpEMuVXb+ks9Y2te48Q=="
         }
       },
       "is_incremental": false,
@@ -3237,7 +3249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IVertexListGraph-2.html",
-          "hash": "tsUCq0QVGyveLAO2vcep8Q=="
+          "hash": "24DOsAX7EzAXCBnvU1ixXA=="
         }
       },
       "is_incremental": false,
@@ -3369,7 +3381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredBidirectionalGraph-3.html",
-          "hash": "OLBgXlnOvA2u6RLHOJZtBw=="
+          "hash": "RQ7PJcwMoVDBGuQojYj8tA=="
         }
       },
       "is_incremental": false,
@@ -3381,7 +3393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredEdgeListGraph-3.html",
-          "hash": "SkHk9Zna70il1CcOQY2gIw=="
+          "hash": "dGi87/QS27n5Dswcp1XtXA=="
         }
       },
       "is_incremental": false,
@@ -3393,7 +3405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredGraph-3.html",
-          "hash": "GeiWqPB0kdUrc2cHRMDxjQ=="
+          "hash": "thvp64uGmMhW8vBo4IQUig=="
         }
       },
       "is_incremental": false,
@@ -3405,7 +3417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredImplicitGraph-3.html",
-          "hash": "Uq9UQKu+nvISX/Yc6z/8aA=="
+          "hash": "voQ8vUSMWEJbVSwfR+XeRw=="
         }
       },
       "is_incremental": false,
@@ -3417,7 +3429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredImplicitVertexSet-3.html",
-          "hash": "hFkMuAcMRzLoDq5j5rc6Kg=="
+          "hash": "93JiUMTjBo5rTjJRIMmXfA=="
         }
       },
       "is_incremental": false,
@@ -3429,7 +3441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredIncidenceGraph-3.html",
-          "hash": "9h/Rh/zdgtXBdvab76Dq+g=="
+          "hash": "iNQAL6B68U4pi/hnTIWrUA=="
         }
       },
       "is_incremental": false,
@@ -3441,7 +3453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredUndirectedGraph-3.html",
-          "hash": "WOxMXU/SyvN+/bEg5QCRKw=="
+          "hash": "qKhhfwLbXhJv4UcT+n5cSg=="
         }
       },
       "is_incremental": false,
@@ -3453,7 +3465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredVertexAndEdgeListGraph-3.html",
-          "hash": "IspTPra2zUBRIkKX9hFETQ=="
+          "hash": "wWvsQTz5FhgMRLLSC69mMw=="
         }
       },
       "is_incremental": false,
@@ -3465,7 +3477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredVertexListGraph-3.html",
-          "hash": "jdEuRJQjvSOhJxy9aQEFVA=="
+          "hash": "S6U65ZsMqtmfwvISJQ4d3A=="
         }
       },
       "is_incremental": false,
@@ -3561,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ReversedBidirectionalGraph-2.html",
-          "hash": "Um0AT7/jBldyEaXK47/2tg=="
+          "hash": "lFnUfmr14H6Tdzi4COlkcQ=="
         }
       },
       "is_incremental": false,
@@ -3969,7 +3981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphMLAlgorithm-2.html",
-          "hash": "go0OS/ijK9YJm0yGaXUWiw=="
+          "hash": "TbN0TMnzdIB/Vbts3GT2Gg=="
         }
       },
       "is_incremental": false,
@@ -4233,7 +4245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.UndirectedBidirectionalGraph-2.html",
-          "hash": "aDr5Nmvag5OXafGeGyYCRg=="
+          "hash": "YiX94VXBbn4rQoMHVPqtFg=="
         }
       },
       "is_incremental": false,
@@ -4281,7 +4293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.UndirectedGraph-2.html",
-          "hash": "QK4mJ8tcOilwv8EYT/njzw=="
+          "hash": "VA4q5I7V5hJmhHiq/VRfEg=="
         }
       },
       "is_incremental": false,
@@ -4425,7 +4437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "M5annCeFXLqFz1bFM3vWrw=="
+          "hash": "fWVjGV4boNfWmaSna3yZAA=="
         }
       },
       "is_incremental": false,
@@ -4511,7 +4523,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 366,
+          "total_file_count": 367,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

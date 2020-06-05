@@ -24403,6 +24403,19 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Graphviz.Dot.GraphvizEdge.MinLength
   nameWithType: GraphvizEdge.MinLength
+- uid: QuikGraph.Graphviz.Dot.GraphvizEdge.PenWidth
+  name: PenWidth
+  href: api/QuikGraph.Graphviz.Dot.GraphvizEdge.html#QuikGraph_Graphviz_Dot_GraphvizEdge_PenWidth
+  commentId: P:QuikGraph.Graphviz.Dot.GraphvizEdge.PenWidth
+  fullName: QuikGraph.Graphviz.Dot.GraphvizEdge.PenWidth
+  nameWithType: GraphvizEdge.PenWidth
+- uid: QuikGraph.Graphviz.Dot.GraphvizEdge.PenWidth*
+  name: PenWidth
+  href: api/QuikGraph.Graphviz.Dot.GraphvizEdge.html#QuikGraph_Graphviz_Dot_GraphvizEdge_PenWidth_
+  commentId: Overload:QuikGraph.Graphviz.Dot.GraphvizEdge.PenWidth
+  isSpec: "True"
+  fullName: QuikGraph.Graphviz.Dot.GraphvizEdge.PenWidth
+  nameWithType: GraphvizEdge.PenWidth
 - uid: QuikGraph.Graphviz.Dot.GraphvizEdge.StrokeColor
   name: StrokeColor
   href: api/QuikGraph.Graphviz.Dot.GraphvizEdge.html#QuikGraph_Graphviz_Dot_GraphvizEdge_StrokeColor
@@ -25175,6 +25188,19 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Graphviz.Dot.GraphvizGraph.PageSize
   nameWithType: GraphvizGraph.PageSize
+- uid: QuikGraph.Graphviz.Dot.GraphvizGraph.PenWidth
+  name: PenWidth
+  href: api/QuikGraph.Graphviz.Dot.GraphvizGraph.html#QuikGraph_Graphviz_Dot_GraphvizGraph_PenWidth
+  commentId: P:QuikGraph.Graphviz.Dot.GraphvizGraph.PenWidth
+  fullName: QuikGraph.Graphviz.Dot.GraphvizGraph.PenWidth
+  nameWithType: GraphvizGraph.PenWidth
+- uid: QuikGraph.Graphviz.Dot.GraphvizGraph.PenWidth*
+  name: PenWidth
+  href: api/QuikGraph.Graphviz.Dot.GraphvizGraph.html#QuikGraph_Graphviz_Dot_GraphvizGraph_PenWidth_
+  commentId: Overload:QuikGraph.Graphviz.Dot.GraphvizGraph.PenWidth
+  isSpec: "True"
+  fullName: QuikGraph.Graphviz.Dot.GraphvizGraph.PenWidth
+  nameWithType: GraphvizGraph.PenWidth
 - uid: QuikGraph.Graphviz.Dot.GraphvizGraph.Quantum
   name: Quantum
   href: api/QuikGraph.Graphviz.Dot.GraphvizGraph.html#QuikGraph_Graphviz_Dot_GraphvizGraph_Quantum
@@ -25292,6 +25318,19 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Graphviz.Dot.GraphvizGraph.Size
   nameWithType: GraphvizGraph.Size
+- uid: QuikGraph.Graphviz.Dot.GraphvizGraph.Splines
+  name: Splines
+  href: api/QuikGraph.Graphviz.Dot.GraphvizGraph.html#QuikGraph_Graphviz_Dot_GraphvizGraph_Splines
+  commentId: P:QuikGraph.Graphviz.Dot.GraphvizGraph.Splines
+  fullName: QuikGraph.Graphviz.Dot.GraphvizGraph.Splines
+  nameWithType: GraphvizGraph.Splines
+- uid: QuikGraph.Graphviz.Dot.GraphvizGraph.Splines*
+  name: Splines
+  href: api/QuikGraph.Graphviz.Dot.GraphvizGraph.html#QuikGraph_Graphviz_Dot_GraphvizGraph_Splines_
+  commentId: Overload:QuikGraph.Graphviz.Dot.GraphvizGraph.Splines
+  isSpec: "True"
+  fullName: QuikGraph.Graphviz.Dot.GraphvizGraph.Splines
+  nameWithType: GraphvizGraph.Splines
 - uid: QuikGraph.Graphviz.Dot.GraphvizGraph.StyleSheet
   name: StyleSheet
   href: api/QuikGraph.Graphviz.Dot.GraphvizGraph.html#QuikGraph_Graphviz_Dot_GraphvizGraph_StyleSheet
@@ -26093,6 +26132,48 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Graphviz.Dot.GraphvizSizeF.Width
   nameWithType: GraphvizSizeF.Width
+- uid: QuikGraph.Graphviz.Dot.GraphvizSplineType
+  name: GraphvizSplineType
+  href: api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html
+  commentId: T:QuikGraph.Graphviz.Dot.GraphvizSplineType
+  fullName: QuikGraph.Graphviz.Dot.GraphvizSplineType
+  nameWithType: GraphvizSplineType
+- uid: QuikGraph.Graphviz.Dot.GraphvizSplineType.Curved
+  name: Curved
+  href: api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html#QuikGraph_Graphviz_Dot_GraphvizSplineType_Curved
+  commentId: F:QuikGraph.Graphviz.Dot.GraphvizSplineType.Curved
+  fullName: QuikGraph.Graphviz.Dot.GraphvizSplineType.Curved
+  nameWithType: GraphvizSplineType.Curved
+- uid: QuikGraph.Graphviz.Dot.GraphvizSplineType.Line
+  name: Line
+  href: api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html#QuikGraph_Graphviz_Dot_GraphvizSplineType_Line
+  commentId: F:QuikGraph.Graphviz.Dot.GraphvizSplineType.Line
+  fullName: QuikGraph.Graphviz.Dot.GraphvizSplineType.Line
+  nameWithType: GraphvizSplineType.Line
+- uid: QuikGraph.Graphviz.Dot.GraphvizSplineType.None
+  name: None
+  href: api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html#QuikGraph_Graphviz_Dot_GraphvizSplineType_None
+  commentId: F:QuikGraph.Graphviz.Dot.GraphvizSplineType.None
+  fullName: QuikGraph.Graphviz.Dot.GraphvizSplineType.None
+  nameWithType: GraphvizSplineType.None
+- uid: QuikGraph.Graphviz.Dot.GraphvizSplineType.Ortho
+  name: Ortho
+  href: api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html#QuikGraph_Graphviz_Dot_GraphvizSplineType_Ortho
+  commentId: F:QuikGraph.Graphviz.Dot.GraphvizSplineType.Ortho
+  fullName: QuikGraph.Graphviz.Dot.GraphvizSplineType.Ortho
+  nameWithType: GraphvizSplineType.Ortho
+- uid: QuikGraph.Graphviz.Dot.GraphvizSplineType.Polyline
+  name: Polyline
+  href: api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html#QuikGraph_Graphviz_Dot_GraphvizSplineType_Polyline
+  commentId: F:QuikGraph.Graphviz.Dot.GraphvizSplineType.Polyline
+  fullName: QuikGraph.Graphviz.Dot.GraphvizSplineType.Polyline
+  nameWithType: GraphvizSplineType.Polyline
+- uid: QuikGraph.Graphviz.Dot.GraphvizSplineType.Spline
+  name: Spline
+  href: api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html#QuikGraph_Graphviz_Dot_GraphvizSplineType_Spline
+  commentId: F:QuikGraph.Graphviz.Dot.GraphvizSplineType.Spline
+  fullName: QuikGraph.Graphviz.Dot.GraphvizSplineType.Spline
+  nameWithType: GraphvizSplineType.Spline
 - uid: QuikGraph.Graphviz.Dot.GraphvizVertex
   name: GraphvizVertex
   href: api/QuikGraph.Graphviz.Dot.GraphvizVertex.html
@@ -26229,6 +26310,19 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Graphviz.Dot.GraphvizVertex.Orientation
   nameWithType: GraphvizVertex.Orientation
+- uid: QuikGraph.Graphviz.Dot.GraphvizVertex.PenWidth
+  name: PenWidth
+  href: api/QuikGraph.Graphviz.Dot.GraphvizVertex.html#QuikGraph_Graphviz_Dot_GraphvizVertex_PenWidth
+  commentId: P:QuikGraph.Graphviz.Dot.GraphvizVertex.PenWidth
+  fullName: QuikGraph.Graphviz.Dot.GraphvizVertex.PenWidth
+  nameWithType: GraphvizVertex.PenWidth
+- uid: QuikGraph.Graphviz.Dot.GraphvizVertex.PenWidth*
+  name: PenWidth
+  href: api/QuikGraph.Graphviz.Dot.GraphvizVertex.html#QuikGraph_Graphviz_Dot_GraphvizVertex_PenWidth_
+  commentId: Overload:QuikGraph.Graphviz.Dot.GraphvizVertex.PenWidth
+  isSpec: "True"
+  fullName: QuikGraph.Graphviz.Dot.GraphvizVertex.PenWidth
+  nameWithType: GraphvizVertex.PenWidth
 - uid: QuikGraph.Graphviz.Dot.GraphvizVertex.Peripheries
   name: Peripheries
   href: api/QuikGraph.Graphviz.Dot.GraphvizVertex.html#QuikGraph_Graphviz_Dot_GraphvizVertex_Peripheries
