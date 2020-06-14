@@ -2133,7 +2133,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeEventArgs-2.html",
-          "hash": "3hPgg8VNZ2Ef6Wl1psLFhA=="
+          "hash": "wxToPMwYloZ1MzRNn25skg=="
         }
       },
       "is_incremental": false,
@@ -3981,7 +3981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphMLAlgorithm-2.html",
-          "hash": "TbN0TMnzdIB/Vbts3GT2Gg=="
+          "hash": "x+dielPKEeZT1/EkSNtQiw=="
         }
       },
       "is_incremental": false,
@@ -3993,7 +3993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphMLExtensions.html",
-          "hash": "aUhhGOnAiGklmR4wn0UaxA=="
+          "hash": "b4CKRrZxLTQNue8W+pH4MQ=="
         }
       },
       "is_incremental": false,
@@ -4017,7 +4017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.GraphMLExtensions.html",
-          "hash": "1Z5HGuI4dgiomddgbJ8ylw=="
+          "hash": "ON5OjU0ZTUXrSsesGlCmCg=="
         }
       },
       "is_incremental": false,
@@ -4029,7 +4029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.GraphMLSerializer-3.html",
-          "hash": "ZsgIDDxgHKYXlqhKaBzDnQ=="
+          "hash": "e7Cjr4z8fPrlG0aa4dIAmg=="
         }
       },
       "is_incremental": false,
@@ -4341,7 +4341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.VertexEventArgs-1.html",
-          "hash": "+b1DFYf/dmTKrZ0VNVkQLQ=="
+          "hash": "jo8qsUCpynxxvt3R6S8HEw=="
         }
       },
       "is_incremental": false,
