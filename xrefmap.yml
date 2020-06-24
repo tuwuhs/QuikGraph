@@ -19620,6 +19620,226 @@ references:
   fullName.vb: QuikGraph.CreateVertexDelegate(Of TVertex, TEdge)
   nameWithType: CreateVertexDelegate<TVertex, TEdge>
   nameWithType.vb: CreateVertexDelegate(Of TVertex, TEdge)
+- uid: QuikGraph.Data
+  name: QuikGraph.Data
+  href: api/QuikGraph.Data.html
+  commentId: N:QuikGraph.Data
+  fullName: QuikGraph.Data
+  nameWithType: QuikGraph.Data
+- uid: QuikGraph.Data.DataRelationEdge
+  name: DataRelationEdge
+  href: api/QuikGraph.Data.DataRelationEdge.html
+  commentId: T:QuikGraph.Data.DataRelationEdge
+  fullName: QuikGraph.Data.DataRelationEdge
+  nameWithType: DataRelationEdge
+- uid: QuikGraph.Data.DataRelationEdge.#ctor(System.Data.DataRelation)
+  name: DataRelationEdge(DataRelation)
+  href: api/QuikGraph.Data.DataRelationEdge.html#QuikGraph_Data_DataRelationEdge__ctor_System_Data_DataRelation_
+  commentId: M:QuikGraph.Data.DataRelationEdge.#ctor(System.Data.DataRelation)
+  fullName: QuikGraph.Data.DataRelationEdge.DataRelationEdge(System.Data.DataRelation)
+  nameWithType: DataRelationEdge.DataRelationEdge(DataRelation)
+- uid: QuikGraph.Data.DataRelationEdge.#ctor*
+  name: DataRelationEdge
+  href: api/QuikGraph.Data.DataRelationEdge.html#QuikGraph_Data_DataRelationEdge__ctor_
+  commentId: Overload:QuikGraph.Data.DataRelationEdge.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataRelationEdge.DataRelationEdge
+  nameWithType: DataRelationEdge.DataRelationEdge
+- uid: QuikGraph.Data.DataRelationEdge.Relation
+  name: Relation
+  href: api/QuikGraph.Data.DataRelationEdge.html#QuikGraph_Data_DataRelationEdge_Relation
+  commentId: P:QuikGraph.Data.DataRelationEdge.Relation
+  fullName: QuikGraph.Data.DataRelationEdge.Relation
+  nameWithType: DataRelationEdge.Relation
+- uid: QuikGraph.Data.DataRelationEdge.Relation*
+  name: Relation
+  href: api/QuikGraph.Data.DataRelationEdge.html#QuikGraph_Data_DataRelationEdge_Relation_
+  commentId: Overload:QuikGraph.Data.DataRelationEdge.Relation
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataRelationEdge.Relation
+  nameWithType: DataRelationEdge.Relation
+- uid: QuikGraph.Data.DataRelationEdge.Source
+  name: Source
+  href: api/QuikGraph.Data.DataRelationEdge.html#QuikGraph_Data_DataRelationEdge_Source
+  commentId: P:QuikGraph.Data.DataRelationEdge.Source
+  fullName: QuikGraph.Data.DataRelationEdge.Source
+  nameWithType: DataRelationEdge.Source
+- uid: QuikGraph.Data.DataRelationEdge.Source*
+  name: Source
+  href: api/QuikGraph.Data.DataRelationEdge.html#QuikGraph_Data_DataRelationEdge_Source_
+  commentId: Overload:QuikGraph.Data.DataRelationEdge.Source
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataRelationEdge.Source
+  nameWithType: DataRelationEdge.Source
+- uid: QuikGraph.Data.DataRelationEdge.Target
+  name: Target
+  href: api/QuikGraph.Data.DataRelationEdge.html#QuikGraph_Data_DataRelationEdge_Target
+  commentId: P:QuikGraph.Data.DataRelationEdge.Target
+  fullName: QuikGraph.Data.DataRelationEdge.Target
+  nameWithType: DataRelationEdge.Target
+- uid: QuikGraph.Data.DataRelationEdge.Target*
+  name: Target
+  href: api/QuikGraph.Data.DataRelationEdge.html#QuikGraph_Data_DataRelationEdge_Target_
+  commentId: Overload:QuikGraph.Data.DataRelationEdge.Target
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataRelationEdge.Target
+  nameWithType: DataRelationEdge.Target
+- uid: QuikGraph.Data.DataSetGraph
+  name: DataSetGraph
+  href: api/QuikGraph.Data.DataSetGraph.html
+  commentId: T:QuikGraph.Data.DataSetGraph
+  fullName: QuikGraph.Data.DataSetGraph
+  nameWithType: DataSetGraph
+- uid: QuikGraph.Data.DataSetGraph.DataSet
+  name: DataSet
+  href: api/QuikGraph.Data.DataSetGraph.html#QuikGraph_Data_DataSetGraph_DataSet
+  commentId: P:QuikGraph.Data.DataSetGraph.DataSet
+  fullName: QuikGraph.Data.DataSetGraph.DataSet
+  nameWithType: DataSetGraph.DataSet
+- uid: QuikGraph.Data.DataSetGraph.DataSet*
+  name: DataSet
+  href: api/QuikGraph.Data.DataSetGraph.html#QuikGraph_Data_DataSetGraph_DataSet_
+  commentId: Overload:QuikGraph.Data.DataSetGraph.DataSet
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraph.DataSet
+  nameWithType: DataSetGraph.DataSet
+- uid: QuikGraph.Data.DataSetGraphExtensions
+  name: DataSetGraphExtensions
+  href: api/QuikGraph.Data.DataSetGraphExtensions.html
+  commentId: T:QuikGraph.Data.DataSetGraphExtensions
+  fullName: QuikGraph.Data.DataSetGraphExtensions
+  nameWithType: DataSetGraphExtensions
+- uid: QuikGraph.Data.DataSetGraphExtensions.ToGraph(System.Data.DataSet)
+  name: ToGraph(DataSet)
+  href: api/QuikGraph.Data.DataSetGraphExtensions.html#QuikGraph_Data_DataSetGraphExtensions_ToGraph_System_Data_DataSet_
+  commentId: M:QuikGraph.Data.DataSetGraphExtensions.ToGraph(System.Data.DataSet)
+  fullName: QuikGraph.Data.DataSetGraphExtensions.ToGraph(System.Data.DataSet)
+  nameWithType: DataSetGraphExtensions.ToGraph(DataSet)
+- uid: QuikGraph.Data.DataSetGraphExtensions.ToGraph*
+  name: ToGraph
+  href: api/QuikGraph.Data.DataSetGraphExtensions.html#QuikGraph_Data_DataSetGraphExtensions_ToGraph_
+  commentId: Overload:QuikGraph.Data.DataSetGraphExtensions.ToGraph
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraphExtensions.ToGraph
+  nameWithType: DataSetGraphExtensions.ToGraph
+- uid: QuikGraph.Data.DataSetGraphExtensions.ToGraphviz(QuikGraph.Data.DataSetGraph)
+  name: ToGraphviz(DataSetGraph)
+  href: api/QuikGraph.Data.DataSetGraphExtensions.html#QuikGraph_Data_DataSetGraphExtensions_ToGraphviz_QuikGraph_Data_DataSetGraph_
+  commentId: M:QuikGraph.Data.DataSetGraphExtensions.ToGraphviz(QuikGraph.Data.DataSetGraph)
+  fullName: QuikGraph.Data.DataSetGraphExtensions.ToGraphviz(QuikGraph.Data.DataSetGraph)
+  nameWithType: DataSetGraphExtensions.ToGraphviz(DataSetGraph)
+- uid: QuikGraph.Data.DataSetGraphExtensions.ToGraphviz*
+  name: ToGraphviz
+  href: api/QuikGraph.Data.DataSetGraphExtensions.html#QuikGraph_Data_DataSetGraphExtensions_ToGraphviz_
+  commentId: Overload:QuikGraph.Data.DataSetGraphExtensions.ToGraphviz
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraphExtensions.ToGraphviz
+  nameWithType: DataSetGraphExtensions.ToGraphviz
+- uid: QuikGraph.Data.DataSetGraphPopulatorAlgorithm
+  name: DataSetGraphPopulatorAlgorithm
+  href: api/QuikGraph.Data.DataSetGraphPopulatorAlgorithm.html
+  commentId: T:QuikGraph.Data.DataSetGraphPopulatorAlgorithm
+  fullName: QuikGraph.Data.DataSetGraphPopulatorAlgorithm
+  nameWithType: DataSetGraphPopulatorAlgorithm
+- uid: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.#ctor(QuikGraph.IMutableVertexAndEdgeSet{System.Data.DataTable,QuikGraph.Data.DataRelationEdge},System.Data.DataSet)
+  name: DataSetGraphPopulatorAlgorithm(IMutableVertexAndEdgeSet<DataTable, DataRelationEdge>, DataSet)
+  href: api/QuikGraph.Data.DataSetGraphPopulatorAlgorithm.html#QuikGraph_Data_DataSetGraphPopulatorAlgorithm__ctor_QuikGraph_IMutableVertexAndEdgeSet_System_Data_DataTable_QuikGraph_Data_DataRelationEdge__System_Data_DataSet_
+  commentId: M:QuikGraph.Data.DataSetGraphPopulatorAlgorithm.#ctor(QuikGraph.IMutableVertexAndEdgeSet{System.Data.DataTable,QuikGraph.Data.DataRelationEdge},System.Data.DataSet)
+  name.vb: DataSetGraphPopulatorAlgorithm(IMutableVertexAndEdgeSet(Of DataTable, DataRelationEdge), DataSet)
+  fullName: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSetGraphPopulatorAlgorithm(QuikGraph.IMutableVertexAndEdgeSet<System.Data.DataTable, QuikGraph.Data.DataRelationEdge>, System.Data.DataSet)
+  fullName.vb: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSetGraphPopulatorAlgorithm(QuikGraph.IMutableVertexAndEdgeSet(Of System.Data.DataTable, QuikGraph.Data.DataRelationEdge), System.Data.DataSet)
+  nameWithType: DataSetGraphPopulatorAlgorithm.DataSetGraphPopulatorAlgorithm(IMutableVertexAndEdgeSet<DataTable, DataRelationEdge>, DataSet)
+  nameWithType.vb: DataSetGraphPopulatorAlgorithm.DataSetGraphPopulatorAlgorithm(IMutableVertexAndEdgeSet(Of DataTable, DataRelationEdge), DataSet)
+- uid: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.#ctor*
+  name: DataSetGraphPopulatorAlgorithm
+  href: api/QuikGraph.Data.DataSetGraphPopulatorAlgorithm.html#QuikGraph_Data_DataSetGraphPopulatorAlgorithm__ctor_
+  commentId: Overload:QuikGraph.Data.DataSetGraphPopulatorAlgorithm.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSetGraphPopulatorAlgorithm
+  nameWithType: DataSetGraphPopulatorAlgorithm.DataSetGraphPopulatorAlgorithm
+- uid: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSet
+  name: DataSet
+  href: api/QuikGraph.Data.DataSetGraphPopulatorAlgorithm.html#QuikGraph_Data_DataSetGraphPopulatorAlgorithm_DataSet
+  commentId: P:QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSet
+  fullName: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSet
+  nameWithType: DataSetGraphPopulatorAlgorithm.DataSet
+- uid: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSet*
+  name: DataSet
+  href: api/QuikGraph.Data.DataSetGraphPopulatorAlgorithm.html#QuikGraph_Data_DataSetGraphPopulatorAlgorithm_DataSet_
+  commentId: Overload:QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSet
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.DataSet
+  nameWithType: DataSetGraphPopulatorAlgorithm.DataSet
+- uid: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.InternalCompute
+  name: InternalCompute()
+  href: api/QuikGraph.Data.DataSetGraphPopulatorAlgorithm.html#QuikGraph_Data_DataSetGraphPopulatorAlgorithm_InternalCompute
+  commentId: M:QuikGraph.Data.DataSetGraphPopulatorAlgorithm.InternalCompute
+  fullName: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.InternalCompute()
+  nameWithType: DataSetGraphPopulatorAlgorithm.InternalCompute()
+- uid: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.InternalCompute*
+  name: InternalCompute
+  href: api/QuikGraph.Data.DataSetGraphPopulatorAlgorithm.html#QuikGraph_Data_DataSetGraphPopulatorAlgorithm_InternalCompute_
+  commentId: Overload:QuikGraph.Data.DataSetGraphPopulatorAlgorithm.InternalCompute
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraphPopulatorAlgorithm.InternalCompute
+  nameWithType: DataSetGraphPopulatorAlgorithm.InternalCompute
+- uid: QuikGraph.Data.DataSetGraphvizAlgorithm
+  name: DataSetGraphvizAlgorithm
+  href: api/QuikGraph.Data.DataSetGraphvizAlgorithm.html
+  commentId: T:QuikGraph.Data.DataSetGraphvizAlgorithm
+  fullName: QuikGraph.Data.DataSetGraphvizAlgorithm
+  nameWithType: DataSetGraphvizAlgorithm
+- uid: QuikGraph.Data.DataSetGraphvizAlgorithm.#ctor(QuikGraph.Data.DataSetGraph)
+  name: DataSetGraphvizAlgorithm(DataSetGraph)
+  href: api/QuikGraph.Data.DataSetGraphvizAlgorithm.html#QuikGraph_Data_DataSetGraphvizAlgorithm__ctor_QuikGraph_Data_DataSetGraph_
+  commentId: M:QuikGraph.Data.DataSetGraphvizAlgorithm.#ctor(QuikGraph.Data.DataSetGraph)
+  fullName: QuikGraph.Data.DataSetGraphvizAlgorithm.DataSetGraphvizAlgorithm(QuikGraph.Data.DataSetGraph)
+  nameWithType: DataSetGraphvizAlgorithm.DataSetGraphvizAlgorithm(DataSetGraph)
+- uid: QuikGraph.Data.DataSetGraphvizAlgorithm.#ctor(QuikGraph.Data.DataSetGraph,QuikGraph.Graphviz.Dot.GraphvizImageType)
+  name: DataSetGraphvizAlgorithm(DataSetGraph, GraphvizImageType)
+  href: api/QuikGraph.Data.DataSetGraphvizAlgorithm.html#QuikGraph_Data_DataSetGraphvizAlgorithm__ctor_QuikGraph_Data_DataSetGraph_QuikGraph_Graphviz_Dot_GraphvizImageType_
+  commentId: M:QuikGraph.Data.DataSetGraphvizAlgorithm.#ctor(QuikGraph.Data.DataSetGraph,QuikGraph.Graphviz.Dot.GraphvizImageType)
+  fullName: QuikGraph.Data.DataSetGraphvizAlgorithm.DataSetGraphvizAlgorithm(QuikGraph.Data.DataSetGraph, QuikGraph.Graphviz.Dot.GraphvizImageType)
+  nameWithType: DataSetGraphvizAlgorithm.DataSetGraphvizAlgorithm(DataSetGraph, GraphvizImageType)
+- uid: QuikGraph.Data.DataSetGraphvizAlgorithm.#ctor*
+  name: DataSetGraphvizAlgorithm
+  href: api/QuikGraph.Data.DataSetGraphvizAlgorithm.html#QuikGraph_Data_DataSetGraphvizAlgorithm__ctor_
+  commentId: Overload:QuikGraph.Data.DataSetGraphvizAlgorithm.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraphvizAlgorithm.DataSetGraphvizAlgorithm
+  nameWithType: DataSetGraphvizAlgorithm.DataSetGraphvizAlgorithm
+- uid: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatRelation(System.Object,QuikGraph.Graphviz.FormatEdgeEventArgs{System.Data.DataTable,QuikGraph.Data.DataRelationEdge})
+  name: FormatRelation(Object, FormatEdgeEventArgs<DataTable, DataRelationEdge>)
+  href: api/QuikGraph.Data.DataSetGraphvizAlgorithm.html#QuikGraph_Data_DataSetGraphvizAlgorithm_FormatRelation_System_Object_QuikGraph_Graphviz_FormatEdgeEventArgs_System_Data_DataTable_QuikGraph_Data_DataRelationEdge__
+  commentId: M:QuikGraph.Data.DataSetGraphvizAlgorithm.FormatRelation(System.Object,QuikGraph.Graphviz.FormatEdgeEventArgs{System.Data.DataTable,QuikGraph.Data.DataRelationEdge})
+  name.vb: FormatRelation(Object, FormatEdgeEventArgs(Of DataTable, DataRelationEdge))
+  fullName: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatRelation(System.Object, QuikGraph.Graphviz.FormatEdgeEventArgs<System.Data.DataTable, QuikGraph.Data.DataRelationEdge>)
+  fullName.vb: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatRelation(System.Object, QuikGraph.Graphviz.FormatEdgeEventArgs(Of System.Data.DataTable, QuikGraph.Data.DataRelationEdge))
+  nameWithType: DataSetGraphvizAlgorithm.FormatRelation(Object, FormatEdgeEventArgs<DataTable, DataRelationEdge>)
+  nameWithType.vb: DataSetGraphvizAlgorithm.FormatRelation(Object, FormatEdgeEventArgs(Of DataTable, DataRelationEdge))
+- uid: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatRelation*
+  name: FormatRelation
+  href: api/QuikGraph.Data.DataSetGraphvizAlgorithm.html#QuikGraph_Data_DataSetGraphvizAlgorithm_FormatRelation_
+  commentId: Overload:QuikGraph.Data.DataSetGraphvizAlgorithm.FormatRelation
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatRelation
+  nameWithType: DataSetGraphvizAlgorithm.FormatRelation
+- uid: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatTable(System.Object,QuikGraph.Graphviz.FormatVertexEventArgs{System.Data.DataTable})
+  name: FormatTable(Object, FormatVertexEventArgs<DataTable>)
+  href: api/QuikGraph.Data.DataSetGraphvizAlgorithm.html#QuikGraph_Data_DataSetGraphvizAlgorithm_FormatTable_System_Object_QuikGraph_Graphviz_FormatVertexEventArgs_System_Data_DataTable__
+  commentId: M:QuikGraph.Data.DataSetGraphvizAlgorithm.FormatTable(System.Object,QuikGraph.Graphviz.FormatVertexEventArgs{System.Data.DataTable})
+  name.vb: FormatTable(Object, FormatVertexEventArgs(Of DataTable))
+  fullName: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatTable(System.Object, QuikGraph.Graphviz.FormatVertexEventArgs<System.Data.DataTable>)
+  fullName.vb: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatTable(System.Object, QuikGraph.Graphviz.FormatVertexEventArgs(Of System.Data.DataTable))
+  nameWithType: DataSetGraphvizAlgorithm.FormatTable(Object, FormatVertexEventArgs<DataTable>)
+  nameWithType.vb: DataSetGraphvizAlgorithm.FormatTable(Object, FormatVertexEventArgs(Of DataTable))
+- uid: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatTable*
+  name: FormatTable
+  href: api/QuikGraph.Data.DataSetGraphvizAlgorithm.html#QuikGraph_Data_DataSetGraphvizAlgorithm_FormatTable_
+  commentId: Overload:QuikGraph.Data.DataSetGraphvizAlgorithm.FormatTable
+  isSpec: "True"
+  fullName: QuikGraph.Data.DataSetGraphvizAlgorithm.FormatTable
+  nameWithType: DataSetGraphvizAlgorithm.FormatTable
 - uid: QuikGraph.DelegateBidirectionalIncidenceGraph`2
   name: DelegateBidirectionalIncidenceGraph<TVertex, TEdge>
   href: api/QuikGraph.DelegateBidirectionalIncidenceGraph-2.html
@@ -29169,6 +29389,596 @@ references:
   fullName.vb: QuikGraph.IVertexSet(Of TVertex).Vertices
   nameWithType: IVertexSet<TVertex>.Vertices
   nameWithType.vb: IVertexSet(Of TVertex).Vertices
+- uid: QuikGraph.MSAGL
+  name: QuikGraph.MSAGL
+  href: api/QuikGraph.MSAGL.html
+  commentId: N:QuikGraph.MSAGL
+  fullName: QuikGraph.MSAGL
+  nameWithType: QuikGraph.MSAGL
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2
+  name: MsaglDefaultGraphPopulator<TVertex, TEdge>
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html
+  commentId: T:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2
+  name.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge)
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge)
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge)
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.#ctor(QuikGraph.IEdgeListGraph{`0,`1})
+  name: MsaglDefaultGraphPopulator(IEdgeListGraph<TVertex, TEdge>)
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2__ctor_QuikGraph_IEdgeListGraph__0__1__
+  commentId: M:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.#ctor(QuikGraph.IEdgeListGraph{`0,`1})
+  name.vb: MsaglDefaultGraphPopulator(IEdgeListGraph(Of TVertex, TEdge))
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.MsaglDefaultGraphPopulator(QuikGraph.IEdgeListGraph<TVertex, TEdge>)
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).MsaglDefaultGraphPopulator(QuikGraph.IEdgeListGraph(Of TVertex, TEdge))
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.MsaglDefaultGraphPopulator(IEdgeListGraph<TVertex, TEdge>)
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).MsaglDefaultGraphPopulator(IEdgeListGraph(Of TVertex, TEdge))
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.#ctor*
+  name: MsaglDefaultGraphPopulator
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2__ctor_
+  commentId: Overload:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.MsaglDefaultGraphPopulator
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).MsaglDefaultGraphPopulator
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.MsaglDefaultGraphPopulator
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).MsaglDefaultGraphPopulator
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.AddEdge(`1)
+  name: AddEdge(TEdge)
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_AddEdge__1_
+  commentId: M:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.AddEdge(`1)
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.AddEdge(TEdge)
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).AddEdge(TEdge)
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.AddEdge(TEdge)
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).AddEdge(TEdge)
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.AddEdge*
+  name: AddEdge
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_AddEdge_
+  commentId: Overload:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.AddEdge
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.AddEdge
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).AddEdge
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.AddEdge
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).AddEdge
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.AddNode(`0)
+  name: AddNode(TVertex)
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_AddNode__0_
+  commentId: M:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.AddNode(`0)
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.AddNode(TVertex)
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).AddNode(TVertex)
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.AddNode(TVertex)
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).AddNode(TVertex)
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.AddNode*
+  name: AddNode
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_AddNode_
+  commentId: Overload:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.AddNode
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.AddNode
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).AddNode
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.AddNode
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).AddNode
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.GetVertexId(`0)
+  name: GetVertexId(TVertex)
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_GetVertexId__0_
+  commentId: M:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.GetVertexId(`0)
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.GetVertexId(TVertex)
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).GetVertexId(TVertex)
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.GetVertexId(TVertex)
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).GetVertexId(TVertex)
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.GetVertexId*
+  name: GetVertexId
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_GetVertexId_
+  commentId: Overload:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.GetVertexId
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.GetVertexId
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).GetVertexId
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.GetVertexId
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).GetVertexId
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.GetVertexLabel(System.String,`0)
+  name: GetVertexLabel(String, TVertex)
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_GetVertexLabel_System_String__0_
+  commentId: M:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.GetVertexLabel(System.String,`0)
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.GetVertexLabel(System.String, TVertex)
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).GetVertexLabel(System.String, TVertex)
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.GetVertexLabel(String, TVertex)
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).GetVertexLabel(String, TVertex)
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.GetVertexLabel*
+  name: GetVertexLabel
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_GetVertexLabel_
+  commentId: Overload:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.GetVertexLabel
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.GetVertexLabel
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).GetVertexLabel
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.GetVertexLabel
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).GetVertexLabel
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.OnFinished(System.EventArgs)
+  name: OnFinished(EventArgs)
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_OnFinished_System_EventArgs_
+  commentId: M:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.OnFinished(System.EventArgs)
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.OnFinished(System.EventArgs)
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).OnFinished(System.EventArgs)
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.OnFinished(EventArgs)
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).OnFinished(EventArgs)
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.OnFinished*
+  name: OnFinished
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_OnFinished_
+  commentId: Overload:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.OnFinished
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.OnFinished
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).OnFinished
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.OnFinished
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).OnFinished
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.OnStarted(System.EventArgs)
+  name: OnStarted(EventArgs)
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_OnStarted_System_EventArgs_
+  commentId: M:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.OnStarted(System.EventArgs)
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.OnStarted(System.EventArgs)
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).OnStarted(System.EventArgs)
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.OnStarted(EventArgs)
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).OnStarted(EventArgs)
+- uid: QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.OnStarted*
+  name: OnStarted
+  href: api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html#QuikGraph_MSAGL_MsaglDefaultGraphPopulator_2_OnStarted_
+  commentId: Overload:QuikGraph.MSAGL.MsaglDefaultGraphPopulator`2.OnStarted
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglDefaultGraphPopulator<TVertex, TEdge>.OnStarted
+  fullName.vb: QuikGraph.MSAGL.MsaglDefaultGraphPopulator(Of TVertex, TEdge).OnStarted
+  nameWithType: MsaglDefaultGraphPopulator<TVertex, TEdge>.OnStarted
+  nameWithType.vb: MsaglDefaultGraphPopulator(Of TVertex, TEdge).OnStarted
+- uid: QuikGraph.MSAGL.MsaglEdgeEventArgs`2
+  name: MsaglEdgeEventArgs<TVertex, TEdge>
+  href: api/QuikGraph.MSAGL.MsaglEdgeEventArgs-2.html
+  commentId: T:QuikGraph.MSAGL.MsaglEdgeEventArgs`2
+  name.vb: MsaglEdgeEventArgs(Of TVertex, TEdge)
+  fullName: QuikGraph.MSAGL.MsaglEdgeEventArgs<TVertex, TEdge>
+  fullName.vb: QuikGraph.MSAGL.MsaglEdgeEventArgs(Of TVertex, TEdge)
+  nameWithType: MsaglEdgeEventArgs<TVertex, TEdge>
+  nameWithType.vb: MsaglEdgeEventArgs(Of TVertex, TEdge)
+- uid: QuikGraph.MSAGL.MsaglEdgeEventArgs`2.#ctor(`1,Microsoft.Msagl.Drawing.Edge)
+  name: MsaglEdgeEventArgs(TEdge, Edge)
+  href: api/QuikGraph.MSAGL.MsaglEdgeEventArgs-2.html#QuikGraph_MSAGL_MsaglEdgeEventArgs_2__ctor__1_Microsoft_Msagl_Drawing_Edge_
+  commentId: M:QuikGraph.MSAGL.MsaglEdgeEventArgs`2.#ctor(`1,Microsoft.Msagl.Drawing.Edge)
+  fullName: QuikGraph.MSAGL.MsaglEdgeEventArgs<TVertex, TEdge>.MsaglEdgeEventArgs(TEdge, Microsoft.Msagl.Drawing.Edge)
+  fullName.vb: QuikGraph.MSAGL.MsaglEdgeEventArgs(Of TVertex, TEdge).MsaglEdgeEventArgs(TEdge, Microsoft.Msagl.Drawing.Edge)
+  nameWithType: MsaglEdgeEventArgs<TVertex, TEdge>.MsaglEdgeEventArgs(TEdge, Edge)
+  nameWithType.vb: MsaglEdgeEventArgs(Of TVertex, TEdge).MsaglEdgeEventArgs(TEdge, Edge)
+- uid: QuikGraph.MSAGL.MsaglEdgeEventArgs`2.#ctor*
+  name: MsaglEdgeEventArgs
+  href: api/QuikGraph.MSAGL.MsaglEdgeEventArgs-2.html#QuikGraph_MSAGL_MsaglEdgeEventArgs_2__ctor_
+  commentId: Overload:QuikGraph.MSAGL.MsaglEdgeEventArgs`2.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglEdgeEventArgs<TVertex, TEdge>.MsaglEdgeEventArgs
+  fullName.vb: QuikGraph.MSAGL.MsaglEdgeEventArgs(Of TVertex, TEdge).MsaglEdgeEventArgs
+  nameWithType: MsaglEdgeEventArgs<TVertex, TEdge>.MsaglEdgeEventArgs
+  nameWithType.vb: MsaglEdgeEventArgs(Of TVertex, TEdge).MsaglEdgeEventArgs
+- uid: QuikGraph.MSAGL.MsaglEdgeEventArgs`2.MsaglEdge
+  name: MsaglEdge
+  href: api/QuikGraph.MSAGL.MsaglEdgeEventArgs-2.html#QuikGraph_MSAGL_MsaglEdgeEventArgs_2_MsaglEdge
+  commentId: P:QuikGraph.MSAGL.MsaglEdgeEventArgs`2.MsaglEdge
+  fullName: QuikGraph.MSAGL.MsaglEdgeEventArgs<TVertex, TEdge>.MsaglEdge
+  fullName.vb: QuikGraph.MSAGL.MsaglEdgeEventArgs(Of TVertex, TEdge).MsaglEdge
+  nameWithType: MsaglEdgeEventArgs<TVertex, TEdge>.MsaglEdge
+  nameWithType.vb: MsaglEdgeEventArgs(Of TVertex, TEdge).MsaglEdge
+- uid: QuikGraph.MSAGL.MsaglEdgeEventArgs`2.MsaglEdge*
+  name: MsaglEdge
+  href: api/QuikGraph.MSAGL.MsaglEdgeEventArgs-2.html#QuikGraph_MSAGL_MsaglEdgeEventArgs_2_MsaglEdge_
+  commentId: Overload:QuikGraph.MSAGL.MsaglEdgeEventArgs`2.MsaglEdge
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglEdgeEventArgs<TVertex, TEdge>.MsaglEdge
+  fullName.vb: QuikGraph.MSAGL.MsaglEdgeEventArgs(Of TVertex, TEdge).MsaglEdge
+  nameWithType: MsaglEdgeEventArgs<TVertex, TEdge>.MsaglEdge
+  nameWithType.vb: MsaglEdgeEventArgs(Of TVertex, TEdge).MsaglEdge
+- uid: QuikGraph.MSAGL.MsaglEdgeEventHandler`2
+  name: MsaglEdgeEventHandler<TVertex, TEdge>
+  href: api/QuikGraph.MSAGL.MsaglEdgeEventHandler-2.html
+  commentId: T:QuikGraph.MSAGL.MsaglEdgeEventHandler`2
+  name.vb: MsaglEdgeEventHandler(Of TVertex, TEdge)
+  fullName: QuikGraph.MSAGL.MsaglEdgeEventHandler<TVertex, TEdge>
+  fullName.vb: QuikGraph.MSAGL.MsaglEdgeEventHandler(Of TVertex, TEdge)
+  nameWithType: MsaglEdgeEventHandler<TVertex, TEdge>
+  nameWithType.vb: MsaglEdgeEventHandler(Of TVertex, TEdge)
+- uid: QuikGraph.MSAGL.MsaglGraphExtensions
+  name: MsaglGraphExtensions
+  href: api/QuikGraph.MSAGL.MsaglGraphExtensions.html
+  commentId: T:QuikGraph.MSAGL.MsaglGraphExtensions
+  fullName: QuikGraph.MSAGL.MsaglGraphExtensions
+  nameWithType: MsaglGraphExtensions
+- uid: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator*
+  name: CreateMsaglPopulator
+  href: api/QuikGraph.MSAGL.MsaglGraphExtensions.html#QuikGraph_MSAGL_MsaglGraphExtensions_CreateMsaglPopulator_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator
+  nameWithType: MsaglGraphExtensions.CreateMsaglPopulator
+- uid: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator``2(QuikGraph.IEdgeListGraph{``0,``1})
+  name: CreateMsaglPopulator<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>)
+  href: api/QuikGraph.MSAGL.MsaglGraphExtensions.html#QuikGraph_MSAGL_MsaglGraphExtensions_CreateMsaglPopulator__2_QuikGraph_IEdgeListGraph___0___1__
+  commentId: M:QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator``2(QuikGraph.IEdgeListGraph{``0,``1})
+  name.vb: CreateMsaglPopulator(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge))
+  fullName: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator<TVertex, TEdge>(QuikGraph.IEdgeListGraph<TVertex, TEdge>)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator(Of TVertex, TEdge)(QuikGraph.IEdgeListGraph(Of TVertex, TEdge))
+  nameWithType: MsaglGraphExtensions.CreateMsaglPopulator<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>)
+  nameWithType.vb: MsaglGraphExtensions.CreateMsaglPopulator(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge))
+- uid: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator``2(QuikGraph.IEdgeListGraph{``0,``1},QuikGraph.VertexIdentity{``0})
+  name: CreateMsaglPopulator<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>, VertexIdentity<TVertex>)
+  href: api/QuikGraph.MSAGL.MsaglGraphExtensions.html#QuikGraph_MSAGL_MsaglGraphExtensions_CreateMsaglPopulator__2_QuikGraph_IEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__
+  commentId: M:QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator``2(QuikGraph.IEdgeListGraph{``0,``1},QuikGraph.VertexIdentity{``0})
+  name.vb: CreateMsaglPopulator(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge), VertexIdentity(Of TVertex))
+  fullName: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator<TVertex, TEdge>(QuikGraph.IEdgeListGraph<TVertex, TEdge>, QuikGraph.VertexIdentity<TVertex>)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator(Of TVertex, TEdge)(QuikGraph.IEdgeListGraph(Of TVertex, TEdge), QuikGraph.VertexIdentity(Of TVertex))
+  nameWithType: MsaglGraphExtensions.CreateMsaglPopulator<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>, VertexIdentity<TVertex>)
+  nameWithType.vb: MsaglGraphExtensions.CreateMsaglPopulator(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge), VertexIdentity(Of TVertex))
+- uid: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator``2(QuikGraph.IEdgeListGraph{``0,``1},System.String,System.IFormatProvider)
+  name: CreateMsaglPopulator<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>, String, IFormatProvider)
+  href: api/QuikGraph.MSAGL.MsaglGraphExtensions.html#QuikGraph_MSAGL_MsaglGraphExtensions_CreateMsaglPopulator__2_QuikGraph_IEdgeListGraph___0___1__System_String_System_IFormatProvider_
+  commentId: M:QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator``2(QuikGraph.IEdgeListGraph{``0,``1},System.String,System.IFormatProvider)
+  name.vb: CreateMsaglPopulator(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge), String, IFormatProvider)
+  fullName: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator<TVertex, TEdge>(QuikGraph.IEdgeListGraph<TVertex, TEdge>, System.String, System.IFormatProvider)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphExtensions.CreateMsaglPopulator(Of TVertex, TEdge)(QuikGraph.IEdgeListGraph(Of TVertex, TEdge), System.String, System.IFormatProvider)
+  nameWithType: MsaglGraphExtensions.CreateMsaglPopulator<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>, String, IFormatProvider)
+  nameWithType.vb: MsaglGraphExtensions.CreateMsaglPopulator(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge), String, IFormatProvider)
+- uid: QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph*
+  name: ToMsaglGraph
+  href: api/QuikGraph.MSAGL.MsaglGraphExtensions.html#QuikGraph_MSAGL_MsaglGraphExtensions_ToMsaglGraph_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph
+  nameWithType: MsaglGraphExtensions.ToMsaglGraph
+- uid: QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph``2(QuikGraph.IEdgeListGraph{``0,``1},QuikGraph.MSAGL.MsaglVertexNodeEventHandler{``0},QuikGraph.MSAGL.MsaglEdgeEventHandler{``0,``1})
+  name: ToMsaglGraph<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>, MsaglVertexNodeEventHandler<TVertex>, MsaglEdgeEventHandler<TVertex, TEdge>)
+  href: api/QuikGraph.MSAGL.MsaglGraphExtensions.html#QuikGraph_MSAGL_MsaglGraphExtensions_ToMsaglGraph__2_QuikGraph_IEdgeListGraph___0___1__QuikGraph_MSAGL_MsaglVertexNodeEventHandler___0__QuikGraph_MSAGL_MsaglEdgeEventHandler___0___1__
+  commentId: M:QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph``2(QuikGraph.IEdgeListGraph{``0,``1},QuikGraph.MSAGL.MsaglVertexNodeEventHandler{``0},QuikGraph.MSAGL.MsaglEdgeEventHandler{``0,``1})
+  name.vb: ToMsaglGraph(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge), MsaglVertexNodeEventHandler(Of TVertex), MsaglEdgeEventHandler(Of TVertex, TEdge))
+  fullName: QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph<TVertex, TEdge>(QuikGraph.IEdgeListGraph<TVertex, TEdge>, QuikGraph.MSAGL.MsaglVertexNodeEventHandler<TVertex>, QuikGraph.MSAGL.MsaglEdgeEventHandler<TVertex, TEdge>)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph(Of TVertex, TEdge)(QuikGraph.IEdgeListGraph(Of TVertex, TEdge), QuikGraph.MSAGL.MsaglVertexNodeEventHandler(Of TVertex), QuikGraph.MSAGL.MsaglEdgeEventHandler(Of TVertex, TEdge))
+  nameWithType: MsaglGraphExtensions.ToMsaglGraph<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>, MsaglVertexNodeEventHandler<TVertex>, MsaglEdgeEventHandler<TVertex, TEdge>)
+  nameWithType.vb: MsaglGraphExtensions.ToMsaglGraph(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge), MsaglVertexNodeEventHandler(Of TVertex), MsaglEdgeEventHandler(Of TVertex, TEdge))
+- uid: QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph``2(QuikGraph.IEdgeListGraph{``0,``1},QuikGraph.VertexIdentity{``0},QuikGraph.MSAGL.MsaglVertexNodeEventHandler{``0},QuikGraph.MSAGL.MsaglEdgeEventHandler{``0,``1})
+  name: ToMsaglGraph<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>, VertexIdentity<TVertex>, MsaglVertexNodeEventHandler<TVertex>, MsaglEdgeEventHandler<TVertex, TEdge>)
+  href: api/QuikGraph.MSAGL.MsaglGraphExtensions.html#QuikGraph_MSAGL_MsaglGraphExtensions_ToMsaglGraph__2_QuikGraph_IEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_MSAGL_MsaglVertexNodeEventHandler___0__QuikGraph_MSAGL_MsaglEdgeEventHandler___0___1__
+  commentId: M:QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph``2(QuikGraph.IEdgeListGraph{``0,``1},QuikGraph.VertexIdentity{``0},QuikGraph.MSAGL.MsaglVertexNodeEventHandler{``0},QuikGraph.MSAGL.MsaglEdgeEventHandler{``0,``1})
+  name.vb: ToMsaglGraph(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge), VertexIdentity(Of TVertex), MsaglVertexNodeEventHandler(Of TVertex), MsaglEdgeEventHandler(Of TVertex, TEdge))
+  fullName: QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph<TVertex, TEdge>(QuikGraph.IEdgeListGraph<TVertex, TEdge>, QuikGraph.VertexIdentity<TVertex>, QuikGraph.MSAGL.MsaglVertexNodeEventHandler<TVertex>, QuikGraph.MSAGL.MsaglEdgeEventHandler<TVertex, TEdge>)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphExtensions.ToMsaglGraph(Of TVertex, TEdge)(QuikGraph.IEdgeListGraph(Of TVertex, TEdge), QuikGraph.VertexIdentity(Of TVertex), QuikGraph.MSAGL.MsaglVertexNodeEventHandler(Of TVertex), QuikGraph.MSAGL.MsaglEdgeEventHandler(Of TVertex, TEdge))
+  nameWithType: MsaglGraphExtensions.ToMsaglGraph<TVertex, TEdge>(IEdgeListGraph<TVertex, TEdge>, VertexIdentity<TVertex>, MsaglVertexNodeEventHandler<TVertex>, MsaglEdgeEventHandler<TVertex, TEdge>)
+  nameWithType.vb: MsaglGraphExtensions.ToMsaglGraph(Of TVertex, TEdge)(IEdgeListGraph(Of TVertex, TEdge), VertexIdentity(Of TVertex), MsaglVertexNodeEventHandler(Of TVertex), MsaglEdgeEventHandler(Of TVertex, TEdge))
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2
+  name: MsaglGraphPopulator<TVertex, TEdge>
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html
+  commentId: T:QuikGraph.MSAGL.MsaglGraphPopulator`2
+  name.vb: MsaglGraphPopulator(Of TVertex, TEdge)
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge)
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge)
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.#ctor(QuikGraph.IEdgeListGraph{`0,`1})
+  name: MsaglGraphPopulator(IEdgeListGraph<TVertex, TEdge>)
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2__ctor_QuikGraph_IEdgeListGraph__0__1__
+  commentId: M:QuikGraph.MSAGL.MsaglGraphPopulator`2.#ctor(QuikGraph.IEdgeListGraph{`0,`1})
+  name.vb: MsaglGraphPopulator(IEdgeListGraph(Of TVertex, TEdge))
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.MsaglGraphPopulator(QuikGraph.IEdgeListGraph<TVertex, TEdge>)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).MsaglGraphPopulator(QuikGraph.IEdgeListGraph(Of TVertex, TEdge))
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.MsaglGraphPopulator(IEdgeListGraph<TVertex, TEdge>)
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).MsaglGraphPopulator(IEdgeListGraph(Of TVertex, TEdge))
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.#ctor*
+  name: MsaglGraphPopulator
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2__ctor_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphPopulator`2.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.MsaglGraphPopulator
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).MsaglGraphPopulator
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.MsaglGraphPopulator
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).MsaglGraphPopulator
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.AddEdge(`1)
+  name: AddEdge(TEdge)
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_AddEdge__1_
+  commentId: M:QuikGraph.MSAGL.MsaglGraphPopulator`2.AddEdge(`1)
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.AddEdge(TEdge)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).AddEdge(TEdge)
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.AddEdge(TEdge)
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).AddEdge(TEdge)
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.AddEdge*
+  name: AddEdge
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_AddEdge_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphPopulator`2.AddEdge
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.AddEdge
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).AddEdge
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.AddEdge
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).AddEdge
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.AddNode(`0)
+  name: AddNode(TVertex)
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_AddNode__0_
+  commentId: M:QuikGraph.MSAGL.MsaglGraphPopulator`2.AddNode(`0)
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.AddNode(TVertex)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).AddNode(TVertex)
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.AddNode(TVertex)
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).AddNode(TVertex)
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.AddNode*
+  name: AddNode
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_AddNode_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphPopulator`2.AddNode
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.AddNode
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).AddNode
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.AddNode
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).AddNode
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.EdgeAdded
+  name: EdgeAdded
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_EdgeAdded
+  commentId: E:QuikGraph.MSAGL.MsaglGraphPopulator`2.EdgeAdded
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.EdgeAdded
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).EdgeAdded
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.EdgeAdded
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).EdgeAdded
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.InternalCompute
+  name: InternalCompute()
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_InternalCompute
+  commentId: M:QuikGraph.MSAGL.MsaglGraphPopulator`2.InternalCompute
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.InternalCompute()
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).InternalCompute()
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.InternalCompute()
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).InternalCompute()
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.InternalCompute*
+  name: InternalCompute
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_InternalCompute_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphPopulator`2.InternalCompute
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.InternalCompute
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).InternalCompute
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.InternalCompute
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).InternalCompute
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.MsaglGraph
+  name: MsaglGraph
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_MsaglGraph
+  commentId: P:QuikGraph.MSAGL.MsaglGraphPopulator`2.MsaglGraph
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.MsaglGraph
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).MsaglGraph
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.MsaglGraph
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).MsaglGraph
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.MsaglGraph*
+  name: MsaglGraph
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_MsaglGraph_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphPopulator`2.MsaglGraph
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.MsaglGraph
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).MsaglGraph
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.MsaglGraph
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).MsaglGraph
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.NodeAdded
+  name: NodeAdded
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_NodeAdded
+  commentId: E:QuikGraph.MSAGL.MsaglGraphPopulator`2.NodeAdded
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.NodeAdded
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).NodeAdded
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.NodeAdded
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).NodeAdded
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.OnEdgeAdded(QuikGraph.MSAGL.MsaglEdgeEventArgs{`0,`1})
+  name: OnEdgeAdded(MsaglEdgeEventArgs<TVertex, TEdge>)
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_OnEdgeAdded_QuikGraph_MSAGL_MsaglEdgeEventArgs__0__1__
+  commentId: M:QuikGraph.MSAGL.MsaglGraphPopulator`2.OnEdgeAdded(QuikGraph.MSAGL.MsaglEdgeEventArgs{`0,`1})
+  name.vb: OnEdgeAdded(MsaglEdgeEventArgs(Of TVertex, TEdge))
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.OnEdgeAdded(QuikGraph.MSAGL.MsaglEdgeEventArgs<TVertex, TEdge>)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).OnEdgeAdded(QuikGraph.MSAGL.MsaglEdgeEventArgs(Of TVertex, TEdge))
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.OnEdgeAdded(MsaglEdgeEventArgs<TVertex, TEdge>)
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).OnEdgeAdded(MsaglEdgeEventArgs(Of TVertex, TEdge))
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.OnEdgeAdded*
+  name: OnEdgeAdded
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_OnEdgeAdded_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphPopulator`2.OnEdgeAdded
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.OnEdgeAdded
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).OnEdgeAdded
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.OnEdgeAdded
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).OnEdgeAdded
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.OnNodeAdded(QuikGraph.MSAGL.MsaglVertexEventArgs{`0})
+  name: OnNodeAdded(MsaglVertexEventArgs<TVertex>)
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_OnNodeAdded_QuikGraph_MSAGL_MsaglVertexEventArgs__0__
+  commentId: M:QuikGraph.MSAGL.MsaglGraphPopulator`2.OnNodeAdded(QuikGraph.MSAGL.MsaglVertexEventArgs{`0})
+  name.vb: OnNodeAdded(MsaglVertexEventArgs(Of TVertex))
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.OnNodeAdded(QuikGraph.MSAGL.MsaglVertexEventArgs<TVertex>)
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).OnNodeAdded(QuikGraph.MSAGL.MsaglVertexEventArgs(Of TVertex))
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.OnNodeAdded(MsaglVertexEventArgs<TVertex>)
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).OnNodeAdded(MsaglVertexEventArgs(Of TVertex))
+- uid: QuikGraph.MSAGL.MsaglGraphPopulator`2.OnNodeAdded*
+  name: OnNodeAdded
+  href: api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html#QuikGraph_MSAGL_MsaglGraphPopulator_2_OnNodeAdded_
+  commentId: Overload:QuikGraph.MSAGL.MsaglGraphPopulator`2.OnNodeAdded
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglGraphPopulator<TVertex, TEdge>.OnNodeAdded
+  fullName.vb: QuikGraph.MSAGL.MsaglGraphPopulator(Of TVertex, TEdge).OnNodeAdded
+  nameWithType: MsaglGraphPopulator<TVertex, TEdge>.OnNodeAdded
+  nameWithType.vb: MsaglGraphPopulator(Of TVertex, TEdge).OnNodeAdded
+- uid: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2
+  name: MsaglIdentifiableGraphPopulator<TVertex, TEdge>
+  href: api/QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator-2.html
+  commentId: T:QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2
+  name.vb: MsaglIdentifiableGraphPopulator(Of TVertex, TEdge)
+  fullName: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator<TVertex, TEdge>
+  fullName.vb: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator(Of TVertex, TEdge)
+  nameWithType: MsaglIdentifiableGraphPopulator<TVertex, TEdge>
+  nameWithType.vb: MsaglIdentifiableGraphPopulator(Of TVertex, TEdge)
+- uid: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.#ctor(QuikGraph.IEdgeListGraph{`0,`1},QuikGraph.VertexIdentity{`0})
+  name: MsaglIdentifiableGraphPopulator(IEdgeListGraph<TVertex, TEdge>, VertexIdentity<TVertex>)
+  href: api/QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator-2.html#QuikGraph_MSAGL_MsaglIdentifiableGraphPopulator_2__ctor_QuikGraph_IEdgeListGraph__0__1__QuikGraph_VertexIdentity__0__
+  commentId: M:QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.#ctor(QuikGraph.IEdgeListGraph{`0,`1},QuikGraph.VertexIdentity{`0})
+  name.vb: MsaglIdentifiableGraphPopulator(IEdgeListGraph(Of TVertex, TEdge), VertexIdentity(Of TVertex))
+  fullName: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator<TVertex, TEdge>.MsaglIdentifiableGraphPopulator(QuikGraph.IEdgeListGraph<TVertex, TEdge>, QuikGraph.VertexIdentity<TVertex>)
+  fullName.vb: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).MsaglIdentifiableGraphPopulator(QuikGraph.IEdgeListGraph(Of TVertex, TEdge), QuikGraph.VertexIdentity(Of TVertex))
+  nameWithType: MsaglIdentifiableGraphPopulator<TVertex, TEdge>.MsaglIdentifiableGraphPopulator(IEdgeListGraph<TVertex, TEdge>, VertexIdentity<TVertex>)
+  nameWithType.vb: MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).MsaglIdentifiableGraphPopulator(IEdgeListGraph(Of TVertex, TEdge), VertexIdentity(Of TVertex))
+- uid: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.#ctor*
+  name: MsaglIdentifiableGraphPopulator
+  href: api/QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator-2.html#QuikGraph_MSAGL_MsaglIdentifiableGraphPopulator_2__ctor_
+  commentId: Overload:QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator<TVertex, TEdge>.MsaglIdentifiableGraphPopulator
+  fullName.vb: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).MsaglIdentifiableGraphPopulator
+  nameWithType: MsaglIdentifiableGraphPopulator<TVertex, TEdge>.MsaglIdentifiableGraphPopulator
+  nameWithType.vb: MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).MsaglIdentifiableGraphPopulator
+- uid: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.AddEdge(`1)
+  name: AddEdge(TEdge)
+  href: api/QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator-2.html#QuikGraph_MSAGL_MsaglIdentifiableGraphPopulator_2_AddEdge__1_
+  commentId: M:QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.AddEdge(`1)
+  fullName: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator<TVertex, TEdge>.AddEdge(TEdge)
+  fullName.vb: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).AddEdge(TEdge)
+  nameWithType: MsaglIdentifiableGraphPopulator<TVertex, TEdge>.AddEdge(TEdge)
+  nameWithType.vb: MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).AddEdge(TEdge)
+- uid: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.AddEdge*
+  name: AddEdge
+  href: api/QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator-2.html#QuikGraph_MSAGL_MsaglIdentifiableGraphPopulator_2_AddEdge_
+  commentId: Overload:QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.AddEdge
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator<TVertex, TEdge>.AddEdge
+  fullName.vb: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).AddEdge
+  nameWithType: MsaglIdentifiableGraphPopulator<TVertex, TEdge>.AddEdge
+  nameWithType.vb: MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).AddEdge
+- uid: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.AddNode(`0)
+  name: AddNode(TVertex)
+  href: api/QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator-2.html#QuikGraph_MSAGL_MsaglIdentifiableGraphPopulator_2_AddNode__0_
+  commentId: M:QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.AddNode(`0)
+  fullName: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator<TVertex, TEdge>.AddNode(TVertex)
+  fullName.vb: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).AddNode(TVertex)
+  nameWithType: MsaglIdentifiableGraphPopulator<TVertex, TEdge>.AddNode(TVertex)
+  nameWithType.vb: MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).AddNode(TVertex)
+- uid: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.AddNode*
+  name: AddNode
+  href: api/QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator-2.html#QuikGraph_MSAGL_MsaglIdentifiableGraphPopulator_2_AddNode_
+  commentId: Overload:QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator`2.AddNode
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator<TVertex, TEdge>.AddNode
+  fullName.vb: QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).AddNode
+  nameWithType: MsaglIdentifiableGraphPopulator<TVertex, TEdge>.AddNode
+  nameWithType.vb: MsaglIdentifiableGraphPopulator(Of TVertex, TEdge).AddNode
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2
+  name: MsaglToStringGraphPopulator<TVertex, TEdge>
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html
+  commentId: T:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2
+  name.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge)
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge)
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge)
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.#ctor(QuikGraph.IEdgeListGraph{`0,`1},System.String,System.IFormatProvider)
+  name: MsaglToStringGraphPopulator(IEdgeListGraph<TVertex, TEdge>, String, IFormatProvider)
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html#QuikGraph_MSAGL_MsaglToStringGraphPopulator_2__ctor_QuikGraph_IEdgeListGraph__0__1__System_String_System_IFormatProvider_
+  commentId: M:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.#ctor(QuikGraph.IEdgeListGraph{`0,`1},System.String,System.IFormatProvider)
+  name.vb: MsaglToStringGraphPopulator(IEdgeListGraph(Of TVertex, TEdge), String, IFormatProvider)
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>.MsaglToStringGraphPopulator(QuikGraph.IEdgeListGraph<TVertex, TEdge>, System.String, System.IFormatProvider)
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge).MsaglToStringGraphPopulator(QuikGraph.IEdgeListGraph(Of TVertex, TEdge), System.String, System.IFormatProvider)
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>.MsaglToStringGraphPopulator(IEdgeListGraph<TVertex, TEdge>, String, IFormatProvider)
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge).MsaglToStringGraphPopulator(IEdgeListGraph(Of TVertex, TEdge), String, IFormatProvider)
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.#ctor*
+  name: MsaglToStringGraphPopulator
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html#QuikGraph_MSAGL_MsaglToStringGraphPopulator_2__ctor_
+  commentId: Overload:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>.MsaglToStringGraphPopulator
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge).MsaglToStringGraphPopulator
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>.MsaglToStringGraphPopulator
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge).MsaglToStringGraphPopulator
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.Format
+  name: Format
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html#QuikGraph_MSAGL_MsaglToStringGraphPopulator_2_Format
+  commentId: P:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.Format
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>.Format
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge).Format
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>.Format
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge).Format
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.Format*
+  name: Format
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html#QuikGraph_MSAGL_MsaglToStringGraphPopulator_2_Format_
+  commentId: Overload:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.Format
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>.Format
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge).Format
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>.Format
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge).Format
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.FormatProvider
+  name: FormatProvider
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html#QuikGraph_MSAGL_MsaglToStringGraphPopulator_2_FormatProvider
+  commentId: P:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.FormatProvider
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>.FormatProvider
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge).FormatProvider
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>.FormatProvider
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge).FormatProvider
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.FormatProvider*
+  name: FormatProvider
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html#QuikGraph_MSAGL_MsaglToStringGraphPopulator_2_FormatProvider_
+  commentId: Overload:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.FormatProvider
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>.FormatProvider
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge).FormatProvider
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>.FormatProvider
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge).FormatProvider
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.GetVertexId(`0)
+  name: GetVertexId(TVertex)
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html#QuikGraph_MSAGL_MsaglToStringGraphPopulator_2_GetVertexId__0_
+  commentId: M:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.GetVertexId(`0)
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>.GetVertexId(TVertex)
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge).GetVertexId(TVertex)
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>.GetVertexId(TVertex)
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge).GetVertexId(TVertex)
+- uid: QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.GetVertexId*
+  name: GetVertexId
+  href: api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html#QuikGraph_MSAGL_MsaglToStringGraphPopulator_2_GetVertexId_
+  commentId: Overload:QuikGraph.MSAGL.MsaglToStringGraphPopulator`2.GetVertexId
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglToStringGraphPopulator<TVertex, TEdge>.GetVertexId
+  fullName.vb: QuikGraph.MSAGL.MsaglToStringGraphPopulator(Of TVertex, TEdge).GetVertexId
+  nameWithType: MsaglToStringGraphPopulator<TVertex, TEdge>.GetVertexId
+  nameWithType.vb: MsaglToStringGraphPopulator(Of TVertex, TEdge).GetVertexId
+- uid: QuikGraph.MSAGL.MsaglVertexEventArgs`1
+  name: MsaglVertexEventArgs<TVertex>
+  href: api/QuikGraph.MSAGL.MsaglVertexEventArgs-1.html
+  commentId: T:QuikGraph.MSAGL.MsaglVertexEventArgs`1
+  name.vb: MsaglVertexEventArgs(Of TVertex)
+  fullName: QuikGraph.MSAGL.MsaglVertexEventArgs<TVertex>
+  fullName.vb: QuikGraph.MSAGL.MsaglVertexEventArgs(Of TVertex)
+  nameWithType: MsaglVertexEventArgs<TVertex>
+  nameWithType.vb: MsaglVertexEventArgs(Of TVertex)
+- uid: QuikGraph.MSAGL.MsaglVertexEventArgs`1.#ctor(`0,Microsoft.Msagl.Drawing.Node)
+  name: MsaglVertexEventArgs(TVertex, Node)
+  href: api/QuikGraph.MSAGL.MsaglVertexEventArgs-1.html#QuikGraph_MSAGL_MsaglVertexEventArgs_1__ctor__0_Microsoft_Msagl_Drawing_Node_
+  commentId: M:QuikGraph.MSAGL.MsaglVertexEventArgs`1.#ctor(`0,Microsoft.Msagl.Drawing.Node)
+  fullName: QuikGraph.MSAGL.MsaglVertexEventArgs<TVertex>.MsaglVertexEventArgs(TVertex, Microsoft.Msagl.Drawing.Node)
+  fullName.vb: QuikGraph.MSAGL.MsaglVertexEventArgs(Of TVertex).MsaglVertexEventArgs(TVertex, Microsoft.Msagl.Drawing.Node)
+  nameWithType: MsaglVertexEventArgs<TVertex>.MsaglVertexEventArgs(TVertex, Node)
+  nameWithType.vb: MsaglVertexEventArgs(Of TVertex).MsaglVertexEventArgs(TVertex, Node)
+- uid: QuikGraph.MSAGL.MsaglVertexEventArgs`1.#ctor*
+  name: MsaglVertexEventArgs
+  href: api/QuikGraph.MSAGL.MsaglVertexEventArgs-1.html#QuikGraph_MSAGL_MsaglVertexEventArgs_1__ctor_
+  commentId: Overload:QuikGraph.MSAGL.MsaglVertexEventArgs`1.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglVertexEventArgs<TVertex>.MsaglVertexEventArgs
+  fullName.vb: QuikGraph.MSAGL.MsaglVertexEventArgs(Of TVertex).MsaglVertexEventArgs
+  nameWithType: MsaglVertexEventArgs<TVertex>.MsaglVertexEventArgs
+  nameWithType.vb: MsaglVertexEventArgs(Of TVertex).MsaglVertexEventArgs
+- uid: QuikGraph.MSAGL.MsaglVertexEventArgs`1.Node
+  name: Node
+  href: api/QuikGraph.MSAGL.MsaglVertexEventArgs-1.html#QuikGraph_MSAGL_MsaglVertexEventArgs_1_Node
+  commentId: P:QuikGraph.MSAGL.MsaglVertexEventArgs`1.Node
+  fullName: QuikGraph.MSAGL.MsaglVertexEventArgs<TVertex>.Node
+  fullName.vb: QuikGraph.MSAGL.MsaglVertexEventArgs(Of TVertex).Node
+  nameWithType: MsaglVertexEventArgs<TVertex>.Node
+  nameWithType.vb: MsaglVertexEventArgs(Of TVertex).Node
+- uid: QuikGraph.MSAGL.MsaglVertexEventArgs`1.Node*
+  name: Node
+  href: api/QuikGraph.MSAGL.MsaglVertexEventArgs-1.html#QuikGraph_MSAGL_MsaglVertexEventArgs_1_Node_
+  commentId: Overload:QuikGraph.MSAGL.MsaglVertexEventArgs`1.Node
+  isSpec: "True"
+  fullName: QuikGraph.MSAGL.MsaglVertexEventArgs<TVertex>.Node
+  fullName.vb: QuikGraph.MSAGL.MsaglVertexEventArgs(Of TVertex).Node
+  nameWithType: MsaglVertexEventArgs<TVertex>.Node
+  nameWithType.vb: MsaglVertexEventArgs(Of TVertex).Node
+- uid: QuikGraph.MSAGL.MsaglVertexNodeEventHandler`1
+  name: MsaglVertexNodeEventHandler<TVertex>
+  href: api/QuikGraph.MSAGL.MsaglVertexNodeEventHandler-1.html
+  commentId: T:QuikGraph.MSAGL.MsaglVertexNodeEventHandler`1
+  name.vb: MsaglVertexNodeEventHandler(Of TVertex)
+  fullName: QuikGraph.MSAGL.MsaglVertexNodeEventHandler<TVertex>
+  fullName.vb: QuikGraph.MSAGL.MsaglVertexNodeEventHandler(Of TVertex)
+  nameWithType: MsaglVertexNodeEventHandler<TVertex>
+  nameWithType.vb: MsaglVertexNodeEventHandler(Of TVertex)
 - uid: QuikGraph.NegativeCapacityException
   name: NegativeCapacityException
   href: api/QuikGraph.NegativeCapacityException.html
@@ -29344,6 +30154,736 @@ references:
   isSpec: "True"
   fullName: QuikGraph.ParallelEdgeNotAllowedException.ParallelEdgeNotAllowedException
   nameWithType: ParallelEdgeNotAllowedException.ParallelEdgeNotAllowedException
+- uid: QuikGraph.Petri
+  name: QuikGraph.Petri
+  href: api/QuikGraph.Petri.html
+  commentId: N:QuikGraph.Petri
+  fullName: QuikGraph.Petri
+  nameWithType: QuikGraph.Petri
+- uid: QuikGraph.Petri.AlwaysTrueConditionExpression`1
+  name: AlwaysTrueConditionExpression<TToken>
+  href: api/QuikGraph.Petri.AlwaysTrueConditionExpression-1.html
+  commentId: T:QuikGraph.Petri.AlwaysTrueConditionExpression`1
+  name.vb: AlwaysTrueConditionExpression(Of TToken)
+  fullName: QuikGraph.Petri.AlwaysTrueConditionExpression<TToken>
+  fullName.vb: QuikGraph.Petri.AlwaysTrueConditionExpression(Of TToken)
+  nameWithType: AlwaysTrueConditionExpression<TToken>
+  nameWithType.vb: AlwaysTrueConditionExpression(Of TToken)
+- uid: QuikGraph.Petri.AlwaysTrueConditionExpression`1.IsEnabled(System.Collections.Generic.IList{`0})
+  name: IsEnabled(IList<TToken>)
+  href: api/QuikGraph.Petri.AlwaysTrueConditionExpression-1.html#QuikGraph_Petri_AlwaysTrueConditionExpression_1_IsEnabled_System_Collections_Generic_IList__0__
+  commentId: M:QuikGraph.Petri.AlwaysTrueConditionExpression`1.IsEnabled(System.Collections.Generic.IList{`0})
+  name.vb: IsEnabled(IList(Of TToken))
+  fullName: QuikGraph.Petri.AlwaysTrueConditionExpression<TToken>.IsEnabled(System.Collections.Generic.IList<TToken>)
+  fullName.vb: QuikGraph.Petri.AlwaysTrueConditionExpression(Of TToken).IsEnabled(System.Collections.Generic.IList(Of TToken))
+  nameWithType: AlwaysTrueConditionExpression<TToken>.IsEnabled(IList<TToken>)
+  nameWithType.vb: AlwaysTrueConditionExpression(Of TToken).IsEnabled(IList(Of TToken))
+- uid: QuikGraph.Petri.AlwaysTrueConditionExpression`1.IsEnabled*
+  name: IsEnabled
+  href: api/QuikGraph.Petri.AlwaysTrueConditionExpression-1.html#QuikGraph_Petri_AlwaysTrueConditionExpression_1_IsEnabled_
+  commentId: Overload:QuikGraph.Petri.AlwaysTrueConditionExpression`1.IsEnabled
+  isSpec: "True"
+  fullName: QuikGraph.Petri.AlwaysTrueConditionExpression<TToken>.IsEnabled
+  fullName.vb: QuikGraph.Petri.AlwaysTrueConditionExpression(Of TToken).IsEnabled
+  nameWithType: AlwaysTrueConditionExpression<TToken>.IsEnabled
+  nameWithType.vb: AlwaysTrueConditionExpression(Of TToken).IsEnabled
+- uid: QuikGraph.Petri.IArc`1
+  name: IArc<TToken>
+  href: api/QuikGraph.Petri.IArc-1.html
+  commentId: T:QuikGraph.Petri.IArc`1
+  name.vb: IArc(Of TToken)
+  fullName: QuikGraph.Petri.IArc<TToken>
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken)
+  nameWithType: IArc<TToken>
+  nameWithType.vb: IArc(Of TToken)
+- uid: QuikGraph.Petri.IArc`1.Annotation
+  name: Annotation
+  href: api/QuikGraph.Petri.IArc-1.html#QuikGraph_Petri_IArc_1_Annotation
+  commentId: P:QuikGraph.Petri.IArc`1.Annotation
+  fullName: QuikGraph.Petri.IArc<TToken>.Annotation
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken).Annotation
+  nameWithType: IArc<TToken>.Annotation
+  nameWithType.vb: IArc(Of TToken).Annotation
+- uid: QuikGraph.Petri.IArc`1.Annotation*
+  name: Annotation
+  href: api/QuikGraph.Petri.IArc-1.html#QuikGraph_Petri_IArc_1_Annotation_
+  commentId: Overload:QuikGraph.Petri.IArc`1.Annotation
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IArc<TToken>.Annotation
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken).Annotation
+  nameWithType: IArc<TToken>.Annotation
+  nameWithType.vb: IArc(Of TToken).Annotation
+- uid: QuikGraph.Petri.IArc`1.IsInputArc
+  name: IsInputArc
+  href: api/QuikGraph.Petri.IArc-1.html#QuikGraph_Petri_IArc_1_IsInputArc
+  commentId: P:QuikGraph.Petri.IArc`1.IsInputArc
+  fullName: QuikGraph.Petri.IArc<TToken>.IsInputArc
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken).IsInputArc
+  nameWithType: IArc<TToken>.IsInputArc
+  nameWithType.vb: IArc(Of TToken).IsInputArc
+- uid: QuikGraph.Petri.IArc`1.IsInputArc*
+  name: IsInputArc
+  href: api/QuikGraph.Petri.IArc-1.html#QuikGraph_Petri_IArc_1_IsInputArc_
+  commentId: Overload:QuikGraph.Petri.IArc`1.IsInputArc
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IArc<TToken>.IsInputArc
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken).IsInputArc
+  nameWithType: IArc<TToken>.IsInputArc
+  nameWithType.vb: IArc(Of TToken).IsInputArc
+- uid: QuikGraph.Petri.IArc`1.Place
+  name: Place
+  href: api/QuikGraph.Petri.IArc-1.html#QuikGraph_Petri_IArc_1_Place
+  commentId: P:QuikGraph.Petri.IArc`1.Place
+  fullName: QuikGraph.Petri.IArc<TToken>.Place
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken).Place
+  nameWithType: IArc<TToken>.Place
+  nameWithType.vb: IArc(Of TToken).Place
+- uid: QuikGraph.Petri.IArc`1.Place*
+  name: Place
+  href: api/QuikGraph.Petri.IArc-1.html#QuikGraph_Petri_IArc_1_Place_
+  commentId: Overload:QuikGraph.Petri.IArc`1.Place
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IArc<TToken>.Place
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken).Place
+  nameWithType: IArc<TToken>.Place
+  nameWithType.vb: IArc(Of TToken).Place
+- uid: QuikGraph.Petri.IArc`1.Transition
+  name: Transition
+  href: api/QuikGraph.Petri.IArc-1.html#QuikGraph_Petri_IArc_1_Transition
+  commentId: P:QuikGraph.Petri.IArc`1.Transition
+  fullName: QuikGraph.Petri.IArc<TToken>.Transition
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken).Transition
+  nameWithType: IArc<TToken>.Transition
+  nameWithType.vb: IArc(Of TToken).Transition
+- uid: QuikGraph.Petri.IArc`1.Transition*
+  name: Transition
+  href: api/QuikGraph.Petri.IArc-1.html#QuikGraph_Petri_IArc_1_Transition_
+  commentId: Overload:QuikGraph.Petri.IArc`1.Transition
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IArc<TToken>.Transition
+  fullName.vb: QuikGraph.Petri.IArc(Of TToken).Transition
+  nameWithType: IArc<TToken>.Transition
+  nameWithType.vb: IArc(Of TToken).Transition
+- uid: QuikGraph.Petri.IConditionExpression`1
+  name: IConditionExpression<TToken>
+  href: api/QuikGraph.Petri.IConditionExpression-1.html
+  commentId: T:QuikGraph.Petri.IConditionExpression`1
+  name.vb: IConditionExpression(Of TToken)
+  fullName: QuikGraph.Petri.IConditionExpression<TToken>
+  fullName.vb: QuikGraph.Petri.IConditionExpression(Of TToken)
+  nameWithType: IConditionExpression<TToken>
+  nameWithType.vb: IConditionExpression(Of TToken)
+- uid: QuikGraph.Petri.IConditionExpression`1.IsEnabled(System.Collections.Generic.IList{`0})
+  name: IsEnabled(IList<TToken>)
+  href: api/QuikGraph.Petri.IConditionExpression-1.html#QuikGraph_Petri_IConditionExpression_1_IsEnabled_System_Collections_Generic_IList__0__
+  commentId: M:QuikGraph.Petri.IConditionExpression`1.IsEnabled(System.Collections.Generic.IList{`0})
+  name.vb: IsEnabled(IList(Of TToken))
+  fullName: QuikGraph.Petri.IConditionExpression<TToken>.IsEnabled(System.Collections.Generic.IList<TToken>)
+  fullName.vb: QuikGraph.Petri.IConditionExpression(Of TToken).IsEnabled(System.Collections.Generic.IList(Of TToken))
+  nameWithType: IConditionExpression<TToken>.IsEnabled(IList<TToken>)
+  nameWithType.vb: IConditionExpression(Of TToken).IsEnabled(IList(Of TToken))
+- uid: QuikGraph.Petri.IConditionExpression`1.IsEnabled*
+  name: IsEnabled
+  href: api/QuikGraph.Petri.IConditionExpression-1.html#QuikGraph_Petri_IConditionExpression_1_IsEnabled_
+  commentId: Overload:QuikGraph.Petri.IConditionExpression`1.IsEnabled
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IConditionExpression<TToken>.IsEnabled
+  fullName.vb: QuikGraph.Petri.IConditionExpression(Of TToken).IsEnabled
+  nameWithType: IConditionExpression<TToken>.IsEnabled
+  nameWithType.vb: IConditionExpression(Of TToken).IsEnabled
+- uid: QuikGraph.Petri.IdentityExpression`1
+  name: IdentityExpression<TToken>
+  href: api/QuikGraph.Petri.IdentityExpression-1.html
+  commentId: T:QuikGraph.Petri.IdentityExpression`1
+  name.vb: IdentityExpression(Of TToken)
+  fullName: QuikGraph.Petri.IdentityExpression<TToken>
+  fullName.vb: QuikGraph.Petri.IdentityExpression(Of TToken)
+  nameWithType: IdentityExpression<TToken>
+  nameWithType.vb: IdentityExpression(Of TToken)
+- uid: QuikGraph.Petri.IdentityExpression`1.Evaluate(System.Collections.Generic.IList{`0})
+  name: Evaluate(IList<TToken>)
+  href: api/QuikGraph.Petri.IdentityExpression-1.html#QuikGraph_Petri_IdentityExpression_1_Evaluate_System_Collections_Generic_IList__0__
+  commentId: M:QuikGraph.Petri.IdentityExpression`1.Evaluate(System.Collections.Generic.IList{`0})
+  name.vb: Evaluate(IList(Of TToken))
+  fullName: QuikGraph.Petri.IdentityExpression<TToken>.Evaluate(System.Collections.Generic.IList<TToken>)
+  fullName.vb: QuikGraph.Petri.IdentityExpression(Of TToken).Evaluate(System.Collections.Generic.IList(Of TToken))
+  nameWithType: IdentityExpression<TToken>.Evaluate(IList<TToken>)
+  nameWithType.vb: IdentityExpression(Of TToken).Evaluate(IList(Of TToken))
+- uid: QuikGraph.Petri.IdentityExpression`1.Evaluate*
+  name: Evaluate
+  href: api/QuikGraph.Petri.IdentityExpression-1.html#QuikGraph_Petri_IdentityExpression_1_Evaluate_
+  commentId: Overload:QuikGraph.Petri.IdentityExpression`1.Evaluate
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IdentityExpression<TToken>.Evaluate
+  fullName.vb: QuikGraph.Petri.IdentityExpression(Of TToken).Evaluate
+  nameWithType: IdentityExpression<TToken>.Evaluate
+  nameWithType.vb: IdentityExpression(Of TToken).Evaluate
+- uid: QuikGraph.Petri.IExpression`1
+  name: IExpression<TToken>
+  href: api/QuikGraph.Petri.IExpression-1.html
+  commentId: T:QuikGraph.Petri.IExpression`1
+  name.vb: IExpression(Of TToken)
+  fullName: QuikGraph.Petri.IExpression<TToken>
+  fullName.vb: QuikGraph.Petri.IExpression(Of TToken)
+  nameWithType: IExpression<TToken>
+  nameWithType.vb: IExpression(Of TToken)
+- uid: QuikGraph.Petri.IExpression`1.Evaluate(System.Collections.Generic.IList{`0})
+  name: Evaluate(IList<TToken>)
+  href: api/QuikGraph.Petri.IExpression-1.html#QuikGraph_Petri_IExpression_1_Evaluate_System_Collections_Generic_IList__0__
+  commentId: M:QuikGraph.Petri.IExpression`1.Evaluate(System.Collections.Generic.IList{`0})
+  name.vb: Evaluate(IList(Of TToken))
+  fullName: QuikGraph.Petri.IExpression<TToken>.Evaluate(System.Collections.Generic.IList<TToken>)
+  fullName.vb: QuikGraph.Petri.IExpression(Of TToken).Evaluate(System.Collections.Generic.IList(Of TToken))
+  nameWithType: IExpression<TToken>.Evaluate(IList<TToken>)
+  nameWithType.vb: IExpression(Of TToken).Evaluate(IList(Of TToken))
+- uid: QuikGraph.Petri.IExpression`1.Evaluate*
+  name: Evaluate
+  href: api/QuikGraph.Petri.IExpression-1.html#QuikGraph_Petri_IExpression_1_Evaluate_
+  commentId: Overload:QuikGraph.Petri.IExpression`1.Evaluate
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IExpression<TToken>.Evaluate
+  fullName.vb: QuikGraph.Petri.IExpression(Of TToken).Evaluate
+  nameWithType: IExpression<TToken>.Evaluate
+  nameWithType.vb: IExpression(Of TToken).Evaluate
+- uid: QuikGraph.Petri.IMutablePetriNet`1
+  name: IMutablePetriNet<TToken>
+  href: api/QuikGraph.Petri.IMutablePetriNet-1.html
+  commentId: T:QuikGraph.Petri.IMutablePetriNet`1
+  name.vb: IMutablePetriNet(Of TToken)
+  fullName: QuikGraph.Petri.IMutablePetriNet<TToken>
+  fullName.vb: QuikGraph.Petri.IMutablePetriNet(Of TToken)
+  nameWithType: IMutablePetriNet<TToken>
+  nameWithType.vb: IMutablePetriNet(Of TToken)
+- uid: QuikGraph.Petri.IMutablePetriNet`1.AddArc(QuikGraph.Petri.IPlace{`0},QuikGraph.Petri.ITransition{`0})
+  name: AddArc(IPlace<TToken>, ITransition<TToken>)
+  href: api/QuikGraph.Petri.IMutablePetriNet-1.html#QuikGraph_Petri_IMutablePetriNet_1_AddArc_QuikGraph_Petri_IPlace__0__QuikGraph_Petri_ITransition__0__
+  commentId: M:QuikGraph.Petri.IMutablePetriNet`1.AddArc(QuikGraph.Petri.IPlace{`0},QuikGraph.Petri.ITransition{`0})
+  name.vb: AddArc(IPlace(Of TToken), ITransition(Of TToken))
+  fullName: QuikGraph.Petri.IMutablePetriNet<TToken>.AddArc(QuikGraph.Petri.IPlace<TToken>, QuikGraph.Petri.ITransition<TToken>)
+  fullName.vb: QuikGraph.Petri.IMutablePetriNet(Of TToken).AddArc(QuikGraph.Petri.IPlace(Of TToken), QuikGraph.Petri.ITransition(Of TToken))
+  nameWithType: IMutablePetriNet<TToken>.AddArc(IPlace<TToken>, ITransition<TToken>)
+  nameWithType.vb: IMutablePetriNet(Of TToken).AddArc(IPlace(Of TToken), ITransition(Of TToken))
+- uid: QuikGraph.Petri.IMutablePetriNet`1.AddArc(QuikGraph.Petri.ITransition{`0},QuikGraph.Petri.IPlace{`0})
+  name: AddArc(ITransition<TToken>, IPlace<TToken>)
+  href: api/QuikGraph.Petri.IMutablePetriNet-1.html#QuikGraph_Petri_IMutablePetriNet_1_AddArc_QuikGraph_Petri_ITransition__0__QuikGraph_Petri_IPlace__0__
+  commentId: M:QuikGraph.Petri.IMutablePetriNet`1.AddArc(QuikGraph.Petri.ITransition{`0},QuikGraph.Petri.IPlace{`0})
+  name.vb: AddArc(ITransition(Of TToken), IPlace(Of TToken))
+  fullName: QuikGraph.Petri.IMutablePetriNet<TToken>.AddArc(QuikGraph.Petri.ITransition<TToken>, QuikGraph.Petri.IPlace<TToken>)
+  fullName.vb: QuikGraph.Petri.IMutablePetriNet(Of TToken).AddArc(QuikGraph.Petri.ITransition(Of TToken), QuikGraph.Petri.IPlace(Of TToken))
+  nameWithType: IMutablePetriNet<TToken>.AddArc(ITransition<TToken>, IPlace<TToken>)
+  nameWithType.vb: IMutablePetriNet(Of TToken).AddArc(ITransition(Of TToken), IPlace(Of TToken))
+- uid: QuikGraph.Petri.IMutablePetriNet`1.AddArc*
+  name: AddArc
+  href: api/QuikGraph.Petri.IMutablePetriNet-1.html#QuikGraph_Petri_IMutablePetriNet_1_AddArc_
+  commentId: Overload:QuikGraph.Petri.IMutablePetriNet`1.AddArc
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IMutablePetriNet<TToken>.AddArc
+  fullName.vb: QuikGraph.Petri.IMutablePetriNet(Of TToken).AddArc
+  nameWithType: IMutablePetriNet<TToken>.AddArc
+  nameWithType.vb: IMutablePetriNet(Of TToken).AddArc
+- uid: QuikGraph.Petri.IMutablePetriNet`1.AddPlace(System.String)
+  name: AddPlace(String)
+  href: api/QuikGraph.Petri.IMutablePetriNet-1.html#QuikGraph_Petri_IMutablePetriNet_1_AddPlace_System_String_
+  commentId: M:QuikGraph.Petri.IMutablePetriNet`1.AddPlace(System.String)
+  fullName: QuikGraph.Petri.IMutablePetriNet<TToken>.AddPlace(System.String)
+  fullName.vb: QuikGraph.Petri.IMutablePetriNet(Of TToken).AddPlace(System.String)
+  nameWithType: IMutablePetriNet<TToken>.AddPlace(String)
+  nameWithType.vb: IMutablePetriNet(Of TToken).AddPlace(String)
+- uid: QuikGraph.Petri.IMutablePetriNet`1.AddPlace*
+  name: AddPlace
+  href: api/QuikGraph.Petri.IMutablePetriNet-1.html#QuikGraph_Petri_IMutablePetriNet_1_AddPlace_
+  commentId: Overload:QuikGraph.Petri.IMutablePetriNet`1.AddPlace
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IMutablePetriNet<TToken>.AddPlace
+  fullName.vb: QuikGraph.Petri.IMutablePetriNet(Of TToken).AddPlace
+  nameWithType: IMutablePetriNet<TToken>.AddPlace
+  nameWithType.vb: IMutablePetriNet(Of TToken).AddPlace
+- uid: QuikGraph.Petri.IMutablePetriNet`1.AddTransition(System.String)
+  name: AddTransition(String)
+  href: api/QuikGraph.Petri.IMutablePetriNet-1.html#QuikGraph_Petri_IMutablePetriNet_1_AddTransition_System_String_
+  commentId: M:QuikGraph.Petri.IMutablePetriNet`1.AddTransition(System.String)
+  fullName: QuikGraph.Petri.IMutablePetriNet<TToken>.AddTransition(System.String)
+  fullName.vb: QuikGraph.Petri.IMutablePetriNet(Of TToken).AddTransition(System.String)
+  nameWithType: IMutablePetriNet<TToken>.AddTransition(String)
+  nameWithType.vb: IMutablePetriNet(Of TToken).AddTransition(String)
+- uid: QuikGraph.Petri.IMutablePetriNet`1.AddTransition*
+  name: AddTransition
+  href: api/QuikGraph.Petri.IMutablePetriNet-1.html#QuikGraph_Petri_IMutablePetriNet_1_AddTransition_
+  commentId: Overload:QuikGraph.Petri.IMutablePetriNet`1.AddTransition
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IMutablePetriNet<TToken>.AddTransition
+  fullName.vb: QuikGraph.Petri.IMutablePetriNet(Of TToken).AddTransition
+  nameWithType: IMutablePetriNet<TToken>.AddTransition
+  nameWithType.vb: IMutablePetriNet(Of TToken).AddTransition
+- uid: QuikGraph.Petri.IPetriGraph`1
+  name: IPetriGraph<TToken>
+  href: api/QuikGraph.Petri.IPetriGraph-1.html
+  commentId: T:QuikGraph.Petri.IPetriGraph`1
+  name.vb: IPetriGraph(Of TToken)
+  fullName: QuikGraph.Petri.IPetriGraph<TToken>
+  fullName.vb: QuikGraph.Petri.IPetriGraph(Of TToken)
+  nameWithType: IPetriGraph<TToken>
+  nameWithType.vb: IPetriGraph(Of TToken)
+- uid: QuikGraph.Petri.IPetriNet`1
+  name: IPetriNet<TToken>
+  href: api/QuikGraph.Petri.IPetriNet-1.html
+  commentId: T:QuikGraph.Petri.IPetriNet`1
+  name.vb: IPetriNet(Of TToken)
+  fullName: QuikGraph.Petri.IPetriNet<TToken>
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken)
+  nameWithType: IPetriNet<TToken>
+  nameWithType.vb: IPetriNet(Of TToken)
+- uid: QuikGraph.Petri.IPetriNet`1.Arcs
+  name: Arcs
+  href: api/QuikGraph.Petri.IPetriNet-1.html#QuikGraph_Petri_IPetriNet_1_Arcs
+  commentId: P:QuikGraph.Petri.IPetriNet`1.Arcs
+  fullName: QuikGraph.Petri.IPetriNet<TToken>.Arcs
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken).Arcs
+  nameWithType: IPetriNet<TToken>.Arcs
+  nameWithType.vb: IPetriNet(Of TToken).Arcs
+- uid: QuikGraph.Petri.IPetriNet`1.Arcs*
+  name: Arcs
+  href: api/QuikGraph.Petri.IPetriNet-1.html#QuikGraph_Petri_IPetriNet_1_Arcs_
+  commentId: Overload:QuikGraph.Petri.IPetriNet`1.Arcs
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IPetriNet<TToken>.Arcs
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken).Arcs
+  nameWithType: IPetriNet<TToken>.Arcs
+  nameWithType.vb: IPetriNet(Of TToken).Arcs
+- uid: QuikGraph.Petri.IPetriNet`1.Graph
+  name: Graph
+  href: api/QuikGraph.Petri.IPetriNet-1.html#QuikGraph_Petri_IPetriNet_1_Graph
+  commentId: P:QuikGraph.Petri.IPetriNet`1.Graph
+  fullName: QuikGraph.Petri.IPetriNet<TToken>.Graph
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken).Graph
+  nameWithType: IPetriNet<TToken>.Graph
+  nameWithType.vb: IPetriNet(Of TToken).Graph
+- uid: QuikGraph.Petri.IPetriNet`1.Graph*
+  name: Graph
+  href: api/QuikGraph.Petri.IPetriNet-1.html#QuikGraph_Petri_IPetriNet_1_Graph_
+  commentId: Overload:QuikGraph.Petri.IPetriNet`1.Graph
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IPetriNet<TToken>.Graph
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken).Graph
+  nameWithType: IPetriNet<TToken>.Graph
+  nameWithType.vb: IPetriNet(Of TToken).Graph
+- uid: QuikGraph.Petri.IPetriNet`1.Places
+  name: Places
+  href: api/QuikGraph.Petri.IPetriNet-1.html#QuikGraph_Petri_IPetriNet_1_Places
+  commentId: P:QuikGraph.Petri.IPetriNet`1.Places
+  fullName: QuikGraph.Petri.IPetriNet<TToken>.Places
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken).Places
+  nameWithType: IPetriNet<TToken>.Places
+  nameWithType.vb: IPetriNet(Of TToken).Places
+- uid: QuikGraph.Petri.IPetriNet`1.Places*
+  name: Places
+  href: api/QuikGraph.Petri.IPetriNet-1.html#QuikGraph_Petri_IPetriNet_1_Places_
+  commentId: Overload:QuikGraph.Petri.IPetriNet`1.Places
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IPetriNet<TToken>.Places
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken).Places
+  nameWithType: IPetriNet<TToken>.Places
+  nameWithType.vb: IPetriNet(Of TToken).Places
+- uid: QuikGraph.Petri.IPetriNet`1.Transitions
+  name: Transitions
+  href: api/QuikGraph.Petri.IPetriNet-1.html#QuikGraph_Petri_IPetriNet_1_Transitions
+  commentId: P:QuikGraph.Petri.IPetriNet`1.Transitions
+  fullName: QuikGraph.Petri.IPetriNet<TToken>.Transitions
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken).Transitions
+  nameWithType: IPetriNet<TToken>.Transitions
+  nameWithType.vb: IPetriNet(Of TToken).Transitions
+- uid: QuikGraph.Petri.IPetriNet`1.Transitions*
+  name: Transitions
+  href: api/QuikGraph.Petri.IPetriNet-1.html#QuikGraph_Petri_IPetriNet_1_Transitions_
+  commentId: Overload:QuikGraph.Petri.IPetriNet`1.Transitions
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IPetriNet<TToken>.Transitions
+  fullName.vb: QuikGraph.Petri.IPetriNet(Of TToken).Transitions
+  nameWithType: IPetriNet<TToken>.Transitions
+  nameWithType.vb: IPetriNet(Of TToken).Transitions
+- uid: QuikGraph.Petri.IPetriVertex
+  name: IPetriVertex
+  href: api/QuikGraph.Petri.IPetriVertex.html
+  commentId: T:QuikGraph.Petri.IPetriVertex
+  fullName: QuikGraph.Petri.IPetriVertex
+  nameWithType: IPetriVertex
+- uid: QuikGraph.Petri.IPetriVertex.Name
+  name: Name
+  href: api/QuikGraph.Petri.IPetriVertex.html#QuikGraph_Petri_IPetriVertex_Name
+  commentId: P:QuikGraph.Petri.IPetriVertex.Name
+  fullName: QuikGraph.Petri.IPetriVertex.Name
+  nameWithType: IPetriVertex.Name
+- uid: QuikGraph.Petri.IPetriVertex.Name*
+  name: Name
+  href: api/QuikGraph.Petri.IPetriVertex.html#QuikGraph_Petri_IPetriVertex_Name_
+  commentId: Overload:QuikGraph.Petri.IPetriVertex.Name
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IPetriVertex.Name
+  nameWithType: IPetriVertex.Name
+- uid: QuikGraph.Petri.IPlace`1
+  name: IPlace<TToken>
+  href: api/QuikGraph.Petri.IPlace-1.html
+  commentId: T:QuikGraph.Petri.IPlace`1
+  name.vb: IPlace(Of TToken)
+  fullName: QuikGraph.Petri.IPlace<TToken>
+  fullName.vb: QuikGraph.Petri.IPlace(Of TToken)
+  nameWithType: IPlace<TToken>
+  nameWithType.vb: IPlace(Of TToken)
+- uid: QuikGraph.Petri.IPlace`1.Marking
+  name: Marking
+  href: api/QuikGraph.Petri.IPlace-1.html#QuikGraph_Petri_IPlace_1_Marking
+  commentId: P:QuikGraph.Petri.IPlace`1.Marking
+  fullName: QuikGraph.Petri.IPlace<TToken>.Marking
+  fullName.vb: QuikGraph.Petri.IPlace(Of TToken).Marking
+  nameWithType: IPlace<TToken>.Marking
+  nameWithType.vb: IPlace(Of TToken).Marking
+- uid: QuikGraph.Petri.IPlace`1.Marking*
+  name: Marking
+  href: api/QuikGraph.Petri.IPlace-1.html#QuikGraph_Petri_IPlace_1_Marking_
+  commentId: Overload:QuikGraph.Petri.IPlace`1.Marking
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IPlace<TToken>.Marking
+  fullName.vb: QuikGraph.Petri.IPlace(Of TToken).Marking
+  nameWithType: IPlace<TToken>.Marking
+  nameWithType.vb: IPlace(Of TToken).Marking
+- uid: QuikGraph.Petri.IPlace`1.ToStringWithMarking
+  name: ToStringWithMarking()
+  href: api/QuikGraph.Petri.IPlace-1.html#QuikGraph_Petri_IPlace_1_ToStringWithMarking
+  commentId: M:QuikGraph.Petri.IPlace`1.ToStringWithMarking
+  fullName: QuikGraph.Petri.IPlace<TToken>.ToStringWithMarking()
+  fullName.vb: QuikGraph.Petri.IPlace(Of TToken).ToStringWithMarking()
+  nameWithType: IPlace<TToken>.ToStringWithMarking()
+  nameWithType.vb: IPlace(Of TToken).ToStringWithMarking()
+- uid: QuikGraph.Petri.IPlace`1.ToStringWithMarking*
+  name: ToStringWithMarking
+  href: api/QuikGraph.Petri.IPlace-1.html#QuikGraph_Petri_IPlace_1_ToStringWithMarking_
+  commentId: Overload:QuikGraph.Petri.IPlace`1.ToStringWithMarking
+  isSpec: "True"
+  fullName: QuikGraph.Petri.IPlace<TToken>.ToStringWithMarking
+  fullName.vb: QuikGraph.Petri.IPlace(Of TToken).ToStringWithMarking
+  nameWithType: IPlace<TToken>.ToStringWithMarking
+  nameWithType.vb: IPlace(Of TToken).ToStringWithMarking
+- uid: QuikGraph.Petri.IReadOnlyPetriGraph`1
+  name: IReadOnlyPetriGraph<TToken>
+  href: api/QuikGraph.Petri.IReadOnlyPetriGraph-1.html
+  commentId: T:QuikGraph.Petri.IReadOnlyPetriGraph`1
+  name.vb: IReadOnlyPetriGraph(Of TToken)
+  fullName: QuikGraph.Petri.IReadOnlyPetriGraph<TToken>
+  fullName.vb: QuikGraph.Petri.IReadOnlyPetriGraph(Of TToken)
+  nameWithType: IReadOnlyPetriGraph<TToken>
+  nameWithType.vb: IReadOnlyPetriGraph(Of TToken)
+- uid: QuikGraph.Petri.ITransition`1
+  name: ITransition<TToken>
+  href: api/QuikGraph.Petri.ITransition-1.html
+  commentId: T:QuikGraph.Petri.ITransition`1
+  name.vb: ITransition(Of TToken)
+  fullName: QuikGraph.Petri.ITransition<TToken>
+  fullName.vb: QuikGraph.Petri.ITransition(Of TToken)
+  nameWithType: ITransition<TToken>
+  nameWithType.vb: ITransition(Of TToken)
+- uid: QuikGraph.Petri.ITransition`1.Condition
+  name: Condition
+  href: api/QuikGraph.Petri.ITransition-1.html#QuikGraph_Petri_ITransition_1_Condition
+  commentId: P:QuikGraph.Petri.ITransition`1.Condition
+  fullName: QuikGraph.Petri.ITransition<TToken>.Condition
+  fullName.vb: QuikGraph.Petri.ITransition(Of TToken).Condition
+  nameWithType: ITransition<TToken>.Condition
+  nameWithType.vb: ITransition(Of TToken).Condition
+- uid: QuikGraph.Petri.ITransition`1.Condition*
+  name: Condition
+  href: api/QuikGraph.Petri.ITransition-1.html#QuikGraph_Petri_ITransition_1_Condition_
+  commentId: Overload:QuikGraph.Petri.ITransition`1.Condition
+  isSpec: "True"
+  fullName: QuikGraph.Petri.ITransition<TToken>.Condition
+  fullName.vb: QuikGraph.Petri.ITransition(Of TToken).Condition
+  nameWithType: ITransition<TToken>.Condition
+  nameWithType.vb: ITransition(Of TToken).Condition
+- uid: QuikGraph.Petri.PetriNet`1
+  name: PetriNet<TToken>
+  href: api/QuikGraph.Petri.PetriNet-1.html
+  commentId: T:QuikGraph.Petri.PetriNet`1
+  name.vb: PetriNet(Of TToken)
+  fullName: QuikGraph.Petri.PetriNet<TToken>
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken)
+  nameWithType: PetriNet<TToken>
+  nameWithType.vb: PetriNet(Of TToken)
+- uid: QuikGraph.Petri.PetriNet`1.#ctor
+  name: PetriNet()
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1__ctor
+  commentId: M:QuikGraph.Petri.PetriNet`1.#ctor
+  fullName: QuikGraph.Petri.PetriNet<TToken>.PetriNet()
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).PetriNet()
+  nameWithType: PetriNet<TToken>.PetriNet()
+  nameWithType.vb: PetriNet(Of TToken).PetriNet()
+- uid: QuikGraph.Petri.PetriNet`1.#ctor*
+  name: PetriNet
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1__ctor_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.PetriNet
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).PetriNet
+  nameWithType: PetriNet<TToken>.PetriNet
+  nameWithType.vb: PetriNet(Of TToken).PetriNet
+- uid: QuikGraph.Petri.PetriNet`1.AddArc(QuikGraph.Petri.IPlace{`0},QuikGraph.Petri.ITransition{`0})
+  name: AddArc(IPlace<TToken>, ITransition<TToken>)
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_AddArc_QuikGraph_Petri_IPlace__0__QuikGraph_Petri_ITransition__0__
+  commentId: M:QuikGraph.Petri.PetriNet`1.AddArc(QuikGraph.Petri.IPlace{`0},QuikGraph.Petri.ITransition{`0})
+  name.vb: AddArc(IPlace(Of TToken), ITransition(Of TToken))
+  fullName: QuikGraph.Petri.PetriNet<TToken>.AddArc(QuikGraph.Petri.IPlace<TToken>, QuikGraph.Petri.ITransition<TToken>)
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).AddArc(QuikGraph.Petri.IPlace(Of TToken), QuikGraph.Petri.ITransition(Of TToken))
+  nameWithType: PetriNet<TToken>.AddArc(IPlace<TToken>, ITransition<TToken>)
+  nameWithType.vb: PetriNet(Of TToken).AddArc(IPlace(Of TToken), ITransition(Of TToken))
+- uid: QuikGraph.Petri.PetriNet`1.AddArc(QuikGraph.Petri.ITransition{`0},QuikGraph.Petri.IPlace{`0})
+  name: AddArc(ITransition<TToken>, IPlace<TToken>)
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_AddArc_QuikGraph_Petri_ITransition__0__QuikGraph_Petri_IPlace__0__
+  commentId: M:QuikGraph.Petri.PetriNet`1.AddArc(QuikGraph.Petri.ITransition{`0},QuikGraph.Petri.IPlace{`0})
+  name.vb: AddArc(ITransition(Of TToken), IPlace(Of TToken))
+  fullName: QuikGraph.Petri.PetriNet<TToken>.AddArc(QuikGraph.Petri.ITransition<TToken>, QuikGraph.Petri.IPlace<TToken>)
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).AddArc(QuikGraph.Petri.ITransition(Of TToken), QuikGraph.Petri.IPlace(Of TToken))
+  nameWithType: PetriNet<TToken>.AddArc(ITransition<TToken>, IPlace<TToken>)
+  nameWithType.vb: PetriNet(Of TToken).AddArc(ITransition(Of TToken), IPlace(Of TToken))
+- uid: QuikGraph.Petri.PetriNet`1.AddArc*
+  name: AddArc
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_AddArc_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.AddArc
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.AddArc
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).AddArc
+  nameWithType: PetriNet<TToken>.AddArc
+  nameWithType.vb: PetriNet(Of TToken).AddArc
+- uid: QuikGraph.Petri.PetriNet`1.AddPlace(System.String)
+  name: AddPlace(String)
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_AddPlace_System_String_
+  commentId: M:QuikGraph.Petri.PetriNet`1.AddPlace(System.String)
+  fullName: QuikGraph.Petri.PetriNet<TToken>.AddPlace(System.String)
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).AddPlace(System.String)
+  nameWithType: PetriNet<TToken>.AddPlace(String)
+  nameWithType.vb: PetriNet(Of TToken).AddPlace(String)
+- uid: QuikGraph.Petri.PetriNet`1.AddPlace*
+  name: AddPlace
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_AddPlace_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.AddPlace
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.AddPlace
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).AddPlace
+  nameWithType: PetriNet<TToken>.AddPlace
+  nameWithType.vb: PetriNet(Of TToken).AddPlace
+- uid: QuikGraph.Petri.PetriNet`1.AddTransition(System.String)
+  name: AddTransition(String)
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_AddTransition_System_String_
+  commentId: M:QuikGraph.Petri.PetriNet`1.AddTransition(System.String)
+  fullName: QuikGraph.Petri.PetriNet<TToken>.AddTransition(System.String)
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).AddTransition(System.String)
+  nameWithType: PetriNet<TToken>.AddTransition(String)
+  nameWithType.vb: PetriNet(Of TToken).AddTransition(String)
+- uid: QuikGraph.Petri.PetriNet`1.AddTransition*
+  name: AddTransition
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_AddTransition_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.AddTransition
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.AddTransition
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).AddTransition
+  nameWithType: PetriNet<TToken>.AddTransition
+  nameWithType.vb: PetriNet(Of TToken).AddTransition
+- uid: QuikGraph.Petri.PetriNet`1.Arcs
+  name: Arcs
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Arcs
+  commentId: P:QuikGraph.Petri.PetriNet`1.Arcs
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Arcs
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Arcs
+  nameWithType: PetriNet<TToken>.Arcs
+  nameWithType.vb: PetriNet(Of TToken).Arcs
+- uid: QuikGraph.Petri.PetriNet`1.Arcs*
+  name: Arcs
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Arcs_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.Arcs
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Arcs
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Arcs
+  nameWithType: PetriNet<TToken>.Arcs
+  nameWithType.vb: PetriNet(Of TToken).Arcs
+- uid: QuikGraph.Petri.PetriNet`1.Clone
+  name: Clone()
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Clone
+  commentId: M:QuikGraph.Petri.PetriNet`1.Clone
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Clone()
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Clone()
+  nameWithType: PetriNet<TToken>.Clone()
+  nameWithType.vb: PetriNet(Of TToken).Clone()
+- uid: QuikGraph.Petri.PetriNet`1.Clone*
+  name: Clone
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Clone_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.Clone
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Clone
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Clone
+  nameWithType: PetriNet<TToken>.Clone
+  nameWithType.vb: PetriNet(Of TToken).Clone
+- uid: QuikGraph.Petri.PetriNet`1.Graph
+  name: Graph
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Graph
+  commentId: P:QuikGraph.Petri.PetriNet`1.Graph
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Graph
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Graph
+  nameWithType: PetriNet<TToken>.Graph
+  nameWithType.vb: PetriNet(Of TToken).Graph
+- uid: QuikGraph.Petri.PetriNet`1.Graph*
+  name: Graph
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Graph_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.Graph
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Graph
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Graph
+  nameWithType: PetriNet<TToken>.Graph
+  nameWithType.vb: PetriNet(Of TToken).Graph
+- uid: QuikGraph.Petri.PetriNet`1.Places
+  name: Places
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Places
+  commentId: P:QuikGraph.Petri.PetriNet`1.Places
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Places
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Places
+  nameWithType: PetriNet<TToken>.Places
+  nameWithType.vb: PetriNet(Of TToken).Places
+- uid: QuikGraph.Petri.PetriNet`1.Places*
+  name: Places
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Places_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.Places
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Places
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Places
+  nameWithType: PetriNet<TToken>.Places
+  nameWithType.vb: PetriNet(Of TToken).Places
+- uid: QuikGraph.Petri.PetriNet`1.System#ICloneable#Clone
+  name: ICloneable.Clone()
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_System_ICloneable_Clone
+  commentId: M:QuikGraph.Petri.PetriNet`1.System#ICloneable#Clone
+  name.vb: System.ICloneable.Clone()
+  fullName: QuikGraph.Petri.PetriNet<TToken>.System.ICloneable.Clone()
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).System.ICloneable.Clone()
+  nameWithType: PetriNet<TToken>.ICloneable.Clone()
+  nameWithType.vb: PetriNet(Of TToken).System.ICloneable.Clone()
+- uid: QuikGraph.Petri.PetriNet`1.System#ICloneable#Clone*
+  name: ICloneable.Clone
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_System_ICloneable_Clone_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.System#ICloneable#Clone
+  isSpec: "True"
+  name.vb: System.ICloneable.Clone
+  fullName: QuikGraph.Petri.PetriNet<TToken>.System.ICloneable.Clone
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).System.ICloneable.Clone
+  nameWithType: PetriNet<TToken>.ICloneable.Clone
+  nameWithType.vb: PetriNet(Of TToken).System.ICloneable.Clone
+- uid: QuikGraph.Petri.PetriNet`1.ToString
+  name: ToString()
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_ToString
+  commentId: M:QuikGraph.Petri.PetriNet`1.ToString
+  fullName: QuikGraph.Petri.PetriNet<TToken>.ToString()
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).ToString()
+  nameWithType: PetriNet<TToken>.ToString()
+  nameWithType.vb: PetriNet(Of TToken).ToString()
+- uid: QuikGraph.Petri.PetriNet`1.ToString*
+  name: ToString
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_ToString_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.ToString
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.ToString
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).ToString
+  nameWithType: PetriNet<TToken>.ToString
+  nameWithType.vb: PetriNet(Of TToken).ToString
+- uid: QuikGraph.Petri.PetriNet`1.Transitions
+  name: Transitions
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Transitions
+  commentId: P:QuikGraph.Petri.PetriNet`1.Transitions
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Transitions
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Transitions
+  nameWithType: PetriNet<TToken>.Transitions
+  nameWithType.vb: PetriNet(Of TToken).Transitions
+- uid: QuikGraph.Petri.PetriNet`1.Transitions*
+  name: Transitions
+  href: api/QuikGraph.Petri.PetriNet-1.html#QuikGraph_Petri_PetriNet_1_Transitions_
+  commentId: Overload:QuikGraph.Petri.PetriNet`1.Transitions
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNet<TToken>.Transitions
+  fullName.vb: QuikGraph.Petri.PetriNet(Of TToken).Transitions
+  nameWithType: PetriNet<TToken>.Transitions
+  nameWithType.vb: PetriNet(Of TToken).Transitions
+- uid: QuikGraph.Petri.PetriNetSimulator`1
+  name: PetriNetSimulator<TToken>
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html
+  commentId: T:QuikGraph.Petri.PetriNetSimulator`1
+  name.vb: PetriNetSimulator(Of TToken)
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken)
+  nameWithType: PetriNetSimulator<TToken>
+  nameWithType.vb: PetriNetSimulator(Of TToken)
+- uid: QuikGraph.Petri.PetriNetSimulator`1.#ctor(QuikGraph.Petri.IPetriNet{`0})
+  name: PetriNetSimulator(IPetriNet<TToken>)
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html#QuikGraph_Petri_PetriNetSimulator_1__ctor_QuikGraph_Petri_IPetriNet__0__
+  commentId: M:QuikGraph.Petri.PetriNetSimulator`1.#ctor(QuikGraph.Petri.IPetriNet{`0})
+  name.vb: PetriNetSimulator(IPetriNet(Of TToken))
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>.PetriNetSimulator(QuikGraph.Petri.IPetriNet<TToken>)
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken).PetriNetSimulator(QuikGraph.Petri.IPetriNet(Of TToken))
+  nameWithType: PetriNetSimulator<TToken>.PetriNetSimulator(IPetriNet<TToken>)
+  nameWithType.vb: PetriNetSimulator(Of TToken).PetriNetSimulator(IPetriNet(Of TToken))
+- uid: QuikGraph.Petri.PetriNetSimulator`1.#ctor*
+  name: PetriNetSimulator
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html#QuikGraph_Petri_PetriNetSimulator_1__ctor_
+  commentId: Overload:QuikGraph.Petri.PetriNetSimulator`1.#ctor
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>.PetriNetSimulator
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken).PetriNetSimulator
+  nameWithType: PetriNetSimulator<TToken>.PetriNetSimulator
+  nameWithType.vb: PetriNetSimulator(Of TToken).PetriNetSimulator
+- uid: QuikGraph.Petri.PetriNetSimulator`1.Initialize
+  name: Initialize()
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html#QuikGraph_Petri_PetriNetSimulator_1_Initialize
+  commentId: M:QuikGraph.Petri.PetriNetSimulator`1.Initialize
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>.Initialize()
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken).Initialize()
+  nameWithType: PetriNetSimulator<TToken>.Initialize()
+  nameWithType.vb: PetriNetSimulator(Of TToken).Initialize()
+- uid: QuikGraph.Petri.PetriNetSimulator`1.Initialize*
+  name: Initialize
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html#QuikGraph_Petri_PetriNetSimulator_1_Initialize_
+  commentId: Overload:QuikGraph.Petri.PetriNetSimulator`1.Initialize
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>.Initialize
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken).Initialize
+  nameWithType: PetriNetSimulator<TToken>.Initialize
+  nameWithType.vb: PetriNetSimulator(Of TToken).Initialize
+- uid: QuikGraph.Petri.PetriNetSimulator`1.Net
+  name: Net
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html#QuikGraph_Petri_PetriNetSimulator_1_Net
+  commentId: P:QuikGraph.Petri.PetriNetSimulator`1.Net
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>.Net
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken).Net
+  nameWithType: PetriNetSimulator<TToken>.Net
+  nameWithType.vb: PetriNetSimulator(Of TToken).Net
+- uid: QuikGraph.Petri.PetriNetSimulator`1.Net*
+  name: Net
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html#QuikGraph_Petri_PetriNetSimulator_1_Net_
+  commentId: Overload:QuikGraph.Petri.PetriNetSimulator`1.Net
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>.Net
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken).Net
+  nameWithType: PetriNetSimulator<TToken>.Net
+  nameWithType.vb: PetriNetSimulator(Of TToken).Net
+- uid: QuikGraph.Petri.PetriNetSimulator`1.SimulateStep
+  name: SimulateStep()
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html#QuikGraph_Petri_PetriNetSimulator_1_SimulateStep
+  commentId: M:QuikGraph.Petri.PetriNetSimulator`1.SimulateStep
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>.SimulateStep()
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken).SimulateStep()
+  nameWithType: PetriNetSimulator<TToken>.SimulateStep()
+  nameWithType.vb: PetriNetSimulator(Of TToken).SimulateStep()
+- uid: QuikGraph.Petri.PetriNetSimulator`1.SimulateStep*
+  name: SimulateStep
+  href: api/QuikGraph.Petri.PetriNetSimulator-1.html#QuikGraph_Petri_PetriNetSimulator_1_SimulateStep_
+  commentId: Overload:QuikGraph.Petri.PetriNetSimulator`1.SimulateStep
+  isSpec: "True"
+  fullName: QuikGraph.Petri.PetriNetSimulator<TToken>.SimulateStep
+  fullName.vb: QuikGraph.Petri.PetriNetSimulator(Of TToken).SimulateStep
+  nameWithType: PetriNetSimulator<TToken>.SimulateStep
+  nameWithType.vb: PetriNetSimulator(Of TToken).SimulateStep
 - uid: QuikGraph.Predicates
   name: QuikGraph.Predicates
   href: api/QuikGraph.Predicates.html
