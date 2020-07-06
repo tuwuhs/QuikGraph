@@ -37397,15 +37397,15 @@ references:
   isSpec: "True"
   fullName: QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary
   nameWithType: SerializationExtensions.DeserializeFromBinary
-- uid: QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary``3(System.IO.Stream)
-  name: DeserializeFromBinary<TVertex, TEdge, TGraph>(Stream)
-  href: api/QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_DeserializeFromBinary__3_System_IO_Stream_
-  commentId: M:QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary``3(System.IO.Stream)
-  name.vb: DeserializeFromBinary(Of TVertex, TEdge, TGraph)(Stream)
-  fullName: QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary<TVertex, TEdge, TGraph>(System.IO.Stream)
-  fullName.vb: QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary(Of TVertex, TEdge, TGraph)(System.IO.Stream)
-  nameWithType: SerializationExtensions.DeserializeFromBinary<TVertex, TEdge, TGraph>(Stream)
-  nameWithType.vb: SerializationExtensions.DeserializeFromBinary(Of TVertex, TEdge, TGraph)(Stream)
+- uid: QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary``3(System.IO.Stream,System.Runtime.Serialization.SerializationBinder)
+  name: DeserializeFromBinary<TVertex, TEdge, TGraph>(Stream, SerializationBinder)
+  href: api/QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_DeserializeFromBinary__3_System_IO_Stream_System_Runtime_Serialization_SerializationBinder_
+  commentId: M:QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary``3(System.IO.Stream,System.Runtime.Serialization.SerializationBinder)
+  name.vb: DeserializeFromBinary(Of TVertex, TEdge, TGraph)(Stream, SerializationBinder)
+  fullName: QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary<TVertex, TEdge, TGraph>(System.IO.Stream, System.Runtime.Serialization.SerializationBinder)
+  fullName.vb: QuikGraph.Serialization.SerializationExtensions.DeserializeFromBinary(Of TVertex, TEdge, TGraph)(System.IO.Stream, System.Runtime.Serialization.SerializationBinder)
+  nameWithType: SerializationExtensions.DeserializeFromBinary<TVertex, TEdge, TGraph>(Stream, SerializationBinder)
+  nameWithType.vb: SerializationExtensions.DeserializeFromBinary(Of TVertex, TEdge, TGraph)(Stream, SerializationBinder)
 - uid: QuikGraph.Serialization.SerializationExtensions.DeserializeFromXml*
   name: DeserializeFromXml
   href: api/QuikGraph.Serialization.SerializationExtensions.html#QuikGraph_Serialization_SerializationExtensions_DeserializeFromXml_
