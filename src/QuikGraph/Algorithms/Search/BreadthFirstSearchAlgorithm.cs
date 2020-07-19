@@ -237,8 +237,10 @@ namespace QuikGraph.Algorithms.Search
         /// <inheritdoc />
         protected override void InternalCompute()
         {
-            //if (VisitedGraph.VertexCount == 0)
-            //    return;
+            var graph = VisitedGraph as IVertexListGraph<TVertex, TEdge>;
+
+            if (graph != null && graph.VertexCount == 0)
+                return;
 
             if (TryGetRootVertex(out TVertex rootVertex))
             {
@@ -249,8 +251,7 @@ namespace QuikGraph.Algorithms.Search
             }
             else
             {
-                // Enqueue roots
-                var graph = VisitedGraph as IVertexListGraph<TVertex, TEdge>;
+                // Enqueue roots only if the graph is an IVertexListGraph
                 if (graph != null)
                 {
                     foreach (TVertex root in graph.Roots())

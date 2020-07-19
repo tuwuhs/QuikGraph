@@ -233,7 +233,7 @@ namespace QuikGraph.Algorithms.ShortestPath
         {
             if (TryGetRootVertex(out TVertex root))
             {
-                // Root vertex has not been initialized if the VisitedGraph is not IVertexSet<TVertex>
+                // Root vertex has not been initialized if the graph is not an IVertexSet
                 double initialDistance = DistanceRelaxer.InitialDistance;
                 VerticesColors[root] = GraphColor.White;
                 Distances[root] = initialDistance;
@@ -244,6 +244,7 @@ namespace QuikGraph.Algorithms.ShortestPath
             }
             else
             {
+                // Enqueue roots only if the graph is an IVertexSet
                 var graph = VisitedGraph as IVertexSet<TVertex>;
                 if (graph != null)
                 {
