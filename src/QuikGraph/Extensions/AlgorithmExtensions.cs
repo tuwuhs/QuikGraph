@@ -163,9 +163,10 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new BreadthFirstSearchAlgorithm<TVertex, TEdge>(graph);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, BreadthFirstSearchAlgorithm<TVertex, TEdge>>(
-                root,
-                algorithm);
+            //return RunDirectedRootedAlgorithm<TVertex, TEdge, BreadthFirstSearchAlgorithm<TVertex, TEdge>>(
+            //    root,
+            //    algorithm);
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -314,9 +315,10 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new AStarShortestPathAlgorithm<TVertex, TEdge>(graph, edgeWeights, costHeuristic);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, AStarShortestPathAlgorithm<TVertex, TEdge>>(
-                root,
-                algorithm);
+            //return RunDirectedRootedAlgorithm<TVertex, TEdge, AStarShortestPathAlgorithm<TVertex, TEdge>>(
+            //    root,
+            //    algorithm);
+            throw new NotImplementedException();
         }
 
         /// <summary>

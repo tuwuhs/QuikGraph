@@ -17,7 +17,7 @@ namespace QuikGraph.Algorithms.ShortestPath
     [Serializable]
 #endif
     public sealed class AStarShortestPathAlgorithm<TVertex, TEdge>
-        : ShortestPathAlgorithmBase<TVertex, TEdge, IVertexListGraph<TVertex, TEdge>>
+        : ShortestPathAlgorithmBase<TVertex, TEdge, IIncidenceGraph<TVertex, TEdge>>
         , IVertexPredecessorRecorderAlgorithm<TVertex, TEdge>
         , IDistanceRecorderAlgorithm<TVertex>
         where TEdge : IEdge<TVertex>
@@ -33,7 +33,7 @@ namespace QuikGraph.Algorithms.ShortestPath
         /// <param name="edgeWeights">Function that computes the weight for a given edge.</param>
         /// <param name="costHeuristic">Function that computes a cost for a given vertex.</param>
         public AStarShortestPathAlgorithm(
-            [NotNull] IVertexListGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
             [NotNull] Func<TEdge, double> edgeWeights,
             [NotNull] Func<TVertex, double> costHeuristic)
             : this(visitedGraph, edgeWeights, costHeuristic, DistanceRelaxers.ShortestDistance)
@@ -48,7 +48,7 @@ namespace QuikGraph.Algorithms.ShortestPath
         /// <param name="costHeuristic">Function that computes a cost for a given vertex.</param>
         /// <param name="distanceRelaxer">Distance relaxer.</param>
         public AStarShortestPathAlgorithm(
-            [NotNull] IVertexListGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
             [NotNull] Func<TEdge, double> edgeWeights,
             [NotNull] Func<TVertex, double> costHeuristic,
             [NotNull] IDistanceRelaxer distanceRelaxer)
@@ -66,7 +66,7 @@ namespace QuikGraph.Algorithms.ShortestPath
         /// <param name="distanceRelaxer">Distance relaxer.</param>
         public AStarShortestPathAlgorithm(
             [CanBeNull] IAlgorithmComponent host,
-            [NotNull] IVertexListGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
             [NotNull] Func<TEdge, double> edgeWeights,
             [NotNull] Func<TVertex, double> costHeuristic,
             [NotNull] IDistanceRelaxer distanceRelaxer)
@@ -120,6 +120,16 @@ namespace QuikGraph.Algorithms.ShortestPath
         private void OnExamineEdge([NotNull] TEdge edge)
         {
             Debug.Assert(edge != null);
+
+            // Add key for the vertex if not initialized
+            if (!_costs.ContainsKey(edge.Target))
+                _costs.Add(edge.Target, DistanceRelaxer.InitialDistance);
+
+            if (!VerticesColors.ContainsKey(edge.Target))
+                VerticesColors.Add(edge.Target, GraphColor.White);
+
+            if (!Distances.ContainsKey(edge.Target))
+                Distances.Add(edge.Target, DistanceRelaxer.InitialDistance);
 
             if (Weights(edge) < 0)
                 throw new NegativeWeightException();
@@ -195,15 +205,24 @@ namespace QuikGraph.Algorithms.ShortestPath
             base.Initialize();
 
             VerticesColors.Clear();
-            _costs = new Dictionary<TVertex, double>(VisitedGraph.VertexCount);
 
-            // Initialize colors and distances
-            double initialDistance = DistanceRelaxer.InitialDistance;
-            foreach (TVertex vertex in VisitedGraph.Vertices)
+            var graph = VisitedGraph as IVertexSet<TVertex>;
+            if (graph != null)
             {
-                VerticesColors.Add(vertex, GraphColor.White);
-                Distances.Add(vertex, initialDistance);
-                _costs.Add(vertex, initialDistance);
+                _costs = new Dictionary<TVertex, double>(graph.VertexCount);
+
+                // Initialize colors and distances
+                double initialDistance = DistanceRelaxer.InitialDistance;
+                foreach (TVertex vertex in graph.Vertices)
+                {
+                    VerticesColors.Add(vertex, GraphColor.White);
+                    Distances.Add(vertex, initialDistance);
+                    _costs.Add(vertex, initialDistance);
+                }
+            }
+            else
+            {
+                _costs = new Dictionary<TVertex, double>();
             }
 
             _vertexQueue = new FibonacciQueue<TVertex, double>(_costs, DistanceRelaxer.Compare);
@@ -214,15 +233,25 @@ namespace QuikGraph.Algorithms.ShortestPath
         {
             if (TryGetRootVertex(out TVertex root))
             {
+                // Root vertex has not been initialized if the VisitedGraph is not IVertexSet<TVertex>
+                double initialDistance = DistanceRelaxer.InitialDistance;
+                VerticesColors[root] = GraphColor.White;
+                Distances[root] = initialDistance;
+                _costs[root] = initialDistance;
+
                 AssertRootInGraph(root);
                 ComputeFromRoot(root);
             }
             else
             {
-                foreach (TVertex vertex in VisitedGraph.Vertices)
+                var graph = VisitedGraph as IVertexSet<TVertex>;
+                if (graph != null)
                 {
-                    if (VerticesColors[vertex] == GraphColor.White)
-                        ComputeFromRoot(vertex);
+                    foreach (TVertex vertex in graph.Vertices)
+                    {
+                        if (VerticesColors[vertex] == GraphColor.White)
+                            ComputeFromRoot(vertex);
+                    }
                 }
             }
         }

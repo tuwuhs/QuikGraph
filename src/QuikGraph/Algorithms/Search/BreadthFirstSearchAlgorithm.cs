@@ -20,7 +20,7 @@ namespace QuikGraph.Algorithms.Search
     [Serializable]
 #endif
     public sealed class BreadthFirstSearchAlgorithm<TVertex, TEdge>
-        : RootedAlgorithmBase<TVertex, IVertexListGraph<TVertex, TEdge>>
+        : RootedAlgorithmBase<TVertex, IIncidenceGraph<TVertex, TEdge>>
         , IVertexPredecessorRecorderAlgorithm<TVertex, TEdge>
         , IDistanceRecorderAlgorithm<TVertex>
         , IVertexColorizerAlgorithm<TVertex>
@@ -33,7 +33,7 @@ namespace QuikGraph.Algorithms.Search
         /// Initializes a new instance of the <see cref="BreadthFirstSearchAlgorithm{TVertex,TEdge}"/> class.
         /// </summary>
         /// <param name="visitedGraph">Graph to visit.</param>
-        public BreadthFirstSearchAlgorithm([NotNull] IVertexListGraph<TVertex, TEdge> visitedGraph)
+        public BreadthFirstSearchAlgorithm([NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph)
             : this(visitedGraph, new Collections.Queue<TVertex>(), new Dictionary<TVertex, GraphColor>())
         {
         }
@@ -45,7 +45,7 @@ namespace QuikGraph.Algorithms.Search
         /// <param name="vertexQueue">Queue of vertices to treat.</param>
         /// <param name="verticesColors">Vertices associated to their colors (treatment states).</param>
         public BreadthFirstSearchAlgorithm(
-            [NotNull] IVertexListGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
             [NotNull] IQueue<TVertex> vertexQueue,
             [NotNull] IDictionary<TVertex, GraphColor> verticesColors)
             : this(null, visitedGraph, vertexQueue, verticesColors)
@@ -61,7 +61,7 @@ namespace QuikGraph.Algorithms.Search
         /// <param name="verticesColors">Vertices associated to their colors (treatment states).</param>
         public BreadthFirstSearchAlgorithm(
             [CanBeNull] IAlgorithmComponent host,
-            [NotNull] IVertexListGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
             [NotNull] IQueue<TVertex> vertexQueue,
             [NotNull] IDictionary<TVertex, GraphColor> verticesColors)
             : this(host, visitedGraph, vertexQueue, verticesColors, edges => edges)
@@ -78,7 +78,7 @@ namespace QuikGraph.Algorithms.Search
         /// <param name="outEdgesFilter">Function that is used filter out-edges of a vertex.</param>
         public BreadthFirstSearchAlgorithm(
             [CanBeNull] IAlgorithmComponent host,
-            [NotNull] IVertexListGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
             [NotNull] IQueue<TVertex> vertexQueue,
             [NotNull] IDictionary<TVertex, GraphColor> verticesColors,
             [NotNull] Func<IEnumerable<TEdge>, IEnumerable<TEdge>> outEdgesFilter)
@@ -223,18 +223,22 @@ namespace QuikGraph.Algorithms.Search
             ThrowIfCancellationRequested();
 
             // Initialize vertices
-            foreach (TVertex vertex in VisitedGraph.Vertices)
+            var graph = VisitedGraph as IVertexSet<TVertex>;
+            if (graph != null)
             {
-                VerticesColors[vertex] = GraphColor.White;
-                OnVertexInitialized(vertex);
+                foreach (TVertex vertex in graph.Vertices)
+                {
+                    VerticesColors[vertex] = GraphColor.White;
+                    OnVertexInitialized(vertex);
+                }
             }
         }
 
         /// <inheritdoc />
         protected override void InternalCompute()
         {
-            if (VisitedGraph.VertexCount == 0)
-                return;
+            //if (VisitedGraph.VertexCount == 0)
+            //    return;
 
             if (TryGetRootVertex(out TVertex rootVertex))
             {
@@ -246,8 +250,12 @@ namespace QuikGraph.Algorithms.Search
             else
             {
                 // Enqueue roots
-                foreach (TVertex root in VisitedGraph.Roots())
-                    EnqueueRoot(root);
+                var graph = VisitedGraph as IVertexListGraph<TVertex, TEdge>;
+                if (graph != null)
+                {
+                    foreach (TVertex root in graph.Roots())
+                        EnqueueRoot(root);
+                }
             }
 
             FlushVisitQueue();

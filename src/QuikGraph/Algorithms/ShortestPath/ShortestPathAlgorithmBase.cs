@@ -20,7 +20,7 @@ namespace QuikGraph.Algorithms.ShortestPath
         , IVertexColorizerAlgorithm<TVertex>
         , ITreeBuilderAlgorithm<TVertex, TEdge>
         where TEdge : IEdge<TVertex>
-        where TGraph : IVertexSet<TVertex>
+        where TGraph : IImplicitVertexSet<TVertex>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="ShortestPathAlgorithmBase{TVertex,TEdge,TGraph}"/> class.
@@ -104,8 +104,17 @@ namespace QuikGraph.Algorithms.ShortestPath
         {
             base.Initialize();
 
-            VerticesColors = new Dictionary<TVertex, GraphColor>(VisitedGraph.VertexCount);
-            Distances = new Dictionary<TVertex, double>(VisitedGraph.VertexCount);
+            var graph = VisitedGraph as IVertexSet<TVertex>;
+            if (graph != null)
+            {
+                VerticesColors = new Dictionary<TVertex, GraphColor>(graph.VertexCount);
+                Distances = new Dictionary<TVertex, double>(graph.VertexCount);
+            }
+            else
+            {
+                VerticesColors = new Dictionary<TVertex, GraphColor>();
+                Distances = new Dictionary<TVertex, double>();
+            }
         }
 
         #endregion
