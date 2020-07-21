@@ -129,11 +129,12 @@ namespace QuikGraph.Algorithms
 
         [Pure]
         [NotNull]
-        private static TryFunc<TVertex, IEnumerable<TEdge>> RunDirectedRootedAlgorithm<TVertex, TEdge, TAlgorithm>(
+        private static TryFunc<TVertex, IEnumerable<TEdge>> RunDirectedRootedAlgorithm<TVertex, TEdge, TGraph, TAlgorithm>(
             [NotNull] TVertex source,
             [NotNull] TAlgorithm algorithm)
             where TEdge : IEdge<TVertex>
-            where TAlgorithm : RootedAlgorithmBase<TVertex, IVertexListGraph<TVertex, TEdge>>, ITreeBuilderAlgorithm<TVertex, TEdge>
+            where TAlgorithm : RootedAlgorithmBase<TVertex, TGraph>, ITreeBuilderAlgorithm<TVertex, TEdge>
+            where TGraph : IIncidenceGraph<TVertex, TEdge>
         {
             Debug.Assert(algorithm != null);
 
@@ -163,10 +164,9 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new BreadthFirstSearchAlgorithm<TVertex, TEdge>(graph);
-            //return RunDirectedRootedAlgorithm<TVertex, TEdge, BreadthFirstSearchAlgorithm<TVertex, TEdge>>(
-            //    root,
-            //    algorithm);
-            throw new NotImplementedException();
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IIncidenceGraph<TVertex, TEdge>, BreadthFirstSearchAlgorithm<TVertex, TEdge>>(
+                root,
+                algorithm);
         }
 
         /// <summary>
@@ -187,7 +187,7 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new DepthFirstSearchAlgorithm<TVertex, TEdge>(graph);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, DepthFirstSearchAlgorithm<TVertex, TEdge>>(
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IVertexListGraph<TVertex, TEdge>, DepthFirstSearchAlgorithm<TVertex, TEdge>>(
                 root,
                 algorithm);
         }
@@ -233,7 +233,7 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new CyclePoppingRandomTreeAlgorithm<TVertex, TEdge>(graph, edgeChain);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, CyclePoppingRandomTreeAlgorithm<TVertex, TEdge>>(
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IVertexListGraph<TVertex, TEdge>, CyclePoppingRandomTreeAlgorithm<TVertex, TEdge>>(
                 root,
                 algorithm);
         }
@@ -260,7 +260,7 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new DijkstraShortestPathAlgorithm<TVertex, TEdge>(graph, edgeWeights);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, DijkstraShortestPathAlgorithm<TVertex, TEdge>>(
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IVertexListGraph<TVertex, TEdge>, DijkstraShortestPathAlgorithm<TVertex, TEdge>>(
                 root,
                 algorithm);
         }
@@ -315,9 +315,9 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new AStarShortestPathAlgorithm<TVertex, TEdge>(graph, edgeWeights, costHeuristic);
-            //return RunDirectedRootedAlgorithm<TVertex, TEdge, AStarShortestPathAlgorithm<TVertex, TEdge>>(
-            //    root,
-            //    algorithm);
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IIncidenceGraph<TVertex, TEdge>, AStarShortestPathAlgorithm<TVertex, TEdge>>(
+                root,
+                algorithm);
             throw new NotImplementedException();
         }
 
@@ -387,7 +387,7 @@ namespace QuikGraph.Algorithms
                 throw new ArgumentNullException(nameof(root));
 
             var algorithm = new DagShortestPathAlgorithm<TVertex, TEdge>(graph, edgeWeights);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, DagShortestPathAlgorithm<TVertex, TEdge>>(
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IVertexListGraph<TVertex, TEdge>, DagShortestPathAlgorithm<TVertex, TEdge>>(
                 root,
                 algorithm);
         }

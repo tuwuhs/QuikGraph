@@ -15,7 +15,7 @@ namespace QuikGraph.Tests.Algorithms.ShortestPath
         protected static void TryGetDistance_Test<TEdge, TGraph>(
             [NotNull] ShortestPathAlgorithmBase<int, TEdge, TGraph> algorithm)
             where TEdge : IEdge<int>
-            where TGraph : IVertexSet<int>
+            where TGraph : IImplicitVertexSet<int>
         {
             const int vertex1 = 1;
 
@@ -31,7 +31,7 @@ namespace QuikGraph.Tests.Algorithms.ShortestPath
             [NotNull] ShortestPathAlgorithmBase<TVertex, TEdge, TGraph> algorithm)
             where TVertex : class, new()
             where TEdge : IEdge<TVertex>
-            where TGraph : IVertexSet<TVertex>
+            where TGraph : IImplicitVertexSet<TVertex>
         {
             // ReSharper disable once AssignNullToNotNullAttribute
             Assert.Throws<ArgumentNullException>(() => algorithm.TryGetDistance(null, out _));

@@ -62,7 +62,8 @@ namespace QuikGraph.Tests.Algorithms.ShortestPath
             where TEdge : IEdge<TVertex>
         {
             // Verify the result
-            foreach (TVertex vertex in algorithm.VisitedGraph.Vertices)
+            var visitedGraph = algorithm.VisitedGraph as IVertexAndEdgeListGraph<TVertex, TEdge>;
+            foreach (TVertex vertex in visitedGraph.Vertices)
             {
                 if (!predecessors.VerticesPredecessors.TryGetValue(vertex, out TEdge predecessor))
                     continue;
