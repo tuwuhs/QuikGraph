@@ -316,9 +316,12 @@ namespace QuikGraph.Algorithms.Search
                     TVertex v = edge.Target;
                     OnExamineEdge(edge);
 
-                    if (!VerticesColors.ContainsKey(v))
-                        VerticesColors.Add(v, GraphColor.White);
-                    GraphColor vColor = VerticesColors[v];
+                    if (!VerticesColors.TryGetValue(v, out var vColor))
+                    {
+                        vColor = GraphColor.White;
+                        VerticesColors.Add(v, vColor);
+                    }
+                    
                     if (vColor == GraphColor.White)
                     {
                         OnTreeEdge(edge);

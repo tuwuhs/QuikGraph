@@ -125,9 +125,6 @@ namespace QuikGraph.Algorithms.ShortestPath
             if (!_costs.ContainsKey(edge.Target))
                 _costs.Add(edge.Target, DistanceRelaxer.InitialDistance);
 
-            if (!VerticesColors.ContainsKey(edge.Target))
-                VerticesColors.Add(edge.Target, GraphColor.White);
-
             if (!Distances.ContainsKey(edge.Target))
                 Distances.Add(edge.Target, DistanceRelaxer.InitialDistance);
 
@@ -215,7 +212,6 @@ namespace QuikGraph.Algorithms.ShortestPath
                 double initialDistance = DistanceRelaxer.InitialDistance;
                 foreach (TVertex vertex in graph.Vertices)
                 {
-                    VerticesColors.Add(vertex, GraphColor.White);
                     Distances.Add(vertex, initialDistance);
                     _costs.Add(vertex, initialDistance);
                 }
@@ -235,25 +231,11 @@ namespace QuikGraph.Algorithms.ShortestPath
             {
                 // Root vertex has not been initialized if the graph is not an IVertexSet
                 double initialDistance = DistanceRelaxer.InitialDistance;
-                VerticesColors[root] = GraphColor.White;
                 Distances[root] = initialDistance;
                 _costs[root] = initialDistance;
 
                 AssertRootInGraph(root);
                 ComputeFromRoot(root);
-            }
-            else
-            {
-                // Enqueue roots only if the graph is an IVertexSet
-                var graph = VisitedGraph as IVertexSet<TVertex>;
-                if (graph != null)
-                {
-                    foreach (TVertex vertex in graph.Vertices)
-                    {
-                        if (VerticesColors[vertex] == GraphColor.White)
-                            ComputeFromRoot(vertex);
-                    }
-                }
             }
         }
 
@@ -265,7 +247,6 @@ namespace QuikGraph.Algorithms.ShortestPath
             Debug.Assert(VisitedGraph.ContainsVertex(rootVertex));
             Debug.Assert(VerticesColors[rootVertex] == GraphColor.White);
 
-            VerticesColors[rootVertex] = GraphColor.Gray;
             Distances[rootVertex] = 0;
             ComputeNoInit(rootVertex);
         }
