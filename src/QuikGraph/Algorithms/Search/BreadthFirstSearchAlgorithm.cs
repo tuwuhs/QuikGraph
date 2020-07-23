@@ -244,6 +244,9 @@ namespace QuikGraph.Algorithms.Search
 
             if (TryGetRootVertex(out TVertex rootVertex))
             {
+                // Root vertex has not been initialized if the graph is not an IVertexSet
+                VerticesColors[rootVertex] = GraphColor.White;
+
                 AssertRootInGraph(rootVertex);
 
                 // Enqueue select root only
@@ -313,6 +316,8 @@ namespace QuikGraph.Algorithms.Search
                     TVertex v = edge.Target;
                     OnExamineEdge(edge);
 
+                    if (!VerticesColors.ContainsKey(v))
+                        VerticesColors.Add(v, GraphColor.White);
                     GraphColor vColor = VerticesColors[v];
                     if (vColor == GraphColor.White)
                     {
