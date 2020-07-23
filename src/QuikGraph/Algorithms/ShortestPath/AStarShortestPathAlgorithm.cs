@@ -33,7 +33,7 @@ namespace QuikGraph.Algorithms.ShortestPath
         /// <param name="edgeWeights">Function that computes the weight for a given edge.</param>
         /// <param name="costHeuristic">Function that computes a cost for a given vertex.</param>
         public AStarShortestPathAlgorithm(
-            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IImplicitGraph<TVertex, TEdge> visitedGraph,
             [NotNull] Func<TEdge, double> edgeWeights,
             [NotNull] Func<TVertex, double> costHeuristic)
             : this(visitedGraph, edgeWeights, costHeuristic, DistanceRelaxers.ShortestDistance)
@@ -48,7 +48,7 @@ namespace QuikGraph.Algorithms.ShortestPath
         /// <param name="costHeuristic">Function that computes a cost for a given vertex.</param>
         /// <param name="distanceRelaxer">Distance relaxer.</param>
         public AStarShortestPathAlgorithm(
-            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IImplicitGraph<TVertex, TEdge> visitedGraph,
             [NotNull] Func<TEdge, double> edgeWeights,
             [NotNull] Func<TVertex, double> costHeuristic,
             [NotNull] IDistanceRelaxer distanceRelaxer)
@@ -66,7 +66,7 @@ namespace QuikGraph.Algorithms.ShortestPath
         /// <param name="distanceRelaxer">Distance relaxer.</param>
         public AStarShortestPathAlgorithm(
             [CanBeNull] IAlgorithmComponent host,
-            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IImplicitGraph<TVertex, TEdge> visitedGraph,
             [NotNull] Func<TEdge, double> edgeWeights,
             [NotNull] Func<TVertex, double> costHeuristic,
             [NotNull] IDistanceRelaxer distanceRelaxer)
