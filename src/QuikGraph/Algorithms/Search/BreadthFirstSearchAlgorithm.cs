@@ -20,7 +20,7 @@ namespace QuikGraph.Algorithms.Search
     [Serializable]
 #endif
     public sealed class BreadthFirstSearchAlgorithm<TVertex, TEdge>
-        : RootedAlgorithmBase<TVertex, IIncidenceGraph<TVertex, TEdge>>
+        : RootedAlgorithmBase<TVertex, IImplicitGraph<TVertex, TEdge>>
         , IVertexPredecessorRecorderAlgorithm<TVertex, TEdge>
         , IDistanceRecorderAlgorithm<TVertex>
         , IVertexColorizerAlgorithm<TVertex>
@@ -33,7 +33,7 @@ namespace QuikGraph.Algorithms.Search
         /// Initializes a new instance of the <see cref="BreadthFirstSearchAlgorithm{TVertex,TEdge}"/> class.
         /// </summary>
         /// <param name="visitedGraph">Graph to visit.</param>
-        public BreadthFirstSearchAlgorithm([NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph)
+        public BreadthFirstSearchAlgorithm([NotNull] IImplicitGraph<TVertex, TEdge> visitedGraph)
             : this(visitedGraph, new Collections.Queue<TVertex>(), new Dictionary<TVertex, GraphColor>())
         {
         }
@@ -45,7 +45,7 @@ namespace QuikGraph.Algorithms.Search
         /// <param name="vertexQueue">Queue of vertices to treat.</param>
         /// <param name="verticesColors">Vertices associated to their colors (treatment states).</param>
         public BreadthFirstSearchAlgorithm(
-            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IImplicitGraph<TVertex, TEdge> visitedGraph,
             [NotNull] IQueue<TVertex> vertexQueue,
             [NotNull] IDictionary<TVertex, GraphColor> verticesColors)
             : this(null, visitedGraph, vertexQueue, verticesColors)
@@ -61,7 +61,7 @@ namespace QuikGraph.Algorithms.Search
         /// <param name="verticesColors">Vertices associated to their colors (treatment states).</param>
         public BreadthFirstSearchAlgorithm(
             [CanBeNull] IAlgorithmComponent host,
-            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IImplicitGraph<TVertex, TEdge> visitedGraph,
             [NotNull] IQueue<TVertex> vertexQueue,
             [NotNull] IDictionary<TVertex, GraphColor> verticesColors)
             : this(host, visitedGraph, vertexQueue, verticesColors, edges => edges)
@@ -78,7 +78,7 @@ namespace QuikGraph.Algorithms.Search
         /// <param name="outEdgesFilter">Function that is used filter out-edges of a vertex.</param>
         public BreadthFirstSearchAlgorithm(
             [CanBeNull] IAlgorithmComponent host,
-            [NotNull] IIncidenceGraph<TVertex, TEdge> visitedGraph,
+            [NotNull] IImplicitGraph<TVertex, TEdge> visitedGraph,
             [NotNull] IQueue<TVertex> vertexQueue,
             [NotNull] IDictionary<TVertex, GraphColor> verticesColors,
             [NotNull] Func<IEnumerable<TEdge>, IEnumerable<TEdge>> outEdgesFilter)

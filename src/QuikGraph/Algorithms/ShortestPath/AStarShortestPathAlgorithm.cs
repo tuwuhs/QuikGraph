@@ -17,7 +17,7 @@ namespace QuikGraph.Algorithms.ShortestPath
     [Serializable]
 #endif
     public sealed class AStarShortestPathAlgorithm<TVertex, TEdge>
-        : ShortestPathAlgorithmBase<TVertex, TEdge, IIncidenceGraph<TVertex, TEdge>>
+        : ShortestPathAlgorithmBase<TVertex, TEdge, IImplicitGraph<TVertex, TEdge>>
         , IVertexPredecessorRecorderAlgorithm<TVertex, TEdge>
         , IDistanceRecorderAlgorithm<TVertex>
         where TEdge : IEdge<TVertex>

@@ -134,7 +134,7 @@ namespace QuikGraph.Algorithms
             [NotNull] TAlgorithm algorithm)
             where TEdge : IEdge<TVertex>
             where TAlgorithm : RootedAlgorithmBase<TVertex, TGraph>, ITreeBuilderAlgorithm<TVertex, TEdge>
-            where TGraph : IIncidenceGraph<TVertex, TEdge>
+            where TGraph : IImplicitGraph<TVertex, TEdge>
         {
             Debug.Assert(algorithm != null);
 
@@ -164,7 +164,7 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new BreadthFirstSearchAlgorithm<TVertex, TEdge>(graph);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, IIncidenceGraph<TVertex, TEdge>, BreadthFirstSearchAlgorithm<TVertex, TEdge>>(
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IImplicitGraph<TVertex, TEdge>, BreadthFirstSearchAlgorithm<TVertex, TEdge>>(
                 root,
                 algorithm);
         }
@@ -315,7 +315,7 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new AStarShortestPathAlgorithm<TVertex, TEdge>(graph, edgeWeights, costHeuristic);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, IIncidenceGraph<TVertex, TEdge>, AStarShortestPathAlgorithm<TVertex, TEdge>>(
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IImplicitGraph<TVertex, TEdge>, AStarShortestPathAlgorithm<TVertex, TEdge>>(
                 root,
                 algorithm);
             throw new NotImplementedException();
