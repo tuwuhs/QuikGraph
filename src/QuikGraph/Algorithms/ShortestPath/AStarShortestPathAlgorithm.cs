@@ -212,6 +212,7 @@ namespace QuikGraph.Algorithms.ShortestPath
                 double initialDistance = DistanceRelaxer.InitialDistance;
                 foreach (TVertex vertex in graph.Vertices)
                 {
+                    VerticesColors.Add(vertex, GraphColor.White);
                     Distances.Add(vertex, initialDistance);
                     _costs.Add(vertex, initialDistance);
                 }
@@ -236,6 +237,18 @@ namespace QuikGraph.Algorithms.ShortestPath
 
                 AssertRootInGraph(root);
                 ComputeFromRoot(root);
+            }
+            else
+            {
+                var graph = VisitedGraph as IVertexSet<TVertex>;
+                if (graph != null)
+                {
+                    foreach (TVertex vertex in graph.Vertices)
+                    {
+                        if (VerticesColors[vertex] == GraphColor.White)
+                            ComputeFromRoot(vertex);
+                    }
+                }
             }
         }
 

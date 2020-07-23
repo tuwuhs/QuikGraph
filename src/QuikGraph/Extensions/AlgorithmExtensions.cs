@@ -260,7 +260,7 @@ namespace QuikGraph.Algorithms
             where TEdge : IEdge<TVertex>
         {
             var algorithm = new DijkstraShortestPathAlgorithm<TVertex, TEdge>(graph, edgeWeights);
-            return RunDirectedRootedAlgorithm<TVertex, TEdge, IVertexListGraph<TVertex, TEdge>, DijkstraShortestPathAlgorithm<TVertex, TEdge>>(
+            return RunDirectedRootedAlgorithm<TVertex, TEdge, IImplicitGraph<TVertex, TEdge>, DijkstraShortestPathAlgorithm<TVertex, TEdge>>(
                 root,
                 algorithm);
         }
